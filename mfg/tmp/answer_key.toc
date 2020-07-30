@@ -263,7 +263,7 @@
 \contentsline {section}{7.6 Chapter Summary and Review}{525}{Item.5850}% 
 \contentsline {subsection}{7.6.2 Chapter 7 Review Problems}{525}{Item.5850}% 
 \contentsline {section}{7.7 Projects for Chapter 7}{536}{Item.5951}% 
-\contentsline {chapter}{8 Extra!!}{541}{chapter*.12}% 
+\contentsline {chapter}{8 Data and functions}{541}{chapter*.12}% 
 \contentsline {section}{8.1 Linear Regression}{541}{chapter*.12}% 
 \contentsline {subsection}{8.1.1 Fitting a Line through Two Points}{541}{chapter*.12}% 
 \contentsline {subsection}{8.1.2 Scatterplots}{541}{Item.5996}% 
