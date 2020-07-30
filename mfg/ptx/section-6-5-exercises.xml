@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-6-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-6-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 6.5</title>
 
 <exercise number="1"><statement><p><ol>
@@ -310,4 +310,4 @@ radius of a tank?</p></statement>
         <li><p>Graph the yield function and use the graph to verify your answers to parts (c) and (d).</p></li>
     </ol></p></statement></exercise>
 
-</exercises>
+</subexercises>

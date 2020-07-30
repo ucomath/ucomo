@@ -749,7 +749,7 @@ The bug is off the bottom of the screen, but the coordinates are still shown.
 
 <subsection><title>Graphing the Regression Equation</title>
 <p>
-    If you would like to graph the regression equation on top of the scatterplot, first follow the steps in <xref ref="scatterplot" text="global">Making a Scatterplot</xref> and <xref ref="regression-equation" text="global">Finding a Regression Equation</xref> above.
+    If you would like to graph the regression equation on top of the scatterplot, first follow the steps in <xref ref="scatterplot" text="global">Making a Scatterplot</xref> and <xref ref="regression-equation" text="type-global">Finding a Regression Equation</xref> above.
     <ol label="1">
         <li><p>
             Press <c>Y=</c> and clear out any old equations.

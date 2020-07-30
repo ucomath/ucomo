@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-3-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-3-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 3.5</title>
 
 <exercise number="1"><statement><p>
@@ -1478,4 +1478,4 @@ rest for eight sports cars.</p>
 </p></statement>
 </exercise>
 
-</exercises>
+</subexercises>

@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:52:14-05:00    *-->
+<!--*    on 2020-07-29T20:22:15-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -14,21 +14,45 @@
 <body>
 <div class="solution solution-like">
 <h6 class="heading">
-<span class="type">Solution</span><span class="space"> </span><span class="codenumber">A.2.2.1</span><span class="period">.</span>
+<span class="type">Solution</span><span class="space"> </span><span class="codenumber">8.21.1</span><span class="period">.</span>
 </h6>
-<p>We first collect all the variable terms on one side of the equation, and the constant terms on the other side.</p>
+<ol class="lower-alpha">
+<li>
+<p>If Andre's feet are at the origin, then the vertex of the ball's trajectory is the point \((10, 11)\text{,}\) and its \(y\)-intercept is \((0, 7)\text{.}\) Start with the vertex form for a parabola:</p>
 <div class="displaymath">
-\begin{align*}
-3x - 5 \alert{{}- x} \amp = x + 3 \alert{{}- x}\amp\amp \blert{\text{Subtract }x \text{ from both sides.}}\\
-2x - 5 \amp = 3\amp\amp \blert{\text{Simplify.}}\\
-2x - 5 \alert{{}+ 5} \amp = 5 \alert{{}+ 5}\amp\amp \blert{\text{Add 5 to both sides.}}\\
-2x \amp = 8 \amp\amp\blert{\text{Simplify.}}\\
-\frac{2x}{\alert{2}}\amp =\frac{8}{\alert{2}}\amp\amp\blert{\text{Divide both sides by 2.}}\\
-x\amp = 4\amp\amp\blert{\text{Simplify.}}
-\end{align*}
+\begin{equation*}
+\begin{aligned}[t]
+y \amp = a(x - x_v)^2 + y_v\\
+y \amp= a(x - 10)^2 + 11
+\end{aligned}
+\end{equation*}
 </div>
-<p data-braille="continuation">The solution is \(4\text{.}\) (You can check the solution by substituting \(4\) into the original equation to show that a true statement results.)</p>
+<p data-braille="continuation">We still need to know the value of \(a\text{.}\) We can substitute the coordinates of any point on the parabola for \(x\) and \(y\) and solve for \(a\text{.}\) We will use the point \((0, 7)\text{:}\)</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+7 \amp= a(0 - 10)^2 + 11\\
+7 \amp= 100a + 11\\
+a \amp= -0.04
+\end{aligned}
+\end{equation*}
 </div>
-<span class="incontext"><a href="appendix-Linear-Equations-and-Inequalities.html#solution-220">in-context</a></span>
+<p data-braille="continuation">The equation of the trajectory is \(y = -0.04(x - 10)^2 + 11\text{.}\)</p>
+</li>
+<li>
+<p>We would like to know if the point \((15, 10)\) is on the trajectory of Andre's free-throw. Substitute \(x = 15\) into the equation:</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+y \amp= -0.04(15 - 10)^2 + 11\\
+\amp= -0.04(25) + 11 = 10
+\end{aligned}
+\end{equation*}
+</div>
+<p data-braille="continuation">Andre's shot will score.</p>
+</li>
+</ol>
+</div>
+<span class="incontext"><a href="Curve-Fitting.html#solution-220">in-context</a></span>
 </body>
 </html>

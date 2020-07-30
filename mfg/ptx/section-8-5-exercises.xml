@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-8-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-8-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 8.5</title>
 
 <exercisegroup ><introduction><p>For Problems 1<ndash/>4, find the minimum value of the cost function <m>C = 3x+ 4y</m> subject to following constraints:
@@ -162,4 +162,4 @@ to stay in business. Find Cho's maximum income from selling one day's costumes i
 
 <exercise number="30"><statement><p>Objective function <m>C = 54x + 24y</m> with constraints <m>x \ge 0</m>, <m>y \ge 0</m>, <m>43x + 32y \le 333</m>, <m>23x - 9y \le 152</m>, <m>73x - 94y\ge -296</m></p></statement></exercise>
 </exercisegroup>
-</exercises> 
+</subexercises> 

@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-A-8-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-A-8-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises A.8</title>
 
 <exercisegroup cols="2">
@@ -190,4 +190,4 @@
     <exercise number="68"><statement><p><m>x^2-(y-3)^2 </m></p></statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

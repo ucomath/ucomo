@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-4-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-4-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 4.4</title>
 
 <exercise number="1"><statement><p><ol >
@@ -477,4 +477,4 @@ four decimal places.</p></introduction>
 </ol></p></statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

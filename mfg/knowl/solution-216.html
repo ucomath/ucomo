@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:49:51-05:00    *-->
+<!--*    on 2020-07-29T20:20:19-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -14,18 +14,36 @@
 <body>
 <div class="solution solution-like">
 <h6 class="heading">
-<span class="type">Solution</span><span class="space"> </span><span class="codenumber">8.2.12.1</span><span class="period">.</span>
+<span class="type">Solution</span><span class="space"> </span><span class="codenumber">8.12.1</span><span class="period">.</span>
 </h6>
-<p>We enter the time data under \(L_1\) and the height data under \(L_2\text{.}\) Then we calculate and store the quadratic regression equation in \(Y_1\text{,}\) as we did in <a class="xref" data-knowl="./knowl/example-GC-quadratic-fit.html" title="Example 8.2.9">Example 8.2.9</a>. The regression equation is</p>
-<div class="displaymath">
-\begin{equation*}
-y = -0.00297x^2 + 0x + 8.834
-\end{equation*}
+<ol class="lower-alpha">
+<li>
+<p>We must first enter the data.</p>
+<ul class="disc">
+<li>Press <code class="code-inline tex2jax_ignore">STAT</code><code class="code-inline tex2jax_ignore">ENTER</code> to select \(Edit\text{.}\)</li>
+<li>If there are data in column \(L_1\) or \(L_2\text{,}\) clear them out: Use the  \(\boxed{\uparrow}\)  key to select \(L_1\text{,}\) press <code class="code-inline tex2jax_ignore">CLEAR</code>, then do the same for \(L_2\text{.}\)</li>
+<li>
+<p>Enter the \(x\)-coordinates of the data points in the \(L_1\) column and enter the \(y\)-coordinates in the \(L_2\) column, as shown in figure (a) below.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-GC-regression.svg" style="width: 100%; height: auto;" alt="GC regression windows"></div></div></div>
+<p>Now we are ready to find the regression equation for our data.</p>
+</li>
+<li>Press <code class="code-inline tex2jax_ignore">STAT</code> \(\boxed{\rightarrow}\)  4 to select linear regression, or LinReg (ax + b), then press <code class="code-inline tex2jax_ignore">ENTER</code>.</li>
+<li><p>The calculator will display the equation \(y = ax + b\) and the values for \(a\) and \(b\text{,}\) as shown in figure (b).</p></li>
+</ul>
+<p data-braille="continuation">You should find that your regression line is approximately \(y = 1.95x - 7.86\text{.}\)</p>
+</li>
+<li>
+<p>First, we first clear out any old definitions in the list.</p>
+<ul class="disc">
+<li>Position the cursor after \(Y_1 =\) and copy in the regression equation as follows:</li>
+<li>Press <code class="code-inline tex2jax_ignore">VARS</code>\(5\) \(\boxed{\rightarrow}\) \(\boxed{\rightarrow}\) <code class="code-inline tex2jax_ignore">ENTER</code>.</li>
+<li>To draw a scatterplot, press <code class="code-inline tex2jax_ignore">2nd</code><code class="code-inline tex2jax_ignore">Y=</code>\(1\) and set the Plot1 menu as shown in figure (a) below.</li>
+<li>Finally, press <code class="code-inline tex2jax_ignore">ZOOM</code> \(9\) to see the scatterplot of the data and the regression line. The graph is shown in figure (b).</li>
+</ul>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-GC-regression2.svg" style="width: 100%; height: auto;" alt="GC regression windows"></div></div></div>
+</li>
+</ol>
 </div>
-<p data-braille="continuation">From either the graph of the regression equation or from the table (see figure below), we can see that the fit is not perfect, although the curve certainly fits the data better than any straight line could.</p>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-GC-bad-quadratic-fit.svg" style="width: 100%; height: auto;" alt="GC screens of graph and tables for quadratic fit"></div></div></div>
-<p>If we scroll down the table, we find that this equation predicts a height of approximately \(4.08\) feet at time \(40\) minutes. (See figure (c).) This is a preposterous estimate! The position of the minute hand at \(40\) minutes after noon should be the same as it was exactly one hour earlier (at 20 minutes before noon), when it was \(7.50\) feet.</p>
-</div>
-<span class="incontext"><a href="Curve-Fitting.html#solution-216">in-context</a></span>
+<span class="incontext"><a href="linear-regression.html#solution-216">in-context</a></span>
 </body>
 </html>

@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-1-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-1-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 1.1</title>
 
     <exercise number="1"><statement>
@@ -747,4 +747,4 @@
     <exercise number="52"><statement><p><m>7x = 91 - 13y</m></p></statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

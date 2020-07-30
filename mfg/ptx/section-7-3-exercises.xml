@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-7-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-7-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 7.3</title>
 
 <exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>6, write the complex number in the form <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.</p></introduction>
@@ -300,4 +300,4 @@
 </ol></p></statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

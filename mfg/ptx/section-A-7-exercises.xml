@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-A-7-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-A-7-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises A.7</title>
 
 <exercisegroup cols="3">
@@ -316,4 +316,4 @@
     <exercise number="80"><statement><p><m>\dfrac{y^5+1}{y-1}</m></p></statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

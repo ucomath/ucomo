@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-6-6-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-6-6-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 6.6</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, solve the system by elimination. Begin by eliminating <m>c</m>.</p></introduction>
@@ -493,4 +493,4 @@
     </ol></p></statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

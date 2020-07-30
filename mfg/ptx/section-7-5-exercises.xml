@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-7-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-7-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 7.5</title>
 
 <exercisegroup cols="3"><introduction><p>For Problems 1-8, solve the equation algebraically.</p></introduction>
@@ -317,4 +317,4 @@ wind.<ol>
     <li><p>Use your formula to answer the question stated in the problem.</p></li>
 </ol></p></statement></exercise>
 
-</exercises> 
+</subexercises> 

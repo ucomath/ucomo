@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:20:26-05:00    *-->
+<!--*    on 2020-07-29T19:19:13-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -14,18 +14,38 @@
 <body>
 <div class="solution solution-like">
 <h6 class="heading">
-<span class="type">Solution</span><span class="space"> </span><span class="codenumber">4.5.8.1</span><span class="period">.</span>
+<span class="type">Solution</span><span class="space"> </span><span class="codenumber">4.51.1</span><span class="period">.</span>
 </h6>
-<ol class="lower-alpha">
-<li>The current population of the United States is not given, so we represent it by \(P_0\text{.}\) With \(t\) expressed in years, the formula is then<div class="displaymath">
+<p>The population of Silicon City grows according to the formula</p>
+<div class="displaymath">
 \begin{equation*}
-P(t) = P_0 2^{t/115.87}
+P(t) = 6500 \cdot 3^{t/12}
 \end{equation*}
 </div>
-</li>
-<li>We write \(2^{t/115.87}\) in the form \(\left(2^{1/115.87}\right)^t\) to see that the growth factor is \(b = 2^{1/115.87}\text{,}\) or \(1.006\text{.}\) For exponential growth, \(b = 1 + r\text{,}\) so \(r = 0.006\text{,}\) or \(0.6\)%.</li>
-</ol>
+<p data-braille="continuation">where \(t\) is the number of years after \(1990\text{.}\) We want to find the value of \(t\) for which \(P(t) = 75,000\text{;}\) that is, we want to solve the equation</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+6500 \cdot 3^{t/12} \amp = 75,000\amp\amp \blert{\text{ Divide both sides by 6500.}}\\
+3^{t/12} \amp = \frac{150}{13} 
+\end{aligned}
+\end{equation*}
 </div>
-<span class="incontext"><a href="Exponential-Models.html#solution-109">in-context</a></span>
+<p data-braille="continuation">Now we take the base \(10\) logarithm of both sides and solve for \(t\text{.}\)</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+\log_{}{(3^{t/12})} \amp = \log_{}\left(\frac{150}{13}\right)
+\amp\amp \blert{\text{Apply Property (3).}}\\
+\frac{t}{12}\log_{}(3) \amp= \log_{}\left(\frac{150}{13}\right)
+\amp\amp \blert{\text{Divide by }\log_{}(3)\text{; multiply by 12.}}\\
+t \amp = \frac{12 \left(\log_{}\left(\frac{150}{13}\right)}\right)}{\log_{}(3)}\\
+\amp\approx 26.71
+\end{aligned}
+\end{equation*}
+</div>
+<p data-braille="continuation">The population of Silicon City will reach \(75,000\) about \(27\) years after \(1990\text{,}\) or in \(2017\text{.}\)</p>
+</div>
+<span class="incontext"><a href="Properties-of-Logarithms.html#solution-109">in-context</a></span>
 </body>
 </html>

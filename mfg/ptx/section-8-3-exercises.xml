@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-8-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-8-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 8.3</title>
 
 <exercisegroup cols="2"><introduction><p>Perform the given elementary row operation on the matrices in Problems 1<ndash/>8.</p></introduction>
@@ -551,4 +551,4 @@
     <li><p>Is there more than one ordered four-tuple that makes all the equations true? (<em>Hint</em>: If you specify any value of <m>b</m>, will you be able to find values of <m>a</m>, <m>c</m>, and <m>d</m> that make all the equations true?)</p></li>
 </ol></p></statement></exercise>
 </exercisegroup>
-</exercises> 
+</subexercises> 

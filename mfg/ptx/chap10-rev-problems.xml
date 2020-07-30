@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="chap10-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="chap10-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 10 Review Problems</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-10, graph the conic section and describe its main features.</p>
@@ -191,4 +191,4 @@
 </p></statement></exercise>
 </exercisegroup>
 
-</exercises> 
+</subexercises> 

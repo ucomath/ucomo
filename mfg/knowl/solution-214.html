@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:49:41-05:00    *-->
+<!--*    on 2020-07-29T20:20:11-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -14,45 +14,30 @@
 <body>
 <div class="solution solution-like">
 <h6 class="heading">
-<span class="type">Solution</span><span class="space"> </span><span class="codenumber">8.2.7.1</span><span class="period">.</span>
+<span class="type">Solution</span><span class="space"> </span><span class="codenumber">8.8.1</span><span class="period">.</span>
 </h6>
 <ol class="lower-alpha">
-<li>
-<p>If Andre's feet are at the origin, then the vertex of the ball's trajectory is the point \((10, 11)\text{,}\) and its \(y\)-intercept is \((0, 7)\text{.}\) Start with the vertex form for a parabola:</p>
-<div class="displaymath">
+<li>We first calculate the slope by choosing two points on the regression line. The points we choose are not necessarily any of the original data points; instead they should be points on the regression line itself. The line appears to pass through the points \((17, 20)\) and \((67, 18)\text{.}\) The slope of the line is then<div class="displaymath">
+\begin{equation*}
+m = \frac{18 - 20}{67 - 17}\approx -0.04
+\end{equation*}
+</div>Now we use the point-slope formula to find the equation of the line. (If you need to review the point-slope formula, see <a href="linear-functions.html" class="internal" title="Section 1.5: Linear Functions">Section 1.5</a>.) We substitute \(m = -0.04\) and use either of the two points for \((x_1, y_1)\text{;}\) we will choose \((17, 20)\text{.}\) The equation of the regression line is<div class="displaymath">
 \begin{equation*}
 \begin{aligned}[t]
-y \amp = a(x - x_v)^2 + y_v\\
-y \amp= a(x - 10)^2 + 11
+y \amp = y_1 + m(x - x_1)\\
+y \amp = 20-0.04(x-17) \amp \amp \blert{\text{Simplify.}}\\
+y \amp = 20.68 - 0.04t\\
 \end{aligned}
 \end{equation*}
 </div>
-<p data-braille="continuation">We still need to know the value of \(a\text{.}\) We can substitute the coordinates of any point on the parabola for \(x\) and \(y\) and solve for \(a\text{.}\) We will use the point \((0, 7)\text{:}\)</p>
-<div class="displaymath">
-\begin{equation*}
-\begin{aligned}[t]
-7 \amp= a(0 - 10)^2 + 11\\
-7 \amp= 100a + 11\\
-a \amp= -0.04
-\end{aligned}
-\end{equation*}
-</div>
-<p data-braille="continuation">The equation of the trajectory is \(y = -0.04(x - 10)^2 + 11\text{.}\)</p>
 </li>
-<li>
-<p>We would like to know if the point \((15, 10)\) is on the trajectory of Andre's free-throw. Substitute \(x = 15\) into the equation:</p>
-<div class="displaymath">
+<li>We will use the regression equation to make our prediction. For Miss America 1980, \(t = 60\) and<div class="displaymath">
 \begin{equation*}
-\begin{aligned}[t]
-y \amp= -0.04(15 - 10)^2 + 11\\
-\amp= -0.04(25) + 11 = 10
-\end{aligned}
+y = 20.68 - 0.04(60) = 18.28
 \end{equation*}
-</div>
-<p data-braille="continuation">Andre's shot will score.</p>
-</li>
+</div>This value agrees well with the estimate we made in <a class="xref" data-knowl="./knowl/example-BMI.html" title="Example 8.6">Example 8.6</a>.</li>
 </ol>
 </div>
-<span class="incontext"><a href="Curve-Fitting.html#solution-214">in-context</a></span>
+<span class="incontext"><a href="linear-regression.html#solution-214">in-context</a></span>
 </body>
 </html>

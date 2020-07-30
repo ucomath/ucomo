@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-6-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-6-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 6.3</title>
 
 <exercisegroup><introduction><p>For Problems 1<ndash/>2, describe what each graph will look like compared to the basic parabola. Then sketch a graph by hand and label the coordinates of three points on the graph.</p></introduction>
@@ -540,4 +540,4 @@ where <m>x</m> and <m>y</m> are given in meters and <m>t</m> is the number of se
     <li><p>The maximum distance a baseball has actually been thrown is <m>136</m> meters. Can you explain the discrepancy between this figure and your answer to part (c)?</p></li>
     </ol></p></statement></exercise>
 
-</exercises>
+</subexercises>

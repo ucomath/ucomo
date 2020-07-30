@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-A-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-A-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises A.1</title>
 
 <exercisegroup cols="2">
@@ -347,4 +347,4 @@
             <li><p>What is the range of stellar radii, in meters?</p></li>
         </ol> </p></statement></exercise>
 
-</exercises>
+</subexercises>

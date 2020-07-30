@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="chap7-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="chap7-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 7 Review Problems</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, multiply.</p></introduction>
@@ -427,4 +427,4 @@
 <exercise number="84"><statement><p><m>I = \dfrac{E}{R+\dfrac{r}{n}} </m>, for <m>R</m></p></statement></exercise>
 </exercisegroup>
 
-</exercises> 
+</subexercises> 

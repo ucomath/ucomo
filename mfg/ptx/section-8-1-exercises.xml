@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-8-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-8-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 8.1</title>
 
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>4, solve each system of equations using the graphs given. Verify algebraically that your solution satisfies
@@ -472,4 +472,4 @@ traveling?<ol>
 </m></p></statement>
 </exercise>
 </exercisegroup>
-</exercises> 
+</subexercises> 

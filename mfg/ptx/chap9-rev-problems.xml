@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="chap9-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="chap9-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 9 Review Problems</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, find the first four terms in the sequence whose general term is given.</p></introduction>
@@ -209,4 +209,4 @@
 <exercise number="60"><statement><m>(\dfrac{x}{2} - 3)^8;~~x</m></statement></exercise>
 </exercisegroup>
 
-</exercises> 
+</subexercises> 

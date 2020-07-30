@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-5-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-5-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 5.2</title>
 
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>4,<ol label="a">
@@ -748,4 +748,4 @@ Both streams are <m>1.2</m> feet deep at the locations mentioned. (Source: Leopo
     </tabular></sidebyside></statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

@@ -8,7 +8,7 @@ THIS-->
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-7-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-7-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 7.4</title>
 
 <exercise number="1" xml:id="problem-7-4-1"><statement><p>The eider duck, one of the world's fastest flying birds, can exceed an airspeed of <m>65</m> miles per hour. A flock of eider ducks is migrating south at an average airspeed of <m>50</m> miles per hour against a moderate headwind. Their next feeding grounds are <m>150</m> miles away.
@@ -993,4 +993,4 @@ is another form of the Michaelis-Menten equation. (See Problem 49.)</p></stateme
 <exercise number="56"><statement><p><m>y=\dfrac{x-3}{x^2-9} </m></p></statement></exercise>
 
 </exercisegroup>
-</exercises>
+</subexercises>

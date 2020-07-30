@@ -13,7 +13,7 @@
 <!--
  Or make a thin customization layer and use 'select' to provide overrides 
 -->
-<!--    -->
+
 <!--  List Chapters and Sections in Table of Contents  -->
 <xsl:param name="toc.level" select="'3'"/>
 <!--simple numbering -->
@@ -23,8 +23,7 @@
 <xsl:param name="numbering.equations.level" select="'1'" />
 <xsl:param name="numbering.footnotes.level" select="'1'" />
 <xsl:template match="exercises//exercise" mode="xref-number">
-    <xsl:apply-templates select="." mode="serial-number" />
-</xsl:template>
+<xsl:apply-templates select="." mode="serial-number" /></xsl:template>
 <!-- Knowls -->
 <xsl:param name="html.knowl.example" select="'yes'" />
 <xsl:param name="html.knowl.exercise.inline" select="'yes'" />

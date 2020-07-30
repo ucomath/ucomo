@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-A-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-A-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises A.2</title>
 
 <exercisegroup cols="2">
@@ -151,4 +151,4 @@
     <exercise number="50"><statement><p><m>x\lt 2~ \text{ or } ~2\lt x \lt 3 </m></p>    </statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

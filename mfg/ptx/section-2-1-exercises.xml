@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-2-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-2-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 2.1</title>
 
 <exercisegroup cols="3"><introduction><p>For Problems 1-6, solve by extracting roots. Give exact values for your answers.</p></introduction>
@@ -834,4 +834,4 @@ where <m>m</m> is the mass of the satellite, <m>M</m> is the mass of the Earth, 
             <li><p>The radius of the moon is <m>1740</m> km, and the value of <m>g</m> at the moon's surface is <m>0.0016</m>. Calculate the escape velocity from the moon in kilometers per second and convert to miles per hour.</p></li>
     </ol></p></statement></exercise>
 
-</exercises>
+</subexercises>

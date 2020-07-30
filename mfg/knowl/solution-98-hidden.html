@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:16:42-05:00    *-->
+<!--*    on 2020-07-29T19:15:15-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -12,29 +12,60 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body><div class="solution solution-like">
-<p>First, we isolate the power of \(10\text{:}\) We subtract \(95\) from both sides of the equation and divide by \(-15\) to obtain</p>
-<div class="displaymath">
-\begin{equation*}
-\begin{aligned}[t]
--57 \amp = -15 \cdot 10^{0.4x} \amp\amp \blert{\text{Divide by }-15.} \\
-3.8 \amp = 10^{0.4x}
-\end{aligned}
-\end{equation*}
+<p>First, compare the values for these two functions shown in the table.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel" style="width:47.3684210526316%;justify-content:flex-start;">
+<p>The scaling exponent for \(h(x)\) is \(3\text{,}\) so that when \(x\) doubles, say, from \(1\) to \(2\text{,}\) the output is multiplied by \(2^3\text{,}\) or \(8\text{.}\)</p>
+<p>On the other hand, we can tell that \(f\) is exponential because its values increase by a factor of \(3\) for each unit increase in \(x\text{.}\) (To see this, divide any function value by the previous one.)</p>
 </div>
-<p data-braille="continuation">Next, we convert the equation to logarithmic form as</p>
-<div class="displaymath">
-\begin{equation*}
-\log_{} (3.8) = 0.4x
-\end{equation*}
-</div>
-<p data-braille="continuation">Solving for \(x\) yields</p>
-<div class="displaymath">
-\begin{equation*}
-\frac{\log_{} (3.8)}{0.4}= x
-\end{equation*}
-</div>
-<p data-braille="continuation">We can evaluate this expression on the calculator by entering</p>
-<p><code class="code-inline tex2jax_ignore">LOG</code> \(3.8\) <code class="code-inline tex2jax_ignore">)</code> <code class="code-inline tex2jax_ignore">÷</code> \(0.4\) <code class="code-inline tex2jax_ignore">ENTER</code></p>
-<p>which yields \(1.449458992\text{.}\) Thus, to four decimal places, \(x \approx 1.4495\text{.}\)</p>
+<div class="sbspanel fixed-width" style="width:47.3684210526316%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(x\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(h(x)=2x^3\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(f(x)=2(3^x)\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-3\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(-54\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\dfrac{2}{27}\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-2\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(-16\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\dfrac{1}{4}\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-1\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(-2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\dfrac{2}{3}\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(2\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(1\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(6\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(2\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(16\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(18\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(3\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(54\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(54\)</td>
+</tr>
+</table></div>
+</div></div>
+<p>As you would expect, the graphs of the two functions are also quite different. For starters, note that the power function goes through the origin, while the exponential function has \(y\)-intercept \((0, 2)\)as shown at left below.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:6.25%;margin-right:6.25%;">
+<div class="sbspanel" style="width:45.7142857142857%;justify-content:flex-start;"><img src="images/fig-power-vs-exponential-1.svg" style="width: 100%; height: auto;" alt="power function vs exponential from -2 to 3"></div>
+<div class="sbspanel" style="width:40%;justify-content:flex-start;"><img src="images/fig-power-vs-exponential-2.svg" style="width: 100%; height: auto;" alt="power function vs exponential from 0 to 6"></div>
+</div></div>
+<p>From the table, we see that \(h(3) = f(3) = 54\text{,}\) so the two graphs intersect at \(x = 3\text{.}\) (They also intersect at approximately \(x = 2.48\text{.}\)) However, if you compare the values of \(h(x) = 2x^3\) and \(f(x) = 2(3^x)\) for larger values of \(x\text{,}\) you will see that eventually the exponential function overtakes the power function, as shown at right above.</p>
 </div></body>
 </html>

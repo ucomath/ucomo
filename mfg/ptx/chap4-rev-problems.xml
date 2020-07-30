@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="chap4-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="chap4-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 4 Review Problems</title>
 
 <exercisegroup><introduction><p>For Problems 1<ndash/>4,<ol label="a">
@@ -425,4 +425,4 @@ where <m>t</m> is the number of years since discs were introduced in <m>1980</m>
         <li><p>How many grains of wheat should be placed on the last (64th) square?</p></li>
     </ol></p></statement></exercise>
 
-</exercises> 
+</subexercises> 

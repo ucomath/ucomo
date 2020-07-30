@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:20:20-05:00    *-->
+<!--*    on 2020-07-29T19:19:08-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -12,34 +12,17 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body><div class="solution solution-like">
-<p>We want to find a function \(C(t) = ab^t\) for the number of cedi to the dollar, where \(t = 0\) in 1986. We have two function values, \(C(7) = 720\text{,}\) and \(C(10) = 1620\text{,}\) and with these values we can write two equations.</p>
+<p>We begin by applying Property (2) to combine the logs.</p>
 <div class="displaymath">
 \begin{equation*}
-\begin{aligned}[t]
-ab^7 \amp = 720 \\
-ab^{10} \amp = 1620
-\end{aligned}
+3(\log_{b}  (x) - \log_{b}  (y)) = 3 \log_{b}\left(\frac{x}{y}\right)
 \end{equation*}
 </div>
-<p data-braille="continuation">We divide the second equation by the first to find</p>
+<p data-braille="continuation">Then, using Property (3), we replace the coefficient \(3\) by an exponent \(3\text{.}\)</p>
 <div class="displaymath">
 \begin{equation*}
-\begin{aligned}[t]
-\frac{ab^{10}}{ab^7} \amp= \frac{1620}{720} \\
-b^3 \amp= 2.25
-\end{aligned}
+3 \log_{b}\left(\frac{x}{y}\right)=\log_{b}\left(\frac{x}{y}\right)^3
 \end{equation*}
 </div>
-<p data-braille="continuation">Now we can solve this last equation for \(b\) to get \(b = \sqrt[3]{2.25}\approx 1.31\text{.}\) Finally, we substitute \(b = 1.31\) into the first equation to find \(a\text{.}\)</p>
-<div class="displaymath">
-\begin{equation*}
-\begin{aligned}[t]
-a(1.31)^7 \amp = 720 \\
-a \amp = \frac{720}{1.317} \\
-\amp = 108.75
-\end{aligned}
-\end{equation*}
-</div>
-<p data-braille="continuation">Thus, \(C(t) = 108.75(1.31)^t\) , and the annual inflation rate was \(31\)%.</p>
 </div></body>
 </html>

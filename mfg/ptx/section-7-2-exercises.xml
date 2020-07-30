@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-7-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-7-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 7.2</title>
 
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>8.<ol>
@@ -505,4 +505,4 @@ periodic function.<ol>
 
 </exercisegroup>
 
-</exercises>
+</subexercises>

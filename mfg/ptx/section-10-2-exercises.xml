@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-10-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-10-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 10.2</title>
 
 <exercisegroup cols="2">
@@ -241,4 +241,4 @@
 <exercise number="64"><statement><m>x^2+y^2+6x+6y+27=0</m></statement></exercise>
 </exercisegroup>
 
-</exercises>
+</subexercises>

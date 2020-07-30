@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<exercises xml:id="section-1-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<subexercises xml:id="section-1-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 1.5</title>
 
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>10,<ol label="a">
@@ -500,4 +500,4 @@
 
     <exercise number="64"><statement><p> The height of a woman in centimeters is related to the length of her femur (in centimeters) by the formula <me>H = f (x) = 2.47x + 54.10</me> State the slope and the vertical intercept of the graph, including units, and explain their meaning in this context.</p></statement></exercise>
 
-</exercises>
+</subexercises>

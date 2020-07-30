@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:28:24-05:00    *-->
+<!--*    on 2020-07-29T19:28:14-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -11,33 +11,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="robots" content="noindex, nofollow">
 </head>
-<body><div class="solution solution-like"><ol class="lower-alpha">
-<li>We use a calculator to evaluate the pH formula with \([H^+] = 3.98\times10^{-5}\text{.}\)<div class="displaymath">
-\begin{equation*}
-\text{pH} = -\log_{}(3.98 \times 10^{-5}) \approx 4.4
-\end{equation*}
-</div>
-</li>
-<li>
-<p>We solve the equation</p>
+<body><div class="solution solution-like">
+<p>For this decay law, \(N_0 = 60\) and \(b = 0.8\text{.}\) We would like to find a value for \(k\) so that \(e^k = b = 0.8\text{,}\) that is, we must solve the equation</p>
 <div class="displaymath">
 \begin{equation*}
-7.5 = -\log_{}\left([H^+]\right)
+\begin{aligned}[t]
+e^k \amp = 0.8\amp\amp \blert{\text{Take natural log of both sides.}}\\
+\ln (e^k)\amp = \ln (0.8)\amp\amp \blert{\text{Simplify.}}\\
+k\amp = \ln (0.8) \approx -0.2231
+\end{aligned}
 \end{equation*}
 </div>
-<p data-braille="continuation">for \([H^+]\text{.}\) First, we write</p>
+<p data-braille="continuation">Replacing \(b\) with \(e^k\text{,}\) we find that the decay law is</p>
 <div class="displaymath">
 \begin{equation*}
--7.5 = \log_{}\left([H^+]\right)
+N(t) \approx 60e^{-0.2231t}
 \end{equation*}
 </div>
-<p data-braille="continuation">Then we convert the equation to exponential form to get</p>
-<div class="displaymath">
-\begin{equation*}
-[H^+] = 10^{-7.5}\approx 3.2 \times 10^{-8}
-\end{equation*}
-</div>
-<p data-braille="continuation">The hydrogen ion concentration of the water is \(3.2 \times 10^{-8}\text{.}\)</p>
-</li>
-</ol></div></body>
+</div></body>
 </html>
