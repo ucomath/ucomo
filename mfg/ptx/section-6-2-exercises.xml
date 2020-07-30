@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-6-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-6-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 6.2</title>
 
 <exercisegroup><introduction><p>For Problems 1-2, complete the square and write the result as the square of a binomial.</p></introduction>
@@ -346,4 +346,4 @@
 
 </exercisegroup>
 
-</subexercises>
+</exercises>

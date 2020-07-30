@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-2-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-2-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 2.3</title>
 
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>6, identify the graph as a translation of a basic function, and write a formula for the graph.</p></introduction>
@@ -776,4 +776,4 @@ population of that species compares to the population of marmots.</p>
 <sidebyside widths="45% 45%"><image source="images/fig-2-3-76a"><description>sigmoid</description></image>
     <image source="images/fig-2-3-76b"><description>sigmoid</description></image>   </sidebyside></statement></exercise>
 
-</subexercises>
+</exercises>

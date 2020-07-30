@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-2-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-2-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 2.2</title>
 
 <exercisegroup cols="2"><introduction><p>For problems 1-10, simplify the expression according to the order of operations.</p></introduction>
@@ -719,4 +719,4 @@ F(s) =
 <!--><answer><p>The distributive law shows a relationship between multiplication and addition that always holds. The equation <m>f (a + b) = f (a) + f (b)</m> is not about multiplication and may or may not be true.</p></answer>--></exercise>
 
 </exercisegroup>
-</subexercises>
+</exercises>

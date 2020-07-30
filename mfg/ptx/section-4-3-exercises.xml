@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-4-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-4-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 4.3</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-10, find each logarithm without using a calculator.</p></introduction>
@@ -379,4 +379,4 @@ Solve the problems below algebraically, and verify with your graph.</p></introdu
 <exercise number="66"><statement><p><m>\log_{b}  (\log_a (a^b)) </m></p></statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

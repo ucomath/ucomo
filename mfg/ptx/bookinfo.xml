@@ -56,11 +56,11 @@
             \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
     </macros>
 
-        <search>
+<!-->        <search>
             <google>
                 <cx>006236842425774474308:jdid8qhn6ps</cx>
             </google>
-        </search>
+        </search>-->
 
 <!-- intended to make circled 1 and circled 2 available for latex 
 <xsl:param name="latex.preamble.late">

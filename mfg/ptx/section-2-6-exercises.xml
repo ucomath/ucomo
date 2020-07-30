@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-2-6-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-2-6-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 2.6</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-8, find the domain and range of the function from its graph.  Write answers in interval notation.</p></introduction>
@@ -442,4 +442,4 @@
 <exercise number="66"><statement><p>A semicircular window has a radius of 2 feet. The area of a sector of the window (a pie-shaped wedge) is a function of the angle at the center of the circle. Give the domain and range of this function.</p></statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

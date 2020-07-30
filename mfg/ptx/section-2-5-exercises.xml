@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-2-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-2-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 2.5</title>
 
 <exercisegroup ><introduction><p>In Problems 1<ndash/>8, 
@@ -352,4 +352,4 @@ between <m>0.9995</m> and <m>1.0005</m> seconds.</p></statement></exercise>
 
 </exercisegroup>
 
-</subexercises>
+</exercises>

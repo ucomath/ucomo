@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-5-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-5-3-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 5.3</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-4, use your calculator to complete the table for each function. Then choose a suitable window and graph the function.</p>
@@ -718,4 +718,4 @@ where <m>t</m> is in hours.<ol>
     </ol></p></statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

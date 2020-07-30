@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-8-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-8-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 8.2</title>
 
 <exercisegroup cols="2"><introduction><p>Use back-substitution to solve Problems 1<ndash/>6.</p></introduction>
@@ -325,4 +325,4 @@ angle, and the third angle is <m>10\degree</m> more than six times the measure o
 <exercise number="40"><statement><p>A farmer has <m>1300</m> acres on which to plant wheat, corn, and soybeans. The seed costs $<m>6</m> for an acre of wheat, $<m>4</m> for an acre of corn, and $<m>5</m> for an acre of soybeans.
 An acre of wheat requires <m>5</m> acre-feet of water during the growing season, while an acre of corn requires <m>2</m> acre-feet and an acre of soybeans requires <m>3</m> acre-feet. If the farmer has $<m>6150</m> to spend on seed and can count on <m>3800</m> acre-feet of water, how many acres of each crop should he plant in order to use all his resources?</p></statement></exercise>
 </exercisegroup>
-</subexercises> 
+</exercises> 

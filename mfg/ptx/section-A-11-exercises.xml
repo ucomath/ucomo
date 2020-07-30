@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-A-11-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-A-11-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises A.11</title>
 
 <exercisegroup><introduction><p>For Problems 1-10, use properties of triangles to answer the questions.</p></introduction>
@@ -186,4 +186,4 @@
     <exercise number="46"><statement><p>Endpoints of a diameter at <m>(3,6)</m> and <m>(-5,2)</m>.</p></statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

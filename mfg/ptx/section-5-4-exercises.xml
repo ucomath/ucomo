@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-5-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-5-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 5.4</title>
 
 <exercise number="1"><statement><p><ol>
@@ -202,4 +202,4 @@ was the Alaska quake than one measuring <m>4.0</m>?</p></statement>
 If one star is <m>10</m> times as luminous as another star, what is the difference in their magnitudes?</p></statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

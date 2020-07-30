@@ -613,8 +613,7 @@ To compute <m>f(a) + f(3)</m>, we must first compute <m>f(a)</m> and <m>f(3)</m>
 <!--new content-->
 
 <subsection xml:id="subsec-function-composition">
-<title>Compostion and other Operations with
-Functions</title>
+<title>Compostion and other Operations with Functions</title>
 <introduction><p>(Note, some information found in this section has come from an OpenStax
 textbook titled "College Algebra".  Access for free at
 <url href="https://openstax.org/books/college-algebra/pages/1-introduction-

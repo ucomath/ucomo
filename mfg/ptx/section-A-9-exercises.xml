@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-A-9-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-A-9-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises A.9</title>
 
 <exercisegroup cols="3">
@@ -329,4 +329,4 @@
     <exercise number="106"><statement><p><m>\dfrac{x}{x^{-2}-y^{-2}}</m></p></statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

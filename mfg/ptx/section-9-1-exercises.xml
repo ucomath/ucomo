@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-9-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-9-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 9.1</title>
 
 <exercisegroup cols="2">
@@ -198,4 +198,4 @@
 <exercise number="52"><statement><m>t_1=1;~~~t_n=\dfrac{1}{2}(t_{n-1} + \dfrac{9}{t_{n-1}})</m></statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

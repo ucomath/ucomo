@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-10-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-10-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 10.1</title>
 
 <exercisegroup cols="2">
@@ -350,4 +350,4 @@
 
 <exercise number="60"><statement><p>Graph <m>~4x^2-y^2=16,~~4x^2-y^2=4,</m> and <m>4x^2-y^2=0</m> on the same set of axes.  What do you observe?</p></statement></exercise>
 
-</subexercises>
+</exercises>

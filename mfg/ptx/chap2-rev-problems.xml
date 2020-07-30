@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="chap2-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="chap2-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 2 Review Problems</title>
 
 <exercisegroup cols="2">
@@ -1111,4 +1111,4 @@ on the loan?</p></statement></exercise>
 
 </exercisegroup>
 
-</subexercises>
+</exercises>

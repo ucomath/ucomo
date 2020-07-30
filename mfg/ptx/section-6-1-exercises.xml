@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-6-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-6-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 6.1</title>
 
 <exercise number="1"><statement><p>Delbert stands at the top of a <m>300</m>-foot cliff and throws his algebra book directly upward with a velocity of <m>20</m> feet per second. The height of his book above the ground <m>t</m> seconds later is given by the equation
@@ -504,4 +504,4 @@ gives the annual rate of growth, in tons per year, of a fish population of bioma
         <li><p>If the tray has radius <m>8\frac{1}{2} </m> inches and the space for the dip has radius <m>2\frac{1}{2} </m> inches, use your answer to part (b) to calculate mentally the area for chips. (Express your answer as a multiple of <m>\pi</m>.)</p></li>
     </ol></p></statement></exercise>
 
-</subexercises>
+</exercises>

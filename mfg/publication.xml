@@ -49,19 +49,3 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     </html>
 
 </publication>
-
-<!-->
-<publication>
-
-    <html>
-        <index-page ref="guide"/>
-        <css style="default" colors="blue_red"/>
-        <analytics google-gst="UA-48811660-1"
-                   statcounter-project="9664088"
-                   statcounter-security="6e60c510"/>
-    </html>
-
-</publication>
--->
-
-

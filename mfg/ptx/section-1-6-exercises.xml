@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-1-6-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-1-6-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 1.6</title>
 
 <exercisegroup><introduction><p>In Problems 1<ndash/>6, we find a linear model from two data points.<ol label="a">
@@ -1027,4 +1027,4 @@
         <li><p>How many joules of energy can be extracted from each cubic centimeter of oxygen used? (One liter is equal to 1000 cubic centimeters.)</p></li>
             </ol></p></statement></exercise>
 
-</subexercises>
+</exercises>

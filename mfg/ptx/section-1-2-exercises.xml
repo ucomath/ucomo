@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-1-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-1-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 1.2</title>
 
 <exercisegroup><introduction><p>For which of Problems 1-6 is the second quantity a function of the first? Explain your answers.</p></introduction>
@@ -1252,4 +1252,4 @@
 </ol> </p></statement></exercise>
 
 
-</subexercises>
+</exercises>

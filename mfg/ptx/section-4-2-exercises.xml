@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-4-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-4-2-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 4.2</title>
 
 <exercisegroup><introduction><p>Find the <m>y</m>-intercept of each exponential function and decide whether the graph is increasing or decreasing.</p></introduction>
@@ -1147,4 +1147,4 @@ with a domain of <m>[-3, 3]</m>. Be sure to label your functions. Describe the s
 </statement>
 <hint><p>For part (a): Why would photosynthesis vary throughout the year?</p></hint></exercise>
 
-</subexercises>
+</exercises>

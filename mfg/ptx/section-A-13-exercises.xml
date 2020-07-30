@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-A-13-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-A-13-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises A.13</title>
 
 <exercisegroup cols="4">
@@ -152,4 +152,4 @@
     </exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

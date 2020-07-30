@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-5-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-5-1-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 5.1</title>
 
 <exercise number="1"><statement><p>Let <m>f (-1) = 0</m>, <m>f (0) = 1</m>, <m>f (1) = -2</m>, and <m>f (2) = -1</m>.<ol>
@@ -470,4 +470,4 @@
     </ol></p></statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>

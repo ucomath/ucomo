@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="chap3-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="chap3-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 3 Review Problems</title>
 
 
@@ -886,4 +886,4 @@
 </p></statement>
 </exercise>
 
-</subexercises>
+</exercises>

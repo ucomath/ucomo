@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="chap5-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="chap5-rev-problems"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 5 Review Problems</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-4, make a table of values for the inverse function.</p></introduction>
@@ -348,4 +348,4 @@ where <m>t</m> is the time in seconds.<ol>
 
 <exercise number="70"><statement><p>In 2004, a magnitude <m>9.0</m> earthquake struck Sumatra in Indonesia. How much more powerful was this quake than the 1906 San Francisco earthquake of magnitude <m>8.3</m>?</p></statement></exercise>
 
-</subexercises>  
+</exercises>  

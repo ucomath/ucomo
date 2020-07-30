@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-2-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-2-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 2.4</title>
 
 <exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>4, which graph best illustrates each of the following situations?</p></introduction>
@@ -775,4 +775,4 @@ area is <m>24</m> square feet</p></statement></exercise>
     <li><p>Graph the function.</p></li>
     <li><p>State the domain and range of the function.</p></li>
     </ol> </p></statement></exercise>
-</subexercises>
+</exercises>

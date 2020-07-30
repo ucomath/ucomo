@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-9-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-9-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 9.4</title>
 
 <exercisegroup cols = "2">
@@ -181,4 +181,4 @@
 
 <exercise number="60"><statement><p>If a ball is dropped from a height of 10 feet and returns three-fifths of its preceding height on each bounce, approximately what is the total distance the ball travels before coming to rest? (See the Hint for Problem 59.)</p></statement></exercise>
 
-</subexercises>
+</exercises>

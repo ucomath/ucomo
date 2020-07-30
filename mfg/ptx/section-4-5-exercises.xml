@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-4-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-4-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 4.5</title>
 
 <exercisegroup cols="2"><introduction><p>For Problems 1-8, find an exponential function that has the given values.</p></introduction>
@@ -384,4 +384,4 @@
     <li><p>Studies of the cheetah have revealed variation at only <m>3.2\%</m> of its genes. (Other species show variation at <m>10\%</m> to <m>43\%</m> of their genes.) The population of cheetah may be less than <m>5000</m>. Assuming the population can be maintained at its current level, how many generations will it take before the cheetah's genetic variation is reduced to <m>1\%</m>?</p></li>
     </ol></p></statement></exercise>
 
-</subexercises>
+</exercises>

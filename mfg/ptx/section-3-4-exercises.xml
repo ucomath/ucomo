@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-3-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-3-4-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 3.4</title>
 <introduction><p>For the problems in Homework 3.4, assume that all variables represent positive numbers. </p></introduction>
 <exercisegroup><introduction><p>
@@ -957,4 +957,4 @@
 </exercise>
 
 </exercisegroup>
-</subexercises>
+</exercises>

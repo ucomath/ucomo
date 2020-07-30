@@ -6,7 +6,7 @@
 <!--           4th                                     -->
 <!-- Copyright (C) Sean Laverty (with others, via Katherine Yoshiwara)      -->
 
-<subexercises xml:id="section-9-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="section-9-5-exercises"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 9.5</title>
 
 <exercisegroup>
@@ -226,4 +226,4 @@
 <exercise number="44"><statement><p>Write out the terms of the sequence <m>1.1^n</m> for <m>n = 0, 1, 2, 3, 4</m>.  How are these related to the rows of Pascal's triangle?  Can you explain why?  (Hint:  Rewrite <m>1.1</m> as <m>1+0.1</m>.)</p> </statement></exercise>
 </exercisegroup>
 
-</subexercises>
+</exercises>
