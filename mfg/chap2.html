@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T12:06:40-05:00    *-->
+<!--*    on 2020-07-30T00:36:18-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -41,7 +41,16 @@ MathJax.Hub.Config({
         mtextFontInherit: true,
     },
 });
-</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script>(function() {
+  var cx = '008832104071767086392:woji51c1uko';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+})();
+</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
@@ -66,10 +75,11 @@ MathJax.Hub.Config({
 \newcommand{\amp}{&amp;}
 \)</div>
 <header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
-<a id="logo-link" href="https://yoshiwarabooks.org/" target="_blank"><img src="images/cover.png" alt="Logo image"></a><div class="title-container">
+<a id="logo-link" href="https://www.uco.edu/" target="_blank"><img src="images/cover.png" alt="Logo image"></a><div class="title-container">
 <h1 class="heading"><a href="Fall2020.html"><span class="title">Applied Algebra:</span> <span class="subtitle">Modeling and functions</span></a></h1>
 <p class="byline">compiled by Sean Laverty on behalf of others</p>
 </div>
+<div class="searchwrapper" role="search"><div class="gcse-search"></div></div>
 </div></div>
 <nav id="primary-navbar" class="navbar"><div class="container">
 <div class="navbar-top-buttons">
@@ -106,6 +116,7 @@ MathJax.Hub.Config({
 <li><a href="basic-functions.html" data-scroll="basic-functions">Some Basic Functions</a></li>
 <li><a href="transformations.html" data-scroll="transformations">Transformations of Graphs</a></li>
 <li><a href="MathModels.html" data-scroll="MathModels">Functions as Mathematical Models</a></li>
+<li><a href="AbsoluteValue.html" data-scroll="AbsoluteValue">The Absolute Value Function</a></li>
 <li><a href="Domain-Range.html" data-scroll="Domain-Range">Domain and Range</a></li>
 <li><a href="chap2-summary.html" data-scroll="chap2-summary">Chapter Summary and Review</a></li>
 <li><a href="chap2-rev-projects.html" data-scroll="chap2-rev-projects">Projects for Chapter 2: Periodic Functions</a></li>
@@ -217,7 +228,7 @@ MathJax.Hub.Config({
 <div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/world-population-limits.svg" style="width: 100%; height: auto;" alt="models of world population limits"></div></div></div>
 <p id="p-2439">In this chapter, we examine the properties and features of some basic nonlinear functions and how they may be used as mathematical models.</p>
 <article class="investigation project-like" id="investigation-Epidemics"><h6 class="heading">
-<span class="type">Investigation</span><span class="space"> </span><span class="codenumber">2.0.1</span><span class="period">.</span><span class="space"> </span><span class="title">Epidemics.</span>
+<span class="type">Investigation</span><span class="space"> </span><span class="codenumber">2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Epidemics.</span>
 </h6>
 <p id="p-2440">A contagious disease whose spread is unchecked can devastate a confined population. For example, in the early sixteenth century Spanish troops introduced smallpox into the Aztec population in Central America, and the resulting epidemic contributed significantly to the fall of Montezuma’s empire.</p>
 <p id="p-2441">Suppose that an outbreak of cholera follows severe flooding in an isolated town of 5000 people. Initially (on Day 0), 40 people are infected. Every day after that, 25% of those still healthy fall ill.</p>
@@ -307,7 +318,7 @@ MathJax.Hub.Config({
 <li id="li-1572"><p id="p-2448">Look back at the table. What is happening to the number of new patients each day as time goes on? How is this phenomenon reflected in the graph? How would your graph look if the number of new patients every day were a constant?</p></li>
 <li id="li-1573"><p id="p-2449">Summarize your work: In your own words, describe how the number of residents infected with cholera changes with time. Include a description of your graph.</p></li>
 </ol></article><article class="investigation project-like" id="investigation-Perimeter-and-Area"><h6 class="heading">
-<span class="type">Investigation</span><span class="space"> </span><span class="codenumber">2.0.2</span><span class="period">.</span><span class="space"> </span><span class="title">Perimeter and Area.</span>
+<span class="type">Investigation</span><span class="space"> </span><span class="codenumber">2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Perimeter and Area.</span>
 </h6>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:10%;">
 <div class="sbspanel" style="width:50%;justify-content:center;"><p id="p-2450">Do all rectangles with the same perimeter, say 36 inches, have the same area? Two different rectangles with perimeter 36 inches are shown at right. The first rectangle has base 10 inches and height 8 inches, and its area is 80 square inches. The second rectangle has base 12 inches and height 6 inches. Its area is 72 square inches.</p></div>
@@ -434,9 +445,10 @@ MathJax.Hub.Config({
 <li><a href="basic-functions.html"><span class="codenumber">2.2</span> <span class="title">Some Basic Functions</span></a></li>
 <li><a href="transformations.html"><span class="codenumber">2.3</span> <span class="title">Transformations of Graphs</span></a></li>
 <li><a href="MathModels.html"><span class="codenumber">2.4</span> <span class="title">Functions as Mathematical Models</span></a></li>
-<li><a href="Domain-Range.html"><span class="codenumber">2.5</span> <span class="title">Domain and Range</span></a></li>
-<li><a href="chap2-summary.html"><span class="codenumber">2.6</span> <span class="title">Chapter Summary and Review</span></a></li>
-<li><a href="chap2-rev-projects.html"><span class="codenumber">2.7</span> <span class="title">Projects for Chapter 2: Periodic Functions</span></a></li>
+<li><a href="AbsoluteValue.html"><span class="codenumber">2.5</span> <span class="title">The Absolute Value Function</span></a></li>
+<li><a href="Domain-Range.html"><span class="codenumber">2.6</span> <span class="title">Domain and Range</span></a></li>
+<li><a href="chap2-summary.html"><span class="codenumber">2.7</span> <span class="title">Chapter Summary and Review</span></a></li>
+<li><a href="chap2-rev-projects.html"><span class="codenumber">2.8</span> <span class="title">Projects for Chapter 2: Periodic Functions</span></a></li>
 </ul></nav></section></div></main>
 </div>
 </body>

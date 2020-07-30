@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T12:38:25-05:00    *-->
+<!--*    on 2020-07-30T02:44:26-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -41,7 +41,16 @@ MathJax.Hub.Config({
         mtextFontInherit: true,
     },
 });
-</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script>(function() {
+  var cx = '008832104071767086392:woji51c1uko';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+})();
+</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
@@ -66,10 +75,11 @@ MathJax.Hub.Config({
 \newcommand{\amp}{&amp;}
 \)</div>
 <header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
-<a id="logo-link" href="https://yoshiwarabooks.org/" target="_blank"><img src="images/cover.png" alt="Logo image"></a><div class="title-container">
+<a id="logo-link" href="https://www.uco.edu/" target="_blank"><img src="images/cover.png" alt="Logo image"></a><div class="title-container">
 <h1 class="heading"><a href="Fall2020.html"><span class="title">Applied Algebra:</span> <span class="subtitle">Modeling and functions</span></a></h1>
 <p class="byline">compiled by Sean Laverty on behalf of others</p>
 </div>
+<div class="searchwrapper" role="search"><div class="gcse-search"></div></div>
 </div></div>
 <nav id="primary-navbar" class="navbar"><div class="container">
 <div class="navbar-top-buttons">
@@ -106,6 +116,7 @@ MathJax.Hub.Config({
 <li><a href="basic-functions.html" data-scroll="basic-functions">Some Basic Functions</a></li>
 <li><a href="transformations.html" data-scroll="transformations">Transformations of Graphs</a></li>
 <li><a href="MathModels.html" data-scroll="MathModels">Functions as Mathematical Models</a></li>
+<li><a href="AbsoluteValue.html" data-scroll="AbsoluteValue">The Absolute Value Function</a></li>
 <li><a href="Domain-Range.html" data-scroll="Domain-Range">Domain and Range</a></li>
 <li><a href="chap2-summary.html" data-scroll="chap2-summary">Chapter Summary and Review</a></li>
 <li><a href="chap2-rev-projects.html" data-scroll="chap2-rev-projects">Projects for Chapter 2: Periodic Functions</a></li>
@@ -211,42 +222,42 @@ MathJax.Hub.Config({
 <main class="main"><div id="content" class="pretext-content"><section class="section" id="appendix-Function-Notation-and-Transformation-of-Graphs"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">B.7</span> <span class="title">Function Notation and Transformation of Graphs</span>
 </h2>
-<a href="appendix-Function-Notation-and-Transformation-of-Graphs.html" class="permalink">¶</a><section class="subsection" id="subsection-315"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">B.7.1</span> <span class="title">Function Notation</span>
+<a href="appendix-Function-Notation-and-Transformation-of-Graphs.html" class="permalink">¶</a><section class="subsection" id="subsection-321"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Function Notation</span>
 </h3>
-<p id="p-16326">The calculator uses \(Y_1 (X)\text{,}\) \(Y_2 (X)\text{,}\) and so on, instead of \(f (x)\text{,}\) \(g(x)\text{,}\) and so on, for function notation.</p>
-<article class="example example-like" id="example-356"><a data-knowl="" class="id-ref original" data-refid="hk-example-356"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">B.7.1</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-356"><article class="example example-like"><p id="p-16327">Evaluate \(f (x) = x^2 + 6x + 9\) for \(x = 3\text{.}\)</p>
+<p id="p-16591">The calculator uses \(Y_1 (X)\text{,}\) \(Y_2 (X)\text{,}\) and so on, instead of \(f (x)\text{,}\) \(g(x)\text{,}\) and so on, for function notation.</p>
+<article class="example example-like" id="example-362"><a data-knowl="" class="id-ref original" data-refid="hk-example-362"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">B.42</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-362"><article class="example example-like"><p id="p-16592">Evaluate \(f (x) = x^2 + 6x + 9\) for \(x = 3\text{.}\)</p>
 <ol class="decimal">
-<li id="li-9300"><p id="p-16328">Set \(Y_1 = X^2 + 6X + 9\text{,}\) and quit (<code class="code-inline tex2jax_ignore">2nd</code> <code class="code-inline tex2jax_ignore">MODE</code>) to the Home screen.</p></li>
-<li id="li-9301">
-<p id="p-16329">To evaluate this function for \(X = 3\text{,}\) press</p>
-<p id="p-16330"><code class="code-inline tex2jax_ignore">VARS</code> \(\boxed{\rightarrow}\)  <code class="code-inline tex2jax_ignore">ENTER</code> <code class="code-inline tex2jax_ignore">ENTER</code> <code class="code-inline tex2jax_ignore">(</code> \(3\) <code class="code-inline tex2jax_ignore">)</code> <code class="code-inline tex2jax_ignore">ENTER</code></p>
-<p id="p-16331">See <a class="xref" data-knowl="./knowl/fig-GC-evaluate-function.html" title="Figure B.7.2">Figure B.7.2</a>.</p>
+<li id="li-9449"><p id="p-16593">Set \(Y_1 = X^2 + 6X + 9\text{,}\) and quit (<code class="code-inline tex2jax_ignore">2nd</code> <code class="code-inline tex2jax_ignore">MODE</code>) to the Home screen.</p></li>
+<li id="li-9450">
+<p id="p-16594">To evaluate this function for \(X = 3\text{,}\) press</p>
+<p id="p-16595"><code class="code-inline tex2jax_ignore">VARS</code> \(\boxed{\rightarrow}\)  <code class="code-inline tex2jax_ignore">ENTER</code> <code class="code-inline tex2jax_ignore">ENTER</code> <code class="code-inline tex2jax_ignore">(</code> \(3\) <code class="code-inline tex2jax_ignore">)</code> <code class="code-inline tex2jax_ignore">ENTER</code></p>
+<p id="p-16596">See <a class="xref" data-knowl="./knowl/fig-GC-evaluate-function.html" title="Figure B.43">Figure B.43</a>.</p>
 <figure class="figure figure-like" id="fig-GC-evaluate-function"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="images/fig-GC-evaluate-function.jpg" style="width: 100%; height: auto;" alt="GC evaluating a function"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">B.7.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">B.43<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
 </li>
-</ol></article></div></section><section class="subsection" id="subsection-316"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">B.7.2</span> <span class="title">Transformation of Graphs</span>
+</ol></article></div></section><section class="subsection" id="subsection-322"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Transformation of Graphs</span>
 </h3>
-<section class="introduction" id="introduction-522"><p id="p-16332">We can use function notation to facilitate graphing transformations. In the examples below, we use \(f (x) = x^2\text{.}\)</p></section><section class="subsubsection" id="subsubsection-166"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span> <span class="codenumber">B.7.2.1</span> <span class="title">Translations</span>
+<section class="introduction" id="introduction-529"><p id="p-16597">We can use function notation to facilitate graphing transformations. In the examples below, we use \(f (x) = x^2\text{.}\)</p></section><section class="subsubsection" id="subsubsection-170"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">Translations</span>
 </h4>
-<article class="example example-like" id="example-357"><a data-knowl="" class="id-ref original" data-refid="hk-example-357"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">B.7.3</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-357"><article class="example example-like"><p id="p-16333">Compare the graphs of \(y = f (x) - 8\) and \(y = f (x - 8)\) with that of \(y = f (x)\text{.}\)</p>
-<p id="p-16334">Define \(Y_1 = X^2\) and \(Y_2 =Y_1(X) - 8\) . Press <code class="code-inline tex2jax_ignore">ZOOM</code> \(6\) to see the graphs (<a class="xref" data-knowl="./knowl/fig-GC-vertical-shift.html" title="Figure B.7.4">Figure B.7.4</a>).</p>
+<article class="example example-like" id="example-363"><a data-knowl="" class="id-ref original" data-refid="hk-example-363"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">B.44</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-363"><article class="example example-like"><p id="p-16598">Compare the graphs of \(y = f (x) - 8\) and \(y = f (x - 8)\) with that of \(y = f (x)\text{.}\)</p>
+<p id="p-16599">Define \(Y_1 = X^2\) and \(Y_2 =Y_1(X) - 8\) . Press <code class="code-inline tex2jax_ignore">ZOOM</code> \(6\) to see the graphs (<a class="xref" data-knowl="./knowl/fig-GC-vertical-shift.html" title="Figure B.45">Figure B.45</a>).</p>
 <figure class="figure figure-like" id="fig-GC-vertical-shift"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="images/fig-GC-vertical-shift.jpg" style="width: 100%; height: auto;" alt="GC vertical shift of parabola"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">B.7.4<span class="period">.</span></span><span class="space"> </span></figcaption></figure><p id="p-16335">Define \(Y_1 = X^2\) and \(Y_2 =Y_1(X - 8)\text{.}\) Press <code class="code-inline tex2jax_ignore">ZOOM</code> \(6\) to see the graphs (<a class="xref" data-knowl="./knowl/fig-GC-horizontal-shift.html" title="Figure B.7.5">Figure B.7.5</a>).</p>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">B.45<span class="period">.</span></span><span class="space"> </span></figcaption></figure><p id="p-16600">Define \(Y_1 = X^2\) and \(Y_2 =Y_1(X - 8)\text{.}\) Press <code class="code-inline tex2jax_ignore">ZOOM</code> \(6\) to see the graphs (<a class="xref" data-knowl="./knowl/fig-GC-horizontal-shift.html" title="Figure B.46">Figure B.46</a>).</p>
 <figure class="figure figure-like" id="fig-GC-horizontal-shift"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="images/fig-GC-horizontal-shift.jpg" style="width: 100%; height: auto;" alt="GC horizontal shift of parabola"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">B.7.5<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article></div></section><section class="subsubsection" id="subsubsection-167"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span> <span class="codenumber">B.7.2.2</span> <span class="title">Vertical Scalings and Reflections</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">B.46<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article></div></section><section class="subsubsection" id="subsubsection-171"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">Vertical Scalings and Reflections</span>
 </h4>
-<p id="p-16336">Compare the graph of \(y = \frac{-1}{2} f (x)\) with that of \(y = f (x)\text{.}\)</p>
-<p id="p-16337">Define \(Y_1 = X^2\) and \(Y_2 = -1/2*Y_1(X)\text{.}\) Press to see the graphs (<a class="xref" data-knowl="./knowl/fig-GC-vertical-flip.html" title="Figure B.7.6">Figure B.7.6</a>).</p>
+<p id="p-16601">Compare the graph of \(y = \frac{-1}{2} f (x)\) with that of \(y = f (x)\text{.}\)</p>
+<p id="p-16602">Define \(Y_1 = X^2\) and \(Y_2 = -1/2*Y_1(X)\text{.}\) Press to see the graphs (<a class="xref" data-knowl="./knowl/fig-GC-vertical-flip.html" title="Figure B.47">Figure B.47</a>).</p>
 <figure class="figure figure-like" id="fig-GC-vertical-flip"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="images/fig-GC-vertical-flip.jpg" style="width: 100%; height: auto;" alt="GC vertical reflection of parabola"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">B.7.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure></section></section></section></div></main>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">B.47<span class="period">.</span></span><span class="space"> </span></figcaption></figure></section></section></section></div></main>
 </div>
 </body>
 </html>

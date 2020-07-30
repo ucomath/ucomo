@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T12:04:50-05:00    *-->
+<!--*    on 2020-07-30T00:34:53-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -41,7 +41,16 @@ MathJax.Hub.Config({
         mtextFontInherit: true,
     },
 });
-</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script>(function() {
+  var cx = '008832104071767086392:woji51c1uko';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+})();
+</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
@@ -66,10 +75,11 @@ MathJax.Hub.Config({
 \newcommand{\amp}{&amp;}
 \)</div>
 <header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
-<a id="logo-link" href="https://yoshiwarabooks.org/" target="_blank"><img src="images/cover.png" alt="Logo image"></a><div class="title-container">
+<a id="logo-link" href="https://www.uco.edu/" target="_blank"><img src="images/cover.png" alt="Logo image"></a><div class="title-container">
 <h1 class="heading"><a href="Fall2020.html"><span class="title">Applied Algebra:</span> <span class="subtitle">Modeling and functions</span></a></h1>
 <p class="byline">compiled by Sean Laverty on behalf of others</p>
 </div>
+<div class="searchwrapper" role="search"><div class="gcse-search"></div></div>
 </div></div>
 <nav id="primary-navbar" class="navbar"><div class="container">
 <div class="navbar-top-buttons">
@@ -106,6 +116,7 @@ MathJax.Hub.Config({
 <li><a href="basic-functions.html" data-scroll="basic-functions">Some Basic Functions</a></li>
 <li><a href="transformations.html" data-scroll="transformations">Transformations of Graphs</a></li>
 <li><a href="MathModels.html" data-scroll="MathModels">Functions as Mathematical Models</a></li>
+<li><a href="AbsoluteValue.html" data-scroll="AbsoluteValue">The Absolute Value Function</a></li>
 <li><a href="Domain-Range.html" data-scroll="Domain-Range">Domain and Range</a></li>
 <li><a href="chap2-summary.html" data-scroll="chap2-summary">Chapter Summary and Review</a></li>
 <li><a href="chap2-rev-projects.html" data-scroll="chap2-rev-projects">Projects for Chapter 2: Periodic Functions</a></li>
@@ -212,13 +223,13 @@ MathJax.Hub.Config({
 <span class="type">Section</span> <span class="codenumber">1.3</span> <span class="title">Graphs of Functions</span>
 </h2>
 <a href="graphs-of-functions.html" class="permalink">¶</a><section class="subsection" id="subsection-16"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.3.1</span> <span class="title">Reading Function Values from a Graph</span>
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Reading Function Values from a Graph</span>
 </h3>
 <p id="p-1005">The Dow-Jones Industrial Average (DJIA) gives the average of the stock prices of 30 major companies. The graph below shows the DJIA as a function of time during the stock market correction of October 1987. The DJIA is thus \(f(t)\text{,}\) recorded at noon on day \(t\) of October.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-DJIA.svg" style="width: 100%; height: auto;" alt="DJIA"></div></div></div>
 <p id="p-1006">The values of the input variable, time, are displayed on the horizontal axis, and the values of the output variable, DJIA, are displayed on the vertical axis. There is no formula that gives the DJIA for a particular day; but it is still a function, defined by its graph. The value of \(f(t)\) is specified by the vertical coordinate of the point with the given \(t\)-coordinate.</p>
 <article class="example example-like" id="example-DJIA"><a data-knowl="" class="id-ref original" data-refid="hk-example-DJIA"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.50</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-DJIA"><article class="example example-like"><ol id="p-1007" class="lower-alpha">
 <li id="li-658">The coordinates of point \(P\) on the DJIA graph are \((15, 2412)\text{.}\) What do the coordinates tell you about the function \(f\text{?}\)</li>
 <li id="li-659">If the DJIA was 1726 at noon on October 20, what can you say about the graph of \(f\text{?}\)</li>
@@ -232,7 +243,7 @@ MathJax.Hub.Config({
 <p id="p-1009">Thus, the coordinates of each point on the graph of the function represent a pair of corresponding values of the two variables.</p>
 <article class="assemblage assemblage-like" id="assemblage-8"><h6 class="heading"><span class="title">Graph of a Function.</span></h6>
 <p id="p-1010">The point \((a, b)\) lies on the graph of the function \(f\) if and only if \(f(a)=b\text{.}\)</p></article><article class="exercise exercise-like" id="exercise-154"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-154"><h6 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.51</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-154"><article class="exercise exercise-like"><p id="p-1011">The water level in Lake Huron alters unpredictably over time. The graph below gives the average water level, \(L(t)\text{,}\) in meters in the year \(t\) over a 20-year period. (Source: The Canadian Hydrographic Service)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-Lake-Huron.svg" style="width: 100%; height: auto;" alt="graph of Lake Huron water level"></div></div></div>
 <ol id="p-1012" class="lower-alpha">
@@ -248,7 +259,7 @@ MathJax.Hub.Config({
 <p id="p-1018">Here is another way of describing how a graph depicts a function.</p>
 <article class="assemblage assemblage-like" id="assemblage-9"><h6 class="heading"><span class="title">Functions and Coordinates.</span></h6>
 <p id="p-1019">Each point on the graph of the function \(f\) has coordinates \((x, f(x))\) for some value of \(x\text{.}\)</p></article><article class="example example-like" id="example-function-graph"><a data-knowl="" class="id-ref original" data-refid="hk-example-function-graph"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.52</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-function-graph"><article class="example example-like"><p id="p-1020">The figure shows the graph of a function \(g\text{.}\)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:35%;margin-right:35%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-function.svg" style="width: 100%; height: auto;" alt="graph of a function"></div></div></div>
 <ol id="p-1021" class="lower-alpha">
@@ -266,8 +277,8 @@ MathJax.Hub.Config({
 </ol></div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-155"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-155"><h6 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-155"><article class="exercise exercise-like"><p id="p-1023">Refer to the graph of the function \(g\) shown in <a class="xref" data-knowl="./knowl/example-function-graph.html" title="Example 1.3.3">Example 1.3.3</a>.</p>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.53</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-155"><article class="exercise exercise-like"><p id="p-1023">Refer to the graph of the function \(g\) shown in <a class="xref" data-knowl="./knowl/example-function-graph.html" title="Example 1.52">Example 1.52</a>.</p>
 <ol class="lower-alpha">
 <li id="li-674">Find \(g(0)\text{.}\)</li>
 <li id="li-675">For what value(s) of \(t\) is \(g(t) = 0\text{?}\)</li>
@@ -282,11 +293,11 @@ MathJax.Hub.Config({
 <li id="li-681"><p id="p-1028">\((-5, -4)\) and \((1, 3)\)</p></li>
 </ol></div></div>
 </div></article></div></section><section class="subsection" id="subsection-17"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.3.2</span> <span class="title">Constructing the Graph of a Function</span>
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Constructing the Graph of a Function</span>
 </h3>
 <p id="p-1029">Although some functions are defined by their graphs, we can also construct graphs for functions described by tables or equations. We make these graphs the same way we graph equations in two variables: by plotting points whose coordinates satisfy the equation.</p>
 <article class="example example-like" id="example-graph-square-root"><a data-knowl="" class="id-ref original" data-refid="hk-example-graph-square-root"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.54</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-graph-square-root"><article class="example example-like"><p id="p-1030">Graph the function \(f(x) = \sqrt{x + 4}\)</p>
 <div class="solutions">
 <a data-knowl="" class="id-ref original" data-refid="hk-solution-23" id="solution-23"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-23"><div class="solution solution-like">
@@ -350,7 +361,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 </div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-156"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-156"><h6 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.55</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-156"><article class="exercise exercise-like"><p id="p-1033">\(f(x) = x^3 - 2\)</p>
 <ol class="lower-alpha">
 <li id="li-682">
@@ -407,7 +418,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 <li id="li-685"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:75%;"><div class="sbspanel" style="width:80%;justify-content:flex-start;"><img src="images/fig-in-ex-ans-1-3-3.svg" style="width: 100%; height: auto;" alt="cubic"></div></div></div></li>
 </ol></div></div>
 </div></article></div></section><section class="subsection" id="subsection-18"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.3.3</span> <span class="title">The Vertical Line Test</span>
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">The Vertical Line Test</span>
 </h3>
 <p id="p-1037">In a function, two different outputs cannot be related to the same input. This restriction means that two different ordered pairs cannot have the same first coordinate. What does it mean for the graph of the function?</p>
 <p id="p-1038">Consider the graph shown in figure (a) below. Every vertical line intersects the graph in at most one point, so there is only one point on the graph for each \(x\)-value. This graph represents a function.</p>
@@ -416,7 +427,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 <p id="p-1040">We summarize these observations as follows.</p>
 <article class="assemblage assemblage-like" id="assemblage-10"><h6 class="heading"><span class="title">The Vertical Line Test.</span></h6>
 <p id="p-1041">A graph represents a function if and only if every vertical line intersects the graph in at most one point.</p></article><article class="example example-like" id="example-vertical-line-test"><a data-knowl="" class="id-ref original" data-refid="hk-example-vertical-line-test"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.56</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-vertical-line-test"><article class="example example-like"><p id="p-1042">Use the vertical line test to decide which of the graphs in the figure represent functions.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-vertical-line-test2.svg" style="width: 100%; height: auto;" alt="vertical line test"></div></div></div>
 <div class="solutions">
@@ -427,13 +438,13 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 </ul></div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-157"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-157"><h6 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.8</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.57</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-157"><article class="exercise exercise-like"><p id="p-1047">Use the vertical line test to determine which of the graphs below represent functions.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-vertical-line-test3.svg" style="width: 100%; height: auto;" alt="vertical line test"></div></div></div>
 <div class="solutions">
 <a data-knowl="" class="id-ref original" data-refid="hk-answer-87" id="answer-87"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-87"><div class="answer solution-like"><p id="p-1048">Only (b) is a function.</p></div></div>
 </div></article></div></section><section class="subsection" id="subsection-19"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.3.4</span> <span class="title">Graphical Solution of Equations and Inequalities</span>
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Graphical Solution of Equations and Inequalities</span>
 </h3>
 <p id="p-1049">The graph of an equation in two variables is just a picture of its solutions. When we read the coordinates of a point on the graph, we are reading a pair of \(x\)- and \(y\)-values that make the equation true.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
@@ -449,7 +460,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 </div></div>
 <p id="p-1051">We can also say that \(x = 2\) is a solution of the one-variable equation \(2x + 3 = 7\text{.}\) In fact, we can use the graph of \(y = 2x + 3\) to solve the equation \(2x + 3 = k\) for any value of \(k\text{.}\) Thus, we can use graphs to find solutions to equations in one variable.</p>
 <article class="example example-like" id="example-graph-to-solve"><a data-knowl="" class="id-ref original" data-refid="hk-example-graph-to-solve"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.9</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.58</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-graph-to-solve"><article class="example example-like"><p id="p-1052">Use the graph of \(y = 285 - 15x\) to solve the equation \(150 = 285 - 15x\text{.}\)</p>
 <div class="solutions">
 <a data-knowl="" class="id-ref original" data-refid="hk-solution-25" id="solution-25"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-25"><div class="solution solution-like">
@@ -471,7 +482,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 </div></div>
 </div></article></div>
 <article class="note remark-like" id="note-7"><h6 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">1.3.10</span><span class="period">.</span>
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">1.59</span><span class="period">.</span>
 </h6>
 <p id="p-1059">The relationship between an equation and its graph is an important one. For the previous example, make sure you understand that the following three statements are equivalent:</p>
 <ul class="disc">
@@ -479,7 +490,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 <li id="li-690">The ordered pair \((9, 150)\) is a solution of the equation \(y = 285 - 15x\text{.}\)</li>
 <li id="li-691">\(x = 9\) is a solution of the equation \(150 = 285 - 15x\text{.}\)</li>
 </ul></article><article class="exercise exercise-like" id="exercise-158"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-158"><h6 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.11</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.60</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-158"><article class="exercise exercise-like"><ol class="lower-alpha">
 <li id="li-692">Use the graph of \(y = 30 - 8x\) shown in the figure to solve the equation<div class="displaymath">
 \begin{equation*}
@@ -502,7 +513,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 <div class="sbspanel" style="width:29.4736842105263%;justify-content:center;"><img src="images/fig-graph-to-solve3.svg" style="width: 100%; height: auto;" alt="function graph"></div>
 </div></div>
 <article class="example example-like" id="example-graph-to-solve2"><a data-knowl="" class="id-ref original" data-refid="hk-example-graph-to-solve2"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.12</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.61</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-graph-to-solve2"><article class="example example-like"><p id="p-1064">Use the graph of \(y = 285 - 15x\) to solve the inequality</p>
 <div class="displaymath">
 \begin{equation*}
@@ -523,7 +534,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 </div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-159"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-159"><h6 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.13</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.62</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-159"><article class="exercise exercise-like"><ol class="lower-alpha">
 <li id="li-694">Use the graph of \(y = 30 - 8x\) in  the previous Checkpoint to solve the inequality<div class="displaymath">
 \begin{equation*}
@@ -538,7 +549,7 @@ f(\alert{5}) =\sqrt{\alert{5} + 4}=\sqrt{9}=3
 </div></article></div>
 <p id="p-1068">We can also use this graphical technique to solve nonlinear equations and inequalities.</p>
 <article class="example example-like" id="example-graph-to-solve-cubic"><a data-knowl="" class="id-ref original" data-refid="hk-example-graph-to-solve-cubic"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.14</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.63</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-graph-to-solve-cubic"><article class="example example-like"><p id="p-1069">Use a graph of \(f(x) = -2x^3 + x^2 + 16x\) to solve the equation</p>
 <div class="displaymath">
 \begin{equation*}
@@ -564,7 +575,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 </div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-graph-to-solve-quadratic"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-graph-to-solve-quadratic"><h6 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.15</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.64</span><span class="period">.</span>
 </h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-graph-to-solve-quadratic"><article class="exercise exercise-like"><p id="p-1073">Use the graph of \(~y = \frac{1}{2}n^2 + 2n - 10~\) shown below to solve</p>
 <div class="displaymath">
 \begin{equation*}
@@ -577,8 +588,8 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <a data-knowl="" class="id-ref original" data-refid="hk-answer-90" id="answer-90"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-90"><div class="answer solution-like"><p id="p-1074">\(-8, 4\)</p></div></div>
 </div></article></div>
 <article class="example example-like" id="example-graph-to-solve-cubic2"><a data-knowl="" class="id-ref original" data-refid="hk-example-graph-to-solve-cubic2"><h6 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.16</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-graph-to-solve-cubic2"><article class="example example-like"><p id="p-1075">Use the graph in <a class="xref" data-knowl="./knowl/example-graph-to-solve-cubic.html" title="Example 1.3.14">Example 1.3.14</a>  to solve the inequality</p>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.65</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-graph-to-solve-cubic2"><article class="example example-like"><p id="p-1075">Use the graph in <a class="xref" data-knowl="./knowl/example-graph-to-solve-cubic.html" title="Example 1.63">Example 1.63</a>  to solve the inequality</p>
 <div class="displaymath">
 \begin{equation*}
 -2x^3 + x^2 + 16x \ge 15
@@ -592,8 +603,8 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 </div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-161"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-161"><h6 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.17</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-161"><article class="exercise exercise-like"><p id="p-1078">Use the graph in <a class="xref" data-knowl="./knowl/exercise-graph-to-solve-quadratic.html" title="Checkpoint 1.3.15">Checkpoint 1.3.15</a> to solve the inequality</p>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.66</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-161"><article class="exercise exercise-like"><p id="p-1078">Use the graph in <a class="xref" data-knowl="./knowl/exercise-graph-to-solve-quadratic.html" title="Checkpoint 1.64">Checkpoint 1.64</a> to solve the inequality</p>
 <div class="displaymath">
 \begin{equation*}
 \frac{1}{2}n^2 + 2n - 10 \lt 6
@@ -602,10 +613,10 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <div class="solutions">
 <a data-knowl="" class="id-ref original" data-refid="hk-answer-91" id="answer-91"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-91"><div class="answer solution-like"><p id="p-1079">\((-8, 4)\)</p></div></div>
 </div></article></div></section><section class="subsection" id="summary-1-3"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.3.5</span> <span class="title">Section Summary</span>
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Section Summary</span>
 </h3>
 <a href="graphs-of-functions.html#summary-1-3" class="permalink">¶</a><section class="subsubsection" id="subsubsection-9"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span> <span class="codenumber">1.3.5.1</span> <span class="title">Vocabulary</span>
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">Vocabulary</span>
 </h4>
 <p id="p-1080">Look up the definitions of new terms in the Glossary.</p>
 <ul class="disc cols3">
@@ -618,7 +629,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-702"><p id="p-1087">Algebraic solution</p></li>
 <li id="li-703"><p id="p-1088">Graphical solution</p></li>
 </ul></section><section class="subsubsection" id="subsubsection-10"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span> <span class="codenumber">1.3.5.2</span> <span class="title">CONCEPTS</span>
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">CONCEPTS</span>
 </h4>
 <ol id="p-1089" class="decimal">
 <li id="li-704"><p id="p-1090">The point \((a, b)\) lies on the graph of the function \(f\) if and only if \(f (a) = b\text{.}\)</p></li>
@@ -626,7 +637,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-706"><p id="p-1092">The vertical line test tells us whether a graph represents a function.</p></li>
 <li id="li-707"><p id="p-1093">We can use a graph to solve equations and inequalities in one variable.</p></li>
 </ol></section><section class="subsubsection" id="subsubsection-11"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span> <span class="codenumber">1.3.5.3</span> <span class="title">STUDY QUESTIONS</span>
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">STUDY QUESTIONS</span>
 </h4>
 <ol id="p-1094" class="decimal">
 <li id="li-708"><p id="p-1095">How can you find the value of \(f (3)\) from a graph of \(f\text{?}\)</p></li>
@@ -635,16 +646,16 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-711"><p id="p-1098">Explain how to use the vertical line test.</p></li>
 <li id="li-712"><p id="p-1099">How can you solve the equation \(x + \sqrt{x} = 56\) using the graph of \(y = x + \sqrt{x}\text{?}\)</p></li>
 </ol></section><section class="subsubsection" id="subsubsection-12"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span> <span class="codenumber">1.3.5.4</span> <span class="title">SKILLS</span>
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">SKILLS</span>
 </h4>
-<p id="p-1100">Practice each skill in the <a href="graphs-of-functions.html#section-1-3-exercises" class="internal" title="Exercises 1.3.6: Homework 1.3">Homework 1.3.6</a> problems listed.</p>
+<p id="p-1100">Practice each skill in the <a href="graphs-of-functions.html#section-1-3-exercises" class="internal" title="Exercises: Homework 1.3">Homework </a> problems listed.</p>
 <ol class="decimal">
 <li id="li-713"><p id="p-1101">Read function values from a graph: #1–8, 17–20, 33–36</p></li>
 <li id="li-714"><p id="p-1102">Recognize the graph of a function: #9–10, 31 and 32</p></li>
 <li id="li-715"><p id="p-1103">Construct a table of values and a graph of a function: #11–16</p></li>
 <li id="li-716"><p id="p-1104">Solve equations and inequalities graphically: #21–30, 41–50</p></li>
 </ol></section></section><section class="exercises" id="section-1-3-exercises"><h3 class="heading hide-type">
-<span class="type">Exercises</span> <span class="codenumber">1.3.6</span> <span class="title">Homework 1.3</span>
+<span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">Homework 1.3</span>
 </h3>
 <a href="graphs-of-functions.html#section-1-3-exercises" class="permalink">¶</a><div class="exercisegroup" id="exercisegroup-16">
 <div class="introduction" id="introduction-18"><p id="p-1105">In Problems 1–8, use the graphs to answer the questions about the functions.</p></div>
@@ -658,17 +669,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-721"><p id="p-1111">For what value(s) of \(z\) does \(h\) take on its maximum value?</p></li>
 <li id="li-722"><p id="p-1112">On what intervals is the function increasing? Decreasing?</p></li>
 </ol>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:32.5%;margin-right:32.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-1.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-92" id="answer-92"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-92"><div class="answer solution-like"><ol id="p-1113" class="lower-alpha">
-<li id="li-723">\(\displaystyle -2, 0,5\)</li>
-<li id="li-724">\(\displaystyle 2\)</li>
-<li id="li-725">\(\displaystyle h(-2)=0,~h(1)=0,~h(0)=-2\)</li>
-<li id="li-726">\(\displaystyle 5\)</li>
-<li id="li-727">\(\displaystyle 3\)</li>
-<li id="li-728"><p id="p-1114">Increasing: \((-3,0)\) and \((1,3)\text{;}\) decreasing: \((0,1)\) and \((3,5)\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-163"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:32.5%;margin-right:32.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-1.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div></article><article class="exercise exercise-like" id="exercise-163"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
 <ol id="p-1115" class="lower-alpha">
 <li id="li-729"><p id="p-1116">Find \(G(-3)\text{,}\) \(G(-1)\text{,}\) and \(G(2)\text{.}\)</p></li>
 <li id="li-730"><p id="p-1117">For what value(s) of \(s\) is \(G(s) = 3\text{?}\)</p></li>
@@ -686,17 +687,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-739"><p id="p-1127">For what value(s) of \(p\) does \(R\) take on its maximum and minimum values?</p></li>
 <li id="li-740"><p id="p-1128">On what intervals is the function increasing? Decreasing?</p></li>
 </ol>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:32.5%;margin-right:32.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-3.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-93" id="answer-93"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-93"><div class="answer solution-like"><ol id="p-1129" class="lower-alpha">
-<li id="li-741"><p id="p-1130">\(-1, 2\)</p></li>
-<li id="li-742"><p id="p-1131">\(3, -1.3\)</p></li>
-<li id="li-743"><p id="p-1132">\(R(-2) = 0\text{,}\) \(R(2) = 0\text{,}\) \(R(4) = 0\text{,}\) \(R(0) = 4\)</p></li>
-<li id="li-744"><p id="p-1133">Max: \(4\text{;}\) min: \(-5\)</p></li>
-<li id="li-745"><p id="p-1134">Max at \(p = 0\text{;}\) min at \(p = 5\)</p></li>
-<li id="li-746"><p id="p-1135">Increasing: \((-3, 0)\) and \((1, 3)\text{;}\) decreasing: \((0, 1)\) and \((3, 5)\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-165"><h6 class="heading"><span class="codenumber">4<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:32.5%;margin-right:32.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-3.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div></article><article class="exercise exercise-like" id="exercise-165"><h6 class="heading"><span class="codenumber">4<span class="period">.</span></span></h6>
 <ol id="p-1136" class="lower-alpha">
 <li id="li-747"><p id="p-1137">Find \(f (-1)\) and \(f (3)\text{.}\)</p></li>
 <li id="li-748"><p id="p-1138">For what value(s) of \(t\) is \(f(t)=5\text{?}\)</p></li>
@@ -713,16 +704,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-756"><p id="p-1147">Find the maximum and minimum values of \(S(x)\text{.}\)</p></li>
 <li id="li-757"><p id="p-1148">For what value(s) of \(x\) does \(S\) take on its maximum and minimum values?</p></li>
 </ol>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-5.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-94" id="answer-94"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-94"><div class="answer solution-like"><ol id="p-1149" class="lower-alpha">
-<li id="li-758"><p id="p-1150">\(0, \dfrac{1}{2}, 0\)</p></li>
-<li id="li-759"><p id="p-1151">\(0.9\)</p></li>
-<li id="li-760"><p id="p-1152">\(\dfrac{-5}{6}\text{,}\) \(\dfrac{-1}{6}\text{,}\) \(\dfrac{7}{6}\text{,}\) \(\dfrac{11}{6}\)</p></li>
-<li id="li-761"><p id="p-1153">Max: \(1\text{;}\) min: \(-1\)</p></li>
-<li id="li-762"><p id="p-1154">Max at \(x=-1.5, 0.5\text{;}\) min at \(x=-0.5, 1.5\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-167"><h6 class="heading"><span class="codenumber">6<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-5.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div></article><article class="exercise exercise-like" id="exercise-167"><h6 class="heading"><span class="codenumber">6<span class="period">.</span></span></h6>
 <ol id="p-1155" class="lower-alpha">
 <li id="li-763"><p id="p-1156">Find \(C(0)\text{,}\) \(C\left(-\dfrac{1}{3}\right)\text{,}\) and \(C(1)\text{.}\)</p></li>
 <li id="li-764"><p id="p-1157">Estimate the value of \(C\left(\dfrac{1}{6}\right)\) from the graph.</p></li>
@@ -737,15 +719,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-770"><p id="p-1164">Find the maximum and minimum values of \(F(s)\text{.}\)</p></li>
 <li id="li-771"><p id="p-1165">For what value(s) of \(s\) does \(F\) take on its maximum and minimum values?</p></li>
 </ol>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-7.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-95" id="answer-95"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-95"><div class="answer solution-like"><ol id="p-1166" class="lower-alpha">
-<li id="li-772"><p id="p-1167">\(2, 2, 1\)</p></li>
-<li id="li-773"><p id="p-1168">\(-6 \le s \lt -4~\) or \(~0\le s\lt 2\)</p></li>
-<li id="li-774"><p id="p-1169">Max: \(2\text{;}\) min: \(-1\)</p></li>
-<li id="li-775"><p id="p-1170">Max for \(-3\le s\lt -1~\) or \(~3\le s\lt 5\text{;}\) min for \(-6\le s\lt -4~\) or \(~0\le s\lt 2\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-169"><h6 class="heading"><span class="codenumber">8<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-7.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div></article><article class="exercise exercise-like" id="exercise-169"><h6 class="heading"><span class="codenumber">8<span class="period">.</span></span></h6>
 <ol id="p-1171" class="lower-alpha">
 <li id="li-776"><p id="p-1172">Find \(P(-3)\text{,}\) \(P(-2)\text{,}\) and \(P(1)\text{.}\)</p></li>
 <li id="li-777"><p id="p-1173">For what value(s) of \(n\) is \(P(n) = 0\text{?}\)</p></li>
@@ -759,10 +733,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <div class="introduction" id="introduction-19"><p id="p-1176">Which of the graphs in Problems 9 and 10 represent functions?</p></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-170"><h6 class="heading"><span class="codenumber">9<span class="period">.</span></span></h6>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-9.svg" style="width: 100%; height: auto;" alt="5 curves"></div></div></div>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-96" id="answer-96"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-96"><div class="answer solution-like"><p id="p-1177">(a) and (d)</p></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-171"><h6 class="heading"><span class="codenumber">10<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-9.svg" style="width: 100%; height: auto;" alt="5 curves"></div></div></div></article><article class="exercise exercise-like" id="exercise-171"><h6 class="heading"><span class="codenumber">10<span class="period">.</span></span></h6>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-10.svg" style="width: 100%; height: auto;" alt="5 curves"></div></div></div></article>
 </div>
 </div>
@@ -777,20 +748,11 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 </div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-172"><h6 class="heading"><span class="codenumber">11<span class="period">.</span></span></h6>
-<p id="p-1181">\(g(x) = x^3 + 4\text{;}\) \(\hphantom{00000}x = -2, -1, \ldots , 2\)</p>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-97" id="answer-97"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-97"><div class="answer solution-like"><div class="sidebyside"><div class="sbsrow" style="margin-left:22.5%;margin-right:22.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ans-1-3-11.svg" style="width: 100%; height: auto;" alt="cubic"></div></div></div></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-173"><h6 class="heading"><span class="codenumber">12<span class="period">.</span></span></h6>
+<p id="p-1181">\(g(x) = x^3 + 4\text{;}\) \(\hphantom{00000}x = -2, -1, \ldots , 2\)</p></article><article class="exercise exercise-like" id="exercise-173"><h6 class="heading"><span class="codenumber">12<span class="period">.</span></span></h6>
 <p id="p-1182">\(h(x) = 2 +\sqrt{x}\text{;}\) \(\hphantom{00000}x = 0,1, \ldots , 9\)</p></article><article class="exercise exercise-like" id="exercise-174"><h6 class="heading"><span class="codenumber">13<span class="period">.</span></span></h6>
-<p id="p-1183">\(G(x) =\sqrt{4 - x}\text{;}\) \(\hphantom{00000}x = -5, -4, \ldots , 4\)</p>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-98" id="answer-98"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-98"><div class="answer solution-like"><div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ans-1-3-13.svg" style="width: 100%; height: auto;" alt="square root"></div></div></div></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-175"><h6 class="heading"><span class="codenumber">14<span class="period">.</span></span></h6>
+<p id="p-1183">\(G(x) =\sqrt{4 - x}\text{;}\) \(\hphantom{00000}x = -5, -4, \ldots , 4\)</p></article><article class="exercise exercise-like" id="exercise-175"><h6 class="heading"><span class="codenumber">14<span class="period">.</span></span></h6>
 <p id="p-1184">\(F(x) = \sqrt{x-1}\text{;}\) \(\hphantom{00000}x = 1,2, \ldots , 10\)</p></article><article class="exercise exercise-like" id="exercise-176"><h6 class="heading"><span class="codenumber">15<span class="period">.</span></span></h6>
-<p id="p-1185">\(v(x) = 1 + 6x - x^3\text{;}\) \(\hphantom{00000}x = -3, -2, \ldots , 3\)</p>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-99" id="answer-99"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-99"><div class="answer solution-like"><div class="sidebyside"><div class="sbsrow" style="margin-left:22.5%;margin-right:22.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ans-1-3-15.svg" style="width: 100%; height: auto;" alt="cubic"></div></div></div></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-177"><h6 class="heading"><span class="codenumber">16<span class="period">.</span></span></h6>
+<p id="p-1185">\(v(x) = 1 + 6x - x^3\text{;}\) \(\hphantom{00000}x = -3, -2, \ldots , 3\)</p></article><article class="exercise exercise-like" id="exercise-177"><h6 class="heading"><span class="codenumber">16<span class="period">.</span></span></h6>
 <p id="p-1186">\(w(x) = x^3 - 8x\text{;}\) \(\hphantom{00000}x = -4, -3, \ldots , 4\)</p></article>
 </div>
 </div>
@@ -802,15 +764,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-783"><p id="p-1190">Solve \(f (d) = 1500\) and explain its meaning.</p></li>
 <li id="li-784"><p id="p-1191">At what depth is the speed of sound the slowest, and what is the speed? Write your answer with function notation.</p></li>
 <li id="li-785"><p id="p-1192">Describe the behavior of \(f (d)\) as \(d\) increases.</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-100" id="answer-100"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-100"><div class="answer solution-like"><ol id="p-1193" class="lower-alpha">
-<li id="li-786"><p id="p-1194">\(f (1000) = 1495\text{:}\) The speed of sound at a depth of \(1000\) meters is approximately \(1495\) meters per second.</p></li>
-<li id="li-787"><p id="p-1195">\(d = 570\) or \(d = 1070\text{:}\) The speed of sound is \(1500\) meters per second at both a depth of \(570\) meters and a depth of \(1070\) meters.</p></li>
-<li id="li-788"><p id="p-1196">The slowest speed occurs at a depth of about \(810\) meters and the speed is about \(1487\) meters per second, so \(f (810) = 1487\text{.}\)</p></li>
-<li id="li-789"><p id="p-1197">\(f\) increases from about \(1533\) to \(1541\) in the first \(110\) meters of depth, then drops to about \(1487\) at \(810\) meters, then rises again, passing \(1553\) at a depth of about \(1600\) meters.</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-179"><h6 class="heading"><span class="codenumber">18<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-179"><h6 class="heading"><span class="codenumber">18<span class="period">.</span></span></h6>
 <p id="p-1198">The graph shows the water level in Lake Superior as a function of time, \(L = f (t)\text{.}\) (Source: The Canadian Hydrographic Service)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-18.svg" style="width: 100%; height: auto;" alt="water level vs time"></div></div></div>
 <ol id="p-1199" class="lower-alpha">
@@ -826,15 +780,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-795"><p id="p-1207">Solve \(f (t) = 70\) and explain its meaning.</p></li>
 <li id="li-796"><p id="p-1208">When did the federal debt reach its highest level since 1960, and what was that level? Write your answer with function notation.</p></li>
 <li id="li-797"><p id="p-1209">What is the longest time interval over which the federal debt was decreasing?</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-101" id="answer-101"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-101"><div class="answer solution-like"><ol id="p-1210" class="lower-alpha">
-<li id="li-798"><p id="p-1211">\(f(1985)=41\text{:}\) The federal debt in \(1985\) was about \(41\%\) of the gross domestic product.</p></li>
-<li id="li-799"><p id="p-1212">\(t = 1942\) or \(t = 1955\text{:}\) The federal debt was \(70\%\) of the gross domestic product in \(1942\) and \(1955\text{.}\)</p></li>
-<li id="li-800"><p id="p-1213">In about \(1997\text{,}\) the debt was about \(67\%\) of the gross domestic product, so \(f (1997)\approx 67.3\text{.}\)</p></li>
-<li id="li-801"><p id="p-1214">The percentage basically dropped from 1946 to 1973, but there were small rises around 1950, 1954, 1958, and 1968, so the longest time interval was from 1958 to 1967.</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-181"><h6 class="heading"><span class="codenumber">20<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-181"><h6 class="heading"><span class="codenumber">20<span class="period">.</span></span></h6>
 <p id="p-1215">The graph shows the elevation of the Los Angeles Marathon course as a function of the distance into the race, \(a = f (t)\text{.}\) (Source: Los Angeles Times, March 3, 2005)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-20.svg" style="width: 100%; height: auto;" alt="LA marathon elevation"></div></div></div>
 <ol id="p-1216" class="lower-alpha">
@@ -863,22 +809,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 </ol>
 </li>
 <li id="li-814"><p id="p-1231">Explain why your answers to parts (a) and (b) are the same.</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-102" id="answer-102"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-102"><div class="answer solution-like"><ol id="p-1232" class="lower-alpha">
-<li id="li-815"><ol id="p-1233" class="lower-roman">
-<li id="li-816"><p id="p-1234">\(x = -3\)</p></li>
-<li id="li-817"><p id="p-1235">\(x\lt -3\)</p></li>
-<li id="li-818"><p id="p-1236">\(x\gt -3\)</p></li>
-</ol></li>
-<li id="li-819"><ol id="p-1237" class="upper-roman">
-<li id="li-820"><p id="p-1238">\(x = -3\)</p></li>
-<li id="li-821"><p id="p-1239">\(x\lt -3\)</p></li>
-<li id="li-822"><p id="p-1240">\(x\gt -3\)</p></li>
-</ol></li>
-<li id="li-823"><p id="p-1241">On the graph of \(y=-2x + 6\text{,}\) a value of \(y\) is the same as a value of \(-2x + 6\text{,}\) so parts (a) and (b) are asking for the same \(x\)'s.</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-183"><h6 class="heading"><span class="codenumber">22<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-183"><h6 class="heading"><span class="codenumber">22<span class="period">.</span></span></h6>
 <p id="p-1242">The figure shows a graph of \(y =\dfrac{-x}{3} - 6\text{.}\)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-22.svg" style="width: 100%; height: auto;" alt="y=-x/3 - 6"></div></div></div>
 <ol id="p-1243" class="lower-alpha">
@@ -910,15 +841,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-834"><p id="p-1257">\(-1.2 = 1.4x - 0.64\)</p></li>
 <li id="li-835"><p id="p-1258">\(1.4x - 0.64\gt 0.2\)</p></li>
 <li id="li-836"><p id="p-1259">\(-1.2\gt 1.4x - 0.64\)</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-103" id="answer-103"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-103"><div class="answer solution-like"><ol id="p-1260" class="lower-alpha">
-<li id="li-837"><p id="p-1261">\(x = 0.6\)</p></li>
-<li id="li-838"><p id="p-1262">\(x=-0.4\)</p></li>
-<li id="li-839"><p id="p-1263">\(x\gt 0.6\)</p></li>
-<li id="li-840"><p id="p-1264">\(x\lt -0.4\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-185"><h6 class="heading"><span class="codenumber">24<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-185"><h6 class="heading"><span class="codenumber">24<span class="period">.</span></span></h6>
 <p id="p-1265">The figure shows the graph of \(y = -2.4x + 2.32\text{.}\) Solve the following:</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:32.5%;margin-right:32.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-24.svg" style="width: 100%; height: auto;" alt="y = -2.4x + 2.32"></div></div></div>
 <ol id="p-1266" class="lower-alpha">
@@ -938,13 +861,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <ol id="p-1273" class="lower-alpha">
 <li id="li-845"><p id="p-1274">Solve \(\dfrac{12}{2 + x^2} = 4\)</p></li>
 <li id="li-846"><p id="p-1275">Solve \(1\le \dfrac{12}{2 + x^2} \le 2\)</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-104" id="answer-104"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-104"><div class="answer solution-like"><ol id="p-1276" class="lower-alpha">
-<li id="li-847"><p id="p-1277">\(x=-1\)  or \(x = 1\)</p></li>
-<li id="li-848"><p id="p-1278">Approximately \(-3\le x\le -2\)  or \(2\le x\le 3\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-187"><h6 class="heading"><span class="codenumber">26<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-187"><h6 class="heading"><span class="codenumber">26<span class="period">.</span></span></h6>
 <p id="p-1279">The figure shows the graph of \(f(x) = \dfrac{30\sqrt{x}}{1 + x}\text{.}\)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-26.svg" style="width: 100%; height: auto;" alt="curve"></div></div></div>
 <ol id="p-1280" class="lower-alpha">
@@ -959,16 +876,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 <li id="li-853"><p id="p-1287">Solve \(\dfrac{1}{3}p^3 - 3p + 2\lt 1\)</p></li>
 <li id="li-854"><p id="p-1288">What range of values does \(B\) have for \(p\) between \(-2.5\) and \(0.5\text{?}\)</p></li>
 <li id="li-855"><p id="p-1289">For what values of \(p\) is \(B\) increasing?</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-105" id="answer-105"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-105"><div class="answer solution-like"><ol id="p-1290" class="lower-alpha">
-<li id="li-856"><p id="p-1291">\(3.5\)</p></li>
-<li id="li-857"><p id="p-1292">\(-2.2, -1.2, 3.4\)</p></li>
-<li id="li-858"><p id="p-1293">\(p\lt -3.1\) or \(0.3\lt p\lt 2.8\)</p></li>
-<li id="li-859"><p id="p-1294">\(0.5\lt B\lt 5.5\)</p></li>
-<li id="li-860"><p id="p-1295">\(p\lt -1.7\) or \(p\gt 1.7\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-189"><h6 class="heading"><span class="codenumber">28<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-189"><h6 class="heading"><span class="codenumber">28<span class="period">.</span></span></h6>
 <p id="p-1296">The figure shows a graph of \(H = t^3 - 4t^2 - 4t + 12\text{.}\)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:32.5%;margin-right:32.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-28.svg" style="width: 100%; height: auto;" alt="cubic curve"></div></div></div>
 <ol id="p-1297" class="lower-alpha">
@@ -990,17 +898,7 @@ f(\alert{-3})\amp= -2(\alert{-3})3 + (\alert{-3})^2 + 16(\alert{-3})\\
 </ol>
 </li>
 <li id="li-870"><p id="p-1309">For what values of \(q\) is \(g(q)\) increasing?</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-106" id="answer-106"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-106"><div class="answer solution-like"><ol id="p-1310" class="lower-alpha">
-<li id="li-871"><ol id="p-1311" class="lower-roman">
-<li id="li-872"><p id="p-1312">\(-2, 2\)</p></li>
-<li id="li-873"><p id="p-1313">\(-2.8, 0, 2.8\)</p></li>
-<li id="li-874"><p id="p-1314">\(-2.5\lt q\lt-1.25\) or \(1.25\lt q\lt 2.5\)</p></li>
-</ol></li>
-<li id="li-875"><p id="p-1315">\(-2 \lt q\lt 0\)  or \(q\gt 2\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-191"><h6 class="heading"><span class="codenumber">30<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-191"><h6 class="heading"><span class="codenumber">30<span class="period">.</span></span></h6>
 <p id="p-1316">The figure shows a graph of \(P = f (t)\text{.}\)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:35%;margin-right:35%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-1-3-30.svg" style="width: 100%; height: auto;" alt="mystery curve"></div></div></div>
 <ol id="p-1317" class="lower-alpha">
@@ -1046,13 +944,7 @@ g(4) = 0, ~g(6) = 6
 </div>
 <p data-braille="continuation">Can her readings be correct? Explain why or why not.</p>
 </li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-107" id="answer-107"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-107"><div class="answer solution-like"><ol id="p-1326" class="lower-alpha">
-<li id="li-883"><p id="p-1327">He has an error: \(f(-3)\) cannot have both the value \(5\) and also the value \(-2\text{,}\) and \(f(-1)\) cannot have both values \(2\) and \(-4\text{.}\)</p></li>
-<li id="li-884"><p id="p-1328">Her readings are possible for a function: each input has only one output.</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-193"><h6 class="heading"><span class="codenumber">32<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-193"><h6 class="heading"><span class="codenumber">32<span class="period">.</span></span></h6>
 <ol id="p-1329" class="lower-alpha">
 <li id="li-885">
 <p id="p-1330">Sketch the graph of a function that has the following values:</p>
@@ -1115,28 +1007,7 @@ G(1) = 0, ~G(2) = 1
 </table></div></div></div>
 </li>
 <li id="li-888"><p id="p-1335">Find all points on the graph for which \(g(x) = 3.6\text{.}\)</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-108" id="answer-108"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-108"><div class="answer solution-like"><ol id="p-1336" class="lower-alpha">
-<li id="li-889"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:60%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
-<tr>
-<td class="c m b1 r1 l1 t3 lines">\(x\)</td>
-<td class="c m b1 r1 l0 t3 lines">\(-4\)</td>
-<td class="c m b1 r1 l0 t3 lines">\(-2\)</td>
-<td class="c m b1 r1 l0 t3 lines">\(3\)</td>
-<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(5\)</td>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines">\(g(x)\)</td>
-<td class="c m b1 r1 l0 t0 lines">\(4.5\)</td>
-<td class="c m b1 r1 l0 t0 lines">\(5.7\)</td>
-<td class="c m b1 r1 l0 t0 lines">\(5.2\)</td>
-<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(3.3\)</td>
-</tr>
-</table></div></div></div></li>
-<li id="li-890"><p id="p-1337">\(-4.8, 4.8\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-195"><h6 class="heading"><span class="codenumber">34<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-195"><h6 class="heading"><span class="codenumber">34<span class="period">.</span></span></h6>
 <p id="p-1338">\(g(x) =\sqrt{x^2}-6\)</p>
 <ol class="lower-alpha">
 <li id="li-891">
@@ -1164,13 +1035,7 @@ G(1) = 0, ~G(2) = 1
 <ol class="lower-alpha">
 <li id="li-893"><p id="p-1342">Estimate the coordinates of the turning points of the graph, that is, where the graph changes from increasing to decreasing or vice versa.</p></li>
 <li id="li-894"><p id="p-1343">Write an equation of the form \(F(a) = b\) for each turning point.</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-109" id="answer-109"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-109"><div class="answer solution-like"><ol id="p-1344" class="lower-alpha">
-<li id="li-895"><p id="p-1345">\((-1.6, 4.352), (1.6, -4.352)\)</p></li>
-<li id="li-896"><p id="p-1346">\(F(-1.6) = 4.352\text{;}\) \(F(1.6) = -4.352\)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-197"><h6 class="heading"><span class="codenumber">36<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-197"><h6 class="heading"><span class="codenumber">36<span class="period">.</span></span></h6>
 <p id="p-1347">\(G(x) = 2 + 4x - x^3\)</p>
 <ol class="lower-alpha">
 <li id="li-897"><p id="p-1348">Estimate the coordinates of the turning points of the graph, that is, where the graph changes from increasing to decreasing or vice versa.</p></li>
@@ -1194,15 +1059,6 @@ G(1) = 0, ~G(2) = 1
 {\text{Xmin}} \amp = -5 \amp\amp {\text{Xmax}} = 5\\
 {\text{Ymin}} \amp = 0 \amp\amp {\text{Ymax}} = 0.5
 \end{align*}
-</div>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-110" id="answer-110"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-110"><div class="answer solution-like"><ol id="p-1354" class="lower-alpha">
-<li id="li-901"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:40%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ans-GC-standard-window.jpg" style="width: 100%; height: auto;" alt="standard GC window"></div></div></div></li>
-<li id="li-902">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:40%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ans-GC-curve-near-x-axis.jpg" style="width: 100%; height: auto;" alt="curve visible in GC window"></div></div></div>
-<p id="p-1355">The curve cannot be distinguished from the \(x\)-axis in the standard window because the values of \(y\) are closer to zero than the resolution of the calculator can display. The second window provides sufficient resolution to see the curve.</p>
-</li>
-</ol></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-199"><h6 class="heading"><span class="codenumber">38<span class="period">.</span></span></h6>
 <p id="p-1356">\(H(x) =\sqrt{1-x^2} \)</p>
 <div class="displaymath">
@@ -1217,15 +1073,6 @@ G(1) = 0, ~G(2) = 1
 {\text{Xmin}} \amp = -10 \amp\amp {\text{Xmax}} = 20\\
 {\text{Ymin}} \amp = -250 \amp\amp {\text{Ymax}} = 750
 \end{align*}
-</div>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-111" id="answer-111"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-111"><div class="answer solution-like"><ol id="p-1358" class="lower-alpha">
-<li id="li-903"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:40%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ans-GC-vertical-lines-in-standard-window.jpg" style="width: 100%; height: auto;" alt="standard GC window"></div></div></div></li>
-<li id="li-904">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:40%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ans-GC-big-cubic.jpg" style="width: 100%; height: auto;" alt="curve visible in GC window"></div></div></div>
-<p id="p-1359">The curve looks like two vertical lines in the standard window because that window covers too small a region of the plane. The second window allows us to see the turning points of the curve.</p>
-</li>
-</ol></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-201"><h6 class="heading"><span class="codenumber">40<span class="period">.</span></span></h6>
 <p id="p-1360">\(p(x) = 200x^3\)</p>
 <div class="displaymath">
@@ -1246,15 +1093,7 @@ G(1) = 0, ~G(2) = 1
 <li id="li-906"><p id="p-1364">For what value of \(x\) is \(y = -13\text{?}\)</p></li>
 <li id="li-907"><p id="p-1365">For what values of \(x\) is \(y\gt -1 \text{?}\)</p></li>
 <li id="li-908"><p id="p-1366">For what values of \(x\) is \(y\lt 25\text{?}\)</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-112" id="answer-112"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-112"><div class="answer solution-like"><ol id="p-1367" class="lower-alpha cols4">
-<li id="li-909"><p id="p-1368">\(x = 4\)</p></li>
-<li id="li-910"><p id="p-1369">\(x = -5\)</p></li>
-<li id="li-911"><p id="p-1370">\(x\gt 1\)</p></li>
-<li id="li-912"><p id="p-1371">\(x\lt 14 \)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-203"><h6 class="heading"><span class="codenumber">42<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-203"><h6 class="heading"><span class="codenumber">42<span class="period">.</span></span></h6>
 <p id="p-1372">Graph \(y = 4 - 2x\)</p>
 <ol class="lower-alpha">
 <li id="li-913"><p id="p-1373">For what value of \(x\) is \(y = 6\text{?}\)</p></li>
@@ -1268,15 +1107,7 @@ G(1) = 0, ~G(2) = 1
 <li id="li-918"><p id="p-1379">For what value of \(x\) is \(y = 24.5\text{?}\)</p></li>
 <li id="li-919"><p id="p-1380">For what values of \(x\) is \(y\le 15.5 \text{?}\)</p></li>
 <li id="li-920"><p id="p-1381">For what values of \(x\) is \(y\ge -7.9\text{?}\)</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-113" id="answer-113"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-113"><div class="answer solution-like"><ol id="p-1382" class="lower-alpha cols4">
-<li id="li-921"><p id="p-1383">\(x = 11\)</p></li>
-<li id="li-922"><p id="p-1384">\(x = -10\)</p></li>
-<li id="li-923"><p id="p-1385">\(x\ge -5\)</p></li>
-<li id="li-924"><p id="p-1386">\(x\le 8 \)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-205"><h6 class="heading"><span class="codenumber">44<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-205"><h6 class="heading"><span class="codenumber">44<span class="period">.</span></span></h6>
 <p id="p-1387">Graph \(y = 0.2x + 1.4\)</p>
 <ol class="lower-alpha">
 <li id="li-925"><p id="p-1388">For what value of \(x\) is \(y = -5.2\text{?}\)</p></li>
@@ -1294,13 +1125,7 @@ G(1) = 0, ~G(2) = 1
 <ol class="lower-alpha">
 <li id="li-929"><p id="p-1394">Solve \(-0.4x + 3.7 = 2.1\)</p></li>
 <li id="li-930"><p id="p-1395">Solve \(-0.4x + 3.7\gt -5.1\)</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-114" id="answer-114"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-114"><div class="answer solution-like"><ol id="p-1396" class="lower-alpha cols2">
-<li id="li-931"><p id="p-1397">\(x = 4 \)</p></li>
-<li id="li-932"><p id="p-1398">\(x\lt 22 \)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-207"><h6 class="heading"><span class="codenumber">46<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-207"><h6 class="heading"><span class="codenumber">46<span class="period">.</span></span></h6>
 <p id="p-1399">Graph \(y = 0.4 (x - 1.5)\)</p>
 <ol class="lower-alpha">
 <li id="li-933"><p id="p-1400">Solve \(0.4 (x - 1.5) = -8.6\)</p></li>
@@ -1310,13 +1135,7 @@ G(1) = 0, ~G(2) = 1
 <ol class="lower-alpha">
 <li id="li-935"><p id="p-1403">Solve \(\dfrac{2}{3}x - 24 = -10\dfrac{2}{3} \)</p></li>
 <li id="li-936"><p id="p-1404">Solve \(\dfrac{2}{3}x - 24\le -19\dfrac{1}{3} \)</p></li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-115" id="answer-115"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-115"><div class="answer solution-like"><ol id="p-1405" class="lower-alpha cols2">
-<li id="li-937"><p id="p-1406">\(x = 20 \)</p></li>
-<li id="li-938"><p id="p-1407">\(x\le 7 \)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-209"><h6 class="heading"><span class="codenumber">48<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-209"><h6 class="heading"><span class="codenumber">48<span class="period">.</span></span></h6>
 <p id="p-1408">Graph \(y = \dfrac{80 - 3x}{5}\text{.}\)</p>
 <ol class="lower-alpha">
 <li id="li-939"><p id="p-1409">Solve \(\dfrac{80 - 3x}{5} = 22\dfrac{3}{5} \text{.}\)</p></li>
@@ -1337,13 +1156,7 @@ G(1) = 0, ~G(2) = 1
 </div>
 <p data-braille="continuation">have? Estimate each solution to the nearest whole number.</p>
 </li>
-</ol>
-<div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-116" id="answer-116"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-116"><div class="answer solution-like"><ol id="p-1414" class="lower-alpha cols2">
-<li id="li-943"><p id="p-1415">\(-15, 5, 20 \)</p></li>
-<li id="li-944"><p id="p-1416">\(-13, 2, 22 \)</p></li>
-</ol></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-211"><h6 class="heading"><span class="codenumber">50<span class="period">.</span></span></h6>
+</ol></article><article class="exercise exercise-like" id="exercise-211"><h6 class="heading"><span class="codenumber">50<span class="period">.</span></span></h6>
 <p id="p-1417">Graph \(y = 2.5x - 0.025x^2 - 0.005x^3\text{.}\)</p>
 <ol class="lower-alpha">
 <li id="li-945"><p id="p-1418">Use your graph to solve \(2.5x - 0.025x^2 - 0.005x^3 = 0\text{.}\)</p></li>

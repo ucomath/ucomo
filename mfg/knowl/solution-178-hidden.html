@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:38:22-05:00    *-->
+<!--*    on 2020-07-30T10:23:26-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -11,21 +11,52 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="robots" content="noindex, nofollow">
 </head>
-<body><div class="solution solution-like"><ol class="lower-alpha">
-<li><p>Fixed costs are given by \(C(0) = 250\text{,}\) or $\(250\text{.}\) The fixed costs include expenses like utility bills that must be paid even if no magazines are produced.</p></li>
-<li>
-<p>The graph is shown in figure (a). It is increasing from a vertical intercept of \(250\text{.}\) The graph is concave down for \(x \lt 8\) approximately, and concave up for \(x\gt 8\text{.}\)</p>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-GC-cubic-cost-function.jpg" style="width: 100%; height: auto;" alt="GC graphs of a cubic cost function"></div></div></div>
-</li>
-<li>
-<p>We must solve the equation</p>
+<body><div class="solution solution-like">
+<p>To break even means to make zero profit. Because</p>
 <div class="displaymath">
 \begin{equation*}
-x^3 - 24x^2 + 195x + 250 = 1200
+\text{Profit} = \text{Revenue} - \text{Cost}
 \end{equation*}
 </div>
-<p data-braille="continuation">We will solve the equation graphically, as shown in figure (b). Graph \(y = 1200\) along with the cost function, and use the <em class="emphasis">intersect</em> command to find the intersection point of the graphs, \((15.319, 1200)\text{.}\) \(C(x) = 1200\) when \(x\) is about \(15.319\text{,}\) so \(15,319\) copies can be printed for $\(1200\text{.}\)</p>
-</li>
-<li><p>Although the cost is always increasing, it increases very slowly from about \(x = 5\) to about \(x = 11\text{.}\) The flattening of the graph in this interval is a result of economy of scale: By buying supplies in bulk and using time efficiently, the cost per magazine can be minimized. However, if the production level is too large, costs begin to rise rapidly again.</p></li>
-</ol></div></body>
+<p data-braille="continuation">the break-even points occur when revenue equals cost. In mathematical terms, we would like to find any values of \(x\) for which \(R = C\text{.}\)</p>
+<p>If we graph the revenue and cost functions on the same axes, these values correspond to points where the two graphs intersect. Use the window settings</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+\text{Xmin} \amp = 0 \amp\amp \text{Xmax} = 94\\
+\text{Ymin} \amp = 0 \amp\amp \text{Ymax} = 1400
+\end{aligned}
+\end{equation*}
+</div>
+<p data-braille="continuation">on your calculator to obtain the graph shown below. You can verify that the two intersection points are \((15, 225)\) and \((80, 1200)\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:32.5%;margin-right:32.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-GC-quadratic-system.svg" style="width: 100%; height: auto;" alt="GC figure for quadratic system"></div></div></div>
+<p>Thus, the Pizza Connection must sell either \(15\) or \(80\) pizzas in order to break even. On the graph we see that revenue is greater than cost for \(x\)-values between \(15\) and \(80\text{,}\) so the Pizza Connection will make a profit if it sells between \(15\) and \(80\) pizzas.</p>
+<p>We can also solve algebraically for the break-even points. The intersection points of the two graphs correspond to the solutions of the system of equations</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+y\amp =0.15x^2 + 0.75x + 180\\
+y \amp= 15x
+\end{aligned}
+\end{equation*}
+</div>
+<p data-braille="continuation">We equate the two expressions for \(y\) and solve for \(x\text{:}\)</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+0.15x^2 + 0.75x + 180 \amp= 15x\amp\amp \blert{\text{Subtract }15x \text{ from both sides.}}\\
+0.15x^2 - 14.25x + 180 \amp= 0\amp\amp \blert{\text{Use the quadratic formula.}}\\
+\end{aligned}
+\end{equation*}
+</div>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+x \amp= \frac{14.25 \pm\sqrt{14.25^2 - 4(0.15)(180)}}{2(-0.05)}\amp\amp \blert{\text{Simplify.}}\\
+\amp= \frac{14.25 \pm 9.75}{0.3}
+\end{aligned}
+\end{equation*}
+</div>
+<p data-braille="continuation">The solutions are \(15\) and \(80\text{,}\) as we found from the graph.</p>
+</div></body>
 </html>

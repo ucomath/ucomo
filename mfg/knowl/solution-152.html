@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-29T13:30:14-05:00    *-->
+<!--*    on 2020-07-30T10:16:58-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -14,34 +14,57 @@
 <body>
 <div class="solution solution-like">
 <h6 class="heading">
-<span class="type">Solution</span><span class="space"> </span><span class="codenumber">6.1.11.1</span><span class="period">.</span>
+<span class="type">Solution</span><span class="space"> </span><span class="codenumber">5.73.1</span><span class="period">.</span>
 </h6>
-<p>The quadratic equation is</p>
-<div class="displaymath">
+<ol class="lower-alpha">
+<li>We let \(A_N\) represent the amplitude of the Northridge quake and \(A_H\) represent the amplitude of a quake \(100\) times more powerful. From the Richter model, we have<div class="displaymath">
+\begin{equation*}
+6.9 = \log_{}\left(\frac{A_N}{A_0}\right)
+\end{equation*}
+</div>or, rewriting in exponential form,<div class="displaymath">
+\begin{equation*}
+\frac{A_N}{A_0}= 10^{6.9}
+\end{equation*}
+</div>Now, \(A_H = 100A_N\) , so<div class="displaymath">
 \begin{equation*}
 \begin{aligned}[t]
-\left(x-\frac{1}{2}\right)\left[x-(-3)\right] \amp= 0\\
-\left(x-\frac{1}{2}\right)(x + 3) \amp = 0
+\frac{A_H}{A_0}\amp= \frac{100A_N}{A_0}\\
+\amp = 100\left(\frac{A_N}{A_0}\right)
+= 10^2(10^{6.9})\\
+\amp = 10^{8.9}
+\end{aligned}
+\end{equation*}
+</div>Thus, the magnitude of the more powerful quake is<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+\log_{}\left(\frac{A_H}{A_0}\right)
+\amp = \log_{} (10^{8.9})\\
+\amp = 8.9
 \end{aligned}
 \end{equation*}
 </div>
-<p data-braille="continuation">To write the equation in standard form, we multiply the factors together.</p>
-<div class="displaymath">
+</li>
+<li>We let \(A_S\) stand for the amplitude of the San Francisco earthquake. We are looking for the ratio \(A_S/A_N\text{.}\) First, we use the Richter formula to compute values for \(A_S\) and \(A_N\text{.}\)<div class="displaymath">
 \begin{equation*}
-x^2 + \frac{5}{2}x - \frac{3}{2}= 0
+6.9 = \log_{}\left(\frac{A_N}{A_0}\right)
+~~\text{ and }~~ 7.1 = \log_{}\left(\frac{A_s}{A_0}\right)
 \end{equation*}
-</div>
-<p data-braille="continuation">We can also find an equation with integer coefficients if we clear the equation of fractions. Multiply both sides by \(2\text{:}\)</p>
-<div class="displaymath">
+</div>Rewriting each equation in exponential form, we have<div class="displaymath">
 \begin{equation*}
-\begin{aligned}[t]
-2\left(x^2 + \frac{5}{2}x - \frac{3}{2}\right)\amp= 2(0)\\
-2x^2 + 5x - 3 \amp = 0
-\end{aligned}
+\frac{A_N}{A_0}= 10^{6.9}
+~~\text{ and }~~ \frac{A_S}{A_0}= 10^{7.1}
 \end{equation*}
+</div>or<div class="displaymath">
+\begin{equation*}
+A_N = 10^{6.9}A_0 ~~\text{ and }~~A_S = 10^{7.1}A_0
+\end{equation*}
+</div>Now we can compute the ratio we want:<div class="displaymath">
+\begin{equation*}
+\frac{A_S}{A_N}= \frac{10^{7.1}A_0}{10^{6.9}A_0}= 10^{0.2}
+\end{equation*}
+</div>The San Francisco earthquake was \(10^{0.2}\text{,}\) or approximately \(1.58\) times as powerful as the Northridge quake.</li>
+</ol>
 </div>
-<p data-braille="continuation">You can check that the solutions of this last equation are in fact \(\dfrac{1}{2}\) and \(-3\text{.}\) Multiplying both sides of an equation by a constant factor does not change its solutions.</p>
-</div>
-<span class="incontext"><a href="Factors-and-x-Intercepts.html#solution-152">in-context</a></span>
+<span class="incontext"><a href="Logarithm-Scales.html#solution-152">in-context</a></span>
 </body>
 </html>
