@@ -1,0 +1,3 @@
+xsltproc --xinclude -o answer_key.tex -stringparam watermar.text "Do not redistribute" -stringparam watermark.scale 0.25 ../../../mathbook/xsl/pretext-solution-manual-latex.xsl edited.xml
+
+xsltproc -stringparam publisher publication.xml -xinclude mfg-html.xsl edited.xml

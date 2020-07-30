@@ -16,10 +16,10 @@
 
 <brandlogo url="https://www.uco.edu/" source="images/cover.png" /> 
 
-<!--    <website> -->
-<!--         <title>MFG-online</title> -->
-<!--         <url>https://byoshiwara.github.io/MFG-online/</url> -->
-<!--     </website> -->
+    <website> 
+         <title>MFG for Applied Algebra</title>
+         <url>https://ucomath.github.io/mfg</url>
+     </website>
 
 <!-- rename blocks -->
         <rename element="warning" lang="en-US">Caution</rename>
