@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 <chapter xml:id="chap8"  xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Extra!!</title>
+<title>Models and data</title>
 <introduction>
 <sidebyside width="60%" margins="0% 40%"><image source="images/squirrel.jpg"><description>Squirrel eating: Adam Jones/Photo Researchers, Inc.</description></image></sidebyside>
 <p>
@@ -12,8 +12,7 @@
 </p>
 <sidebyside>
 <image source="images/fig-maximize-energy">
-  <description>
-Say something  </description>
+  <description>Say something</description>
 </image>
 </sidebyside>
 

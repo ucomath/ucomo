@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-07-30T00:51:05-05:00    *-->
+<!--*    on 2020-07-30T12:39:22-05:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -42,7 +42,7 @@ MathJax.Hub.Config({
     },
 });
 </script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script>(function() {
-  var cx = '008832104071767086392:woji51c1uko';
+  var cx = '006236842425774474308:jdid8qhn6ps';
   var gcse = document.createElement('script');
   gcse.type = 'text/javascript';
   gcse.async = true;
@@ -77,7 +77,7 @@ MathJax.Hub.Config({
 <header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
 <a id="logo-link" href="https://www.uco.edu/" target="_blank"><img src="images/cover.png" alt="Logo image"></a><div class="title-container">
 <h1 class="heading"><a href="Fall2020.html"><span class="title">Applied Algebra:</span> <span class="subtitle">Modeling and functions</span></a></h1>
-<p class="byline">compiled by Sean Laverty on behalf of others</p>
+<p class="byline">compiled by Sean Laverty on behalf of others, Katherine Yoshiwara</p>
 </div>
 <div class="searchwrapper" role="search"><div class="gcse-search"></div></div>
 </div></div>
@@ -175,7 +175,7 @@ MathJax.Hub.Config({
 </ul>
 </li>
 <li class="link">
-<a href="chap8.html" data-scroll="chap8"><span class="codenumber">8</span> <span class="title">Extra!!</span></a><ul>
+<a href="chap8.html" data-scroll="chap8"><span class="codenumber">8</span> <span class="title">Data and functions</span></a><ul>
 <li><a href="linear-regression.html" data-scroll="linear-regression">Linear Regression</a></li>
 <li><a href="Curve-Fitting.html" data-scroll="Curve-Fitting">Curve Fitting</a></li>
 </ul>
@@ -225,7 +225,7 @@ MathJax.Hub.Config({
 <a href="Logarithm-Scales.html" class="permalink">¶</a><section class="subsection" id="subsection-150"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Introduction</span>
 </h3>
-<p id="p-9537">Because logarithmic functions grow very slowly, they are useful for modeling phenomena that take on a very wide range of values. For example, biologists study how metabolic functions such as heart rate are related to an animal’s weight, or mass. The table shows the mass in kilograms of several mammals.</p>
+<p id="p-9538">Because logarithmic functions grow very slowly, they are useful for modeling phenomena that take on a very wide range of values. For example, biologists study how metabolic functions such as heart rate are related to an animal’s weight, or mass. The table shows the mass in kilograms of several mammals.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
 <tr>
 <td class="l m b1 r1 l1 t3 lines">Animal</td>
@@ -246,11 +246,11 @@ MathJax.Hub.Config({
 <td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(70,000\)</td>
 </tr>
 </table></div></div></div>
-<p id="p-9538">Imagine trying to scale the \(x\)-axis to show all of these values. If we set tick marks at intervals of \(10,000\) kg, as shown below, we can plot the mass of the whale, and maybe the elephant, but the dots for the smaller animals will be indistinguishable.</p>
+<p id="p-9539">Imagine trying to scale the \(x\)-axis to show all of these values. If we set tick marks at intervals of \(10,000\) kg, as shown below, we can plot the mass of the whale, and maybe the elephant, but the dots for the smaller animals will be indistinguishable.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:12.5%;margin-right:12.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-numline-mammal-mass.svg" style="width: 100%; height: auto;" alt="number line with masses of mammals"></div></div></div>
-<p id="p-9539">On the other hand, we can plot the mass of the cat if we set tick marks at intervals of \(1\) kg,  but the axis will have to be extremely long to include even the wolf. We cannot show the masses of all these animals on the same scale</p>
+<p id="p-9540">On the other hand, we can plot the mass of the cat if we set tick marks at intervals of \(1\) kg,  but the axis will have to be extremely long to include even the wolf. We cannot show the masses of all these animals on the same scale</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:12.5%;margin-right:12.5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-numline-mammal-mass2.svg" style="width: 100%; height: auto;" alt="number line with masses of mammals"></div></div></div>
-<p id="p-9540">To get around this problem, we can plot the log of the mass, instead of the mass itself. The table below shows the base 10 log of each animal's mass, rounded to \(2\) decimal places.</p>
+<p id="p-9541">To get around this problem, we can plot the log of the mass, instead of the mass itself. The table below shows the base 10 log of each animal's mass, rounded to \(2\) decimal places.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
 <tr>
 <td class="l m b1 r1 l1 t3 lines"><em class="emphasis">Animal</em></td>
@@ -280,9 +280,9 @@ MathJax.Hub.Config({
 <td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(4.85\)</td>
 </tr>
 </table></div></div></div>
-<p id="p-9541">The logs of the masses range from \(-2.40\) to \(4.85\text{.}\) We can easily plot these values on a single scale, as shown below.</p>
+<p id="p-9542">The logs of the masses range from \(-2.40\) to \(4.85\text{.}\) We can easily plot these values on a single scale, as shown below.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-logscale-mammal-mass.svg" style="width: 100%; height: auto;" alt="mammal masses plotted on log scale"></div></div></div>
-<p id="p-9542">The scale above is called a <dfn class="terminology">logarithmic scale</dfn>, or log scale. The tick marks are labeled with powers of \(10\text{,}\) because, as you recall, a logarithm is actually an exponent. For example, the mass of the horse is \(300\) kg, and</p>
+<p id="p-9543">The scale above is called a <dfn class="terminology">logarithmic scale</dfn>, or log scale. The tick marks are labeled with powers of \(10\text{,}\) because, as you recall, a logarithm is actually an exponent. For example, the mass of the horse is \(300\) kg, and</p>
 <div class="displaymath">
 \begin{equation*}
 \log_{} (300) = 2.48 ~~ \text{ so } ~~ 10^{2.48} = 300
@@ -291,7 +291,7 @@ MathJax.Hub.Config({
 <p data-braille="continuation">When we plot \(2.48\) for the horse, we are really plotting the power of \(10\) that gives its mass, because \(10^{2.48} = 300\) kg. The exponents on base \(10\) are evenly spaced on a log scale, so we plot \(10^{2.48}\) about halfway between \(10^2\) and \(10^3\text{.}\)</p>
 <article class="example example-like" id="example-plot-logscale"><a data-knowl="" class="id-ref original" data-refid="hk-example-plot-logscale"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.60</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-plot-logscale"><article class="example example-like"><p id="p-9543">Plot the values on a log scale.</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-plot-logscale"><article class="example example-like"><p id="p-9544">Plot the values on a log scale.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table><tr>
 <td class="c m b1 r1 l1 t3 lines">\(x\)</td>
 <td class="c m b1 r1 l0 t3 lines">\(0.0007\)</td>
@@ -303,7 +303,7 @@ MathJax.Hub.Config({
 </tr></table></div></div></div>
 <div class="solutions">
 <a data-knowl="" class="id-ref original" data-refid="hk-solution-146" id="solution-146"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-146"><div class="solution solution-like">
-<p id="p-9544">We actually plot the logs of the values, so we first compute the base \(10\) logarithm of each number.</p>
+<p id="p-9545">We actually plot the logs of the values, so we first compute the base \(10\) logarithm of each number.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
 <tr>
 <td class="c m b1 r1 l1 t3 lines">\(x\)</td>
@@ -324,13 +324,13 @@ MathJax.Hub.Config({
 <td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(8.60\)</td>
 </tr>
 </table></div></div></div>
-<p id="p-9545">Then we plot each logarithm, estimating its position between integer exponents. For example, we plot the first value, \(-3.15\text{,}\) closer to \(-3\) than to \(-4\text{.}\) The finished plot is shown below.</p>
+<p id="p-9546">Then we plot each logarithm, estimating its position between integer exponents. For example, we plot the first value, \(-3.15\text{,}\) closer to \(-3\) than to \(-4\text{.}\) The finished plot is shown below.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-logscale.svg" style="width: 100%; height: auto;" alt="points plotted on log scale"></div></div></div>
 </div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-1941"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-1941"><h6 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.61</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1941"><article class="exercise exercise-like"><p id="p-9546">Complete the table by estimating the logarithm of each point plotted on the log scale below. Then give a decimal value for each point.</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1941"><article class="exercise exercise-like"><p id="p-9547">Complete the table by estimating the logarithm of each point plotted on the log scale below. Then give a decimal value for each point.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
 <tr>
 <td class="c m b1 r1 l1 t3 lines">\(\log_{} (x)\)</td>
@@ -368,14 +368,14 @@ MathJax.Hub.Config({
 </div></article></div></section><section class="subsection" id="subsection-151"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Using Log Scales</span>
 </h3>
-<p id="p-9547">By now, you have noticed that the values represented by points on a log scale increase rapidly as we move to the right along the scale. Also notice that \(10^0 = 1\text{,}\) so the "middle" of a log scale represents \(1\) (not zero, as on a linear scale).</p>
-<p id="p-9548">Points to the left of \(10^0\) represent fractions between \(0\) and \(1\text{,}\) because powers of \(10\) with negative exponents are numbers less than \(1\text{.}\) Their values decrease toward \(0\) as we move to the left, but they never become negative.</p>
-<p id="p-9549">We cannot plot negative numbers or zero on a log scale, because the log of a negative number or zero is undefined.</p>
+<p id="p-9548">By now, you have noticed that the values represented by points on a log scale increase rapidly as we move to the right along the scale. Also notice that \(10^0 = 1\text{,}\) so the "middle" of a log scale represents \(1\) (not zero, as on a linear scale).</p>
+<p id="p-9549">Points to the left of \(10^0\) represent fractions between \(0\) and \(1\text{,}\) because powers of \(10\) with negative exponents are numbers less than \(1\text{.}\) Their values decrease toward \(0\) as we move to the left, but they never become negative.</p>
+<p id="p-9550">We cannot plot negative numbers or zero on a log scale, because the log of a negative number or zero is undefined.</p>
 <article class="example example-like" id="example-log-timeline"><a data-knowl="" class="id-ref original" data-refid="hk-example-log-timeline"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.62</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-log-timeline"><article class="example example-like"><p id="p-9550">The figure shows a timeline for life on Earth, in units of Mya (million years ago).</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-log-timeline"><article class="example example-like"><p id="p-9551">The figure shows a timeline for life on Earth, in units of Mya (million years ago).</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-log-timeline.svg" style="width: 100%; height: auto;" alt="timeline of events on a logscale"></div></div></div>
-<p id="p-9551">Approximately how long ago did each of the following events occur?</p>
+<p id="p-9552">Approximately how long ago did each of the following events occur?</p>
 <ol class="lower-alpha cols2">
 <li id="li-5915">Formation of Earth</li>
 <li id="li-5916">Dinosaurs became extinct</li>
@@ -383,7 +383,7 @@ MathJax.Hub.Config({
 <li id="li-5918">The Crusades</li>
 </ol>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-solution-147" id="solution-147"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-147"><div class="solution solution-like"><ol id="p-9552" class="lower-alpha">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-147" id="solution-147"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-147"><div class="solution solution-like"><ol id="p-9553" class="lower-alpha">
 <li id="li-5919">We read from the timeline that the Earth was formed between \(10^3\) and \(10^4\text{,}\) or between \(1000\) and \(10,000\) million years ago. We estimate that Earth formed \(5000\) million years ago.</li>
 <li id="li-5920">The extinction of the dinosaurs is plotted between \(10^1\) and \(10^2\text{,}\) or between \(10\) and \(100\) million years ago. Because the point is closer to \(10^2\text{,}\) we estimate their extinction at \(70\) million years ago.</li>
 <li id="li-5921">The last ice age is plotted just after \(10^{-2}\text{,}\) or \(0.01\) million years ago. One-hundredth of a million is \(10,000\text{,}\) so we estimate that the ice age occurred a little more than \(10,000\) years ago.</li>
@@ -392,7 +392,7 @@ MathJax.Hub.Config({
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-1942"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-1942"><h6 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.63</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1942"><article class="exercise exercise-like"><p id="p-9553">Plot the following dollar values on a log scale.</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1942"><article class="exercise exercise-like"><p id="p-9554">Plot the following dollar values on a log scale.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
 <tr>
 <td class="l m b1 r1 l1 t3 lines">Postage stamp</td>
@@ -432,13 +432,13 @@ MathJax.Hub.Config({
 </div></article></div></section><section class="subsection" id="subsection-152"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Equal Increments on a Log Scale</span>
 </h3>
-<p id="p-9554">Log scales allow us to plot a wide range of values, but there is a trade-off. Equal increments on a log scale do not correspond to equal differences in value, as they do on a linear scale. You can see why in the figure below: The difference between \(10^1\) and \(10^0\) is \(10 - 1 = 9\text{,}\) but the difference between \(10^2\) and \(10^1\) is \(100 - 10 = 90\text{.}\)</p>
+<p id="p-9555">Log scales allow us to plot a wide range of values, but there is a trade-off. Equal increments on a log scale do not correspond to equal differences in value, as they do on a linear scale. You can see why in the figure below: The difference between \(10^1\) and \(10^0\) is \(10 - 1 = 9\text{,}\) but the difference between \(10^2\) and \(10^1\) is \(100 - 10 = 90\text{.}\)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-logscale-increments.svg" style="width: 100%; height: auto;" alt="logscale with integer exponents"></div></div></div>
-<p id="p-9555">If we include tick marks for intermediate values on the log scale, they look like this.</p>
+<p id="p-9556">If we include tick marks for intermediate values on the log scale, they look like this.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-logscale-increments2.svg" style="width: 100%; height: auto;" alt="logscale with decimal exponents"></div></div></div>
-<p id="p-9556">Once again, the difference between, say, \(10^{0.1}\) and \(10^{0.2}\) is not the same as the difference between \(10^{0.2}\) and \(10^{0.3}\text{.}\) The decimal values of the powers \(10^{0.1}\) through \(10^{0.9}\text{,}\) rounded to two places, are shown below.</p>
+<p id="p-9557">Once again, the difference between, say, \(10^{0.1}\) and \(10^{0.2}\) is not the same as the difference between \(10^{0.2}\) and \(10^{0.3}\text{.}\) The decimal values of the powers \(10^{0.1}\) through \(10^{0.9}\text{,}\) rounded to two places, are shown below.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-logscale-increments3.svg" style="width: 100%; height: auto;" alt="logscale showing values of powers"></div></div></div>
-<p id="p-9557">As we move from left to right on this scale, we <em class="emphasis">multiply</em> the value at the previous tick mark by \(10^{0.1}\text{,}\) or about \(1.258\text{.}\) For example,</p>
+<p id="p-9558">As we move from left to right on this scale, we <em class="emphasis">multiply</em> the value at the previous tick mark by \(10^{0.1}\text{,}\) or about \(1.258\text{.}\) For example,</p>
 <div class="displaymath">
 \begin{equation*}
 \begin{aligned}[t]
@@ -450,12 +450,12 @@ MathJax.Hub.Config({
 <p data-braille="continuation">and so on. Moving up by equal increments on a log scale does not add equal amounts to the values plotted; it <em class="emphasis">multiplies</em> the values by equal <em class="emphasis">factors</em>.</p>
 <article class="example example-like" id="example-logscale-half-step"><a data-knowl="" class="id-ref original" data-refid="hk-example-logscale-half-step"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.64</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-logscale-half-step"><article class="example example-like"><p id="p-9558">What number is halfway between \(10\) and \(100\) on a log scale?</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-logscale-half-step"><article class="example example-like"><p id="p-9559">What number is halfway between \(10\) and \(100\) on a log scale?</p>
 <div class="solutions">
 <a data-knowl="" class="id-ref original" data-refid="hk-solution-148" id="solution-148"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-148"><div class="solution solution-like">
-<p id="p-9559">On a log scale, the number \(10^{1.5}\) is halfway between \(10^1\) and \(10^2\text{,}\) as shown below.</p>
+<p id="p-9560">On a log scale, the number \(10^{1.5}\) is halfway between \(10^1\) and \(10^2\text{,}\) as shown below.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-logscale-half-step.svg" style="width: 100%; height: auto;" alt="log scale showing point halfway between 10 and 100"></div></div></div>
-<p id="p-9560">Now, \(10^{1.5} = 10\sqrt{10}\text{,}\) or approximately \(31.62\text{.}\) Note how equal increments of \(0.5\) on the log scale correspond to equal factors of \(10^{0.5}\) in the values plotted:</p>
+<p id="p-9561">Now, \(10^{1.5} = 10\sqrt{10}\text{,}\) or approximately \(31.62\text{.}\) Note how equal increments of \(0.5\) on the log scale correspond to equal factors of \(10^{0.5}\) in the values plotted:</p>
 <div class="displaymath">
 \begin{equation*}
 \begin{aligned}[t]
@@ -468,17 +468,17 @@ MathJax.Hub.Config({
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-1943"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-1943"><h6 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.65</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1943"><article class="exercise exercise-like"><p id="p-9561">What number is halfway between \(10^{1.5}\) and \(10^2\) on a log scale?</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1943"><article class="exercise exercise-like"><p id="p-9562">What number is halfway between \(10^{1.5}\) and \(10^2\) on a log scale?</p>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-1048" id="answer-1048"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1048"><div class="answer solution-like"><p id="p-9562">\(56.23\)</p></div></div>
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-1048" id="answer-1048"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1048"><div class="answer solution-like"><p id="p-9563">\(56.23\)</p></div></div>
 </div></article></div>
-<p id="p-9563">If we would like to label the log scale with integers, we get a very different-looking scale, one in which the tick marks are not evenly spaced.</p>
+<p id="p-9564">If we would like to label the log scale with integers, we get a very different-looking scale, one in which the tick marks are not evenly spaced.</p>
 <article class="example example-like" id="example-logscale-integer-labels"><a data-knowl="" class="id-ref original" data-refid="hk-example-logscale-integer-labels"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.66</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-logscale-integer-labels"><article class="example example-like"><p id="p-9564">Plot the integer values 2 through 9 and 20 through 90 on a log scale.</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-logscale-integer-labels"><article class="example example-like"><p id="p-9565">Plot the integer values 2 through 9 and 20 through 90 on a log scale.</p>
 <div class="solutions">
 <a data-knowl="" class="id-ref original" data-refid="hk-solution-149" id="solution-149"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-149"><div class="solution solution-like">
-<p id="p-9565">We compute the logarithm of each integer value.</p>
+<p id="p-9566">We compute the logarithm of each integer value.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
 <tr>
 <td class="c m b1 r1 l1 t3 lines">\(x\)</td>
@@ -527,18 +527,18 @@ MathJax.Hub.Config({
 <td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(1.954\)</td>
 </tr>
 </table></div></div></div>
-<p id="p-9566">We plot on a log scale, as shown below.</p>
+<p id="p-9567">We plot on a log scale, as shown below.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-logscale-integer-labels.svg" style="width: 100%; height: auto;" alt="log scale showing integer points"></div></div></div>
 </div></div>
 </div></article></div>
-<p id="p-9567">On the log scale in <a class="xref" data-knowl="./knowl/example-logscale-integer-labels.html" title="Example 5.66">Example 5.66</a>, notice how the integer values are spaced: They get closer together as they approach the next power of \(10\text{.}\) You will often see log scales labeled not with powers of \(10\text{,}\) but with integer values, like this:</p>
+<p id="p-9568">On the log scale in <a class="xref" data-knowl="./knowl/example-logscale-integer-labels.html" title="Example 5.66">Example 5.66</a>, notice how the integer values are spaced: They get closer together as they approach the next power of \(10\text{.}\) You will often see log scales labeled not with powers of \(10\text{,}\) but with integer values, like this:</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-logscale-integer-labels2.svg" style="width: 100%; height: auto;" alt="log scale showing tic marks at integer points"></div></div></div>
-<p id="p-9568">In fact, <dfn class="terminology">log-log graph paper</dfn> scales both axes with logarithmic scales.</p>
+<p id="p-9569">In fact, <dfn class="terminology">log-log graph paper</dfn> scales both axes with logarithmic scales.</p>
 <article class="exercise exercise-like" id="exercise-1944"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-1944"><h6 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.67</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1944"><article class="exercise exercise-like"><p id="p-9569">The opening page of <a href="chap3.html" class="internal" title="Chapter 3: Power Functions">Chapter 3</a> shows the "mouse-to-elephant" curve, a graph of the metabolic rate of mammals as a function of their mass. (The elephant does not appear on that graph, because its mass is too big.) The figure below shows the same function, graphed on log-log paper.</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1944"><article class="exercise exercise-like"><p id="p-9570">The opening page of <a href="chap3.html" class="internal" title="Chapter 3: Power Functions">Chapter 3</a> shows the "mouse-to-elephant" curve, a graph of the metabolic rate of mammals as a function of their mass. (The elephant does not appear on that graph, because its mass is too big.) The figure below shows the same function, graphed on log-log paper.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-log-log-graph.svg" style="width: 100%; height: auto;" alt="mouse-to-elephant curve on log-log graph"></div></div></div>
-<p id="p-9570">Use this graph to estimate the mass and metabolic rate for the following animals, labeled on the graph.</p>
+<p id="p-9571">Use this graph to estimate the mass and metabolic rate for the following animals, labeled on the graph.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
 <tr>
 <td class="l m b1 r1 l1 t3 lines">Animal</td>
@@ -595,7 +595,7 @@ MathJax.Hub.Config({
 </div></article></div></section><section class="subsection" id="subsection-153"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Acidity and the pH Scale</span>
 </h3>
-<p id="p-9571">You may have already encountered log scales in some everyday applications. A simple example is the <dfn class="terminology">pH scale</dfn>, used by chemists to measure the acidity of a substance or chemical compound. This scale is based on the concentration of hydrogen ions in the substance, denoted by \([H^+]\text{.}\) The pH value is defined by the formula</p>
+<p id="p-9572">You may have already encountered log scales in some everyday applications. A simple example is the <dfn class="terminology">pH scale</dfn>, used by chemists to measure the acidity of a substance or chemical compound. This scale is based on the concentration of hydrogen ions in the substance, denoted by \([H^+]\text{.}\) The pH value is defined by the formula</p>
 <div class="displaymath">
 \begin{equation*}
 \text{pH}=-\log_{}\left([H^+]\right)
@@ -646,12 +646,12 @@ MathJax.Hub.Config({
 </table></div></div></div>
 <article class="example example-like" id="example-pH"><a data-knowl="" class="id-ref original" data-refid="hk-example-pH"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.68</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-pH"><article class="example example-like"><ol id="p-9572" class="lower-alpha">
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-pH"><article class="example example-like"><ol id="p-9573" class="lower-alpha">
 <li id="li-5923">Calculate the pH of a solution with a hydrogen ion concentration of \(3.98 \times 10^{-5}\text{.}\)</li>
 <li id="li-5924">The water in a swimming pool should be maintained at a pH of \(7.5\text{.}\) What is the hydrogen ion concentration of the water?</li>
 </ol>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-solution-150" id="solution-150"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-150"><div class="solution solution-like"><ol id="p-9573" class="lower-alpha">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-150" id="solution-150"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-150"><div class="solution solution-like"><ol id="p-9574" class="lower-alpha">
 <li id="li-5925">We use a calculator to evaluate the pH formula with \([H^+] = 3.98\times10^{-5}\text{.}\)<div class="displaymath">
 \begin{equation*}
 \text{pH} = -\log_{}(3.98 \times 10^{-5}) \approx 4.4
@@ -659,7 +659,7 @@ MathJax.Hub.Config({
 </div>
 </li>
 <li id="li-5926">
-<p id="p-9574">We solve the equation</p>
+<p id="p-9575">We solve the equation</p>
 <div class="displaymath">
 \begin{equation*}
 7.5 = -\log_{}\left([H^+]\right)
@@ -683,14 +683,14 @@ MathJax.Hub.Config({
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-1945"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-1945"><h6 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.69</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1945"><article class="exercise exercise-like"><p id="p-9575">The pH of the water in a tide pool is \(8.3\text{.}\) What is the hydrogen ion concentration of the water?</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1945"><article class="exercise exercise-like"><p id="p-9576">The pH of the water in a tide pool is \(8.3\text{.}\) What is the hydrogen ion concentration of the water?</p>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-1050" id="answer-1050"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1050"><div class="answer solution-like"><p id="p-9576">\(5.01\times 10^{-9}\)</p></div></div>
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-1050" id="answer-1050"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1050"><div class="answer solution-like"><p id="p-9577">\(5.01\times 10^{-9}\)</p></div></div>
 </div></article></div>
-<p id="p-9577">A decrease of \(1\) on the pH scale corresponds to an increase in acidity by a factor of \(10\text{.}\) Thus, lemon juice is \(10\) times more acidic than vinegar, and battery acid is \(100\) times more acidic than vinegar.</p></section><section class="subsection" id="subsection-154"><h3 class="heading hide-type">
+<p id="p-9578">A decrease of \(1\) on the pH scale corresponds to an increase in acidity by a factor of \(10\text{.}\) Thus, lemon juice is \(10\) times more acidic than vinegar, and battery acid is \(100\) times more acidic than vinegar.</p></section><section class="subsection" id="subsection-154"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Decibels</span>
 </h3>
-<p id="p-9578">The <dfn class="terminology">decibel scale</dfn>, used to measure the loudness or intensity of a sound, is another example of a logarithmic scale. The loudness of a sound is measured in decibels, D, by</p>
+<p id="p-9579">The <dfn class="terminology">decibel scale</dfn>, used to measure the loudness or intensity of a sound, is another example of a logarithmic scale. The loudness of a sound is measured in decibels, D, by</p>
 <div class="displaymath">
 \begin{equation*}
 D=10 \log_{}\left(\frac{I}{10^{-12}}\right)
@@ -734,7 +734,7 @@ D=10 \log_{}\left(\frac{I}{10^{-12}}\right)
 <td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(110\)</td>
 </tr>
 </table></div></div></div>
-<p id="p-9579">Consider the ratio of the intensity of thunder to that of a whisper:</p>
+<p id="p-9580">Consider the ratio of the intensity of thunder to that of a whisper:</p>
 <div class="displaymath">
 \begin{equation*}
 \frac{\text{Intensity of thunder}}{\text{Intensity of a whisper}}
@@ -744,12 +744,12 @@ D=10 \log_{}\left(\frac{I}{10^{-12}}\right)
 <p data-braille="continuation">Thunder is \(10^9\text{,}\) or one billion times more intense than a whisper. It would be impossible to show such a wide range of values on a graph and still maintain reasonable precision. When we use a log scale, however, there is a difference of only \(90\) decibels between a whisper and thunder.</p>
 <article class="example example-like" id="example-decibels"><a data-knowl="" class="id-ref original" data-refid="hk-example-decibels"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.70</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-decibels"><article class="example example-like"><ol id="p-9580" class="lower-alpha">
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-decibels"><article class="example example-like"><ol id="p-9581" class="lower-alpha">
 <li id="li-5927">Normal breathing generates about \(10^{-11}\) watts per square meter at a distance of \(3\) feet. Find the number of decibels for a breath \(3\) feet away.</li>
 <li id="li-5928">Normal conversation registers at about \(40\) decibels. How many times more intense than breathing is normal conversation?</li>
 </ol>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-solution-151" id="solution-151"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-151"><div class="solution solution-like"><ol id="p-9581" class="lower-alpha">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-151" id="solution-151"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-151"><div class="solution solution-like"><ol id="p-9582" class="lower-alpha">
 <li id="li-5929">We evaluate the decibel formula with \(I = \alert{10^{-11}}\) to find<div class="displaymath">
 \begin{equation*}
 \begin{aligned}[t]
@@ -784,24 +784,24 @@ I_c \amp = 10^4(10^{-12}) = 10^{-8}
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-1946"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-1946"><h6 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.71</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1946"><article class="exercise exercise-like"><p id="p-9582">The noise of city traffic registers at about \(70\) decibels.</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1946"><article class="exercise exercise-like"><p id="p-9583">The noise of city traffic registers at about \(70\) decibels.</p>
 <ol class="lower-alpha">
 <li id="li-5931">What is the intensity of traffic noise, in watts per square meter?</li>
 <li id="li-5932">How many times more intense is traffic noise than conversation?</li>
 </ol>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-1051" id="answer-1051"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1051"><div class="answer solution-like"><ol id="p-9583" class="lower-alpha cols2">
-<li id="li-5933"><p id="p-9584">\(I = 10^{-5}~ \text{watts}/\text{m}^2\)</p></li>
-<li id="li-5934"><p id="p-9585">\(1000\)</p></li>
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-1051" id="answer-1051"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1051"><div class="answer solution-like"><ol id="p-9584" class="lower-alpha cols2">
+<li id="li-5933"><p id="p-9585">\(I = 10^{-5}~ \text{watts}/\text{m}^2\)</p></li>
+<li id="li-5934"><p id="p-9586">\(1000\)</p></li>
 </ol></div></div>
 </div></article></div>
 <article class="warning remark-like" id="warning-20"><h6 class="heading">
 <span class="type">Caution</span><span class="space"> </span><span class="codenumber">5.72</span><span class="period">.</span>
 </h6>
-<p id="p-9586">Both the decibel model and the Richter scale in the next example use expressions of the form \(\log\left(\dfrac{a}{b}\right)\text{.}\) Be careful to follow the order of operations when using these models. We must compute the quotient \(\dfrac{a}{b}\) before taking a logarithm. In particular, it is <em class="emphasis">not</em> true that \(\log\left(\dfrac{a}{b}\right)\) can be simplified to \(\dfrac{\log_{} (a)}{\log_{} (b)}\text{.}\)</p></article></section><section class="subsection" id="subsection-155"><h3 class="heading hide-type">
+<p id="p-9587">Both the decibel model and the Richter scale in the next example use expressions of the form \(\log\left(\dfrac{a}{b}\right)\text{.}\) Be careful to follow the order of operations when using these models. We must compute the quotient \(\dfrac{a}{b}\) before taking a logarithm. In particular, it is <em class="emphasis">not</em> true that \(\log\left(\dfrac{a}{b}\right)\) can be simplified to \(\dfrac{\log_{} (a)}{\log_{} (b)}\text{.}\)</p></article></section><section class="subsection" id="subsection-155"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">The Richter Scale</span>
 </h3>
-<p id="p-9587">One method for measuring the magnitude of an earthquake compares the amplitude \(A\) of its seismographic trace with the amplitude \(A_0\) of the smallest detectable earthquake. The log of their ratio is the Richter magnitude, \(M\text{.}\) Thus,</p>
+<p id="p-9588">One method for measuring the magnitude of an earthquake compares the amplitude \(A\) of its seismographic trace with the amplitude \(A_0\) of the smallest detectable earthquake. The log of their ratio is the Richter magnitude, \(M\text{.}\) Thus,</p>
 <div class="displaymath">
 \begin{equation*}
 M=\log_{}\left(\frac{A}{A_0} \right)
@@ -809,12 +809,12 @@ M=\log_{}\left(\frac{A}{A_0} \right)
 </div>
 <article class="example example-like" id="example-northridge-earthquake"><a data-knowl="" class="id-ref original" data-refid="hk-example-northridge-earthquake"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.73</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-northridge-earthquake"><article class="example example-like"><ol id="p-9588" class="lower-alpha">
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-northridge-earthquake"><article class="example example-like"><ol id="p-9589" class="lower-alpha">
 <li id="li-5935">The Northridge earthquake of January 1994 registered 6.9 on the Richter scale. What would be the magnitude of an earthquake 100 times as powerful as the Northridge quake?</li>
 <li id="li-5936">How many times more powerful than the Northridge quake was the San Francisco earthquake of 1989, which registered 7.1 on the Richter scale?</li>
 </ol>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-solution-152" id="solution-152"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-152"><div class="solution solution-like"><ol id="p-9589" class="lower-alpha">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-152" id="solution-152"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-152"><div class="solution solution-like"><ol id="p-9590" class="lower-alpha">
 <li id="li-5937">We let \(A_N\) represent the amplitude of the Northridge quake and \(A_H\) represent the amplitude of a quake \(100\) times more powerful. From the Richter model, we have<div class="displaymath">
 \begin{equation*}
 6.9 = \log_{}\left(\frac{A_N}{A_0}\right)
@@ -865,42 +865,42 @@ A_N = 10^{6.9}A_0 ~~\text{ and }~~A_S = 10^{7.1}A_0
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-1947"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-1947"><h6 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.74</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1947"><article class="exercise exercise-like"><p id="p-9590">In October 2005, a magnitude 7.6 earthquake struck Pakistan. How much more powerful was this earthquake than the 1989 San Francisco earthquake of magnitude 7.1?</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1947"><article class="exercise exercise-like"><p id="p-9591">In October 2005, a magnitude 7.6 earthquake struck Pakistan. How much more powerful was this earthquake than the 1989 San Francisco earthquake of magnitude 7.1?</p>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-1052" id="answer-1052"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1052"><div class="answer solution-like"><p id="p-9591">\(3.16\)</p></div></div>
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-1052" id="answer-1052"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1052"><div class="answer solution-like"><p id="p-9592">\(3.16\)</p></div></div>
 </div></article></div>
 <article class="note remark-like" id="note-30"><h6 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">5.75</span><span class="period">.</span>
 </h6>
-<p id="p-9592">An earthquake \(100\text{,}\) or \(10^2\text{,}\) times as strong is only two units greater in magnitude on the Richter scale. In general, a difference of \(K\) units on the Richter scale (or any logarithmic scale) corresponds to a factor of \(10^K\) units in the intensity of the quake.</p></article><article class="example example-like" id="example-compare-logscale"><a data-knowl="" class="id-ref original" data-refid="hk-example-compare-logscale"><h6 class="heading">
+<p id="p-9593">An earthquake \(100\text{,}\) or \(10^2\text{,}\) times as strong is only two units greater in magnitude on the Richter scale. In general, a difference of \(K\) units on the Richter scale (or any logarithmic scale) corresponds to a factor of \(10^K\) units in the intensity of the quake.</p></article><article class="example example-like" id="example-compare-logscale"><a data-knowl="" class="id-ref original" data-refid="hk-example-compare-logscale"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.76</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-compare-logscale"><article class="example example-like"><p id="p-9593">On a log scale, the weights of two animals differ by \(1.6\) units. What is the ratio of their actual weights?</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-compare-logscale"><article class="example example-like"><p id="p-9594">On a log scale, the weights of two animals differ by \(1.6\) units. What is the ratio of their actual weights?</p>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-solution-153" id="solution-153"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-153"><div class="solution solution-like"><p id="p-9594">A difference of \(1.6\) on a log scale corresponds to a factor of \(10^{1.6}\) in the actual weights. Thus, the heavier animal is \(10^{1.6}\text{,}\) or \(39.8\) times as heavy as the lighter animal.</p></div></div>
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-153" id="solution-153"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-153"><div class="solution solution-like"><p id="p-9595">A difference of \(1.6\) on a log scale corresponds to a factor of \(10^{1.6}\) in the actual weights. Thus, the heavier animal is \(10^{1.6}\text{,}\) or \(39.8\) times as heavy as the lighter animal.</p></div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-1948"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-1948"><h6 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.77</span><span class="period">.</span>
-</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1948"><article class="exercise exercise-like"><p id="p-9595">Two points, labeled \(A\) and \(B\text{,}\) differ by \(2.5\) units on a log scale. What is the ratio of their decimal values?</p>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1948"><article class="exercise exercise-like"><p id="p-9596">Two points, labeled \(A\) and \(B\text{,}\) differ by \(2.5\) units on a log scale. What is the ratio of their decimal values?</p>
 <div class="solutions">
-<a data-knowl="" class="id-ref original" data-refid="hk-answer-1053" id="answer-1053"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1053"><div class="answer solution-like"><p id="p-9596">\(316.2\)</p></div></div>
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-1053" id="answer-1053"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1053"><div class="answer solution-like"><p id="p-9597">\(316.2\)</p></div></div>
 </div></article></div></section><section class="subsection" id="summary-5-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Section Summary</span>
 </h3>
 <a href="Logarithm-Scales.html#summary-5-4" class="permalink">¶</a><section class="subsubsection" id="subsubsection-93"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">Vocabulary</span>
 </h4>
-<p id="p-9597">Look up the definitions of new terms in the Glossary.</p>
+<p id="p-9598">Look up the definitions of new terms in the Glossary.</p>
 <ul class="disc cols2">
-<li id="li-5939"><p id="p-9598">Log scale</p></li>
-<li id="li-5940"><p id="p-9599">Log-log paper</p></li>
+<li id="li-5939"><p id="p-9599">Log scale</p></li>
+<li id="li-5940"><p id="p-9600">Log-log paper</p></li>
 </ul></section><section class="subsubsection" id="subsubsection-94"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">CONCEPTS</span>
 </h4>
-<ol id="p-9600" class="decimal">
-<li id="li-5941"><p id="p-9601">A <dfn class="terminology">log scale</dfn> is useful for plotting values that vary greatly in magnitude. We plot the log of the variable instead of the variable itself.</p></li>
-<li id="li-5942"><p id="p-9602">A log scale is a <dfn class="terminology">multiplicative scale</dfn>: Each increment of equal length on the scale indicates that the value is multiplied by an equal amount.</p></li>
+<ol id="p-9601" class="decimal">
+<li id="li-5941"><p id="p-9602">A <dfn class="terminology">log scale</dfn> is useful for plotting values that vary greatly in magnitude. We plot the log of the variable instead of the variable itself.</p></li>
+<li id="li-5942"><p id="p-9603">A log scale is a <dfn class="terminology">multiplicative scale</dfn>: Each increment of equal length on the scale indicates that the value is multiplied by an equal amount.</p></li>
 <li id="li-5943">
-<p id="p-9603">The pH value of a substance is defined by the formula</p>
+<p id="p-9604">The pH value of a substance is defined by the formula</p>
 <div class="displaymath">
 \begin{equation*}
 \text{pH}=-\log_{}\left([H^+]\right)
@@ -909,7 +909,7 @@ A_N = 10^{6.9}A_0 ~~\text{ and }~~A_S = 10^{7.1}A_0
 <p data-braille="continuation">where \([H^+]\) denotes the concentration of hydrogen ions in the substance.</p>
 </li>
 <li id="li-5944">
-<p id="p-9604">The loudness of a sound is measured in decibels, \(D\text{,}\) by</p>
+<p id="p-9605">The loudness of a sound is measured in decibels, \(D\text{,}\) by</p>
 <div class="displaymath">
 \begin{equation*}
 D=10 \log_{}\left(\frac{I}{10^{-12}}\right)
@@ -918,7 +918,7 @@ D=10 \log_{}\left(\frac{I}{10^{-12}}\right)
 <p data-braille="continuation">where \(I\) is the intensity of its sound waves (in watts per square meter).</p>
 </li>
 <li id="li-5945">
-<p id="p-9605">The Richter magnitude, \(M\text{,}\) of an earthquake is given by</p>
+<p id="p-9606">The Richter magnitude, \(M\text{,}\) of an earthquake is given by</p>
 <div class="displaymath">
 \begin{equation*}
 M=\log_{}\left(\frac{A}{A_0} \right)
@@ -926,49 +926,49 @@ M=\log_{}\left(\frac{A}{A_0} \right)
 </div>
 <p data-braille="continuation">where \(A\) is the amplitude of its seismographic trace and \(A_0\) is the amplitude of the smallest detectable earthquake.</p>
 </li>
-<li id="li-5946"><p id="p-9606">A <em class="emphasis">difference</em> of \(K\) units on a logarithmic scale corresponds to a <em class="emphasis">factor</em> of \(10^K\) units in the value of the variable.</p></li>
+<li id="li-5946"><p id="p-9607">A <em class="emphasis">difference</em> of \(K\) units on a logarithmic scale corresponds to a <em class="emphasis">factor</em> of \(10^K\) units in the value of the variable.</p></li>
 </ol></section><section class="subsubsection" id="subsubsection-95"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">STUDY QUESTIONS</span>
 </h4>
-<ol id="p-9607" class="decimal">
-<li id="li-5947"><p id="p-9608">What numbers are used to label the axis on a log scale?</p></li>
-<li id="li-5948"><p id="p-9609">What does it mean to say that a log scale is a multiplicative scale?</p></li>
-<li id="li-5949"><p id="p-9610">Delbert says that \(80\) decibels is twice as loud as \(40\) decibels. Is he correct? Why or why not?</p></li>
-<li id="li-5950"><p id="p-9611">Which is farther on a log scale, the distance between \(5\) and \(15\text{,}\) or the distance between \(0.5\) and \(1.5\text{?}\)</p></li>
+<ol id="p-9608" class="decimal">
+<li id="li-5947"><p id="p-9609">What numbers are used to label the axis on a log scale?</p></li>
+<li id="li-5948"><p id="p-9610">What does it mean to say that a log scale is a multiplicative scale?</p></li>
+<li id="li-5949"><p id="p-9611">Delbert says that \(80\) decibels is twice as loud as \(40\) decibels. Is he correct? Why or why not?</p></li>
+<li id="li-5950"><p id="p-9612">Which is farther on a log scale, the distance between \(5\) and \(15\text{,}\) or the distance between \(0.5\) and \(1.5\text{?}\)</p></li>
 </ol></section><section class="subsubsection" id="subsubsection-96"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">SKILLS</span>
 </h4>
-<p id="p-9612">Practice each skill in the <a href="Logarithm-Scales.html#section-5-4-exercises" class="internal" title="Exercises: Homework 5.4">Homework </a> problems listed.</p>
+<p id="p-9613">Practice each skill in the <a href="Logarithm-Scales.html#section-5-4-exercises" class="internal" title="Exercises: Homework 5.4">Homework </a> problems listed.</p>
 <ol class="decimal">
-<li id="li-5951"><p id="p-9613">Plot values on a log scale: #1–4, 9 and 10</p></li>
-<li id="li-5952"><p id="p-9614">Read values from a log scale: #5–8, 11–14, 19 and 20</p></li>
-<li id="li-5953"><p id="p-9615">Compare values on a log scale: #15–18</p></li>
-<li id="li-5954"><p id="p-9616">Use log scales in applications: #21–40</p></li>
+<li id="li-5951"><p id="p-9614">Plot values on a log scale: #1–4, 9 and 10</p></li>
+<li id="li-5952"><p id="p-9615">Read values from a log scale: #5–8, 11–14, 19 and 20</p></li>
+<li id="li-5953"><p id="p-9616">Compare values on a log scale: #15–18</p></li>
+<li id="li-5954"><p id="p-9617">Use log scales in applications: #21–40</p></li>
 </ol></section></section><section class="exercises" id="section-5-4-exercises"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">Homework 5.4</span>
 </h3>
 <a href="Logarithm-Scales.html#section-5-4-exercises" class="permalink">¶</a><article class="exercise exercise-like" id="exercise-1949"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
-<ol id="p-9617" class="lower-alpha">
+<ol id="p-9618" class="lower-alpha">
 <li id="li-5955">
-<p id="p-9618">The log scale is labeled with powers of \(10\text{.}\) Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
+<p id="p-9619">The log scale is labeled with powers of \(10\text{.}\) Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-1.svg" style="width: 100%; height: auto;" alt="log scale with exponents shown"></div></div></div>
 </li>
 <li id="li-5956">
-<p id="p-9619">The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of \(10\text{.}\)</p>
+<p id="p-9620">The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of \(10\text{.}\)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-1b.svg" style="width: 100%; height: auto;" alt="log scale with exponents shown"></div></div></div>
 </li>
 </ol></article><article class="exercise exercise-like" id="exercise-1950"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
-<ol id="p-9621" class="lower-alpha">
+<ol id="p-9622" class="lower-alpha">
 <li id="li-5959">
-<p id="p-9622">The log scale is labeled with powers of \(10\text{.}\) Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
+<p id="p-9623">The log scale is labeled with powers of \(10\text{.}\) Finish labeling the tick marks in the figure with their corresponding decimal values.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-2.svg" style="width: 100%; height: auto;" alt="log scale with exponents shown"></div></div></div>
 </li>
 <li id="li-5960">
-<p id="p-9623">The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of \(10\text{.}\)</p>
+<p id="p-9624">The log scale is labeled with integer values. Label the tick marks in the figure with the corresponding powers of \(10\text{.}\)</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-2b.svg" style="width: 100%; height: auto;" alt="log scale with exponents shown"></div></div></div>
 </li>
 </ol></article><article class="exercise exercise-like" id="exercise-1951"><h6 class="heading"><span class="codenumber">3<span class="period">.</span></span></h6>
-<p id="p-9624">Plot the values on a log scale.</p>
+<p id="p-9625">Plot the values on a log scale.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table><tr>
 <td class="c m b1 r1 l1 t1 lines">\(x\)</td>
 <td class="c m b1 r1 l0 t1 lines">\(0.075\)</td>
@@ -977,7 +977,7 @@ M=\log_{}\left(\frac{A}{A_0} \right)
 <td class="c m b1 r1 l0 t1 lines">\(87,000\)</td>
 <td class="c m b1 r1 l0 t1 lines" data-braille="last-cell">\(6.5\times 10^7 \)</td>
 </tr></table></div></div></div></article><article class="exercise exercise-like" id="exercise-1952"><h6 class="heading"><span class="codenumber">4<span class="period">.</span></span></h6>
-<p id="p-9625">Plot the values on a log scale.</p>
+<p id="p-9626">Plot the values on a log scale.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table><tr>
 <td class="c m b1 r1 l1 t1 lines">\(x\)</td>
 <td class="c m b1 r1 l0 t1 lines">\(4\times 10^{-4} \)</td>
@@ -986,17 +986,17 @@ M=\log_{}\left(\frac{A}{A_0} \right)
 <td class="c m b1 r1 l0 t1 lines">\(27\)</td>
 <td class="c m b1 r1 l0 t1 lines" data-braille="last-cell">\(90 \)</td>
 </tr></table></div></div></div></article><article class="exercise exercise-like" id="exercise-1953"><h6 class="heading"><span class="codenumber">5<span class="period">.</span></span></h6>
-<p id="p-9626">Estimate the decimal value of each point on the log scale.</p>
+<p id="p-9627">Estimate the decimal value of each point on the log scale.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-5.svg" style="width: 100%; height: auto;" alt="logscale"></div></div></div></article><article class="exercise exercise-like" id="exercise-1954"><h6 class="heading"><span class="codenumber">6<span class="period">.</span></span></h6>
-<p id="p-9628">Estimate the decimal value of each point on the log scale.</p>
+<p id="p-9629">Estimate the decimal value of each point on the log scale.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-6.svg" style="width: 100%; height: auto;" alt="logscale"></div></div></div></article><article class="exercise exercise-like" id="exercise-1955"><h6 class="heading"><span class="codenumber">7<span class="period">.</span></span></h6>
-<p id="p-9629">The log scale shows various temperatures in Kelvins. Estimate the temperatures of the events indicated.</p>
+<p id="p-9630">The log scale shows various temperatures in Kelvins. Estimate the temperatures of the events indicated.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-7.svg" style="width: 100%; height: auto;" alt="logscale"></div></div></div></article><article class="exercise exercise-like" id="exercise-1956"><h6 class="heading"><span class="codenumber">8<span class="period">.</span></span></h6>
-<p id="p-9631">The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated. Write your answers without exponents.</p>
+<p id="p-9632">The log scale shows the size of various objects, in meters. Estimate the sizes of the objects indicated. Write your answers without exponents.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-8.svg" style="width: 100%; height: auto;" alt="logscale"></div></div></div></article><article class="exercise exercise-like" id="exercise-1957"><h6 class="heading"><span class="codenumber">9<span class="period">.</span></span></h6>
-<p id="p-9632">Plot the values of \([H^+]\) in the section "Acidity and the pH Scale" on a log scale.</p></article><article class="exercise exercise-like" id="exercise-1958"><h6 class="heading"><span class="codenumber">10<span class="period">.</span></span></h6>
-<p id="p-9633">Plot the values of sound intensity in the section "Decibels" on a log scale.</p></article><article class="exercise exercise-like" id="exercise-1959"><h6 class="heading"><span class="codenumber">11<span class="period">.</span></span></h6>
-<p id="p-9634">The magnitude of a star is a measure of its brightness. It is given by the formula</p>
+<p id="p-9633">Plot the values of \([H^+]\) in the section "Acidity and the pH Scale" on a log scale.</p></article><article class="exercise exercise-like" id="exercise-1958"><h6 class="heading"><span class="codenumber">10<span class="period">.</span></span></h6>
+<p id="p-9634">Plot the values of sound intensity in the section "Decibels" on a log scale.</p></article><article class="exercise exercise-like" id="exercise-1959"><h6 class="heading"><span class="codenumber">11<span class="period">.</span></span></h6>
+<p id="p-9635">The magnitude of a star is a measure of its brightness. It is given by the formula</p>
 <div class="displaymath">
 \begin{equation*}
 m = 4.83 - 2.5 \log_{} (L)
@@ -1004,69 +1004,69 @@ m = 4.83 - 2.5 \log_{} (L)
 </div>
 <p data-braille="continuation">where \(L\) is the luminosity of the star, measured in solar units. Calculate the magnitude of the stars whose luminosities are given in the figure.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-11.svg" style="width: 100%; height: auto;" alt="star magnitudes on log scale"></div></div></div></article><article class="exercise exercise-like" id="exercise-1960"><h6 class="heading"><span class="codenumber">12<span class="period">.</span></span></h6>
-<p id="p-9636">Estimate the wavelength, in meters, of the types of electromagnetic radiation shown in the figure.</p>
+<p id="p-9637">Estimate the wavelength, in meters, of the types of electromagnetic radiation shown in the figure.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-12.svg" style="width: 100%; height: auto;" alt="radiation wavelength on log scale"></div></div></div></article><article class="exercise exercise-like" id="exercise-1961"><h6 class="heading"><span class="codenumber">13<span class="period">.</span></span></h6>
-<p id="p-9637">The <dfn class="terminology">risk magnitude</dfn> of an event is defined by \(R = 10+ \log_{} (p)\text{,}\) where \(p\) is the probability of the event occurring. Calculate the probability of each event.</p>
+<p id="p-9638">The <dfn class="terminology">risk magnitude</dfn> of an event is defined by \(R = 10+ \log_{} (p)\text{,}\) where \(p\) is the probability of the event occurring. Calculate the probability of each event.</p>
 <ol class="lower-alpha">
-<li id="li-5961"><p id="p-9638">The sun will rise tomorrow, \(R = 10\text{.}\)</p></li>
-<li id="li-5962"><p id="p-9639">The next child born in Arizona will be a boy, \(R = 9.7\text{.}\)</p></li>
-<li id="li-5963"><p id="p-9640">A major hurricane will strike North Carolina this year, \(R = 9.1\text{.}\)</p></li>
-<li id="li-5964"><p id="p-9641">A 100-meter asteroid will collide with Earth this year, \(R = 8.0\text{.}\)</p></li>
-<li id="li-5965"><p id="p-9642">You will be involved in an automobile accident during a 10-mile trip, \(R = 5.9\text{.}\)</p></li>
-<li id="li-5966"><p id="p-9643">A comet will collide with Earth this year, \(R = 3.5\text{.}\)</p></li>
-<li id="li-5967"><p id="p-9644">You will die in an automobile accident on a 1000-mile trip, \(R=2.3\)</p></li>
-<li id="li-5968"><p id="p-9645">You will die in a plane crash on a 1000-mile trip, \(R = 0.9\text{.}\)</p></li>
+<li id="li-5961"><p id="p-9639">The sun will rise tomorrow, \(R = 10\text{.}\)</p></li>
+<li id="li-5962"><p id="p-9640">The next child born in Arizona will be a boy, \(R = 9.7\text{.}\)</p></li>
+<li id="li-5963"><p id="p-9641">A major hurricane will strike North Carolina this year, \(R = 9.1\text{.}\)</p></li>
+<li id="li-5964"><p id="p-9642">A 100-meter asteroid will collide with Earth this year, \(R = 8.0\text{.}\)</p></li>
+<li id="li-5965"><p id="p-9643">You will be involved in an automobile accident during a 10-mile trip, \(R = 5.9\text{.}\)</p></li>
+<li id="li-5966"><p id="p-9644">A comet will collide with Earth this year, \(R = 3.5\text{.}\)</p></li>
+<li id="li-5967"><p id="p-9645">You will die in an automobile accident on a 1000-mile trip, \(R=2.3\)</p></li>
+<li id="li-5968"><p id="p-9646">You will die in a plane crash on a 1000-mile trip, \(R = 0.9\text{.}\)</p></li>
 </ol></article><article class="exercise exercise-like" id="exercise-1962"><h6 class="heading"><span class="codenumber">14<span class="period">.</span></span></h6>
-<p id="p-9655">Have you ever wondered why time seems to pass more quickly as we grow older? One theory suggests that the human mind judges the length of a long period of time by comparing it with its current age. For example, a year is \(20\%\) of a \(5\)-year-old's lifetime, but only \(5\%\) of a \(20\)-year-old's, so a year feels longer to a \(5\)-year-old. Thus, psychological time follows a log scale, like the one shown in the figure.</p>
+<p id="p-9656">Have you ever wondered why time seems to pass more quickly as we grow older? One theory suggests that the human mind judges the length of a long period of time by comparing it with its current age. For example, a year is \(20\%\) of a \(5\)-year-old's lifetime, but only \(5\%\) of a \(20\)-year-old's, so a year feels longer to a \(5\)-year-old. Thus, psychological time follows a log scale, like the one shown in the figure.</p>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-5-4-14.svg" style="width: 100%; height: auto;" alt="ages on log scale"></div></div></div>
-<ol id="p-9656" class="lower-alpha">
-<li id="li-5977"><p id="p-9657">Label the tick marks with their base \(10\) logarithms, rounded to \(3\) decimal places. What do you notice about the values?</p></li>
-<li id="li-5978"><p id="p-9658">By computing their logs, locate \(18\) and \(22\) on the scale</p></li>
-<li id="li-5979"><p id="p-9659">Four years of college seems like a long time to an \(18\)-year-old. What length of time feels the same to a \(40\)-year-old?</p></li>
-<li id="li-5980"><p id="p-9660">How long will the rest of your life feel? Let \(A\) be your current age, and let \(L\) be the age to which you think you will live. Compute the difference of their logs. Now move backward on the log scale an equal distance from your current age. What is the age at that spot? Call that age \(B\text{.}\) The rest of your life will feel the same as your life from age \(B\) until now.</p></li>
-<li id="li-5981"><p id="p-9661">Compute \(B\) using a proportion instead of logs.</p></li>
+<ol id="p-9657" class="lower-alpha">
+<li id="li-5977"><p id="p-9658">Label the tick marks with their base \(10\) logarithms, rounded to \(3\) decimal places. What do you notice about the values?</p></li>
+<li id="li-5978"><p id="p-9659">By computing their logs, locate \(18\) and \(22\) on the scale</p></li>
+<li id="li-5979"><p id="p-9660">Four years of college seems like a long time to an \(18\)-year-old. What length of time feels the same to a \(40\)-year-old?</p></li>
+<li id="li-5980"><p id="p-9661">How long will the rest of your life feel? Let \(A\) be your current age, and let \(L\) be the age to which you think you will live. Compute the difference of their logs. Now move backward on the log scale an equal distance from your current age. What is the age at that spot? Call that age \(B\text{.}\) The rest of your life will feel the same as your life from age \(B\) until now.</p></li>
+<li id="li-5981"><p id="p-9662">Compute \(B\) using a proportion instead of logs.</p></li>
 </ol></article><article class="exercise exercise-like" id="exercise-1963"><h6 class="heading"><span class="codenumber">15<span class="period">.</span></span></h6>
-<ol id="p-9662" class="lower-alpha">
-<li id="li-5982"><p id="p-9663">What number is halfway between \(10^{1.5}\) and \(10^2\) on a log scale?</p></li>
-<li id="li-5983"><p id="p-9664">What number is halfway between \(20\) and \(30\) on a log scale?</p></li>
+<ol id="p-9663" class="lower-alpha">
+<li id="li-5982"><p id="p-9664">What number is halfway between \(10^{1.5}\) and \(10^2\) on a log scale?</p></li>
+<li id="li-5983"><p id="p-9665">What number is halfway between \(20\) and \(30\) on a log scale?</p></li>
 </ol></article><article class="exercise exercise-like" id="exercise-1964"><h6 class="heading"><span class="codenumber">16<span class="period">.</span></span></h6>
-<ol id="p-9668" class="lower-alpha">
-<li id="li-5986"><p id="p-9669">What number is halfway between \(10^{3.0}\) and \(10^{3.5}\) on a log scale?</p></li>
-<li id="li-5987"><p id="p-9670">Plot 500 and 600 on a log scale. What is halfway between them on this scale</p></li>
+<ol id="p-9669" class="lower-alpha">
+<li id="li-5986"><p id="p-9670">What number is halfway between \(10^{3.0}\) and \(10^{3.5}\) on a log scale?</p></li>
+<li id="li-5987"><p id="p-9671">Plot 500 and 600 on a log scale. What is halfway between them on this scale</p></li>
 </ol></article><article class="exercise exercise-like" id="exercise-1965"><h6 class="heading"><span class="codenumber">17<span class="period">.</span></span></h6>
-<p id="p-9671">The distances to two stars are separated by \(3.4\) units on a log scale. What is the ratio of their distances?</p></article><article class="exercise exercise-like" id="exercise-1966"><h6 class="heading"><span class="codenumber">18<span class="period">.</span></span></h6>
-<p id="p-9673">The populations of two cities are separated by \(2.8\) units on a log scale. What is the ratio of their populations?</p></article><article class="exercise exercise-like" id="exercise-1967"><h6 class="heading"><span class="codenumber">19<span class="period">.</span></span></h6>
+<p id="p-9672">The distances to two stars are separated by \(3.4\) units on a log scale. What is the ratio of their distances?</p></article><article class="exercise exercise-like" id="exercise-1966"><h6 class="heading"><span class="codenumber">18<span class="period">.</span></span></h6>
+<p id="p-9674">The populations of two cities are separated by \(2.8\) units on a log scale. What is the ratio of their populations?</p></article><article class="exercise exercise-like" id="exercise-1967"><h6 class="heading"><span class="codenumber">19<span class="period">.</span></span></h6>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel" style="width:35%;justify-content:flex-start;"><p id="p-9674">The probability of discovering an oil field increases with its diameter, defined to be the square root of its area. Use the graph to estimate the diameter of the oil fields at the labeled points, and their probability of discovery. (Source: Deffeyes, 2001)</p></div>
+<div class="sbspanel" style="width:35%;justify-content:flex-start;"><p id="p-9675">The probability of discovering an oil field increases with its diameter, defined to be the square root of its area. Use the graph to estimate the diameter of the oil fields at the labeled points, and their probability of discovery. (Source: Deffeyes, 2001)</p></div>
 <div class="sbspanel" style="width:65%;justify-content:flex-start;"><img src="images/fig-5-4-19.svg" style="width: 100%; height: auto;" alt="probabilty of discovery vs diameter on log-log"></div>
 </div></div></article><article class="exercise exercise-like" id="exercise-1968"><h6 class="heading"><span class="codenumber">20<span class="period">.</span></span></h6>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
-<div class="sbspanel" style="width:55.5555555555556%;justify-content:flex-start;"><p id="p-9676">The <dfn class="terminology">order</dfn> of a stream is a measure of its size. Use the graph to estimate the drainage area, in square miles, for streams of orders \(1\) through \(4\text{.}\) (Source: Leopold, Wolman, and Miller)</p></div>
+<div class="sbspanel" style="width:55.5555555555556%;justify-content:flex-start;"><p id="p-9677">The <dfn class="terminology">order</dfn> of a stream is a measure of its size. Use the graph to estimate the drainage area, in square miles, for streams of orders \(1\) through \(4\text{.}\) (Source: Leopold, Wolman, and Miller)</p></div>
 <div class="sbspanel" style="width:33.3333333333333%;justify-content:flex-start;"><img src="images/fig-5-4-20.svg" style="width: 100%; height: auto;" alt="stream drainage vs order on semi-log"></div>
 </div></div></article><div class="exercisegroup" id="exercisegroup-273">
-<div class="introduction" id="introduction-290"><p id="p-9677">In Problems 21–40, use the appropriate formulas for logarithmic models.</p></div>
+<div class="introduction" id="introduction-290"><p id="p-9678">In Problems 21–40, use the appropriate formulas for logarithmic models.</p></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1969"><h6 class="heading"><span class="codenumber">21<span class="period">.</span></span></h6>
-<p id="p-9678">The hydrogen ion concentration of vinegar is about \(6.3\times 10^{-4}\text{.}\) Calculate the pH of vinegar.</p></article><article class="exercise exercise-like" id="exercise-1970"><h6 class="heading"><span class="codenumber">22<span class="period">.</span></span></h6>
-<p id="p-9680">The hydrogen ion concentration of spinach is about \(3.2\times 10^{-6}\text{.}\) Calculate the pH of spinach.</p></article><article class="exercise exercise-like" id="exercise-1971"><h6 class="heading"><span class="codenumber">23<span class="period">.</span></span></h6>
-<p id="p-9681">The pH of lime juice is \(1.9\text{.}\) Calculate its hydrogen ion concentration.</p></article><article class="exercise exercise-like" id="exercise-1972"><h6 class="heading"><span class="codenumber">24<span class="period">.</span></span></h6>
-<p id="p-9683">The pH of ammonia is \(9.8\text{.}\) Calculate its hydrogen ion concentration.</p></article><article class="exercise exercise-like" id="exercise-1973"><h6 class="heading"><span class="codenumber">25<span class="period">.</span></span></h6>
-<p id="p-9684">A lawn mower generates a noise of intensity \(10^{-2}\) watts per square meter. Find the decibel level of the sound of a lawn mower.</p></article><article class="exercise exercise-like" id="exercise-1974"><h6 class="heading"><span class="codenumber">26<span class="period">.</span></span></h6>
-<p id="p-9686">A jet airplane generates \(100\) watts per square meter at a distance of \(100\) feet. Find the decibel level for a jet airplane.</p></article><article class="exercise exercise-like" id="exercise-1975"><h6 class="heading"><span class="codenumber">27<span class="period">.</span></span></h6>
-<p id="p-9687">The loudest sound emitted by any living source is made by the blue whale. Its whistles have been measured at \(188\) decibels and are detectable \(500\) miles away. Find the intensity of the blue whale's whistle in watts per square meter.</p></article><article class="exercise exercise-like" id="exercise-1976"><h6 class="heading"><span class="codenumber">28<span class="period">.</span></span></h6>
-<p id="p-9689">The loudest sound created in a laboratory registered at \(210\) decibels. The energy from such a sound is sufficientto bore holes in solid material. Find the intensity of a\(210\)-decibel sound.</p></article><article class="exercise exercise-like" id="exercise-1977"><h6 class="heading"><span class="codenumber">29<span class="period">.</span></span></h6>
-<p id="p-9690">At a concert by The Who in 1976, the sound level \(50\) meters from the stage registered \(120\) decibels. How many times more intense was this than a \(90\)-decibel sound (the threshold of pain for the human ear)?</p></article><article class="exercise exercise-like" id="exercise-1978"><h6 class="heading"><span class="codenumber">30<span class="period">.</span></span></h6>
-<p id="p-9692">The loudest scientifically measured shouting by a human being registered \(123.2\) decibels. How many times more intense was this than normal conversation at \(40\) decibels?</p></article><article class="exercise exercise-like" id="exercise-1979"><h6 class="heading"><span class="codenumber">31<span class="period">.</span></span></h6>
-<p id="p-9693">The pH of normal rain is \(5.6\text{.}\) Some areas of Ontario have experienced acid rain with a pH of \(4.5\text{.}\) How many times more acidic is acid rain than normal rain?</p></article><article class="exercise exercise-like" id="exercise-1980"><h6 class="heading"><span class="codenumber">32<span class="period">.</span></span></h6>
-<p id="p-9695">The pH of normal hair is about \(5\text{,}\) the average pH of shampoo is \(8\text{,}\) and \(4\) for conditioner. Compare the acidityof normal hair, shampoo, and conditioner.</p></article><article class="exercise exercise-like" id="exercise-1981"><h6 class="heading"><span class="codenumber">33<span class="period">.</span></span></h6>
-<p id="p-9696">How much more acidic is milk than baking soda? (Refer to the table in this section..)</p></article><article class="exercise exercise-like" id="exercise-1982"><h6 class="heading"><span class="codenumber">34<span class="period">.</span></span></h6>
-<p id="p-9698">Compare the acidity of lye and milk of magnesia. (Refer to the table in this section..)</p></article><article class="exercise exercise-like" id="exercise-1983"><h6 class="heading"><span class="codenumber">35<span class="period">.</span></span></h6>
-<p id="p-9699">In 1964, an earthquake in Alaska measured \(8.4\) on the Richter scale. An earthquake measuring \(4.0\) is consideredsmall and causes little damage. How many times stronger was the Alaska quake than one measuring \(4.0\text{?}\)</p></article><article class="exercise exercise-like" id="exercise-1984"><h6 class="heading"><span class="codenumber">36<span class="period">.</span></span></h6>
-<p id="p-9701">On April 30, 1986, an earthquake in Mexico City measured \(7.0\) on the Richter scale. On September 21, a second earthquake occurred, this one measuring \(8.1\text{,}\) hit Mexico City. How many times stronger was the September quake than the one in April?</p></article><article class="exercise exercise-like" id="exercise-1985"><h6 class="heading"><span class="codenumber">37<span class="period">.</span></span></h6>
-<p id="p-9702">A small earthquake measured \(4.2\) on the Richter scale. What is the magnitude of an earthquake three times as strong?</p></article><article class="exercise exercise-like" id="exercise-1986"><h6 class="heading"><span class="codenumber">38<span class="period">.</span></span></h6>
-<p id="p-9704">Earthquakes measuring \(3.0\) on the Richter scale often go unnoticed. What is the magnitude of a quake \(200\) times as strong as a \(3.0\) quake?</p></article><article class="exercise exercise-like" id="exercise-1987"><h6 class="heading"><span class="codenumber">39<span class="period">.</span></span></h6>
-<p id="p-9705">The sound of rainfall registers at \(50\) decibels. What is the decibel level of a sound twice as loud?</p></article><article class="exercise exercise-like" id="exercise-1988"><h6 class="heading"><span class="codenumber">40<span class="period">.</span></span></h6>
-<p id="p-9707">The magnitude, \(m\text{,}\) of a star is a function of its luminosity, \(L\text{,}\) given by</p>
+<p id="p-9679">The hydrogen ion concentration of vinegar is about \(6.3\times 10^{-4}\text{.}\) Calculate the pH of vinegar.</p></article><article class="exercise exercise-like" id="exercise-1970"><h6 class="heading"><span class="codenumber">22<span class="period">.</span></span></h6>
+<p id="p-9681">The hydrogen ion concentration of spinach is about \(3.2\times 10^{-6}\text{.}\) Calculate the pH of spinach.</p></article><article class="exercise exercise-like" id="exercise-1971"><h6 class="heading"><span class="codenumber">23<span class="period">.</span></span></h6>
+<p id="p-9682">The pH of lime juice is \(1.9\text{.}\) Calculate its hydrogen ion concentration.</p></article><article class="exercise exercise-like" id="exercise-1972"><h6 class="heading"><span class="codenumber">24<span class="period">.</span></span></h6>
+<p id="p-9684">The pH of ammonia is \(9.8\text{.}\) Calculate its hydrogen ion concentration.</p></article><article class="exercise exercise-like" id="exercise-1973"><h6 class="heading"><span class="codenumber">25<span class="period">.</span></span></h6>
+<p id="p-9685">A lawn mower generates a noise of intensity \(10^{-2}\) watts per square meter. Find the decibel level of the sound of a lawn mower.</p></article><article class="exercise exercise-like" id="exercise-1974"><h6 class="heading"><span class="codenumber">26<span class="period">.</span></span></h6>
+<p id="p-9687">A jet airplane generates \(100\) watts per square meter at a distance of \(100\) feet. Find the decibel level for a jet airplane.</p></article><article class="exercise exercise-like" id="exercise-1975"><h6 class="heading"><span class="codenumber">27<span class="period">.</span></span></h6>
+<p id="p-9688">The loudest sound emitted by any living source is made by the blue whale. Its whistles have been measured at \(188\) decibels and are detectable \(500\) miles away. Find the intensity of the blue whale's whistle in watts per square meter.</p></article><article class="exercise exercise-like" id="exercise-1976"><h6 class="heading"><span class="codenumber">28<span class="period">.</span></span></h6>
+<p id="p-9690">The loudest sound created in a laboratory registered at \(210\) decibels. The energy from such a sound is sufficientto bore holes in solid material. Find the intensity of a\(210\)-decibel sound.</p></article><article class="exercise exercise-like" id="exercise-1977"><h6 class="heading"><span class="codenumber">29<span class="period">.</span></span></h6>
+<p id="p-9691">At a concert by The Who in 1976, the sound level \(50\) meters from the stage registered \(120\) decibels. How many times more intense was this than a \(90\)-decibel sound (the threshold of pain for the human ear)?</p></article><article class="exercise exercise-like" id="exercise-1978"><h6 class="heading"><span class="codenumber">30<span class="period">.</span></span></h6>
+<p id="p-9693">The loudest scientifically measured shouting by a human being registered \(123.2\) decibels. How many times more intense was this than normal conversation at \(40\) decibels?</p></article><article class="exercise exercise-like" id="exercise-1979"><h6 class="heading"><span class="codenumber">31<span class="period">.</span></span></h6>
+<p id="p-9694">The pH of normal rain is \(5.6\text{.}\) Some areas of Ontario have experienced acid rain with a pH of \(4.5\text{.}\) How many times more acidic is acid rain than normal rain?</p></article><article class="exercise exercise-like" id="exercise-1980"><h6 class="heading"><span class="codenumber">32<span class="period">.</span></span></h6>
+<p id="p-9696">The pH of normal hair is about \(5\text{,}\) the average pH of shampoo is \(8\text{,}\) and \(4\) for conditioner. Compare the acidityof normal hair, shampoo, and conditioner.</p></article><article class="exercise exercise-like" id="exercise-1981"><h6 class="heading"><span class="codenumber">33<span class="period">.</span></span></h6>
+<p id="p-9697">How much more acidic is milk than baking soda? (Refer to the table in this section..)</p></article><article class="exercise exercise-like" id="exercise-1982"><h6 class="heading"><span class="codenumber">34<span class="period">.</span></span></h6>
+<p id="p-9699">Compare the acidity of lye and milk of magnesia. (Refer to the table in this section..)</p></article><article class="exercise exercise-like" id="exercise-1983"><h6 class="heading"><span class="codenumber">35<span class="period">.</span></span></h6>
+<p id="p-9700">In 1964, an earthquake in Alaska measured \(8.4\) on the Richter scale. An earthquake measuring \(4.0\) is consideredsmall and causes little damage. How many times stronger was the Alaska quake than one measuring \(4.0\text{?}\)</p></article><article class="exercise exercise-like" id="exercise-1984"><h6 class="heading"><span class="codenumber">36<span class="period">.</span></span></h6>
+<p id="p-9702">On April 30, 1986, an earthquake in Mexico City measured \(7.0\) on the Richter scale. On September 21, a second earthquake occurred, this one measuring \(8.1\text{,}\) hit Mexico City. How many times stronger was the September quake than the one in April?</p></article><article class="exercise exercise-like" id="exercise-1985"><h6 class="heading"><span class="codenumber">37<span class="period">.</span></span></h6>
+<p id="p-9703">A small earthquake measured \(4.2\) on the Richter scale. What is the magnitude of an earthquake three times as strong?</p></article><article class="exercise exercise-like" id="exercise-1986"><h6 class="heading"><span class="codenumber">38<span class="period">.</span></span></h6>
+<p id="p-9705">Earthquakes measuring \(3.0\) on the Richter scale often go unnoticed. What is the magnitude of a quake \(200\) times as strong as a \(3.0\) quake?</p></article><article class="exercise exercise-like" id="exercise-1987"><h6 class="heading"><span class="codenumber">39<span class="period">.</span></span></h6>
+<p id="p-9706">The sound of rainfall registers at \(50\) decibels. What is the decibel level of a sound twice as loud?</p></article><article class="exercise exercise-like" id="exercise-1988"><h6 class="heading"><span class="codenumber">40<span class="period">.</span></span></h6>
+<p id="p-9708">The magnitude, \(m\text{,}\) of a star is a function of its luminosity, \(L\text{,}\) given by</p>
 <div class="displaymath">
 \begin{equation*}
 m = 4.83 - 2.5 \log_{} (L)
