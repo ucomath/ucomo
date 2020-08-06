@@ -62,11 +62,11 @@
 </introduction>
 
 
-    <xi:include href="../section-5-1-exercises.xml" />     <!-- Inverse Functions  -->
-    <xi:include href="../section-5-2-exercises.xml" />     <!-- Logarithmic Functions  -->
-    <xi:include href="../section-5-3-exercises.xml" />     <!-- The Natural Base  -->
-    <xi:include href="../section-5-4-exercises.xml" />     <!-- Logarithmic Scales  -->
-    <xi:include href="../chap5-summary.xml" />       <!-- Summary and Review-->
-    <xi:include href="../chap5-rev-projects.xml" />  <!-- projects  -->
+    <xi:include href="../ptx/section-5-1-exercises.xml" />     <!-- Inverse Functions  -->
+    <xi:include href="../ptx/section-5-2-exercises.xml" />     <!-- Logarithmic Functions  -->
+    <xi:include href="../ptx/section-5-3-exercises.xml" />     <!-- The Natural Base  -->
+    <xi:include href="../ptx/section-5-4-exercises.xml" />     <!-- Logarithmic Scales  -->
+    <xi:include href="../ptx/chap5-summary.xml" />       <!-- Summary and Review-->
+    <xi:include href="../ptx/chap5-rev-projects.xml" />  <!-- projects  -->
 </chapter> 
 <!-- </book>  </mathbook> -->

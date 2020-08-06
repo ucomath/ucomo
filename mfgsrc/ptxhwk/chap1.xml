@@ -41,19 +41,19 @@ model to data.</p>
         </introduction>
 
 
-        <xi:include href="../section-1-1-exercises.xml" />            
+        <xi:include href="../ptx/section-1-1-exercises.xml" />            
 <!-- Linear Models  -->
-        <xi:include href="../section-1-2-exercises.xml" />            
+        <xi:include href="../ptx/section-1-2-exercises.xml" />            
 <!-- Functions  -->
-        <xi:include href="../section-1-3-exercises.xml" />   	       
+        <xi:include href="../ptx/section-1-3-exercises.xml" />   	       
 <!-- Graphs of Functions  -->
-        <xi:include href="../section-1-4-exercises.xml" />         <!--
+        <xi:include href="../ptx/section-1-4-exercises.xml" />         <!--
 Slope and Rate of Change-->
-        <xi:include href="../section-1-5-exercises.xml" />         <!--
+        <xi:include href="../ptx/section-1-5-exercises.xml" />         <!--
 Linear Functions-->
-        <xi:include href="../chap1-summary.xml" />       <!-- Summary and
+        <xi:include href="../ptx/chap1-summary.xml" />       <!-- Summary and
 Review-->
-        <xi:include href="../chap1-rev-projects.xml" /> <!-- projects 
+        <xi:include href="../ptx/chap1-rev-projects.xml" /> <!-- projects 
 -->
 
 </chapter> 

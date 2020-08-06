@@ -8,13 +8,13 @@ Copyright 2016 Sean Laverty (with others, via Katherine Yoshiwara)
 <!-- This just inserts a draft xml file     -->
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
 
-<xi:include href="../bookinfo.xml" />   <!-- ISBN, website, other metadata -->
+<xi:include href="../ptx/hwk_bookinfo.xml" />   <!-- ISBN, website, other metadata -->
 
 <book xml:id="Fall2020_hwk">
        <title>Applied Algebra</title>
        <subtitle>Modeling and functions (homework only)</subtitle>
 
-       <xi:include href="../frontmatter.xml" />            <!--  Title Page, Preface, etc.  -->
+       <xi:include href="../ptx/hwk_frontmatter.xml" />            <!--  Title Page, Preface, etc.  -->
 
        <xi:include href="chap1.xml" />        <!-- current chap  -->
        <xi:include href="chap2.xml" />         <!-- current chap  -->
@@ -26,6 +26,6 @@ Copyright 2016 Sean Laverty (with others, via Katherine Yoshiwara)
        <xi:include href="chap8.xml" />         <!-- current chap  -->
 
     <!-- Index follows appendices, preceded only colophon -->
-    <xi:include href="../backmatter.xml" />
+    <xi:include href="../ptx/hwk_backmatter.xml" />
     </book>
 </pretext>

@@ -234,13 +234,13 @@
 
 </introduction>
 
-    <xi:include href="../section-4-1-exercises.xml" />     <!-- Exponential Growth  -->
-    <xi:include href="../section-4-2-exercises.xml" />     <!-- Exponential Functions  -->
-    <xi:include href="../section-4-3-exercises.xml" />     <!-- Logarithms  -->
-    <xi:include href="../section-4-4-exercises.xml" />     <!-- Properties of logarithms  -->
-    <xi:include href="../section-4-5-exercises.xml" />     <!-- Exponential Models  -->
-    <xi:include href="../chap4-summary.xml" />       <!-- Summary and Review-->
-    <xi:include href="../chap4-rev-projects.xml" />  <!-- projects  -->
+    <xi:include href="../ptx/section-4-1-exercises.xml" />     <!-- Exponential Growth  -->
+    <xi:include href="../ptx/section-4-2-exercises.xml" />     <!-- Exponential Functions  -->
+    <xi:include href="../ptx/section-4-3-exercises.xml" />     <!-- Logarithms  -->
+    <xi:include href="../ptx/section-4-4-exercises.xml" />     <!-- Properties of logarithms  -->
+    <xi:include href="../ptx/section-4-5-exercises.xml" />     <!-- Exponential Models  -->
+    <xi:include href="../ptx/chap4-summary.xml" />       <!-- Summary and Review-->
+    <xi:include href="../ptx/chap4-rev-projects.xml" />  <!-- projects  -->
   
 </chapter> 
 <!-- </book>  </mathbook> -->
