@@ -132,13 +132,13 @@
 </introduction>
 
 
-    <xi:include href="../section-6-1-exercises.xml" />  <!-- Factors and x-intercepts  -->
-    <xi:include href="../section-6-2-exercises.xml" />  <!-- Solving Quadratic Equations  -->
+    <xi:include href="../ptx/section-6-1-exercises.xml" />  <!-- Factors and x-intercepts  -->
+    <xi:include href="../ptx/section-6-2-exercises.xml" />  <!-- Solving Quadratic Equations  -->
 <!-->	<xi:include href="./section-7-3.xml" />     --><!-- Complex Numbers  -->
-    <xi:include href="../section-6-3-exercises.xml" />  <!-- Graphing Parabolas  -->
-    <xi:include href="../section-6-4-exercises.xml" />  <!-- Problem Solving  -->
-    <xi:include href="../chap6-summary.xml" />       <!-- Summary and Review-->
-    <xi:include href="../chap6-rev-projects.xml" />  <!-- projects  -->
+    <xi:include href="../ptx/section-6-3-exercises.xml" />  <!-- Graphing Parabolas  -->
+    <xi:include href="../ptx/section-6-4-exercises.xml" />  <!-- Problem Solving  -->
+    <xi:include href="../ptx/chap6-summary.xml" />       <!-- Summary and Review-->
+    <xi:include href="../ptx/chap6-rev-projects.xml" />  <!-- projects  -->
 
 </chapter> 
 <!-- </book>  </mathbook> -->

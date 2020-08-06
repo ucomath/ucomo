@@ -230,12 +230,12 @@
 </introduction>
 
 
-    <xi:include href="../section-7-1-exercises.xml" />     <!-- Polynomial Functions  -->
-    <xi:include href="../section-7-2-exercises.xml" />     <!-- Graphing Polynomial Functions  -->
-    <xi:include href="../section-7-3-exercises.xml" />     <!-- Complex numbers  -->
-    <xi:include href="../section-7-4-exercises.xml" />     <!-- Graphing Rational Functions  -->
-    <xi:include href="../section-7-5-exercises.xml" />     <!-- Equations that include algebraic fractions  -->
-    <xi:include href="../chap7-summary.xml" />       <!-- Summary and Review-->
-    <xi:include href="../chap7-rev-projects.xml" />  <!-- projects  -->
+    <xi:include href="../ptx/section-7-1-exercises.xml" />     <!-- Polynomial Functions  -->
+    <xi:include href="../ptx/section-7-2-exercises.xml" />     <!-- Graphing Polynomial Functions  -->
+    <xi:include href="../ptx/section-7-3-exercises.xml" />     <!-- Complex numbers  -->
+    <xi:include href="../ptx/section-7-4-exercises.xml" />     <!-- Graphing Rational Functions  -->
+    <xi:include href="../ptx/section-7-5-exercises.xml" />     <!-- Equations that include algebraic fractions  -->
+    <xi:include href="../ptx/chap7-summary.xml" />       <!-- Summary and Review-->
+    <xi:include href="../ptx/chap7-rev-projects.xml" />  <!-- projects  -->
 </chapter> 
 <!-- </book>  </mathbook> -->

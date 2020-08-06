@@ -24,8 +24,8 @@ Say something
 </introduction>
 
 
-     <xi:include href="../section-1-6-exercises.xml" />         <!-- Linear Regression-->
-    <xi:include href="../section-6-6-exercises.xml" />  <!-- Curve Fitting  -->
+     <xi:include href="../ptx/section-1-6-exercises.xml" />         <!-- Linear Regression-->
+    <xi:include href="../ptx/section-6-6-exercises.xml" />  <!-- Curve Fitting  -->
 
 </chapter> 
 <!-- </book>  </mathbook> -->

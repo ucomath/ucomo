@@ -125,14 +125,14 @@
 </introduction>
 
 
-    <xi:include href="../section-2-1-exercises.xml" />     <!-- Linear Models  -->
-    <xi:include href="../section-2-2-exercises.xml" />     <!-- Some Basic Functions  -->
-    <xi:include href="../section-2-3-exercises.xml"/>   <!-- Transformation of Graphs  -->
-    <xi:include href="../section-2-4-exercises.xml"/>   <!-- Modeling with Functions  -->
-    <xi:include href="../section-2-5-exercises.xml"/>   <!-- Absolute value  -->
-    <xi:include href="../section-2-6-exercises.xml"/>   <!-- Domain and Range  -->
-    <xi:include href="../chap2-summary.xml" />       <!-- Summary and Review-->
-    <xi:include href="../chap2-rev-projects.xml" />  <!-- projects  -->
+    <xi:include href="../ptx/section-2-1-exercises.xml" />     <!-- Linear Models  -->
+    <xi:include href="../ptx/section-2-2-exercises.xml" />     <!-- Some Basic Functions  -->
+    <xi:include href="../ptx/section-2-3-exercises.xml"/>   <!-- Transformation of Graphs  -->
+    <xi:include href="../ptx/section-2-4-exercises.xml"/>   <!-- Modeling with Functions  -->
+    <xi:include href="../ptx/section-2-5-exercises.xml"/>   <!-- Absolute value  -->
+    <xi:include href="../ptx/section-2-6-exercises.xml"/>   <!-- Domain and Range  -->
+    <xi:include href="../ptx/chap2-summary.xml" />       <!-- Summary and Review-->
+    <xi:include href="../ptx/chap2-rev-projects.xml" />  <!-- projects  -->
 
 </chapter> 
 <!-- </book>  </mathbook> -->
