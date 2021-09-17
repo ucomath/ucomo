@@ -1,6 +1,6 @@
 # ucomath.github.io
 
-Open-source textbok project for the Department of Mathematics and Statistics at the University of Central Oklahoma.
+Open-source textbook project for the Department of Mathematics and Statistics at the University of Central Oklahoma.
 
 Follow links appropriate for your course:
 
