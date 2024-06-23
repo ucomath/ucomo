@@ -133,23 +133,32 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Criss-Cross Game",
-  "body": " Criss-Cross Game   Below we will describe a mathematically-curious game. The original activity can be found at Math Circles Activity Site and was authored by Sam Vandervelde.  Objectives  Be the last player to add a line segment to the board. (This player is the winner.)  Predict who will win and who will lose based on the set up of the game.  Spot patterns and justify them.      Rules  Two players alternate turns until one of the players is unable to make a move. To begin, create a game board by drawing x number of dots. Decide who will play first. On each turn, draw a segment between any pair of dots which does not intersect any of the existing segments. The winner is the last person able to make a legal move.     A valid play.    An invalid play.     A valid play.    Note: You can play this by yourself. This can be done by writing in two different colors. Designate one color as player one and the other as player two.  Make a copy of the score table based on the number of dots used. The first row has been filled in. These values can be seen based on the completed game illustrated in . However, in order to complete the rest of the table, you will need the following definitions:  The dots are called vertices and denoted by  The segments are called edges and denoted by  The outlined regions are called faces and denoted by          Winner       First Player                                   Based on the table, what patterns do you see? Can you prove\/justify those patterns? On a piece of paper try to write down the patterns and justifications.   "
+  "body": " Criss-Cross Game   Below we will describe a mathematically-curious game. The original activity can be found at Math Circles Activity Site and was authored by Sam Vandervelde.  Objectives  Be the last player to add a line segment to the board. (This player is the winner.)  Predict who will win and who will lose based on the set up of the game.  Spot patterns and justify them.      Rules  To play, two players will alternate turns until one of the players is unable to make a move. To begin, decide who will play first then create a game board by drawing number of dots. On each turn, draw a segment between any pair of dots which does not intersect any of the existing segments. This is illustrated in      A valid play.    An invalid play.     The winner is the last person able to make a legal move. A completed game is shows in .    A valid play.    Note: You can play this by yourself. This can be done by writing in two different colors. Designate one color as player one and the other as player two.  Make a copy of the score table based on the number of dots used. The first row has been filled in. These values can be seen based on the completed game illustrated in . However, in order to complete the rest of the table, you will need the following definitions:  The dots are called vertices and denoted by  The segments are called edges and denoted by  The outlined regions are called faces and denoted by          Winner       First Player                                   Based on the table, what patterns do you see? Can you prove\/justify those patterns? On a piece of paper try to write down the patterns and justifications.   "
 },
 {
-  "id": "fig-criss-cross",
+  "id": "fig-criss-cross-moves",
   "level": "2",
-  "url": "sec-criss-cross-game.html#fig-criss-cross",
+  "url": "sec-criss-cross-game.html#fig-criss-cross-moves",
   "type": "Figure",
   "number": "2.3.1",
   "title": "",
-  "body": "   A valid play.    An invalid play.     A valid play.   "
+  "body": "   A valid play.    An invalid play.    "
+},
+{
+  "id": "fig-criss-cross-game",
+  "level": "2",
+  "url": "sec-criss-cross-game.html#fig-criss-cross-game",
+  "type": "Figure",
+  "number": "2.3.2",
+  "title": "",
+  "body": "  A valid play.   "
 },
 {
   "id": "criss-cross-table",
   "level": "2",
   "url": "sec-criss-cross-game.html#criss-cross-table",
   "type": "Table",
-  "number": "2.3.2",
+  "number": "2.3.3",
   "title": "",
   "body": "      Winner       First Player                                  "
 },

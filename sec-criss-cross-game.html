@@ -162,25 +162,27 @@ window.MathJax = {
 </div></section><section class="subsection" id="subsec-criss-cross-rules"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="space"> </span><span class="title">Rules</span>
 </h3>
-<div class="para" id="subsec-criss-cross-rules-2">Two players alternate turns until one of the players is unable to make a move. To begin, create a game board by drawing x number of dots. Decide who will play first. On each turn, draw a segment between any pair of dots which does not intersect any of the existing segments. The winner is the last person able to make a legal move.</div>
-<figure class="figure figure-like" id="fig-criss-cross"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="para" id="subsec-criss-cross-rules-2">To play, two players will alternate turns until one of the players is unable to make a move. To begin, decide who will play first then create a game board by drawing <span class="process-math">\(x\)</span> number of dots. On each turn, draw a segment between any pair of dots which does not intersect any of the existing segments.  This is illustrated in <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "criss-cross-moves" missing or not unique]</code>
+</div>
+<figure class="figure figure-like" id="fig-criss-cross-moves"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel bottom" style="width:25%;"><img src="external/criss-cross-allowed.png" class="contained" alt="A valid play."></div>
 <div class="sbspanel top" style="width:35%;"><img src="external/criss-cross-banned.png" class="contained" alt="An invalid play."></div>
 </div></div>
-<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/criss-cross-game.png" class="contained" alt="A valid play."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="subsec-criss-cross-rules-4">Note: You can play this by yourself. This can be done by writing in two different colors. Designate one color as player one and the other as player two.</div>
-<div class="para logical" id="subsec-criss-cross-rules-5">
-<div class="para">Make a copy of the <a href="sec-criss-cross-game.html#criss-cross-table" class="xref" data-knowl="./knowl/xref/criss-cross-table.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 2.3.2">Table 2.3.2</a> score table based on the number of dots used. The first row has been filled in. These values can be seen based on the completed game illustrated in <a href="sec-criss-cross-game.html#fig-criss-cross" class="xref" data-knowl="./knowl/xref/fig-criss-cross.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.3.1">Figure 2.3.1</a>. However, in order to complete the rest of the table, you will need the following definitions:</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="subsec-criss-cross-rules-4">The winner is the last person able to make a legal move.  A completed game is shows in <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "fig-criss-gross-game" missing or not unique]</code>.</div>
+<figure class="figure figure-like" id="fig-criss-cross-game"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/criss-cross-game.png" class="contained" alt="A valid play."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="subsec-criss-cross-rules-6">Note: You can play this by yourself. This can be done by writing in two different colors. Designate one color as player one and the other as player two.</div>
+<div class="para logical" id="subsec-criss-cross-rules-7">
+<div class="para">Make a copy of the <a href="sec-criss-cross-game.html#criss-cross-table" class="xref" data-knowl="./knowl/xref/criss-cross-table.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 2.3.3">Table 2.3.3</a> score table based on the number of dots used. The first row has been filled in. These values can be seen based on the completed game illustrated in <a href="sec-criss-cross-game.html#fig-criss-cross-game" class="xref" data-knowl="./knowl/xref/fig-criss-cross-game.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.3.2">Figure 2.3.2</a>. However, in order to complete the rest of the table, you will need the following definitions:</div>
 <ul class="disc">
-<li id="subsec-criss-cross-rules-5-3-1"><div class="para" id="subsec-criss-cross-rules-5-3-1-1">The dots are called <em class="emphasis">vertices</em> and denoted by <span class="process-math">\(V\)</span>
+<li id="subsec-criss-cross-rules-7-3-1"><div class="para" id="subsec-criss-cross-rules-7-3-1-1">The dots are called <em class="emphasis">vertices</em> and denoted by <span class="process-math">\(V\)</span>
 </div></li>
-<li id="subsec-criss-cross-rules-5-3-2"><div class="para" id="subsec-criss-cross-rules-5-3-2-1">The segments are called <em class="emphasis">edges</em> and denoted by <span class="process-math">\(E\)</span>
+<li id="subsec-criss-cross-rules-7-3-2"><div class="para" id="subsec-criss-cross-rules-7-3-2-1">The segments are called <em class="emphasis">edges</em> and denoted by <span class="process-math">\(E\)</span>
 </div></li>
-<li id="subsec-criss-cross-rules-5-3-3"><div class="para" id="subsec-criss-cross-rules-5-3-3-1">The outlined regions are called <em class="emphasis">faces</em> and denoted by <span class="process-math">\(F\)</span>
+<li id="subsec-criss-cross-rules-7-3-3"><div class="para" id="subsec-criss-cross-rules-7-3-3-1">The outlined regions are called <em class="emphasis">faces</em> and denoted by <span class="process-math">\(F\)</span>
 </div></li>
 </ul>
 </div>
-<figure class="table table-like" id="criss-cross-table"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.3.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<figure class="table table-like" id="criss-cross-table"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.3.3<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t2 lines"><span class="process-math">\(V\)</span></td>
 <td class="l m b0 r0 l0 t2 lines"><span class="process-math">\(E\)</span></td>
@@ -223,7 +225,7 @@ window.MathJax = {
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
 <td class="l m b0 r0 l0 t0 lines"></td>
 </tr>
-</table></div></figure><div class="para" id="subsec-criss-cross-rules-7">Based on the table, what patterns do you see? Can you prove/justify those patterns? On a piece of paper try to write down the patterns and justifications.</div></section></section></div>
+</table></div></figure><div class="para" id="subsec-criss-cross-rules-9">Based on the table, what patterns do you see? Can you prove/justify those patterns? On a piece of paper try to write down the patterns and justifications.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="logic-proofs-module.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="resources.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
