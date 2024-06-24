@@ -7,16 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Overview of Program",
-  "body": " Overview of Program   GirlsGetMath Logo     Welcome to UCO's GirlsGetMath program. Over the course of the summer, you will engage in activities in various fields of mathematics. These activities will require you to run experiments, in which you will record and analyze data. Having fun and learning about mathematics is the primary focus of the GirlsGetMath program. These activities were designed with accessibility in mind. For example, the first module is about paper airplanes, and hopefully everyone has access to some type of paper. We hope you all have fun learning about mathematical applications through this program!  "
-},
-{
-  "id": "overview-of-program-2",
-  "level": "2",
-  "url": "overview-of-program.html#overview-of-program-2",
-  "type": "Figure",
-  "number": "1.1.1",
-  "title": "",
-  "body": " GirlsGetMath Logo    "
+  "body": " Overview of Program   Welcome to UCO's KidsGetMath program. Over the course of the summer, you will engage in activities in various fields of mathematics. These activities will require you to run experiments, in which you will record and analyze data. Having fun and learning about mathematics is the primary focus of the KidsGetMath program. These activities were designed with accessibility in mind. For example, the first module is about paper airplanes, and hopefully everyone has access to some type of paper. We hope you all have fun learning about mathematical applications through this program!  "
 },
 {
   "id": "contact-info",
@@ -25,30 +16,30 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Contact Information",
-  "body": " Contact Information  If you have any questions regarding the program or encounter any issues accessing materials, please contact one of the following program coordinators.    Dr. Liz Lane-Harvard      Program Director     elaneharvard@uco.edu      Dr. Sean Laverty      Program Director     slaverty@uco.edu      Our student helpers and developers include the following.      Amanda Tingler    Chase Compton    Taylor Bone      "
+  "body": " Contact Information  If you have any questions regarding the program or encounter any issues accessing materials, please contact one of the following program coordinators.    Dr. Liz Lane-Harvard      Program Director     elaneharvard@uco.edu      Dr. Sean Laverty      Program Director     slaverty@uco.edu      Student helpers     Chase Compton, Web Developer    Amanda Tingler, Module Developer    Taylor Bone, Module Developer      "
 },
 {
-  "id": "sec-airplane-building",
+  "id": "paper-airplane-module",
   "level": "1",
-  "url": "sec-airplane-building.html",
+  "url": "paper-airplane-module.html",
   "type": "Section",
   "number": "2.1",
   "title": "Building and Flying Paper Airplanes",
-  "body": " Building and Flying Paper Airplanes    Paper Airplane Instructions  Each of the videos below walks you through the steps in making a different type of paper airplane pictured below. The only thing that you will need for your airplanes is paper (copy, notebook, or construction paper will work). Although paper is the only material required, something to help crease down folds might also be useful, like a coin, ruler, or pen\/pencil; also tape would help secure your planes' wings.   Examples from your fleet of airplanes.     You can also make your paper airplanes out of alternative materials such as napkins; use whatever you have on hand!  Once you have all your supplies, watch the videos. Feel free to watch at the speed you are most comfortable with (faster or slower), pausing and replaying whenever you need. And, don't forget to have fun!  It might be interesting to see how each design performs depending on the paper material used. This is something you can play around with in the Paper Airplane Log.   Video Links      Pink Paper Airplane    The Dart\/Gray Paper Airplane    White Paper Airplane    The Bat\/Light Blue Paper Airplane    Green Paper Airplane    Light Pink Paper Airplane    Purple Airplane   Blue Paper Airplane     Paper Airplane Designs        Disclaimer: The Girls Get Math program did not create the designs of the 8 paper airplanes that are provided. These designs existed before the program and were created by other individuals.       Paper Airplane Log Instructions  Mathematicians and scientists conduct experiments to test their hypotheses. These hypotheses are created to ask questions about the world around them. Using the Paper Airplane Log below, you will be conducting your own experiment to find the best paper airplane design out of the 8 provided.  Once you have successfully folded multiple airplanes of each design, you will fly them and record your findings. As with any experiment, there are tons of variables that can be measured, each of which will contribute to the design's title as \"best\". And, like other experiments, multiple attempts must be done to ensure that your results are accurate. So, start by making 3 paper airplanes for each design. Once you have done this, read through the log to get a feel for what should be measured in every test.     Testing your airplanes.      The Paper Airplane Log asks that you measure the plane's distance from a target as well as the distance from your plane flown in Round 1. In both of these cases, try to aim your airplane in the same spot each time. The closer your planes are to this spot (the target), the more accurate this design is. The closer your planes are from each other (i.e. small distances measured from where the plane from Round 1 landed), the more precise this design is.  If your idea of a perfect airplane is one that hits its target in the center every time, then precision and accuracy are the characteristics you are looking for.   Paper Airplane Log Files   Digital Versions:   If you are using the digital version, you will have to download or copy the file to edit it.   Google Sheet (Color)  Google Sheet (Black and White)   Printable Versions:   PDF (Color)  PDF (Black and White)      Start Flying your Airplanes   Pull up your phone's stopwatch; get a friend to count out loud; have a parent\/guardian measure the distance with a ruler or yardstick; put up trashcans and blankets as targets. Get creative! Whatever, and however, you chose to measure when flying your paper airplanes is up to you. Remember that the objective of your experiment is to find the best paper airplane design, so figure out what you think makes a paper airplane the best (fastest, furthest flying, most accurate\/precise) and test for that.     "
+  "body": " Building and Flying Paper Airplanes    Paper Airplane Instructions  Each of the videos below walks you through the steps in making a different type of paper airplane pictured below. The only thing that you will need for your airplanes is paper (copy, notebook, or construction paper will work). Although paper is the only material required, something to help crease down folds might also be useful, like a coin, ruler, or pen\/pencil; also tape would help secure your planes' wings.   Examples from your fleet of airplanes.     You can also make your paper airplanes out of alternative materials such as napkins; use whatever you have on hand!  Once you have all your supplies, watch the videos. Feel free to watch at the speed you are most comfortable with (faster or slower), pausing and replaying whenever you need. And, don't forget to have fun!  It might be interesting to see how each design performs depending on the paper material used. This is something you can play around with in the Paper Airplane Log.   Video Links      Pink Paper Airplane    The Dart\/Gray Paper Airplane    White Paper Airplane    The Bat\/Light Blue Paper Airplane    Green Paper Airplane    Light Pink Paper Airplane    Purple Airplane   Blue Paper Airplane     Paper Airplane Designs        Disclaimer: The KidsGetMath program did not create the designs of the 8 paper airplanes that are provided. These designs existed before the program and were created by other individuals.       Paper Airplane Log Instructions  Mathematicians and scientists conduct experiments to test their hypotheses. These hypotheses are created to ask questions about the world around them. Using the Paper Airplane Log below, you will be conducting your own experiment to find the best paper airplane design out of the 8 provided.  Once you have successfully folded multiple airplanes of each design, you will fly them and record your findings. As with any experiment, there are tons of variables that can be measured, each of which will contribute to the design's title as \"best\". And, like other experiments, multiple attempts must be done to ensure that your results are accurate. So, start by making 3 paper airplanes for each design. Once you have done this, read through the log to get a feel for what should be measured in every test.     Testing your airplanes.      The Paper Airplane Log asks that you measure the plane's distance from a target as well as the distance from your plane flown in Round 1. In both of these cases, try to aim your airplane in the same spot each time. The closer your planes are to this spot (the target), the more accurate this design is. The closer your planes are from each other (i.e. small distances measured from where the plane from Round 1 landed), the more precise this design is.  If your idea of a perfect airplane is one that hits its target in the center every time, then precision and accuracy are the characteristics you are looking for.   Paper Airplane Log Files   Digital Versions:   If you are using the digital version, you will have to download or copy the file to edit it.   Google Sheet (Color)  Google Sheet (Black and White)   Printable Versions:   PDF (Color)  PDF (Black and White)      Start Flying your Airplanes   Pull up your phone's stopwatch; get a friend to count out loud; have a parent\/guardian measure the distance with a ruler or yardstick; put up trashcans and blankets as targets. Get creative! Whatever, and however, you chose to measure when flying your paper airplanes is up to you. Remember that the objective of your experiment is to find the best paper airplane design, so figure out what you think makes a paper airplane the best (fastest, furthest flying, most accurate\/precise) and test for that.     "
 },
 {
-  "id": "sec-airplane-building-2-3",
+  "id": "paper-airplane-module-2-3",
   "level": "2",
-  "url": "sec-airplane-building.html#sec-airplane-building-2-3",
+  "url": "paper-airplane-module.html#paper-airplane-module-2-3",
   "type": "Figure",
   "number": "2.1.1",
   "title": "",
   "body": " Examples from your fleet of airplanes.    "
 },
 {
-  "id": "sec-airplane-building-2-6",
+  "id": "paper-airplane-module-2-6",
   "level": "2",
-  "url": "sec-airplane-building.html#sec-airplane-building-2-6",
+  "url": "paper-airplane-module.html#paper-airplane-module-2-6",
   "type": "Note",
   "number": "2.1.2",
   "title": "",
@@ -57,34 +48,34 @@ var ptx_lunr_docs = [
 {
   "id": "paragraph-video-links-2-2",
   "level": "2",
-  "url": "sec-airplane-building.html#paragraph-video-links-2-2",
+  "url": "paper-airplane-module.html#paragraph-video-links-2-2",
   "type": "Figure",
   "number": "2.1.3",
   "title": "",
   "body": " Paper Airplane Designs    "
 },
 {
-  "id": "sec-airplane-building-2-8",
+  "id": "paper-airplane-module-2-8",
   "level": "2",
-  "url": "sec-airplane-building.html#sec-airplane-building-2-8",
+  "url": "paper-airplane-module.html#paper-airplane-module-2-8",
   "type": "Note",
   "number": "2.1.4",
   "title": "",
-  "body": " Disclaimer: The Girls Get Math program did not create the designs of the 8 paper airplanes that are provided. These designs existed before the program and were created by other individuals.  "
+  "body": " Disclaimer: The KidsGetMath program did not create the designs of the 8 paper airplanes that are provided. These designs existed before the program and were created by other individuals.  "
 },
 {
-  "id": "sec-airplane-building-3-4",
+  "id": "paper-airplane-module-3-4",
   "level": "2",
-  "url": "sec-airplane-building.html#sec-airplane-building-3-4",
+  "url": "paper-airplane-module.html#paper-airplane-module-3-4",
   "type": "Figure",
   "number": "2.1.5",
   "title": "",
   "body": " Testing your airplanes.    "
 },
 {
-  "id": "sec-airplane-building-3-6",
+  "id": "paper-airplane-module-3-6",
   "level": "2",
-  "url": "sec-airplane-building.html#sec-airplane-building-3-6",
+  "url": "paper-airplane-module.html#paper-airplane-module-3-6",
   "type": "Note",
   "number": "2.1.6",
   "title": "",
@@ -132,8 +123,8 @@ var ptx_lunr_docs = [
   "url": "sec-criss-cross-game.html",
   "type": "Section",
   "number": "2.3",
-  "title": "Criss-Cross Game",
-  "body": " Criss-Cross Game   Below we will describe a mathematically-curious game. The original activity can be found at Math Circles Activity Site and was authored by Sam Vandervelde.  Objectives  Be the last player to add a line segment to the board. (This player is the winner.)  Predict who will win and who will lose based on the set up of the game.  Spot patterns and justify them.      Rules  To play, two players will alternate turns until one of the players is unable to make a move. Note: You can play this by yourself. This can be done by writing in two different colors. Designate one color as player one and the other as player two. To begin, decide who will play first then create a game board by drawing number of dots. On each turn, draw a segment between any pair of dots which does not intersect any of the existing segments. This is illustrated in      A valid play.    An invalid play.     The winner is the last person able to make a legal move. A completed game is shows in .    A valid play.    Make a copy of the score table based on the number of dots used. The first row has been filled in. These values can be seen based on the completed game illustrated in . However, in order to complete the rest of the table, you will need the following definitions:  The dots are called vertices and denoted by  The segments are called edges and denoted by  The outlined regions are called faces and denoted by          Winner       First Player                                   Based on the table, what patterns do you see? Can you prove\/justify those patterns? On a piece of paper try to write down the patterns and justifications.   "
+  "title": "The Criss-Cross Game",
+  "body": " The Criss-Cross Game   Below we will describe a mathematically-curious game. The original activity can be found at Math Circles Activity Site and was authored by Sam Vandervelde.  Objectives  Be the last player to add a line segment to the board. (This player is the winner.)  Predict who will win and who will lose based on the set up of the game.  Spot patterns and justify them.      Rules   Note: You can play this by yourself. This can be done by writing with two different colors. Designate one color as player one and the other as player two. Two players alternate turns until one of the players is unable to make a move. To begin, create a game board by drawing -number of dots. Decide who will play first. On each turn, draw a segment between any pair of dots which does not intersect any of the existing segments. The winner is the last person able to make a legal move (moves are illustrated in ).       A valid play.      An invalid play.     Make a copy of the the score table (shows in ) based on the number of dots used. The first row has been filled in. However, in order to complete the rest of the table, you will need the following definitions:  The dots are called vertices and denoted by  The segments are called edges and denoted by  The outlined regions are called faces and denoted by  These values can be seen based on the completed game illustrated in .    A completed game.     Score sheet for criss-cross game.       Winner       First Player                                   Based on the table, what patterns do you see? Can you prove\/justify those patterns? On a piece of paper try to write down the patterns and justifications.   "
 },
 {
   "id": "fig-criss-cross-moves",
@@ -142,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2.3.1",
   "title": "",
-  "body": "   A valid play.    An invalid play.    "
+  "body": "     A valid play.      An invalid play.    "
 },
 {
   "id": "fig-criss-cross-game",
@@ -151,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2.3.2",
   "title": "",
-  "body": "  A valid play.   "
+  "body": "  A completed game.   "
 },
 {
   "id": "criss-cross-table",
@@ -159,8 +150,8 @@ var ptx_lunr_docs = [
   "url": "sec-criss-cross-game.html#criss-cross-table",
   "type": "Table",
   "number": "2.3.3",
-  "title": "",
-  "body": "      Winner       First Player                                  "
+  "title": "Score sheet for criss-cross game.",
+  "body": " Score sheet for criss-cross game.       Winner       First Player                                  "
 },
 {
   "id": "resources-2",
