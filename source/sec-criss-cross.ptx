@@ -14,42 +14,55 @@
         <subsection xml:id="subsec-criss-cross-rules"> 
          <title>Rules</title>
 <p>
-Two players alternate turns until one of the players is unable to make a move. To begin, create a
-game board by drawing x number of dots. Decide who will play first. On each turn, draw a segment between
+ <em>Note: You can play this by yourself. This can be done by writing with two different colors. 
+Designate one color as player one and the other as player two.</em> Two players alternate turns until one of the players is unable to make a move. To begin, create a
+game board by drawing <m>x</m>-number of dots. Decide who will play first. On each turn, draw a segment between
 any pair of dots which does not intersect any of the existing segments. The winner is the last person able
-to make a legal move. Note: You can play this by yourself. This can be done by using two different writing
-utensils. Designate one utensil as player one and the other as player two.
+to make a legal move (moves are illustrated in <xref ref="fig-criss-cross-moves"/>).
 </p>
 
 
-<figure xml:id="fig-criss-cross">
-<sidebyside widths="25% 35%" margins="0% 0%"
+<figure xml:id="fig-criss-cross-moves">
+<sidebyside widths="40% 40%" margins="0% 0%"
     valigns="bottom top">
-<image source="criss-cross-allowed.png" width="100%">
-    <description>A valid play.</description>
+<figure>
+
+<image source="criss-cross/allowed.png" width="100%">
 </image>
-<image source="criss-cross-banned.png" width="100%">
-    <description>An invalid play.</description>
+    <caption>A valid play.</caption>
+</figure>
+
+<figure>
+<image source="criss-cross/not-allowed.png" width="100%">
 </image>
+    <caption>An invalid play.</caption>
+</figure>
+
 </sidebyside>
-<image source="criss-cross-game.png" width="100%">
-    <description>A valid play.</description>
-    </image>
 </figure>
 
 
+
 <p>
-Make a copy of the <xref ref = "criss-cross-table"/> score table based on the number of dots used. The first row has been filled in. These values can be seen based on the completed game illustrated in <xref ref = "fig-criss-cross"/>. However, in order to complete the rest of the table, you will need the following definitions:
+Make a copy of the the score table (shows in <xref ref = "criss-cross-table"/>) based on the number of dots used. The first row has been filled in. However, in order to complete the rest of the table, you will need the following definitions:
 <ul>
 <li><p> The dots are called <em>vertices</em> and denoted by <m>V</m></p></li>
 <li><p> The segments are called <em>edges</em> and denoted by <m>E</m></p></li>
 <li><p> The outlined regions are called <em>faces</em> and denoted by <m>F</m></p></li>
 </ul>
+These values can be seen based on the completed game illustrated in <xref ref = "fig-criss-cross-game"/>.
 </p>
 
+<figure xml:id="fig-criss-cross-game">
+<image source="criss-cross/game.png" width="100%">
+    <caption>A completed game.</caption>
+    </image>
+</figure>
+
 <table xml:id="criss-cross-table">
+<title>Score sheet for criss-cross game.</title>
 <tabular>
-    <row>
+    <row bottom = "medium">
       <cell><m>V</m></cell>
       <cell><m>E</m></cell>
       <cell><m>F</m></cell>
