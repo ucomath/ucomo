@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+    <!--Start of code for airplane module page-->
+    <section xml:id= "paper-airplane-module">
+      <title>Building and Flying Paper Airplanes</title>
+
+
+        <!--The following subsection shows up as 2.1.1-->
+        <subsection> 
+         <title>Paper Airplane Instructions</title>
+           <p>
+           Each of the videos below walks you through the steps in making a different
+           type of paper airplane pictured below. The only thing that you will need for your 
+           airplanes is paper (copy, notebook, or construction 
+           paper will work). Although paper is the only material required, something to help crease 
+           down folds might also be useful, like a coin, ruler, or pen/pencil; also tape 
+           would help secure your planes' wings. 
+           </p>
+           
+          <figure>
+          <caption>Examples from your fleet of airplanes.</caption>
+          <image source="plane/PaperAirplaneHeading.png" width="85%"/>
+          <description></description>
+          </figure>
+          
+            <aside>
+              You can also make your paper airplanes out of alternative 
+              materials such as napkins; use whatever you have on hand!
+            </aside>
+
+           <p>
+           Once you have all your 
+           supplies, watch the videos. Feel free to watch at the speed you are most 
+           comfortable with (faster or slower), pausing and replaying whenever you need. 
+           And, don't forget to have fun!
+           </p>
+
+            <note>
+             It might be interesting to see how each design performs depending on the paper 
+             material used. This is something you can play around with in the Paper Airplane 
+             Log.
+            </note>
+
+          <paragraphs xml:id="paragraph-video-links">
+           <title>Video Links</title>
+            <sidebyside widths="60% 40%" margins="auto" valign="middle">
+             <p>
+              <ul>
+               <li> <url href="https://www.youtube.com/watch?v=Tk_sLzzCZjE">Pink Paper Airplane</url> </li>
+               <li> <url href="https://www.youtube.com/watch?v=UoyNStKV06I">The Dart/Gray Paper Airplane</url> </li>
+               <li> <url href="https://www.youtube.com/watch?v=o9k6oI1gxi0">White Paper Airplane</url> </li>
+               <li> <url href="https://www.youtube.com/watch?v=VIDtIa6PcDs">The Bat/Light Blue Paper Airplane</url> </li>
+               <li> <url href="https://www.youtube.com/watch?v=l00pK1g0khQ">Green Paper Airplane</url> </li>
+               <li> <url href="https://www.youtube.com/watch?v=7eZ_JMrQxDY">Light Pink Paper Airplane</url> </li>
+               <li> <url href="https://www.youtube.com/watch?v=IprtFwX2RZk">Purple Airplane</url></li>
+               <li> <url href="https://www.youtube.com/watch?v=4L8B-2y4Ax8">Blue Paper Airplane</url></li>
+             </ul>
+             </p>
+             <figure>
+              <caption>Paper Airplane Designs</caption>
+              <image source="plane/AirplanesGrouped.png" width="40%"/>
+              <description></description>
+             </figure>
+            </sidebyside>
+          </paragraphs>
+
+           <note><em>
+            <alert>Disclaimer:</alert> The KidsGetMath program did not create the designs of the
+            8 paper airplanes that are provided. These designs existed before the
+            program and were created by other individuals.</em>
+           </note>
+       </subsection>
+
+      <!-- The following is the link to learn about side by side images
+      https://pretextbook.org/doc/guide/html/topic-sidebyside.html-->
+
+
+       <!--The following subsection shows up as 2.1.2-->
+       <subsection>
+        <title>Paper Airplane Log Instructions</title>
+         <p>
+         Mathematicians and scientists conduct experiments to test their hypotheses. 
+         These hypotheses are created to ask questions about the world around them. 
+         Using the Paper Airplane Log below, you will be conducting your own experiment 
+         to find the best paper airplane design out of the 8 provided.
+         </p>
+
+         <p>
+         Once you have successfully folded multiple airplanes of each design, you will fly 
+         them and record your findings. As with any experiment, there are tons of variables 
+         that can be measured, each of which will contribute to the design's title as "best". 
+         And, like other experiments, multiple attempts must be done to ensure that your results 
+         are accurate. So, start by making 3 paper airplanes for each design. Once you have done 
+         this, read through the log to get a feel for what should be measured in every test.
+        </p>
+
+        <!--><paragraphs xml:id="airplane_diagram">-->
+         <!--><title>Airplane Diagram</title>-->
+          <figure>
+           <caption>Testing your airplanes.</caption>
+           <image source="plane/AirplaneDiagram.png" width="85%"/>
+           <description></description>
+          </figure>
+<!-->        </paragraphs>-->
+
+        <p>
+        The Paper Airplane Log asks that you measure the plane's 
+        distance from a target as well as the distance from your plane 
+        flown in Round 1. In both of these cases, try to aim your airplane 
+        in the same spot each time. The closer your planes are to this spot 
+        (the target), the more accurate this design is. The closer your 
+        planes are from each other (i.e. small distances measured from where the 
+        plane from Round 1 landed), the more precise this design is. 
+        </p>
+
+         <note>
+         If your idea of a perfect airplane is one that hits its target in 
+         the center every time, then precision and accuracy are the 
+         characteristics you are looking for.
+         </note>
+
+        <paragraphs xml:id="logs_for_paper_airplanes">
+         <title>Paper Airplane Log Files</title>
+          <p>
+           <p>Digital Versions:</p>
+           <!--The double paragraphs put digital versions on a new line-->
+                <aside>
+                If you are using the digital version, 
+                you will have to download or copy the file to edit it.
+                </aside>     
+            <ul>
+                <li><url href="https://docs.google.com/spreadsheets/d/1BhaCjX4dB1yDKZ1V4WLASHXSnc2F5UF1L74W5xhNEnI/edit#gid=0">Google Sheet (Color)</url></li>
+                <li><url href="https://docs.google.com/spreadsheets/d/1JuKvZVpLSJSvXEb5zLLyh2N2ULJL32Me/edit#gid=1004001917">Google Sheet (Black and White)</url></li>
+            </ul>
+           <p>Printable Versions:</p>
+            <ul>
+               <li><url href="https://drive.google.com/file/d/1vq_Qx1ve8KXtmueb8pz4x0WD7V-_cM3i/view">PDF (Color)</url></li>
+               <li><url href="https://drive.google.com/file/d/1aoIUoW203wOa7hfO895fPR1W_YnqnqYW/view">PDF (Black and White)</url></li>
+            </ul>
+          </p>
+        </paragraphs>
+
+        <paragraphs xml:id="Start_Flying_your_Airplanes">
+         <title>Start Flying your Airplanes</title>
+          <p>
+          <p>
+          Pull up your phone's stopwatch; get a friend to count out loud; have a parent/guardian 
+          measure the distance with a ruler or yardstick; put up trashcans and blankets as targets. 
+          Get creative! Whatever, and however, you chose to measure when flying your paper airplanes 
+          is up to you. Remember that the objective of your experiment is to find the best paper 
+          airplane design, so figure out what you think makes a paper airplane the best 
+          (fastest, furthest flying, most accurate/precise) and test for that.
+         </p>
+         </p>
+         </paragraphs>
+       </subsection>
+    </section>
+    <!--End of code for airplane modules page-->

@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2020-08-06T12:15:58-05:00    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MFG Functions (Homework 1.2)</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div class="hidden-content" style="display:none">\(\require{cancel}\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href="https://www.uco.edu/" target="_blank"><img src="../mfg/images/cover.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="Fall2020_hwk.html"><span class="title">Applied Algebra:</span> <span class="subtitle">Modeling and functions (homework only)</span></a></h1>
+<p class="byline">compiled by Sean Laverty on behalf of others, Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="section-1-1-exercises.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chap1.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="section-1-3-exercises.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="section-1-1-exercises.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chap1.html" title="Up">Up</a><a class="next-button button toolbar-item" href="section-1-3-exercises.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link">
+<a href="front.html" data-scroll="front"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1">Colophon</a></li>
+<li><a href="preface-1.html" data-scroll="preface-1">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap1.html" data-scroll="chap1"><span class="codenumber">1</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="section-1-1-exercises.html" data-scroll="section-1-1-exercises">Linear Models (Homework 1.1)</a></li>
+<li><a href="section-1-2-exercises.html" data-scroll="section-1-2-exercises" class="active">Functions (Homework 1.2)</a></li>
+<li><a href="section-1-3-exercises.html" data-scroll="section-1-3-exercises">Graphs of Functions (Homework 1.3)</a></li>
+<li><a href="section-1-4-exercises.html" data-scroll="section-1-4-exercises">Slope and Rate of Change (Homework 1.4)</a></li>
+<li><a href="section-1-5-exercises.html" data-scroll="section-1-5-exercises">Linear Functions (Homework 1.5)</a></li>
+<li><a href="chap1-summary.html" data-scroll="chap1-summary">Chapter Summary and Review</a></li>
+<li><a href="chap1-rev-projects.html" data-scroll="chap1-rev-projects">Projects for Chapter 1</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap2.html" data-scroll="chap2"><span class="codenumber">2</span> <span class="title">Modeling with Functions</span></a><ul>
+<li><a href="section-2-1-exercises.html" data-scroll="section-2-1-exercises">Nonlinear Models (Homework 2.1)</a></li>
+<li><a href="section-2-2-exercises.html" data-scroll="section-2-2-exercises">Some Basic Functions (Homework 2.2)</a></li>
+<li><a href="section-2-3-exercises.html" data-scroll="section-2-3-exercises">Transformations of Graphs (Homework 2.3)</a></li>
+<li><a href="section-2-4-exercises.html" data-scroll="section-2-4-exercises">Functions as Mathematical Models (Homework 2.4)</a></li>
+<li><a href="section-2-5-exercises.html" data-scroll="section-2-5-exercises">The Absolute Value Function (Homework 2.5)</a></li>
+<li><a href="section-2-6-exercises.html" data-scroll="section-2-6-exercises">Domain and Range (Homework 2.6)</a></li>
+<li><a href="chap2-summary.html" data-scroll="chap2-summary">Chapter Summary and Review</a></li>
+<li><a href="chap2-rev-projects.html" data-scroll="chap2-rev-projects">Projects for Chapter 2: Periodic Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap3.html" data-scroll="chap3"><span class="codenumber">3</span> <span class="title">Power Functions</span></a><ul>
+<li><a href="section-3-1-exercises.html" data-scroll="section-3-1-exercises">Variation (Homework 3.1)</a></li>
+<li><a href="section-3-2-exercises.html" data-scroll="section-3-2-exercises">Integer Exponents (Homework 3.2)</a></li>
+<li><a href="section-3-3-exercises.html" data-scroll="section-3-3-exercises">Roots and Radicals (Homework 3.3)</a></li>
+<li><a href="section-3-4-exercises.html" data-scroll="section-3-4-exercises">Rational Exponents (Homework 3.4)</a></li>
+<li><a href="chap3-summary.html" data-scroll="chap3-summary">Chapter Summary and Review</a></li>
+<li><a href="chap3-rev-projects.html" data-scroll="chap3-rev-projects">Projects for Chapter 3</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap4.html" data-scroll="chap4"><span class="codenumber">4</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="section-4-1-exercises.html" data-scroll="section-4-1-exercises">Exponential Growth and Decay (Homework 4.1)</a></li>
+<li><a href="section-4-2-exercises.html" data-scroll="section-4-2-exercises">Exponential Functions (Homework 4.2)</a></li>
+<li><a href="section-4-3-exercises.html" data-scroll="section-4-3-exercises">Logarithms (Homework 4.3)</a></li>
+<li><a href="section-4-4-exercises.html" data-scroll="section-4-4-exercises">Properties of Logarithms (Homework 4.4)</a></li>
+<li><a href="section-4-5-exercises.html" data-scroll="section-4-5-exercises">Exponential Models (Homework 4.5)</a></li>
+<li><a href="chap4-summary.html" data-scroll="chap4-summary">Chapter Summary and Review</a></li>
+<li><a href="chap4-rev-projects.html" data-scroll="chap4-rev-projects">Projects for Chapter 4</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap5.html" data-scroll="chap5"><span class="codenumber">5</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="section-5-1-exercises.html" data-scroll="section-5-1-exercises">Inverse Functions (Homework 5.1)</a></li>
+<li><a href="section-5-2-exercises.html" data-scroll="section-5-2-exercises">Logarithmic Functions (Homework 5.2)</a></li>
+<li><a href="section-5-3-exercises.html" data-scroll="section-5-3-exercises">The Natural Logarithm (Homework 5.3)</a></li>
+<li><a href="section-5-4-exercises.html" data-scroll="section-5-4-exercises">Logarithmic Scales (Homework 5.4)</a></li>
+<li><a href="chap5-summary.html" data-scroll="chap5-summary">Chapter Summary and Review</a></li>
+<li><a href="chap5-rev-projects.html" data-scroll="chap5-rev-projects">Projects for Chapter 5</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap6.html" data-scroll="chap6"><span class="codenumber">6</span> <span class="title">Quadratic Functions</span></a><ul>
+<li><a href="section-6-1-exercises.html" data-scroll="section-6-1-exercises">Factors and \(x\)-intercepts (Homework 6.1)</a></li>
+<li><a href="section-6-2-exercises.html" data-scroll="section-6-2-exercises">Solving Quadratic Equations (Homework 6.2)</a></li>
+<li><a href="section-6-3-exercises.html" data-scroll="section-6-3-exercises">Graphing Parabolas (Homework 6.3)</a></li>
+<li><a href="section-6-4-exercises.html" data-scroll="section-6-4-exercises">Problem Solving (Homework 6.4)</a></li>
+<li><a href="chap6-summary.html" data-scroll="chap6-summary">Chapter Summary and Review</a></li>
+<li><a href="chap6-rev-projects.html" data-scroll="chap6-rev-projects">Projects for Chapter 6</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap7.html" data-scroll="chap7"><span class="codenumber">7</span> <span class="title">Polynomial and Rational Functions</span></a><ul>
+<li><a href="section-7-1-exercises.html" data-scroll="section-7-1-exercises">Polynomial Functions (Homework 7.1)</a></li>
+<li><a href="section-7-2-exercises.html" data-scroll="section-7-2-exercises">Graphing Polynomial Functions (Homework 7.2)</a></li>
+<li><a href="section-7-3-exercises.html" data-scroll="section-7-3-exercises">Complex Numbers (Homework 7.3)</a></li>
+<li><a href="section-7-4-exercises.html" data-scroll="section-7-4-exercises">Graphing Rational Functions (Homework 7.4)</a></li>
+<li><a href="section-7-5-exercises.html" data-scroll="section-7-5-exercises">Equations that include Algebraic Fractions (Homework 7.5)</a></li>
+<li><a href="chap7-summary.html" data-scroll="chap7-summary">Chapter Summary and Review</a></li>
+<li><a href="chap7-rev-projects.html" data-scroll="chap7-rev-projects">Projects for Chapter 7</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap8.html" data-scroll="chap8"><span class="codenumber">8</span> <span class="title">Models and data</span></a><ul>
+<li><a href="section-1-6-exercises.html" data-scroll="section-1-6-exercises">Linear Regression (Homework 8.1)</a></li>
+<li><a href="section-6-6-exercises.html" data-scroll="section-6-6-exercises">Curve-fitting (Homework 8.2)</a></li>
+</ul>
+</li>
+<li class="link"><a href="backmatter.html" data-scroll="backmatter"><span class="title">Appendices</span></a></li>
+<li class="link">
+<a href="appendix-a.html" data-scroll="appendix-a"><span class="codenumber">A</span> <span class="title">Algebra Skills Refresher</span></a><ul>
+<li><a href="Numbers-and-Operations.html" data-scroll="Numbers-and-Operations">Numbers and Operations</a></li>
+<li><a href="appendix-Linear-Equations-and-Inequalities.html" data-scroll="appendix-Linear-Equations-and-Inequalities">Linear Equations and Inequalities</a></li>
+<li><a href="appendix-Algebraic-Expressions-and-Problem-Solving.html" data-scroll="appendix-Algebraic-Expressions-and-Problem-Solving">Algebraic Expressions and Problem Solving</a></li>
+<li><a href="appendix-Graphs-and-Equations.html" data-scroll="appendix-Graphs-and-Equations">Graphs and Equations</a></li>
+<li><a href="appendix-Linear-Systems-in-Two-Variables.html" data-scroll="appendix-Linear-Systems-in-Two-Variables">Linear Systems in Two Variables</a></li>
+<li><a href="appendix-Laws-of-Exponents.html" data-scroll="appendix-Laws-of-Exponents">Laws of Exponents</a></li>
+<li><a href="appendix-Polynomials-and-Factoring.html" data-scroll="appendix-Polynomials-and-Factoring">Polynomials and Factoring</a></li>
+<li><a href="appendix-Factoring-Quadratic-Trinomials.html" data-scroll="appendix-Factoring-Quadratic-Trinomials">Factoring Quadratic Trinomials</a></li>
+<li><a href="appendix-Working-with-Algebraic-Fractions.html" data-scroll="appendix-Working-with-Algebraic-Fractions">Working with Algebraic Fractions</a></li>
+<li><a href="appendix-Working-with-Radicals.html" data-scroll="appendix-Working-with-Radicals">Working with Radicals</a></li>
+<li><a href="appendix-Facts-from-Geometry.html" data-scroll="appendix-Facts-from-Geometry">Facts from Geometry</a></li>
+<li><a href="Properties-of-Lines.html" data-scroll="Properties-of-Lines">Properties of Lines</a></li>
+<li><a href="appendix-The-Real-Number-System.html" data-scroll="appendix-The-Real-Number-System">The Real Number System</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="appendix-b.html" data-scroll="appendix-b"><span class="codenumber">B</span> <span class="title">Using a Graphing Calculator</span></a><ul>
+<li><a href="appendix-Getting-Started.html" data-scroll="appendix-Getting-Started">Getting Started</a></li>
+<li><a href="appendix-Entering-Expressions.html" data-scroll="appendix-Entering-Expressions">Entering Expressions</a></li>
+<li><a href="appendix-Editing-Expressions.html" data-scroll="appendix-Editing-Expressions">Editing Expressions</a></li>
+<li><a href="appendix-Graphing-an-Equation.html" data-scroll="appendix-Graphing-an-Equation">Graphing an Equation</a></li>
+<li><a href="appendix-Making-a-Table.html" data-scroll="appendix-Making-a-Table">Making a Table</a></li>
+<li><a href="appendix-Regression.html" data-scroll="appendix-Regression">Regression</a></li>
+<li><a href="appendix-Function-Notation-and-Transformation-of-Graphs.html" data-scroll="appendix-Function-Notation-and-Transformation-of-Graphs">Function Notation and Transformation of Graphs</a></li>
+</ul>
+</li>
+<li class="link"><a href="glossary.html" data-scroll="glossary"><span class="codenumber">C</span> <span class="title">Glossary</span></a></li>
+<li class="link"><a href="technology.html" data-scroll="technology"><span class="codenumber">D</span> <span class="title">Technology (Graphing calculators)</span></a></li>
+<li class="link"><a href="geometry.html" data-scroll="geometry"><span class="codenumber">E</span> <span class="title">Geometry formulas</span></a></li>
+<li class="link"><a href="appendix-gfdl.html" data-scroll="appendix-gfdl"><span class="codenumber">F</span> <span class="title">GNU Free Documentation License</span></a></li>
+<li class="link"><a href="bibliography.html" data-scroll="bibliography"><span class="title">Bibliography</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="exercises" id="section-1-2-exercises"><h2 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber">1.2</span> <span class="title">Functions (Homework 1.2)</span>
+</h2>
+<a href="section-1-2-exercises.html" class="permalink">¶</a><div class="exercisegroup" id="exercisegroup-7">
+<div class="introduction" id="introduction-8"><p id="p-207">For which of Problems 1-6 is the second quantity a function of the first? Explain your answers.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-53"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
+<p id="p-208">Price of an item; sales tax on the item at 4%</p></article><article class="exercise exercise-like" id="exercise-54"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
+<p id="p-210">Time traveled at constant speed; distance traveled</p></article><article class="exercise exercise-like" id="exercise-55"><h6 class="heading"><span class="codenumber">3<span class="period">.</span></span></h6>
+<p id="p-211">Number of years of education; annual income</p></article><article class="exercise exercise-like" id="exercise-56"><h6 class="heading"><span class="codenumber">4<span class="period">.</span></span></h6>
+<p id="p-213">Distance flown in an airplane; price of the ticket</p></article><article class="exercise exercise-like" id="exercise-57"><h6 class="heading"><span class="codenumber">5<span class="period">.</span></span></h6>
+<p id="p-214">Volume of a container of water; the weight of the water</p></article><article class="exercise exercise-like" id="exercise-58"><h6 class="heading"><span class="codenumber">6<span class="period">.</span></span></h6>
+<p id="p-216">Amount of a paycheck; amount of Social Security tax withheld</p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-8">
+<div class="introduction" id="introduction-9"><p id="p-217">Each of the objects in Problems 7-14 establishes a correspondence between two variables. Suggest appropriate input and output variables and decide whether the relationship is a function.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-59"><h6 class="heading"><span class="codenumber">7<span class="period">.</span></span></h6>
+<p id="p-218">An itemized grocery receipt</p></article><article class="exercise exercise-like" id="exercise-60"><h6 class="heading"><span class="codenumber">8<span class="period">.</span></span></h6>
+<p id="p-220">An inventory list</p></article><article class="exercise exercise-like" id="exercise-61"><h6 class="heading"><span class="codenumber">9<span class="period">.</span></span></h6>
+<p id="p-221">An index</p></article><article class="exercise exercise-like" id="exercise-62"><h6 class="heading"><span class="codenumber">10<span class="period">.</span></span></h6>
+<p id="p-223">A will</p></article><article class="exercise exercise-like" id="exercise-63"><h6 class="heading"><span class="codenumber">11<span class="period">.</span></span></h6>
+<p id="p-224">An instructor's grade book</p></article><article class="exercise exercise-like" id="exercise-64"><h6 class="heading"><span class="codenumber">12<span class="period">.</span></span></h6>
+<p id="p-226">An address book</p></article><article class="exercise exercise-like" id="exercise-65"><h6 class="heading"><span class="codenumber">13<span class="period">.</span></span></h6>
+<p id="p-227">A bathroom scale</p></article><article class="exercise exercise-like" id="exercise-66"><h6 class="heading"><span class="codenumber">14<span class="period">.</span></span></h6>
+<p id="p-229">A radio dial</p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-9">
+<div class="introduction" id="introduction-10"><p id="p-230">Which of the tables in Problems 15-26 define the second variable as a function of the first variable? Explain why or why not.</p></div>
+<div class="exercisegroup-exercises cols4">
+<article class="exercise exercise-like" id="exercise-67"><h6 class="heading"><span class="codenumber">15<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(x\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(t\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(2\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(9\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(-2\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(-3\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(5\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-68"><h6 class="heading"><span class="codenumber">16<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(y\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(w\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(8\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(12\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(3\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(7\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(5\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(-3\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(7\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(4\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-69"><h6 class="heading"><span class="codenumber">17<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(x\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(y\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-3\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(8\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(3\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(-1\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(3\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(3\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(8\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-70"><h6 class="heading"><span class="codenumber">18<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(s\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(t\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(5\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(4\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(10\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(6\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(15\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(8\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(20\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(6\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(25\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(4\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(30\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(35\)</td>
+</tr>
+</table></div></div></div></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-10"><div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-71"><h6 class="heading"><span class="codenumber">19<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(r\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(-4\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(-2\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(2\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(4\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(v\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(6\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(6\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(3\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(6\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(8\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-72"><h6 class="heading"><span class="codenumber">20<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(p\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(-5\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(-4\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(-3\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(-2\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(-1\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(d\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(-5\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(-4\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(-3\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(-2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(-1\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-73"><h6 class="heading"><span class="codenumber">21<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Pressure (\(p\))</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">Volume (\(v\))</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(15\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(100.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(20\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(75.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(25\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(60.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(30\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(50.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(35\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(42.8\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(40\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(37.5\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(45\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(33.3\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(50\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(30.0\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-74"><h6 class="heading"><span class="codenumber">22<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Frequency (\(f\))</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">Wavelength (\(w\))</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(5\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(60.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(10\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(30.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(20\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(15.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(30\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(10.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(40\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(7.5\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(50\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(6.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(60\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(5.0\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(70\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(4.3\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-75"><h6 class="heading"><span class="codenumber">23<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Temperature (\(T\))</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">Humidity (\(h\))</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Jan. 1 \(\hphantom{000}34\degree\)F</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(42\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Jan. 2 \(\hphantom{000}36\degree\)F</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(44\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Jan. 3 \(\hphantom{000}35\degree\)F</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(47\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Jan. 4 \(\hphantom{000}29\degree\)F</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(50\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Jan. 5 \(\hphantom{000}31\degree\)F</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(52\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Jan. 6 \(\hphantom{000}35\degree\)F</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(51\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Jan. 7 \(\hphantom{000}34\degree\)F</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(49\%\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-76"><h6 class="heading"><span class="codenumber">24<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Inflation<br>rate (\(I\))</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">Unemployment<br>rate (\(U\))</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1972 \(\hphantom{000}5.6\%\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(5.1\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1973 \(\hphantom{000}6.2\%\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(4.5\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1974 \(\hphantom{000}10.1\%\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(4.9\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1975 \(\hphantom{000}9.2\%\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(7.4\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1976 \(\hphantom{000}5.8\%\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(6.7\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1977 \(\hphantom{000}5.6\%\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(6.8\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1978 \(\hphantom{000}6.7\%\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(7.4\%\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-77"><h6 class="heading"><span class="codenumber">25<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Adjusted gross<br>income (\(I\))</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">Tax bracket (\(T\))</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">$\(0-2479\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(0\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">$\(2480-3669\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(4.5\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">$\(3670-4749\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(12\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">$\(4750-7009\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(14\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">$\(7010-9169\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(15\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">$\(9170-11,649\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(16\%\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">$\(11,650-13,919\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(18\%\)</td>
+</tr>
+</table></div></div></div></article><article class="exercise exercise-like" id="exercise-78"><h6 class="heading"><span class="codenumber">26<span class="period">.</span></span></h6>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Cost of<br>merchandise (\(M\))</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">Shipping<br>charge  (\(C\))</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(\$0.01-10.00\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\$2.50\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(10.01-20.00\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(3.75\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(20.01-35.00\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(4.85\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(35.01-50.00\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(5.95\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(50.01-75.00\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(6.95\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(75.01-100.00\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(7.95\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Over \(100.00\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(8.95\)</td>
+</tr>
+</table></div></div></div></article>
+</div></div>
+<article class="exercise exercise-like" id="exercise-79"><h6 class="heading"><span class="codenumber">27<span class="period">.</span></span></h6>
+<p id="p-237">The function described in Problem 21 is called \(g\text{,}\) so that \(v = g( p)\text{.}\) Find the following:</p>
+<ol class="lower-alpha">
+<li id="li-135"><p id="p-238">\(g(25)\)</p></li>
+<li id="li-136"><p id="p-239">\(g(40)\)</p></li>
+<li id="li-137"><p id="p-240">\(x\) so that \(g(x) = 50\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-80"><h6 class="heading"><span class="codenumber">28<span class="period">.</span></span></h6>
+<p id="p-245">The function described in Problem 22 is called \(h\text{,}\) so that \(w = h( f)\text{.}\) Find the following:</p>
+<ol class="lower-alpha">
+<li id="li-141"><p id="p-246">\(h(20)\)</p></li>
+<li id="li-142"><p id="p-247">\(h(60)\)</p></li>
+<li id="li-143"><p id="p-248">\(x\) so that \(h(x) = 10\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-81"><h6 class="heading"><span class="codenumber">29<span class="period">.</span></span></h6>
+<p id="p-249">The function described in Problem 25 is called \(T\text{,}\) so that \(T = T( I)\text{.}\) Find the following:</p>
+<ol class="lower-alpha">
+<li id="li-144"><p id="p-250">\(T(8750)\)</p></li>
+<li id="li-145"><p id="p-251">\(T(6249)\)</p></li>
+<li id="li-146"><p id="p-252">\(x\) so that \(T(x) = 15\%\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-82"><h6 class="heading"><span class="codenumber">30<span class="period">.</span></span></h6>
+<p id="p-257">The function described in Problem 26 is called \(C\text{,}\) so that \(C = C( M)\text{.}\) Find the following:</p>
+<ol class="lower-alpha">
+<li id="li-150"><p id="p-258">\(C(11.50)\)</p></li>
+<li id="li-151"><p id="p-259">\(C(47.24)\)</p></li>
+<li id="li-152"><p id="p-260">\(x\) so that \(C(x) = 7.95\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-83"><h6 class="heading"><span class="codenumber">31<span class="period">.</span></span></h6>
+<p id="p-261">Data indicate that U.S. women are delaying having children longer than their counterparts 50 years ago. The table shows \(f(t)\) the percent of 20–24-year-old women in year \(t\) who had not yet had children. (Source: U.S. Dept of Health and Human Services)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Year (\(t\))</td>
+<td class="c m b1 r1 l0 t3 lines">\(1960\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1965\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1970\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1975\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1980\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1985\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1990\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1995\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(2000\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Percent of<br>women</td>
+<td class="c m b1 r1 l0 t0 lines">\(47.5\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(51.4\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(47.0\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(62.5\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(66.2\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(67.7\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(68.3\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(65.5\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(66.0\)</td>
+</tr>
+</table></div></div></div>
+<ol id="p-262" class="lower-alpha">
+<li id="li-153"><p id="p-263">Evaluate \(f (1985)\) and explain what it means.</p></li>
+<li id="li-154"><p id="p-264">Estimate a solution to the equation \(f (t) = 68\) and explain what it means.</p></li>
+<li id="li-155"><p id="p-265">In 1997, \(64.9\%\) of 20–24-year-old women had not yet had children. Write an equation with function notation that states this fact.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-84"><h6 class="heading"><span class="codenumber">32<span class="period">.</span></span></h6>
+<p id="p-270">The table shows \(f (t)\text{,}\) the death rate (per 100,000 people) from HIV among 15–24-year-olds, and \(g(t)\text{,}\) the death rate from HIV among 25–34-year-olds, for selected years from 1997 to 2002. (Source: U.S. Dept of Health and Human Services)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Year</td>
+<td class="c m b1 r1 l0 t3 lines">\(1987\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1988\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1989\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1990\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1992\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1994\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1996\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1998\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(2000\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(2002\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">15–24-year-olds</td>
+<td class="c m b1 r1 l0 t0 lines">\(1.3\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(1.4\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(1.6\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(1.5\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(1.6\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(1.8\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(1.1\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(0.6\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(0.5\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(0.4\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">25–34-year-olds</td>
+<td class="c m b1 r1 l0 t0 lines">\(11.7\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(14.0\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(17.9\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(19.7\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(24.2\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(28.6\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(19.2\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(8.1\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(6.1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(4.6\)</td>
+</tr>
+</table></div></div></div>
+<ol id="p-271" class="lower-alpha">
+<li id="li-159"><p id="p-272">Evaluate \(f (1995)\) and explain what it means.</p></li>
+<li id="li-160"><p id="p-273">Find a solution to the equation \(g (t) = 28.6\) and explain what it means.</p></li>
+<li id="li-161"><p id="p-274">In 1988, the death rate from HIV for 25–34-year-olds was \(10\) times the corresponding rate for 15–24-year-olds. Write an equation with function notation that states this fact.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-85"><h6 class="heading"><span class="codenumber">33<span class="period">.</span></span></h6>
+<p id="p-275">When you exercise, your heart rate should increase until it reaches your target heart rate. The table shows target heart rate, \(r = f (a)\text{,}\) as a function of age.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(a\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(20\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(25\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(30\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(35\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(40\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(45\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(50\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(55\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(60\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(65\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(70\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(r\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(150\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(146\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(142\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(139\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(135\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(131\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(127\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(124\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(120\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(116\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(112\)</td>
+</tr>
+</table></div></div></div>
+<ol id="p-276" class="lower-alpha">
+<li id="li-162"><p id="p-277">Does \(f (50) = 2 f (25)\text{?}\)</p></li>
+<li id="li-163"><p id="p-278">Find a value of a for which \(f (a) = 2a\text{.}\) Is \(f (a) = 2a\) for all values of \(a\text{?}\)</p></li>
+<li id="li-164"><p id="p-279">Is \(r = f (a)\) an increasing function or a decreasing function?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-86"><h6 class="heading"><span class="codenumber">34<span class="period">.</span></span></h6>
+<p id="p-284">The table shows \(M = f (d)\text{,}\) the men's Olympic record time, and \(W = g(d)\text{,}\) the women's Olympic record time, as a function of the length, \(d\text{,}\) of the race. For example, the women’s record in the 100 meters is 10.62 seconds, and the men’s record in the 800 meters is 1 minute, 42.58 seconds. (Source: www.hickoksports.com)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Distance<br>(meters)</td>
+<td class="c m b1 r1 l0 t3 lines">\(100\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(200\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(400\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(800\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(1500\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(5000\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(10,000\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Men</td>
+<td class="c m b1 r1 l0 t0 lines">\(9.63\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(19.30\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(43.03\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(1:40.91\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(3:32.07\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(12:57.82\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(27:01.17\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Women</td>
+<td class="c m b1 r1 l0 t0 lines">\(10.62\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(21.34\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(48.25\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(1:53.43\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(3:53.96\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(14:26.17\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(29:17.45\)</td>
+</tr>
+</table></div></div></div>
+<ol id="p-285" class="lower-alpha">
+<li id="li-168"><p id="p-286">Does \(f (800) = 2 f (400)\text{?}\) Does \(g(400) = 2g(200)\text{?}\)</p></li>
+<li id="li-169"><p id="p-287">Find a value of \(d\) for which \(f (2d)\lt 2f (d)\text{.}\) Is there a value of \(d\) for which \(g(2d)\lt 2g(d)\text{?}\)</p></li>
+</ol></article><div class="exercisegroup" id="exercisegroup-11">
+<div class="introduction" id="introduction-11"><p id="p-288">In Problems 35—40, use the graph of the function to answer the questions.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-87"><h6 class="heading"><span class="codenumber">35<span class="period">.</span></span></h6>
+<p id="p-289">The graph shows \(C\) as a function of \(t\text{.}\) \(C\) stands for the number of students (in thousands) at State University who consider themselves computer literate, and \(t\) represents time, measured in years since 1990.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:32%;margin-right:32%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-35.svg" style="width: 100%; height: auto;" alt="increasing concave up graph"></div></div></div>
+<ol id="p-290" class="lower-alpha">
+<li id="li-170"><p id="p-291">When did \(2000\) students consider themselves computer literate?</p></li>
+<li id="li-171"><p id="p-292">How long did it take that number to double?</p></li>
+<li id="li-172"><p id="p-293">How long did it take for the number to double again?</p></li>
+<li id="li-173"><p id="p-294">How many students became computer literate between January 1992 and June 1993?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-88"><h6 class="heading"><span class="codenumber">36<span class="period">.</span></span></h6>
+<p id="p-300">The graph shows \(P\) as a function of \(t\text{.}\) \(P\) is the number of people in Cedar Grove who owned a portable DVD player \(t\) years after 2000.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:32%;margin-right:32%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-36.svg" style="width: 100%; height: auto;" alt="increasing concave down graph"></div></div></div>
+<ol class="lower-alpha">
+<li id="li-178"><p id="p-301">When did 3500 people own portable DVD players?</p></li>
+<li id="li-179"><p id="p-302">How many people owned portable DVD players in 2005?</p></li>
+<li id="li-180"><p id="p-303">The number of owners of portable DVD players in Cedar Grove seems to be leveling off at what number?</p></li>
+<li id="li-181"><p id="p-304">How many people acquired portable DVD players between 2001 and 2004?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-89"><h6 class="heading"><span class="codenumber">37<span class="period">.</span></span></h6>
+<p id="p-305">The graph shows the revenue, \(R\text{,}\) a movie theater collects as a function of the price, \(d\text{,}\) it charges for a ticket.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-37.svg" style="width: 100%; height: auto;" alt="concave down graph"></div></div></div>
+<ol class="lower-alpha">
+<li id="li-182"><p id="p-306">What is the revenue if the theater charges $\(12.00\) for a ticket?</p></li>
+<li id="li-183"><p id="p-307">What should the theater charge for a ticket in order to collect $\(1500\) in revenue?</p></li>
+<li id="li-184"><p id="p-308">For what values of \(d\) is \(R\gt 1875\text{?}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-90"><h6 class="heading"><span class="codenumber">38<span class="period">.</span></span></h6>
+<p id="p-313">The graph shows \(S\) as a function of \(w\text{.}\) \(S\) represents the weekly sales of a best-selling book, in thousands of dollars, \(w\) weeks after it is released.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-38.svg" style="width: 100%; height: auto;" alt="bell-shaped graph"></div></div></div>
+<ol class="lower-alpha">
+<li id="li-188"><p id="p-314">In which weeks were sales over $\(7000\text{?}\)</p></li>
+<li id="li-189"><p id="p-315">In which week did sales fall below $\(5000\) on their way down?</p></li>
+<li id="li-190"><p id="p-316">For what values of \(w\) is \(S\gt 3.4\text{?}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-91"><h6 class="heading"><span class="codenumber">39<span class="period">.</span></span></h6>
+<p id="p-317">The graph shows the federal minimum wage, \(M\text{,}\) as a function of time, \(t\text{,}\) adjusted for inflation to reflect its buying power in 2004 dollars. (Source: www.infoplease.com)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-39.svg" style="width: 100%; height: auto;" alt="unemployment rate"></div></div></div>
+<ol id="p-318" class="lower-alpha">
+<li id="li-191"><p id="p-319">When did the minimum wage reach its highest buying power, and what was it worth in 2004 dollars?</p></li>
+<li id="li-192"><p id="p-320">When did the minimum wage fall to its lowest buying power after its peak, and what was its worth at that time?</p></li>
+<li id="li-193"><p id="p-321">Give two years in which the minimum wage was worth $\(8\) in 2004 dollars.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-92"><h6 class="heading"><span class="codenumber">40<span class="period">.</span></span></h6>
+<p id="p-326">The graph shows the U.S. unemployment rate, \(U\text{,}\) as a function of time, \(t\text{,}\) for the years 1985–2004. (Source: U.S. Bureau of Labor Statistics)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:20%;margin-right:20%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-40.svg" style="width: 100%; height: auto;" alt="unemployment rate"></div></div></div>
+<ol id="p-327" class="lower-alpha">
+<li id="li-197"><p id="p-328">When did the unemployment rate reach its highest value, and what was its highest value?</p></li>
+<li id="li-198"><p id="p-329">When did the unemployment rate fall to its lowest value, and what was its lowest value?</p></li>
+<li id="li-199"><p id="p-330">Give two years in which the unemployment rate was \(4.5\%\text{.}\)</p></li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-12">
+<div class="introduction" id="introduction-12"><p id="p-331">In Problems 41–48, evaluate each function for the given values, if possible. If not, state why.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-93"><h6 class="heading"><span class="codenumber">41<span class="period">.</span></span></h6>
+<p id="p-332">\(f (x) = 6 - 2x\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-200"><p id="p-333">\(f(3)\)</p></li>
+<li id="li-201"><p id="p-334">\(f(-2)\)</p></li>
+<li id="li-202"><p id="p-335">\(f(12.7)\)</p></li>
+<li id="li-203"><p id="p-336">\(f\left(\dfrac{2}{3}\right)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-94"><h6 class="heading"><span class="codenumber">42<span class="period">.</span></span></h6>
+<p id="p-342">\(g(t) = 5t - 3\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-208"><p id="p-343">\(g(1)\)</p></li>
+<li id="li-209"><p id="p-344">\(g(-4)\)</p></li>
+<li id="li-210"><p id="p-345">\(g(14.1)\)</p></li>
+<li id="li-211"><p id="p-346">\(g\left(\dfrac{3}{4}\right)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-95"><h6 class="heading"><span class="codenumber">43<span class="period">.</span></span></h6>
+<p id="p-347">\(h(v) = 2v^2 - 3v + 1\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-212"><p id="p-348">\(h(0)\)</p></li>
+<li id="li-213"><p id="p-349">\(h(-1)\)</p></li>
+<li id="li-214"><p id="p-350">\(h\left(\dfrac{1}{4}\right)\)</p></li>
+<li id="li-215"><p id="p-351">\(h(-6.2)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-96"><h6 class="heading"><span class="codenumber">44<span class="period">.</span></span></h6>
+<p id="p-357">\(r (s) = 2s - s^2\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-220"><p id="p-358">\(r(2)\)</p></li>
+<li id="li-221"><p id="p-359">\(r(-4)\)</p></li>
+<li id="li-222"><p id="p-360">\(r\left(\dfrac{1}{3}\right)\)</p></li>
+<li id="li-223"><p id="p-361">\(r(-1.3)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-97"><h6 class="heading"><span class="codenumber">45<span class="period">.</span></span></h6>
+<p id="p-362">\(H(z) = \dfrac{2z - 3}{z + 2}\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-224"><p id="p-363">\(H(4)\)</p></li>
+<li id="li-225"><p id="p-364">\(H(-3)\)</p></li>
+<li id="li-226"><p id="p-365">\(H\left(\dfrac{4}{3}\right)\)</p></li>
+<li id="li-227"><p id="p-366">\(H(4.5)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-98"><h6 class="heading"><span class="codenumber">46<span class="period">.</span></span></h6>
+<p id="p-372">\(F(x) = \dfrac{1-x}{2x-3}\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-232"><p id="p-373">\(F(0)\)</p></li>
+<li id="li-233"><p id="p-374">\(F(-3)\)</p></li>
+<li id="li-234"><p id="p-375">\(F\left(\dfrac{5}{2}\right)\)</p></li>
+<li id="li-235"><p id="p-376">\(F(\dfrac{3}{2})\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-99"><h6 class="heading"><span class="codenumber">47<span class="period">.</span></span></h6>
+<p id="p-377">\(E(t) =\sqrt{t-4}\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-236"><p id="p-378">\(E(16)\)</p></li>
+<li id="li-237"><p id="p-379">\(E(4)\)</p></li>
+<li id="li-238"><p id="p-380">\(E(7)\)</p></li>
+<li id="li-239"><p id="p-381">\(E(4.2)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-100"><h6 class="heading"><span class="codenumber">48<span class="period">.</span></span></h6>
+<p id="p-387">\(D(r) =\sqrt{5-r}\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-244"><p id="p-388">\(D(4)\)</p></li>
+<li id="li-245"><p id="p-389">\(D(-3)\)</p></li>
+<li id="li-246"><p id="p-390">\(D(9)\)</p></li>
+<li id="li-247"><p id="p-391">\(D(4.6)\)</p></li>
+</ol></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-101"><h6 class="heading"><span class="codenumber">49<span class="period">.</span></span></h6>
+<p id="p-392">A sport utility vehicle costs $\(28,000\) and depreciates according to the formula</p>
+<div class="displaymath">
+\begin{equation*}
+V(t) = 28,000 (1 - 0.08t)
+\end{equation*}
+</div>
+<p data-braille="continuation">where \(V\) is the value of the vehicle after \(t\) years.</p>
+<ol class="lower-alpha">
+<li id="li-248"><p id="p-393">Evaluate \(V(12)\) and explain what it means.</p></li>
+<li id="li-249"><p id="p-394">Solve the equation \(V(t) = 0\) and explain what it means.</p></li>
+<li id="li-250"><p id="p-395">If this year is \(t = n\text{,}\) what does \(V(n + 2)\) mean?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-102"><h6 class="heading"><span class="codenumber">50<span class="period">.</span></span></h6>
+<p id="p-400">In a profit-sharing plan, an employee receives a salary of</p>
+<div class="displaymath">
+\begin{equation*}
+S(x) = 20,000 + 0.01x
+\end{equation*}
+</div>
+<p data-braille="continuation">where \(x\) represents the company's profit for the year.</p>
+<ol class="lower-alpha">
+<li id="li-254"><p id="p-401">Evaluate \(S(850,000)\) and explain what it means.</p></li>
+<li id="li-255"><p id="p-402">Solve the equation \(S(x) = 30,000\) and explain what it means.</p></li>
+<li id="li-256"><p id="p-403">If the company made a profit of \(p\) dollars this year, what does \(S(2p)\) mean?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-103"><h6 class="heading"><span class="codenumber">51<span class="period">.</span></span></h6>
+<p id="p-404">The number of compact cars that a large dealership can sell at price \(p\) is given by</p>
+<div class="displaymath">
+\begin{equation*}
+N( p) = \dfrac{12,000,000}{p}
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li id="li-257"><p id="p-405">Evaluate \(N(6000)\) and explain what it means.</p></li>
+<li id="li-258"><p id="p-406">As \(p\) increases, does \(N(p)\) increase or decrease? Why is this reasonable?</p></li>
+<li id="li-259"><p id="p-407">If the current price for a compact car is \(D\text{,}\) what does \(2N(D)\) mean?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-104"><h6 class="heading"><span class="codenumber">52<span class="period">.</span></span></h6>
+<p id="p-412">A department store finds that the market value of its Christmas-related merchandise is given by</p>
+<div class="displaymath">
+\begin{equation*}
+M(t) = \dfrac{600,000}{t},~~ t\le 30
+\end{equation*}
+</div>
+<p data-braille="continuation">where \(t\) is the number of weeks after Christmas.</p>
+<ol class="lower-alpha">
+<li id="li-263"><p id="p-413">Evaluate \(M(2)\) and explain what it means.</p></li>
+<li id="li-264"><p id="p-414">As \(t\) increases, does \(M(t)\) increase or decrease? Why is this reasonable?</p></li>
+<li id="li-265"><p id="p-415">If this week \(t = n\text{,}\) what does \(M(n + 1)\) mean?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-105"><h6 class="heading"><span class="codenumber">53<span class="period">.</span></span></h6>
+<p id="p-416">The velocity of a car that brakes suddenly can be determined from the length of its skid marks, \(d\text{,}\) by</p>
+<div class="displaymath">
+\begin{equation*}
+v(d) = \sqrt{12d}
+\end{equation*}
+</div>
+<p data-braille="continuation">where \(d\) is in feet and \(v\) is in miles per hour.</p>
+<ol class="lower-alpha">
+<li id="li-266"><p id="p-417">Evaluate \(v(250)\) and explain what it means.</p></li>
+<li id="li-267"><p id="p-418">Estimate the length of the skid marks left by a car traveling at \(100\) miles per hour.</p></li>
+<li id="li-268"><p id="p-419">Write your answer to part (b) with function notation.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-106"><h6 class="heading"><span class="codenumber">54<span class="period">.</span></span></h6>
+<p id="p-424">The distance, \(d\text{,}\) in miles that a person can see on a clear day from a height, \(h\text{,}\) in feet is given by</p>
+<div class="displaymath">
+\begin{equation*}
+d(h) = 1.22\sqrt{h}
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li id="li-272"><p id="p-425">Evaluate \(d(20,320)\) and explain what it means.</p></li>
+<li id="li-273"><p id="p-426">Estimate the height you need in order to see \(100\) miles.</p></li>
+<li id="li-274"><p id="p-427">Write your answer to part (b) with function notation.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-107"><h6 class="heading"><span class="codenumber">55<span class="period">.</span></span></h6>
+<p id="p-428">The figure gives data about snowfall, air temperature, and number of avalanches on the Mikka glacier in Sarek, Lapland, in 1957. (Source: Leopold, Wolman, Miller, 1992)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-55.svg" style="width: 100%; height: auto;" alt="three graphs"></div></div></div>
+<ol id="p-429" class="lower-alpha">
+<li id="li-275"><p id="p-430">During June and July, avalanches occurred over three separate time intervals. What were they?</p></li>
+<li id="li-276"><p id="p-431">Over what three time intervals did snow fall?</p></li>
+<li id="li-277"><p id="p-432">When was the temperature above freezing (\(0\degree\)C)?</p></li>
+<li id="li-278"><p id="p-433">Using your answers to parts (a)–(c), make a conjecture about the conditions that encourage avalanches.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-108"><h6 class="heading"><span class="codenumber">56<span class="period">.</span></span></h6>
+<p id="p-439">The bar graph shows the percent of Earth's surface that lies at various altitudes or depths below the surface of the oceans. (Depths are given as negative altitudes.) (Source: Open University)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-56.svg" style="width: 100%; height: auto;" alt="bar graph"></div></div></div>
+<ol id="p-440" class="lower-alpha">
+<li id="li-283">
+<p id="p-441">Read the graph and complete the table.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Altitude (km)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">Percent of<br>Earth's surface</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-7\) to \(-6\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-6\) to \(-5\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-5\) to \(-4\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-4\) to \(-3\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-3\) to \(-2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-2\) to \(-1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(-1\) to \(0\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(0\) to \(1\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(1\) to \(2\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(2\) to \(3\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(3\) to \(4\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(4\) to \(5\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+</table></div></div></div>
+</li>
+<li id="li-284"><p id="p-442">What is the most common altitude? What is the second most common altitude??</p></li>
+<li id="li-285"><p id="p-443">Approximately what percent of the Earth's surface is below sea level?</p></li>
+<li id="li-286"><p id="p-444">The height of Mt. Everest is \(8.85\) kilometers. Can you think of a reason why it is not included in the graph?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-109"><h6 class="heading"><span class="codenumber">57<span class="period">.</span></span></h6>
+<p id="p-445">The graph shows the temperature of the ocean at various depths. (Source: Open University)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:3.5%;margin-right:3.5%;">
+<div class="sbspanel" style="width:38.7096774193548%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-57.svg" style="width: 100%; height: auto;" alt="temperature vs depth"></div>
+<div class="sbspanel" style="width:53.7634408602151%;justify-content:flex-start;"><ol id="p-446" class="lower-alpha">
+<li id="li-287"><p id="p-447">Is depth a function of temperature?</p></li>
+<li id="li-288"><p id="p-448">Is temperature a function of depth?</p></li>
+<li id="li-289"><p id="p-449">The axes are scaled in an unusual way. Why is it useful to present the graph in this way?</p></li>
+</ol></div>
+</div></div></article><article class="exercise exercise-like" id="exercise-110"><h6 class="heading"><span class="codenumber">58<span class="period">.</span></span></h6>
+<p id="p-454">The graph shows the relationship between annual precipitation, \(p\text{,}\) in a region and the amount of erosion, measured in tons per square mile, \(s\text{.}\) (Source: Leopold, Wolman, Miller, 1992)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="../mfg/images/fig-ex-1-2-58.svg" style="width: 100%; height: auto;" alt="precipitation vs sediment yield"></div></div></div>
+<ol id="p-455" class="lower-alpha">
+<li id="li-293"><p id="p-456">Is the amount of erosion a function of the amount of precipitation?</p></li>
+<li id="li-294"><p id="p-457">At what annual precipitation is erosion at a maximum, and what is that maximum?</p></li>
+<li id="li-295"><p id="p-458">Over what interval of annual precipitation does erosion decrease?</p></li>
+<li id="li-296">
+<p id="p-459">An increase in vegetation inhibits erosion, and precipitation encourages vegetation. What happens to the amount of erosion as precipitation increases in each of these three environments?</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">desert shrub:</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">\(0\lt p\lt 12\)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">grassland:</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">\(12\lt p\lt 30\)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">forest:</td>
+<td class="l m b0 r0 l0 t0 lines" data-braille="last-cell">\(30\lt p\lt 60\)</td>
+</tr>
+</table></div></div></div>
+</li>
+</ol></article><div class="exercisegroup" id="exercisegroup-13">
+<div class="introduction" id="introduction-13"><p id="p-460">In Problems 59—64, evaluate the function and simplify.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-111"><h6 class="heading"><span class="codenumber">59<span class="period">.</span></span></h6>
+<p id="p-461">\(G(s) = 3s^2 - 6s\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-297"><p id="p-462">\(G(3a)\)</p></li>
+<li id="li-298"><p id="p-463">\(G(a + 2)\)</p></li>
+<li id="li-299"><p id="p-464">\(G(a) + 2\)</p></li>
+<li id="li-300"><p id="p-465">\(G(-a)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-112"><h6 class="heading"><span class="codenumber">60<span class="period">.</span></span></h6>
+<p id="p-471">\(h(x) = 2x^2 + 6x - 3\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-305"><p id="p-472">\(h(2a)\)</p></li>
+<li id="li-306"><p id="p-473">\(h(a + 3)\)</p></li>
+<li id="li-307"><p id="p-474">\(h(a) + 3\)</p></li>
+<li id="li-308"><p id="p-475">\(h(-a)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-113"><h6 class="heading"><span class="codenumber">61<span class="period">.</span></span></h6>
+<p id="p-476">\(g(x) = 8\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-309"><p id="p-477">\(g(2)\)</p></li>
+<li id="li-310"><p id="p-478">\(g(8)\)</p></li>
+<li id="li-311"><p id="p-479">\(g(a + 1)\)</p></li>
+<li id="li-312"><p id="p-480">\(g(-x)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-114"><h6 class="heading"><span class="codenumber">62<span class="period">.</span></span></h6>
+<p id="p-486">\(f (t) = -3\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-317"><p id="p-487">\(f (4)\)</p></li>
+<li id="li-318"><p id="p-488">\(f (-3)\)</p></li>
+<li id="li-319"><p id="p-489">\(f (b - 2)\)</p></li>
+<li id="li-320"><p id="p-490">\(f (-t)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-115"><h6 class="heading"><span class="codenumber">63<span class="period">.</span></span></h6>
+<p id="p-491">\(P(x) = x^3 - 1\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-321"><p id="p-492">\(P(2x)\)</p></li>
+<li id="li-322"><p id="p-493">\(2P(x)\)</p></li>
+<li id="li-323"><p id="p-494">\(P(x^2)\)</p></li>
+<li id="li-324"><p id="p-495">\([P(x)]^2\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-116"><h6 class="heading"><span class="codenumber">64<span class="period">.</span></span></h6>
+<p id="p-501">\(Q(t) = 5t^3\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-329"><p id="p-502">\(Q(2t)\)</p></li>
+<li id="li-330"><p id="p-503">\(2Q(t)\)</p></li>
+<li id="li-331"><p id="p-504">\(Q(t^2)\)</p></li>
+<li id="li-332"><p id="p-505">\([Q(t)]^2\)</p></li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-14">
+<div class="introduction" id="introduction-14"><p id="p-506">In Problems 65—68, evaluate the function for the given expressions and simplify.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-117"><h6 class="heading"><span class="codenumber">65<span class="period">.</span></span></h6>
+<p id="p-507">\(f (x) = x^3\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-333"><p id="p-508">\(f (a^2)\)</p></li>
+<li id="li-334"><p id="p-509">\(a^3 \cdot f (a^3)\)</p></li>
+<li id="li-335"><p id="p-510">\(f (ab)\)</p></li>
+<li id="li-336"><p id="p-511">\(f (a + b)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-118"><h6 class="heading"><span class="codenumber">66<span class="period">.</span></span></h6>
+<p id="p-517">\(g(x) = x^4\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-341"><p id="p-518">\(g(a^3)\)</p></li>
+<li id="li-342"><p id="p-519">\(a^4\cdot g(a^4)\)</p></li>
+<li id="li-343"><p id="p-520">\(g(ab)\)</p></li>
+<li id="li-344"><p id="p-521">\(g(a + b)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-119"><h6 class="heading"><span class="codenumber">67<span class="period">.</span></span></h6>
+<p id="p-522">\(F(x) = 3x^5\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-345"><p id="p-523">\(F(2a)\)</p></li>
+<li id="li-346"><p id="p-524">\(2 F(a)\)</p></li>
+<li id="li-347"><p id="p-525">\(F(a^2)\)</p></li>
+<li id="li-348"><p id="p-526">\([F(a)]^2\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-120"><h6 class="heading"><span class="codenumber">68<span class="period">.</span></span></h6>
+<p id="p-532">\(G(x) = 4x^3\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-353"><p id="p-533">\(G(3a)\)</p></li>
+<li id="li-354"><p id="p-534">\(3G(a)\)</p></li>
+<li id="li-355"><p id="p-535">\(G(a^4)\)</p></li>
+<li id="li-356"><p id="p-536">\([G(a)]^4\)</p></li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-15">
+<div class="introduction" id="introduction-15">
+<p id="p-537">For the functions in Problems 69–76, compute the following:</p>
+<ol class="lower-alpha cols4">
+<li id="li-357"><p id="p-538">\(f (2) + f (3)\)</p></li>
+<li id="li-358"><p id="p-539">\(f (2 + 3)\)</p></li>
+<li id="li-359"><p id="p-540">\(f (a) + f (b)\)</p></li>
+<li id="li-360"><p id="p-541">\(f (a + b)\)</p></li>
+</ol>
+<p data-braille="continuation">For which functions does \(f (a + b) = f (a) + f (b)\) for all values of \(a\) and \(b\text{?}\)</p>
+</div>
+<div class="exercisegroup-exercises cols3">
+<article class="exercise exercise-like" id="exercise-121"><h6 class="heading"><span class="codenumber">69<span class="period">.</span></span></h6>
+<p id="p-542">\(f (x) = 3x - 2\)</p></article><article class="exercise exercise-like" id="exercise-122"><h6 class="heading"><span class="codenumber">70<span class="period">.</span></span></h6>
+<p id="p-548">\(f (x) = 1 - 4x\)</p></article><article class="exercise exercise-like" id="exercise-123"><h6 class="heading"><span class="codenumber">71<span class="period">.</span></span></h6>
+<p id="p-549">\(f (x) = x^2 + 3\)</p></article><article class="exercise exercise-like" id="exercise-124"><h6 class="heading"><span class="codenumber">72<span class="period">.</span></span></h6>
+<p id="p-555">\(f (x) = x^2 - 1\)</p></article><article class="exercise exercise-like" id="exercise-125"><h6 class="heading"><span class="codenumber">73<span class="period">.</span></span></h6>
+<p id="p-556">\(f (x) =\sqrt{x+1} \)</p></article><article class="exercise exercise-like" id="exercise-126"><h6 class="heading"><span class="codenumber">74<span class="period">.</span></span></h6>
+<p id="p-562">\(f (x) = \sqrt{6-x}\)</p></article><article class="exercise exercise-like" id="exercise-127"><h6 class="heading"><span class="codenumber">75<span class="period">.</span></span></h6>
+<p id="p-563">\(f (x) =\dfrac{-2}{x} \)</p></article><article class="exercise exercise-like" id="exercise-128"><h6 class="heading"><span class="codenumber">76<span class="period">.</span></span></h6>
+<p id="p-569">\(f (x) = \dfrac{3}{x}\)</p></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-129"><h6 class="heading"><span class="codenumber">77<span class="period">.</span></span></h6>
+<p id="p-570">Use a table of values to estimate a solution to</p>
+<div class="displaymath">
+\begin{equation*}
+f (x) = 800 + 6x - 0.2x^2 = 500
+\end{equation*}
+</div>
+<p data-braille="continuation">as follows:</p>
+<ol class="lower-alpha">
+<li id="li-377">
+<p id="p-571">Make a table starting at \(x = 0\) and increasing by \(\Delta x = 10\text{,}\) as shown in the accompanying tables. Find two \(x\)-values \(a\) and \(b\) so that \(f (a)\gt 500\gt f (b)\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(x\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(10\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(20\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(30\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(40\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(50\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(60\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(70\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(80\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(90\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(100\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(f(x)\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+</table></div></div></div>
+</li>
+<li id="li-378"><p id="p-572">Make a new table starting at \(x = a\) and increasing by \(\Delta x = 1\text{.}\) Find two \(x\)-values, \(c\) and \(d\text{,}\) so that \(f (c)\gt 500\gt f (d)\text{.}\)</p></li>
+<li id="li-379"><p id="p-573">Make a new table starting at \(x = c\) and increasing by \(\Delta x = 0.1\text{.}\) Find two \(x\)-values, \(p\) and \(q\text{,}\) so that \(f (p)\gt 500\gt f (q)\text{.}\)</p></li>
+<li id="li-380"><p id="p-574">Take the average of \(p\) and \(q\text{,}\) that is, set \(s = \dfrac{p + q}{2}\text{.}\) Then \(s\) is an approximate solution that is off by at most \(0.05\text{.}\)</p></li>
+<li id="li-381"><p id="p-575">Evaluate \(f (s)\) to check that the output is approximately \(500\text{.}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-130"><h6 class="heading"><span class="codenumber">78<span class="period">.</span></span></h6>
+<p id="p-582">Use a table of values to estimate a solution to</p>
+<div class="displaymath">
+\begin{equation*}
+f (x) = x^3 - 4x^2 + 5x = 18, 000
+\end{equation*}
+</div>
+<p data-braille="continuation">as follows:</p>
+<ol class="lower-alpha">
+<li id="li-387">
+<p id="p-583">Make a table starting at \(x = 0\) and increasing by \(\Delta x = 10\text{,}\) as shown in the accompanying tables. Find two \(x\)-values \(a\) and \(b\) so that \(f (a)\lt 18,000\lt f (b)\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">\(x\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(10\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(20\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(30\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(40\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(50\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(60\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(70\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(80\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(90\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(100\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">\(f(x)\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(\)</td>
+</tr>
+</table></div></div></div>
+</li>
+<li id="li-388"><p id="p-584">Make a new table starting at \(x = a\) and increasing by \(\Delta x = 1\text{.}\) Find two \(x\)-values, \(c\) and \(d\text{,}\) so that \(f (c)\lt 18,000\lt f (d)\text{.}\)</p></li>
+<li id="li-389"><p id="p-585">Make a new table starting at \(x = c\) and increasing by \(\Delta x = 0.1\text{.}\) Find two \(x\)-values, \(p\) and \(q\text{,}\) so that \(f (p)\lt 18,000\lt f (q)\text{.}\)</p></li>
+<li id="li-390"><p id="p-586">Take the average of \(p\) and \(q\text{,}\) that is, set \(s = \dfrac{p + q}{2}\text{.}\) Then \(s\) is an approximate solution that is off by at most \(0.05\text{.}\)</p></li>
+<li id="li-391"><p id="p-587">Evaluate \(f (s)\) to check that the output is approximately \(18,000\text{.}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-131"><h6 class="heading"><span class="codenumber">79<span class="period">.</span></span></h6>
+<p id="p-588">Use tables of values to estimate the positive solution to</p>
+<div class="displaymath">
+\begin{equation*}
+f (x) = x^2 - \dfrac{1}{x} = 9000\text{,}
+\end{equation*}
+</div>
+<p data-braille="continuation">accurate to within \(0.05\text{.}\)</p></article><article class="exercise exercise-like" id="exercise-132"><h6 class="heading"><span class="codenumber">80<span class="period">.</span></span></h6>
+<p id="p-590">Use tables of values to estimate the positive solution to</p>
+<div class="displaymath">
+\begin{equation*}
+f (x) = \dfrac{8}{x}+500-\dfrac{x^2}{9} = 300\text{,}
+\end{equation*}
+</div>
+<p data-braille="continuation">accurate to within \(0.05\text{.}\)</p></article><article class="exercise exercise-like" id="exercise-133"><h6 class="heading"><span class="codenumber">81<span class="period">.</span></span></h6>
+<p id="p-591">Let \(f(x)=-5x-5\) and \(g(x)=2x^2+1\text{.}\) Evaluate each of the following.</p>
+<ol class="lower-alpha cols2">
+<li id="li-392"><p id="p-592">\(g(f(4))\)</p></li>
+<li id="li-393"><p id="p-593">\(f(g(-4))\)</p></li>
+<li id="li-394"><p id="p-594">\(f(f(2))\)</p></li>
+<li id="li-395"><p id="p-595">\(g(g(4))\)</p></li>
+<li id="li-396"><p id="p-596">\((g-f)(2)\)</p></li>
+<li id="li-397"><p id="p-597">\((fg)(-4)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-134"><h6 class="heading"><span class="codenumber">82<span class="period">.</span></span></h6>
+<p id="p-598">Answer "True" or "False": \(f(g(x))\) must always equal \(g(f(x))\text{.}\)</p></article><article class="exercise exercise-like" id="exercise-135"><h6 class="heading"><span class="codenumber">83<span class="period">.</span></span></h6>
+<p id="p-599">Suppose \(f(x)=3x+1\) and \(g(x)= |x|\text{.}\) Evaluate each of the following.</p>
+<ol class="lower-alpha cols2">
+<li id="li-398"><p id="p-600">\(f(x)+g(x)\)</p></li>
+<li id="li-399"><p id="p-601">\(g(x)-f(x)\)</p></li>
+<li id="li-400"><p id="p-602">\(f(x)g(x)\)</p></li>
+<li id="li-401"><p id="p-603">\(f(x)/g(x)\)</p></li>
+<li id="li-402"><p id="p-604">\(f(g(x))\)</p></li>
+<li id="li-403"><p id="p-605">\(g(f(x))\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-136"><h6 class="heading"><span class="codenumber">84<span class="period">.</span></span></h6>
+<p id="p-606">Let \(f(x)=x^2-2\) and \(g(x)=\sqrt{x}+6\text{.}\)  Find \(f(g(x))\) and \(g(f(x))\text{.}\)</p>
+<ol class="lower-alpha cols2">
+<li id="li-404"><p id="p-607">\(f(g(x))\)</p></li>
+<li id="li-405"><p id="p-608">\(g(f(x))\)</p></li>
+</ol></article></section></div></main>
+</div>
+</body>
+</html>

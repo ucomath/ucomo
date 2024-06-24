@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <section xml:id= "sec-criss-cross-game">
+      <title>The Criss-Cross Game</title>
+<introduction>
+<p>Below we will describe a mathematically-curious game. The original activity can be found at <url href="https://mathcircles.org/activity/game-of-criss-cross/"  visual="mathcircles.org"> Math Circles Activity Site</url> and was authored by Sam Vandervelde.
+<ul>
+<title>Objectives</title>
+<li><p>Be the last player to add a line segment to the board. (This player is the winner.)</p></li>
+<li><p>Predict who will win and who will lose based on the set up of the game.</p></li>
+<li><p>Spot patterns and justify them.</p></li>
+</ul>
+</p>
+</introduction>
+        <subsection xml:id="subsec-criss-cross-rules"> 
+         <title>Rules</title>
+<p>
+Two players alternate turns until one of the players is unable to make a move. To begin, create a
+game board by drawing x number of dots. Decide who will play first. On each turn, draw a segment between
+any pair of dots which does not intersect any of the existing segments. The winner is the last person able
+to make a legal move. Note: You can play this by yourself. This can be done by using two different writing
+utensils. Designate one utensil as player one and the other as player two.
+</p>
+
+
+<figure xml:id="fig-criss-cross">
+<sidebyside widths="25% 35%" margins="0% 0%"
+    valigns="bottom top">
+<image source="criss-cross-allowed.png" width="100%">
+    <description>A valid play.</description>
+</image>
+<image source="criss-cross-banned.png" width="100%">
+    <description>An invalid play.</description>
+</image>
+</sidebyside>
+<image source="criss-cross-game.png" width="100%">
+    <description>A valid play.</description>
+    </image>
+</figure>
+
+
+<p>
+Make a copy of the <xref ref = "criss-cross-table"/> score table based on the number of dots used. The first row has been filled in. These values can be seen based on the completed game illustrated in <xref ref = "fig-criss-cross"/>. However, in order to complete the rest of the table, you will need the following definitions:
+<ul>
+<li><p> The dots are called <em>vertices</em> and denoted by <m>V</m></p></li>
+<li><p> The segments are called <em>edges</em> and denoted by <m>E</m></p></li>
+<li><p> The outlined regions are called <em>faces</em> and denoted by <m>F</m></p></li>
+</ul>
+</p>
+
+<table xml:id="criss-cross-table">
+<tabular>
+    <row>
+      <cell><m>V</m></cell>
+      <cell><m>E</m></cell>
+      <cell><m>F</m></cell>
+      <cell>Winner</cell>
+    </row>
+        <row>
+      <cell><m>3</m></cell>
+      <cell><m>3</m></cell>
+      <cell><m>2</m></cell>
+      <cell>First Player</cell>
+    </row>
+        <row>
+      <cell><m>4</m></cell>
+      <cell><m></m></cell>
+      <cell><m></m></cell>
+      <cell></cell>
+    </row>
+            <row>
+      <cell><m>5</m></cell>
+      <cell><m></m></cell>
+      <cell><m></m></cell>
+      <cell></cell>
+    </row>
+            <row>
+      <cell><m>6</m></cell>
+      <cell><m></m></cell>
+      <cell><m></m></cell>
+      <cell></cell>
+    </row>
+            <row>
+      <cell><m>7</m></cell>
+      <cell><m></m></cell>
+      <cell><m></m></cell>
+      <cell></cell>
+    </row>
+            <row>
+      <cell><m>8</m></cell>
+      <cell><m></m></cell>
+      <cell><m></m></cell>
+      <cell></cell>
+    </row>
+    </tabular>
+</table>
+
+<p>Based on the table, what patterns do you see? Can you prove/justify those patterns? On a piece of paper try to write down the patterns and justifications.</p>
+        </subsection> 
+
+    </section>
+    <!--End of code for airplane modules page-->

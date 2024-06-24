@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <docinfo>
+<!-->    <brandlogo url="http://www.math.uco.edu"
+source="/KidsGetMathLogo1.png" />
+    <covers front="/KidsGetMathLogo1.png"
+    back="/wordcloud.png"/>    -->
+    <macros>\newcommand{\foo}{bar}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+  <book xml:id="summermodules">
+    <title>KidsGetMath</title>
+
+
+<!--START OF CODE FOR INTRODUCTION-->
+<!--START OF CODE FOR INTRODUCTION-->
+<!--START OF CODE FOR INTRODUCTION-->
+
+<chapter xml:id="intro-to-kids-get-math">
+  <title>Introduction</title>
+
+   <!--Code for Overview Page-->
+   <section xml:id="overview-of-program">
+     <title>Overview of Program</title>
+
+<!-->      <figure>
+      <caption>KidsGetMath Logo</caption>
+      <image source="KidsGetMathLogo1.png" width="60%"/>
+      <description></description>
+      </figure>-->
+
+      <p>
+      Welcome to UCO's KidsGetMath program. Over 
+      the course of the summer, you will engage in activities 
+      in various fields of mathematics. These activities will require you to
+      run experiments, in which you will record and analyze data. Having fun 
+      and learning about mathematics is the primary focus of the KidsGetMath 
+      program. These activities were designed with accessibility in mind. For example, the first module is about paper
+      airplanes, and hopefully everyone has access to some type of paper.
+      We hope you all have fun learning about mathematical applications
+      through this program!    
+      </p>
+    </section>
+    <!--End of Code for Overview Page-->
+
+    <!--Code for Contacts Page-->
+    <section xml:id="contact-info">
+      <title> Contact Information</title>
+
+       <p xml:id="contact-paragraph">
+       If you have any questions regarding the program 
+       or encounter any issues accessing materials, please 
+       contact one of the following program coordinators.    
+       </p>
+
+         <!--List of Contacts CODE-->
+         <paragraphs xml:id="paragraph-Dr-Lane-Harvard">
+         <title>Dr. Liz Lane-Harvard</title>
+         </paragraphs>
+           <p>
+            <ul>
+              <li> <p>Program Director</p> </li>
+              <li> <p> <email>elaneharvard@uco.edu</email> </p></li> 
+            </ul>
+           </p>
+
+         <paragraphs xml:id="paragraph-Dr-Laverty">
+         <title>Dr. Sean Laverty</title>
+         </paragraphs>
+           <p>
+            <ul>
+              <li> <p>Program Director </p> </li>
+              <li> <p> <email>slaverty@uco.edu</email> </p></li> 
+            </ul>
+           </p>
+
+         <paragraphs xml:id="paragraph-students">
+         <title>Student helpers</title>
+
+           <p>
+            <ul>
+            <li> <p>Chase Compton, Web Developer </p> </li>
+              <li> <p>Amanda Tingler, Module Developer</p> </li>
+              <li> <p>Taylor Bone, Module Developer</p> </li>
+            </ul>
+           </p>
+         </paragraphs>
+
+
+    </section>
+    <!--NOTES: Tried making description lists, but code was not working.
+    Links to DL:
+    https://www.w3schools.com/html/html_lists.asp
+    https://pretextbook.org/doc/guide/pretext-guide.pdf -->
+
+         <!--End of code for contacts page-->
+</chapter>
+
+<!--END OF CODE FOR INTRODUCTION-->
+<!--END OF CODE FOR INTRODUCTION-->
+<!--END OF CODE FOR INTRODUCTION-->
+
+
+<!--Start of Summer Modules Code-->
+<!--Start of Summer Modules Code-->
+<!--Start of Summer Modules Code-->
+
+<chapter xml:id="Module-1">
+  <title>Summer Program Modules</title>
+       <xi:include href="./sec-plane.ptx" />
+       <xi:include href="./sec-logic.ptx" />
+       <xi:include href="./sec-criss-cross.ptx" />
+</chapter>
+
+
+
+<chapter xml:id="resources">
+ <title>Additional Resources</title>
+  <section>
+   <title>Coming Soon!</title>
+   <introduction><p>This project is under active development. If you would like to contribute, you're encouraged to write Dr. Sean Laverty or Dr. Liz Lane-Harvard to ask how you can help (see <xref ref="contact-info"/>).</p></introduction>
+  </section>
+</chapter>
+
+
+  </book>
+</pretext>

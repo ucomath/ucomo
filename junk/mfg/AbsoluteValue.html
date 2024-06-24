@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2020-07-30T12:28:39-05:00    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MFG The Absolute Value Function</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script>(function() {
+  var cx = '006236842425774474308:jdid8qhn6ps';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+})();
+</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div class="hidden-content" style="display:none">\(\require{cancel}\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href="https://www.uco.edu/" target="_blank"><img src="images/cover.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="Fall2020.html"><span class="title">Applied Algebra:</span> <span class="subtitle">Modeling and functions</span></a></h1>
+<p class="byline">compiled by Sean Laverty on behalf of others, Katherine Yoshiwara</p>
+</div>
+<div class="searchwrapper" role="search"><div class="gcse-search"></div></div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="MathModels.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chap2.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="Domain-Range.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="MathModels.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chap2.html" title="Up">Up</a><a class="next-button button toolbar-item" href="Domain-Range.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link">
+<a href="front.html" data-scroll="front"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1">Colophon</a></li>
+<li><a href="preface-1.html" data-scroll="preface-1">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap1.html" data-scroll="chap1"><span class="codenumber">1</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="LinMod.html" data-scroll="LinMod">Linear Models</a></li>
+<li><a href="functions.html" data-scroll="functions">Functions</a></li>
+<li><a href="graphs-of-functions.html" data-scroll="graphs-of-functions">Graphs of Functions</a></li>
+<li><a href="slope-and-rate-of-change.html" data-scroll="slope-and-rate-of-change">Slope and Rate of Change</a></li>
+<li><a href="linear-functions.html" data-scroll="linear-functions">Linear Functions</a></li>
+<li><a href="chap1-summary.html" data-scroll="chap1-summary">Chapter Summary and Review</a></li>
+<li><a href="chap1-rev-projects.html" data-scroll="chap1-rev-projects">Projects for Chapter 1</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap2.html" data-scroll="chap2"><span class="codenumber">2</span> <span class="title">Modeling with Functions</span></a><ul>
+<li><a href="nonlinear-models.html" data-scroll="nonlinear-models">Nonlinear Models</a></li>
+<li><a href="basic-functions.html" data-scroll="basic-functions">Some Basic Functions</a></li>
+<li><a href="transformations.html" data-scroll="transformations">Transformations of Graphs</a></li>
+<li><a href="MathModels.html" data-scroll="MathModels">Functions as Mathematical Models</a></li>
+<li><a href="AbsoluteValue.html" data-scroll="AbsoluteValue" class="active">The Absolute Value Function</a></li>
+<li><a href="Domain-Range.html" data-scroll="Domain-Range">Domain and Range</a></li>
+<li><a href="chap2-summary.html" data-scroll="chap2-summary">Chapter Summary and Review</a></li>
+<li><a href="chap2-rev-projects.html" data-scroll="chap2-rev-projects">Projects for Chapter 2: Periodic Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap3.html" data-scroll="chap3"><span class="codenumber">3</span> <span class="title">Power Functions</span></a><ul>
+<li><a href="Variation.html" data-scroll="Variation">Variation</a></li>
+<li><a href="Integer-Exponents.html" data-scroll="Integer-Exponents">Integer Exponents</a></li>
+<li><a href="Roots-and-Radicals.html" data-scroll="Roots-and-Radicals">Roots and Radicals</a></li>
+<li><a href="Rational-Exponents.html" data-scroll="Rational-Exponents">Rational Exponents</a></li>
+<li><a href="chap3-summary.html" data-scroll="chap3-summary">Chapter Summary and Review</a></li>
+<li><a href="chap3-rev-projects.html" data-scroll="chap3-rev-projects">Projects for Chapter 3</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap4.html" data-scroll="chap4"><span class="codenumber">4</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="Exponential-Growth-and-Decay.html" data-scroll="Exponential-Growth-and-Decay">Exponential Growth and Decay</a></li>
+<li><a href="Exponential-Functions.html" data-scroll="Exponential-Functions">Exponential Functions</a></li>
+<li><a href="Logarithms.html" data-scroll="Logarithms">Logarithms</a></li>
+<li><a href="Properties-of-Logarithms.html" data-scroll="Properties-of-Logarithms">Properties of Logarithms</a></li>
+<li><a href="Exponential-Models.html" data-scroll="Exponential-Models">Exponential Models</a></li>
+<li><a href="chap4-summary.html" data-scroll="chap4-summary">Chapter Summary and Review</a></li>
+<li><a href="chap4-rev-projects.html" data-scroll="chap4-rev-projects">Projects for Chapter 4</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap5.html" data-scroll="chap5"><span class="codenumber">5</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="Inverse-Functions.html" data-scroll="Inverse-Functions">Inverse Functions</a></li>
+<li><a href="Logarithmic-Functions.html" data-scroll="Logarithmic-Functions">Logarithmic Functions</a></li>
+<li><a href="The-Natural-Base.html" data-scroll="The-Natural-Base">The Natural Base</a></li>
+<li><a href="Logarithm-Scales.html" data-scroll="Logarithm-Scales">Logarithmic Scales</a></li>
+<li><a href="chap5-summary.html" data-scroll="chap5-summary">Chapter Summary and Review</a></li>
+<li><a href="chap5-rev-projects.html" data-scroll="chap5-rev-projects">Projects for Chapter 5</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap6.html" data-scroll="chap6"><span class="codenumber">6</span> <span class="title">Quadratic Functions</span></a><ul>
+<li><a href="Factors-and-x-Intercepts.html" data-scroll="Factors-and-x-Intercepts">Factors and \(x\)-Intercepts</a></li>
+<li><a href="Solving-Quadratic-Equations.html" data-scroll="Solving-Quadratic-Equations">Solving Quadratic Equations</a></li>
+<li><a href="Graphing-Parabolas.html" data-scroll="Graphing-Parabolas">Graphing Parabolas</a></li>
+<li><a href="Problem-Solving.html" data-scroll="Problem-Solving">Problem Solving</a></li>
+<li><a href="chap6-summary.html" data-scroll="chap6-summary">Chapter Summary and Review</a></li>
+<li><a href="chap6-rev-projects.html" data-scroll="chap6-rev-projects">Projects for Chapter 6</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap7.html" data-scroll="chap7"><span class="codenumber">7</span> <span class="title">Polynomial and Rational Functions</span></a><ul>
+<li><a href="Polynomial-Functions.html" data-scroll="Polynomial-Functions">Polynomial Functions</a></li>
+<li><a href="Graphing-Polynomial-Functions.html" data-scroll="Graphing-Polynomial-Functions">Graphing Polynomial Functions</a></li>
+<li><a href="Complex-Numbers.html" data-scroll="Complex-Numbers">Complex Numbers</a></li>
+<li><a href="Graphing-Rational-Functions.html" data-scroll="Graphing-Rational-Functions">Graphing Rational Functions</a></li>
+<li><a href="Equations-That-Include-Algebraic-Fractions.html" data-scroll="Equations-That-Include-Algebraic-Fractions">Equations That Include Algebraic Fractions</a></li>
+<li><a href="chap7-summary.html" data-scroll="chap7-summary">Chapter Summary and Review</a></li>
+<li><a href="chap7-rev-projects.html" data-scroll="chap7-rev-projects">Projects for Chapter 7</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap8.html" data-scroll="chap8"><span class="codenumber">8</span> <span class="title">Data and functions</span></a><ul>
+<li><a href="linear-regression.html" data-scroll="linear-regression">Linear Regression</a></li>
+<li><a href="Curve-Fitting.html" data-scroll="Curve-Fitting">Curve Fitting</a></li>
+</ul>
+</li>
+<li class="link"><a href="backmatter.html" data-scroll="backmatter"><span class="title">Appendices</span></a></li>
+<li class="link">
+<a href="appendix-a.html" data-scroll="appendix-a"><span class="codenumber">A</span> <span class="title">Algebra Skills Refresher</span></a><ul>
+<li><a href="Numbers-and-Operations.html" data-scroll="Numbers-and-Operations">Numbers and Operations</a></li>
+<li><a href="appendix-Linear-Equations-and-Inequalities.html" data-scroll="appendix-Linear-Equations-and-Inequalities">Linear Equations and Inequalities</a></li>
+<li><a href="appendix-Algebraic-Expressions-and-Problem-Solving.html" data-scroll="appendix-Algebraic-Expressions-and-Problem-Solving">Algebraic Expressions and Problem Solving</a></li>
+<li><a href="appendix-Graphs-and-Equations.html" data-scroll="appendix-Graphs-and-Equations">Graphs and Equations</a></li>
+<li><a href="appendix-Linear-Systems-in-Two-Variables.html" data-scroll="appendix-Linear-Systems-in-Two-Variables">Linear Systems in Two Variables</a></li>
+<li><a href="appendix-Laws-of-Exponents.html" data-scroll="appendix-Laws-of-Exponents">Laws of Exponents</a></li>
+<li><a href="appendix-Polynomials-and-Factoring.html" data-scroll="appendix-Polynomials-and-Factoring">Polynomials and Factoring</a></li>
+<li><a href="appendix-Factoring-Quadratic-Trinomials.html" data-scroll="appendix-Factoring-Quadratic-Trinomials">Factoring Quadratic Trinomials</a></li>
+<li><a href="appendix-Working-with-Algebraic-Fractions.html" data-scroll="appendix-Working-with-Algebraic-Fractions">Working with Algebraic Fractions</a></li>
+<li><a href="appendix-Working-with-Radicals.html" data-scroll="appendix-Working-with-Radicals">Working with Radicals</a></li>
+<li><a href="appendix-Facts-from-Geometry.html" data-scroll="appendix-Facts-from-Geometry">Facts from Geometry</a></li>
+<li><a href="Properties-of-Lines.html" data-scroll="Properties-of-Lines">Properties of Lines</a></li>
+<li><a href="appendix-The-Real-Number-System.html" data-scroll="appendix-The-Real-Number-System">The Real Number System</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="appendix-b.html" data-scroll="appendix-b"><span class="codenumber">B</span> <span class="title">Using a Graphing Calculator</span></a><ul>
+<li><a href="appendix-Getting-Started.html" data-scroll="appendix-Getting-Started">Getting Started</a></li>
+<li><a href="appendix-Entering-Expressions.html" data-scroll="appendix-Entering-Expressions">Entering Expressions</a></li>
+<li><a href="appendix-Editing-Expressions.html" data-scroll="appendix-Editing-Expressions">Editing Expressions</a></li>
+<li><a href="appendix-Graphing-an-Equation.html" data-scroll="appendix-Graphing-an-Equation">Graphing an Equation</a></li>
+<li><a href="appendix-Making-a-Table.html" data-scroll="appendix-Making-a-Table">Making a Table</a></li>
+<li><a href="appendix-Regression.html" data-scroll="appendix-Regression">Regression</a></li>
+<li><a href="appendix-Function-Notation-and-Transformation-of-Graphs.html" data-scroll="appendix-Function-Notation-and-Transformation-of-Graphs">Function Notation and Transformation of Graphs</a></li>
+</ul>
+</li>
+<li class="link"><a href="glossary.html" data-scroll="glossary"><span class="codenumber">C</span> <span class="title">Glossary</span></a></li>
+<li class="link"><a href="technology.html" data-scroll="technology"><span class="codenumber">D</span> <span class="title">Technology (Graphing calculators)</span></a></li>
+<li class="link"><a href="geometry.html" data-scroll="geometry"><span class="codenumber">E</span> <span class="title">Geometry formulas</span></a></li>
+<li class="link"><a href="solutions-1.html" data-scroll="solutions-1"><span class="codenumber">F</span> <span class="title">Answers to Selected Exercises</span></a></li>
+<li class="link"><a href="appendix-gfdl.html" data-scroll="appendix-gfdl"><span class="codenumber">G</span> <span class="title">GNU Free Documentation License</span></a></li>
+<li class="link"><a href="bibliography.html" data-scroll="bibliography"><span class="title">Bibliography</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="AbsoluteValue"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.5</span> <span class="title">The Absolute Value Function</span>
+</h2>
+<a href="AbsoluteValue.html" class="permalink">¶</a><section class="subsection" id="subsection-55"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Introduction</span>
+</h3>
+<p id="p-3634">The absolute value function is used to model problems involving distance. Recall that the absolute value of a number gives the distance from the origin to that number on the number line.</p>
+<article class="assemblage assemblage-like" id="assemblage-34"><h6 class="heading"><span class="title">Distance and Absolute Value.</span></h6>
+<p id="p-3635">The distance between two points \(x\) and \(a\) is given by \(\abs{x - a}\text{.}\)</p></article><p id="p-3636">For example, the equation \(\abs{x - 2} = 6\) means "the distance between \(x\) and \(2\) is \(6\) units." The number \(x\) could be to the left or the right of \(2\) on the number line. Thus, the equation has two solutions, \(8\) and \(-4\text{,}\) as shown below.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-abs-x-minus-2-is-6.svg" style="width: 100%; height: auto;" alt="6 units from 2"></div></div></div>
+<article class="example example-like" id="example-distances"><a data-knowl="" class="id-ref original" data-refid="hk-example-distances"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.47</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-distances"><article class="example example-like"><p id="p-3637">Write each statement using absolute value notation. Illustrate the solutions on a number line.</p>
+<ol class="lower-alpha">
+<li id="li-2271">\(x\) is three units from the origin.</li>
+<li id="li-2272">\(p\) is two units from \(5\text{.}\)</li>
+<li id="li-2273">\(a\) is within four units of \(-2\text{.}\)</li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-62" id="solution-62"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-62"><div class="solution solution-like">
+<p id="p-3638">First, restate each statement in terms of distance.</p>
+<ol class="lower-alpha">
+<li id="li-2274">
+<p id="p-3639">The distance between \(x\) and the origin is three units, or \(\abs{x} = 3\text{.}\) Thus, \(x\) can be \(3\) or \(-3\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-abs-x-is-3.svg" style="width: 100%; height: auto;" alt="absolut value of x is 3"></div></div></div>
+</li>
+<li id="li-2275">
+<p id="p-3640">The distance between \(p\) and \(5\) is two units, or \(\abs{p - 5} = 2\text{.}\) If we count two units on either side of \(5\text{,}\) we see that \(p\) can be \(3\) or \(7\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-abs-p-minus-5-is-2.svg" style="width: 100%; height: auto;" alt="absolut value of p-5 is 2"></div></div></div>
+</li>
+<li id="li-2276">
+<p id="p-3641">The distance between \(a\) and \(-2\) is less than four units, or \(\abs{a - (-2)} \lt 4\text{,}\) or \(\abs{a + 2} \lt 4\text{.}\) Count four units on either side of \(-2\text{,}\) to find \(-6\) and \(2\text{.}\) Then \(a\) is between \(-6\) and \(2\text{,}\) or \(-6 \lt a \lt 2\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-4-units-from-negative-2.svg" style="width: 100%; height: auto;" alt="4 units from -2"></div></div></div>
+</li>
+</ol>
+</div></div>
+</div></article></div>
+<article class="exercise exercise-like" id="exercise-write-abs"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-write-abs"><h6 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.48</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-write-abs"><article class="exercise exercise-like"><p id="p-3642">Write each statement using absolute value notation; then illustrate the solutions on a number line.</p>
+<ol class="lower-alpha">
+<li id="li-2277"><p id="p-3643">\(x\) is five units away from \(-3\text{.}\)</p></li>
+<li id="li-2278"><p id="p-3644">\(x\) is at least six units away from \(4\text{.}\)</p></li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-392" id="answer-392"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-392"><div class="answer solution-like"><ol id="p-3645" class="lower-alpha">
+<li id="li-2279">
+<p id="p-3646">\(\abs{x+3}=5\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:45%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-2-5-1.svg" style="width: 100%; height: auto;" alt="number line"></div></div></div>
+</li>
+<li id="li-2280">
+<p id="p-3647">\(\abs{x-4}\ge 6\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:45%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-2-5-1b.svg" style="width: 100%; height: auto;" alt="number line"></div></div></div>
+</li>
+</ol></div></div>
+</div></article></div></section><section class="subsection" id="subsection-56"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Absolute Value Equations</span>
+</h3>
+<p id="p-3648">We can use distances on a number line to solve simple equations such as</p>
+<div class="displaymath">
+\begin{equation*}
+\abs{3x - 6} = 9
+\end{equation*}
+</div>
+<p data-braille="continuation">First, we factor out the coefficient of \(x\text{,}\) to get \(\abs{3(x - 2)} = 9\text{.}\) Because of the multiplicative property of the absolute value, namely that \(\abs{ab} = \abs{a}\abs{b}\text{,}\) we can write the left side as</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+\abs{3}\abs{x - 2} \amp = 9 \\
+3\abs{x - 2} \amp= 9 \amp\amp \blert{\text{Divide both sides by 3.}}\\
+\abs{x - 2} \amp = 3 
+\end{aligned}
+\end{equation*}
+</div>
+<p data-braille="continuation">which tells us that the distance between \(x\) and \(2\) is \(3\) units, so the solutions are \(x = -1\) and \(x = 5\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:5%;">
+<div class="sbspanel" style="width:57.8947368421053%;justify-content:center;">
+<p id="p-3649">Alternatively, we can use graphs when working with absolute values. For example, we know that the simple equation \(\abs{x} = 5\) has two solutions, \(x = 5\) and \(x = -5\text{.}\)</p>
+<p id="p-3650">In fact, we can see from the graph at right that the equation \(\abs{x} = k\) has two solutions if \(k \gt 0\text{,}\) one solution if \(k = 0\text{,}\) and no solution if \(k \lt 0\text{.}\)</p>
+</div>
+<div class="sbspanel" style="width:36.8421052631579%;justify-content:center;"><img src="images/fig-abs-x-is-k.svg" style="width: 100%; height: auto;" alt="4 units from -2"></div>
+</div></div>
+<article class="example example-like" id="example-abs-equation"><a data-knowl="" class="id-ref original" data-refid="hk-example-abs-equation"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.49</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-abs-equation"><article class="example example-like"><ol id="p-3651" class="lower-alpha">
+<li id="li-2281"><p id="p-3652">Use a graph of \(y = \abs{3x - 6}\) to solve the equation \(\abs{3x - 6} = 9\text{.}\)</p></li>
+<li id="li-2282"><p id="p-3653">Use a graph of \(y = \abs{3x - 6}\) to solve the equation \(\abs{3x - 6} = -2\text{.}\)</p></li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-63" id="solution-63"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-63"><div class="solution solution-like">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:35%;margin-right:35%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-abs-3x-6.svg" style="width: 100%; height: auto;" alt="absolute value of 3x-6"></div></div></div>
+<ol id="p-3654" class="lower-alpha">
+<li id="li-2283">
+<p id="p-3655">The graph shows the graphs of \(y = \abs{3x - 6}\) and \(y = 9\text{.}\) We see that there are two points on the graph of \(y = \abs{3x - 6}\) that have \(y = 9\text{,}\) and those points have \(x\)-coordinates \(x = -1\) and \(x = 5\text{.}\) We can verify algebraically that the solutions are \(-1\) and \(5\text{.}\)</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+x \amp = \alert{-1}\text{: } 
+~ ~ \abs{3(\alert{-1}) - 6} = \abs{-9} = 9\\
+x \amp = \alert{5}\text{: } 
+~ ~ \abs{3(\alert{5}) - 6} = \abs{9} = 9
+\end{aligned}
+\end{equation*}
+</div>
+</li>
+<li id="li-2284"><p id="p-3656">There are no points on the graph of \(y = \abs{3x - 6}\) with \(y = -2\text{,}\) so the equation \(\abs{3x - 6} = -2\) has no solutions.</p></li>
+</ol>
+</div></div>
+</div></article></div>
+<article class="exercise exercise-like" id="exercise-GC-solve-abs-equation"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-GC-solve-abs-equation"><h6 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.50</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-GC-solve-abs-equation"><article class="exercise exercise-like"><ol class="lower-alpha">
+<li id="li-2285">Graph \(y = \abs{2x + 7}\) for \(-12 \le x \le 8\text{.}\)</li>
+<li id="li-2286">Use your graph to solve the equation \(\abs{2x + 7} = 11\text{.}\)</li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-393" id="answer-393"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-393"><div class="answer solution-like"><ol id="p-3657" class="lower-alpha cols2">
+<li id="li-2287"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/exercise-2-5-2.svg" style="width: 100%; height: auto;" alt="abs(2x+3)"></div></div></div></li>
+<li id="li-2288"><p id="p-3658">\(x=9\) or \(x=2\)</p></li>
+</ol></div></div>
+</div></article></div>
+<p id="p-3659">To solve an absolute value equation algebraically, we use the definition of absolute value.</p>
+<article class="example example-like" id="example-abs-algebraic"><a data-knowl="" class="id-ref original" data-refid="hk-example-abs-algebraic"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.51</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-abs-algebraic"><article class="example example-like"><p id="p-3660">Solve the equation \(\abs{3x - 6} = 9\) algebraically.</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-64" id="solution-64"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-64"><div class="solution solution-like">
+<p id="p-3661">We write the piecewise definition of \(\abs{3x - 6}\text{.}\)</p>
+<div class="displaymath">
+\begin{equation*}
+\abs{3x-6} =
+\begin{cases}
+3x-6 \amp \text{if } 3x-6\ge 0 \text{, or  } x\ge 2\\
+-(3x-6)  \amp \text{if } 3x - 6\lt 0  \text{, or  }x\lt 2
+\end{cases}
+\end{equation*}
+</div>
+<p data-braille="continuation">Thus, the absolute value equation \(\abs{3x - 6} = 9\) is equivalent to two regular equations:</p>
+<div class="displaymath">
+\begin{equation*}
+3x - 6 =9~~~  \text{ or }~~~ -(3x - 6) = 9
+\end{equation*}
+</div>
+<p data-braille="continuation">or, by simplifying the second equation,</p>
+<div class="displaymath">
+\begin{equation*}
+3x - 6 =9~~~ \text{ or }~~~ 3x - 6 = -9
+\end{equation*}
+</div>
+<p data-braille="continuation">Solving these two equations gives us the same solutions we found in <a class="xref" data-knowl="./knowl/example-abs-equation.html" title="Example 2.49">Example 2.49</a>, namely \(x = 5\) and \(-1\text{.}\)</p>
+</div></div>
+</div></article></div>
+<p id="p-3662">In general, we have the following strategy for solving absolute value equations.</p>
+<article class="assemblage assemblage-like" id="assemblage-35"><h6 class="heading"><span class="title">Absolute Value Equations.</span></h6>
+<p id="p-3663"></p>
+<p id="p-3664">The equation</p>
+<div class="displaymath">
+\begin{equation*}
+\abs{ax + b} = c \hphantom{break} (c \gt 0)
+\end{equation*}
+</div>
+<p data-braille="continuation">is equivalent to</p>
+<div class="displaymath">
+\begin{equation*}
+ax + b = c ~~\text{ or }~~ ax + b = -c
+\end{equation*}
+</div></article><article class="exercise exercise-like" id="exercise-733"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-733"><h6 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.52</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-733"><article class="exercise exercise-like"><p id="p-3665">Solve \(\abs{2x + 7} = 11\) algebraically.</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-394" id="answer-394"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-394"><div class="answer solution-like"><p id="p-3666">\(x=-9\) or \(x=2\)</p></div></div>
+</div></article></div></section><section class="subsection" id="subsection-57"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Absolute Value Inequalities</span>
+</h3>
+<p id="p-3667">We can also use graphs to solve absolute value inequalities. Look again at the graph of \(y = \abs{3x - 6}\) in figure (a) below.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-abs-inequality.svg" style="width: 100%; height: auto;" alt="abs-3x-6"></div></div></div>
+<p id="p-3668">Because of the V-shape of the graph, all points with \(y\)-values less than \(9\) lie between the two solutions of \(~\abs{3x - 6} = 9~\text{,}\) that is, between \(-1\) and \(5\text{.}\) Thus, the solutions of the inequality \(~\abs{3x - 6} \lt 9~\) are \(-1 \lt x \lt 5\text{.}\) (In the Homework Problems, you will be asked to show this algebraically.)</p>
+<p id="p-3669">On the other hand, to solve the inequality \(~\abs{3x - 6} \gt 9~\text{,}\) we look for points on the graph with \(y\)-values greater than \(9\text{.}\) In figure (b), we see that these points have \(x\)-values outside the interval between \(-1\) and \(5\text{.}\) In other words, the solutions of the inequality \(~\abs{3x - 6} \gt 9~\) are \(x \lt -1\) or \(x \gt 5\text{.}\)</p>
+<p id="p-3670">Thus, we can solve an absolute value inequality by first solving the related equation.</p>
+<article class="assemblage assemblage-like" id="assemblage-36"><h6 class="heading"><span class="title">Absolute Value Inequalities.</span></h6>
+<p id="p-3671">Suppose the solutions of the equation \(\abs{ax+b}=c\) are \(r\) and \(s\text{,}\) with \(r \lt s\text{.}\) Then</p>
+<ol class="decimal">
+<li id="li-2289">The solutions of \(~\abs{ax+b} \lt c~\) are<div class="displaymath">
+\begin{equation*}
+r \lt  x \lt  s
+\end{equation*}
+</div>
+</li>
+<li id="li-2290">The solutions of \(~\abs{ax+b} \gt c~\) are<div class="displaymath">
+\begin{equation*}
+x \lt  r ~~\text{ or }~~ x \gt  s
+\end{equation*}
+</div>
+</li>
+</ol></article><article class="example example-like" id="example-abs-inequality"><a data-knowl="" class="id-ref original" data-refid="hk-example-abs-inequality"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.53</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-abs-inequality"><article class="example example-like"><p id="p-3672">Solve \(~\abs{4x - 15} \lt 0.01\)</p>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-65" id="solution-65"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-65"><div class="solution solution-like">
+<p id="p-3673">First, we solve the equation \(~\abs{4x - 15} = 0.01\text{.}\) There are two cases:</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{aligned}[t]
+4x - 15 \amp = 0.01 \amp \text{or} \amp\amp 4x - 15 \amp= -0.01 \\
+4x \amp = 15.01 \amp\amp\amp 4x \amp = 14.99 \\
+x \amp = 3.7525 \amp\amp\amp x \amp= 3.7475
+\end{aligned}
+\end{equation*}
+</div>
+<p data-braille="continuation">Because the inequality symbol is \(\lt\text{,}\) the solutions of the inequality are between these two values: \(3.7475 \lt x \lt 3.7525\text{.}\) In interval notation, the solutions are \((3.7475, 3.7525)\text{.}\)</p>
+</div></div>
+</div></article></div>
+<article class="exercise exercise-like" id="exercise-734"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-734"><h6 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.54</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-734"><article class="exercise exercise-like"><ol class="lower-alpha">
+<li id="li-2291">Solve the inequality \(~\abs{2x + 7} \lt 11\)</li>
+<li id="li-2292">Solve the inequality \(~\abs{2x + 7} \gt 11\)</li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-395" id="answer-395"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-395"><div class="answer solution-like"><ol id="p-3674" class="lower-alpha cols2">
+<li id="li-2293"><p id="p-3675">\((-9,2)\)</p></li>
+<li id="li-2294"><p id="p-3676">\((-\infty,-9) \cup (2, \infty)\)</p></li>
+</ol></div></div>
+</div></article></div></section><section class="subsection" id="subsection-58"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Using the Absolute Value in Modeling</span>
+</h3>
+<p id="p-3677">In the next Example, we use the absolute value function to model a problem about distances.</p>
+<article class="example example-like" id="example-Marlene-highway"><a data-knowl="" class="id-ref original" data-refid="hk-example-Marlene-highway"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.55</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-Marlene-highway"><article class="example example-like"><p id="p-3678">Marlene is driving to a new outlet mall on Highway 17. There is a gas station at Marlene's on-ramp, where she buys gas and resets her odometer to zero before getting on the highway. The mall is only 15 miles from Marlene’s on-ramp, but she mistakenly drives past the mall and continues down the highway. Marlene's distance from the mall is a function of how far she has driven on Highway 17.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-Marlene-highway.svg" style="width: 100%; height: auto;" alt="highway 17 with gas station and mall"></div></div></div>
+<ol id="p-3679" class="lower-alpha">
+<li id="li-2295">Make a table of values showing how far Marlene has driven on Highway 17 and how far she is from the mall.</li>
+<li id="li-2296">Make a graph of Marlene’s distance from the mall versus the number of miles she has driven on the highway. Which of the basic graphs from Section 2.2 does your graph most resemble?</li>
+<li id="li-2297">Find a piecewise defined formula that describes Marlene’s distance from the mall as a function of the distance she has driven on the highway.</li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-66" id="solution-66"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-66"><div class="solution solution-like"><ol id="p-3680" class="lower-alpha">
+<li id="li-2298">
+<p id="p-3681">Marlene gets closer to the mall for each mile that she has driven on the highway until she has driven 15 miles, and after that she gets farther from the mall.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width" style="width:100%;justify-content:flex-start;"><table>
+<tr>
+<td class="c m b1 r1 l1 t3 lines">Miles on highway</td>
+<td class="c m b1 r1 l0 t3 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(5\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(10\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(15\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(20\)</td>
+<td class="c m b1 r1 l0 t3 lines">\(25\)</td>
+<td class="c m b1 r1 l0 t3 lines" data-braille="last-cell">\(30\)</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Miles from mall</td>
+<td class="c m b1 r1 l0 t0 lines">\(15\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(10\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(5\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(0\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(5\)</td>
+<td class="c m b1 r1 l0 t0 lines">\(10\)</td>
+<td class="c m b1 r1 l0 t0 lines" data-braille="last-cell">\(15\)</td>
+</tr>
+</table></div></div></div>
+</li>
+<li id="li-2299">
+<p id="p-3682">We plot the points in the table to obtain the graph shown below. This graph looks like the absolute value function defined in <a href="basic-functions.html" class="internal" title="Section 2.2: Some Basic Functions">Section 2.2</a>, except that the vertex is the point \((15, 0)\) instead of the origin.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-abs-highway-distance.svg" style="width: 100%; height: auto;" alt="graph of distance from mall"></div></div></div>
+</li>
+<li id="li-2300">
+<p id="p-3683">Let \(x\) represent the number of miles on the highway and \(f (x)\) the number of miles from the mall. For \(x\)-values less than \(15\text{,}\) the graph is a straight line with slope \(-1\) and \(y\)-intercept at \((0, 15)\text{,}\) so its equation is \(y = -x + 15\text{.}\) Thus,</p>
+<div class="displaymath">
+\begin{equation*}
+f (x) = -x + 15~~~ \text{ when } ~~~0 \le x \lt 15
+\end{equation*}
+</div>
+<p data-braille="continuation">On the other hand, when \(x \ge 15\text{,}\) the graph of \(f\) is a straight line with slope \(1\) that passes through the point \((15, 0)\text{.}\) The point-slope form of this line is</p>
+<div class="displaymath">
+\begin{equation*}
+y = 0 + 1(x - 15)
+\end{equation*}
+</div>
+<p data-braille="continuation">so \(y = x - 15\text{.}\) Thus,</p>
+<div class="displaymath">
+\begin{equation*}
+f (x) = x - 15~~~ \text{ when }~~~  x \ge 15
+\end{equation*}
+</div>
+<p data-braille="continuation">Combining the two pieces, we obtain</p>
+<div class="displaymath">
+\begin{equation*}
+f (x) =
+\begin{cases}
+-x + 15~~~ \amp \text{when }~~~ 0\le x\lt 15\\
+x - 15~~~  \amp \text{when }~~~ x\ge 15
+\end{cases}
+\end{equation*}
+</div>
+<p data-braille="continuation">The graph of \(f (x)\) is a part of the graph of \(y = \abs{x - 15}\text{.}\) If we think of the highway as a portion of the real number line, with Marlene’s on-ramp located at the origin, then the outlet mall is located at \(15\text{.}\) Marlene's coordinate as she drives along the highway is \(x\text{,}\) and the distance from Marlene to the mall is given by \(f (x) = \abs{x - 15}\text{.}\)</p>
+</li>
+</ol></div></div>
+</div></article></div>
+<article class="exercise exercise-like" id="exercise-735"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-735"><h6 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.56</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-735"><article class="exercise exercise-like"><ol class="lower-alpha">
+<li id="li-2301">Use the graph in <a class="xref" data-knowl="./knowl/example-Marlene-highway.html" title="Example 2.55">Example 2.55</a> to determine how far Marlene has driven when she is within \(5\) miles of the mall. Write and solve an absolute value inequality to verify your answer.</li>
+<li id="li-2302">Write and solve an absolute value inequality to determine how far Marlene has driven when she is at least \(10\) miles from the mall.</li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-396" id="answer-396"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-396"><div class="answer solution-like"><ol class="lower-alpha">
+<li id="li-2303">
+<p id="p-3684">\(\abs{x-15} \lt 5\text{;}\) \(~10 \lt x \lt 20\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:55%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-2-5-5a.svg" style="width: 100%; height: auto;" alt="absolute value inequality"></div></div></div>
+</li>
+<li id="li-2304">
+<p id="p-3685">\(\abs{x-15} \ge 10\text{;}\) \(~x\le 5~\) or \(~x\ge25\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:55%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-ex-2-5-5b.svg" style="width: 100%; height: auto;" alt="absolute value inequality"></div></div></div>
+</li>
+</ol></div></div>
+</div></article></div></section><section class="subsection" id="subsection-59"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Measurement Error</span>
+</h3>
+<p id="p-3686">If you weigh a sample in chemistry lab, the scale’s digital readout might show \(6.0\) grams. But it is unlikely that the sample weighs <em class="emphasis">exactly</em> \(6\) grams; there is always some error in measured values.</p>
+<p id="p-3687">Because the scale shows the weight as \(6.0\) grams, we know that the true weight of the sample must be between \(5.95\) grams and \(6.05\) grams: If the weight were less than \(5.95\) grams, the scale would round down to \(5.9\) grams, and if the weight were more than \(6.05\) grams, the scale would round up to \(6.1\) grams. We should report the mass of the sample as \(6 \pm 0.05\) grams, which tells the reader that the error in the measurement is no more than \(0.05\) grams.</p>
+<p id="p-3688">We can also describe this measurement error, or <dfn class="terminology">error tolerance</dfn>, using an absolute value inequality. Because the measured mass m can be no more than \(0.05\) from \(6\text{,}\) we write</p>
+<div class="displaymath">
+\begin{equation*}
+\abs{m - 6} \le 0.05
+\end{equation*}
+</div>
+<p data-braille="continuation">Note that the solution of this inequality is \(5.95 \le m \le 6.05\text{.}\)</p>
+<article class="example example-like" id="example-tolerance-chip-and-dosage"><a data-knowl="" class="id-ref original" data-refid="hk-example-tolerance-chip-and-dosage"><h6 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.57</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-tolerance-chip-and-dosage"><article class="example example-like"><ol id="p-3689" class="lower-alpha">
+<li id="li-2305">The specifications for a computer chip state that its thickness in millimeters must satisfy \(\abs{t - 0.023} \lt 0.001\text{.}\) What are the acceptable values for the thickness of the chip?</li>
+<li id="li-2306">The safe dosage of a new drug is between \(250\) and \(450\) milligrams, inclusive. Write the safe dosage as an error tolerance involving absolute values.</li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-solution-67" id="solution-67"><span class="type">Solution</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-67"><div class="solution solution-like"><ol id="p-3690" class="lower-alpha">
+<li id="li-2307"><p id="p-3691">The error tolerance can also be stated as \(t = 0.023 \pm 0.001\) millimeters, so the acceptable values are between \(0.022\) and \(0.024\) millimeters.</p></li>
+<li id="li-2308">
+<p id="p-3692">The safe dosage \(d\) satisfies \(250 \le d \le 450\text{,}\) as shown below.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-dosage-tolerance.svg" style="width: 100%; height: auto;" alt="safe dosage"></div></div></div>
+<p id="p-3693">The center of this interval is \(350\text{,}\) and the endpoints are each \(100\) units from the center. Thus, the safe values are within \(100\) units of \(350\text{,}\) or</p>
+<div class="displaymath">
+\begin{equation*}
+\abs{d - 350} \le 100
+\end{equation*}
+</div>
+</li>
+</ol></div></div>
+</div></article></div>
+<article class="exercise exercise-like" id="exercise-736"><a data-knowl="" class="id-ref original" data-refid="hk-exercise-736"><h6 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.58</span><span class="period">.</span>
+</h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-736"><article class="exercise exercise-like"><p id="p-3694">The temperature, \(T\text{,}\) in a laboratory must remain between \(9\degree\text{C}\) and \(12\degree\text{C}\text{.}\)</p>
+<ol class="lower-alpha">
+<li id="li-2309">Write the error tolerance as an absolute value inequality.</li>
+<li id="li-2310">For a special experiment, the temperature in degrees celsius must satisfy \(~~\abs{T - 6.7} \le 0.03\text{.}\) Give the interval of possible temperatures.</li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-answer-397" id="answer-397"><span class="type">Answer</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-397"><div class="answer solution-like"><ol id="p-3695" class="lower-alpha cols2">
+<li id="li-2311"><p id="p-3696">\(\abs{T-10.5} \lt 1.5\)</p></li>
+<li id="li-2312"><p id="p-3697">\(6.67 \le T \le 6.73\)</p></li>
+</ol></div></div>
+</div></article></div></section><section class="subsection" id="summary-2-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">Section Summary</span>
+</h3>
+<a href="AbsoluteValue.html#summary-2-5" class="permalink">¶</a><section class="subsubsection" id="subsubsection-37"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">Vocabulary</span>
+</h4>
+<p id="p-3698">Look up the definitions of new terms in the Glossary.</p>
+<ul class="disc cols2">
+<li id="li-2313"><p id="p-3699">Absolute value equation</p></li>
+<li id="li-2314"><p id="p-3700">Absolute value inequality</p></li>
+<li id="li-2315"><p id="p-3701">Error tolerance</p></li>
+</ul></section><section class="subsubsection" id="subsubsection-38"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">CONCEPTS</span>
+</h4>
+<ol id="p-3702" class="decimal">
+<li id="li-2316"><p id="p-3703">The absolute value is used to model distance: The <dfn class="terminology">distance</dfn> between two points \(x\) and \(a\) is given by \(\abs{x - a}\text{.}\)</p></li>
+<li id="li-2317"><article class="assemblage assemblage-like" id="assemblage-37"><h6 class="heading"><span class="title">Absolute Value Equations.</span></h6>
+<p id="p-3704"></p>
+<p id="p-3705">The equation</p>
+<div class="displaymath">
+\begin{equation*}
+\abs{ax + b} = c \hphantom{break} (c \gt 0)
+\end{equation*}
+</div>
+<p data-braille="continuation">is equivalent to</p>
+<div class="displaymath">
+\begin{equation*}
+ax + b = c ~~\text{ or }~~ ax + b = -c
+\end{equation*}
+</div></article></li>
+<li id="li-2318"><article class="assemblage assemblage-like" id="assemblage-38"><h6 class="heading"><span class="title">Absolute Value Inequalities.</span></h6>
+<p id="p-3706">Suppose the solutions of the equation \(\abs{ax+b}=c\) are \(r\) and \(s\text{,}\) with \(r \lt s\text{.}\) Then</p>
+<ol class="lower-alpha">
+<li id="li-2319">The solutions of \(\abs{ax+b} \lt c\) are<div class="displaymath">
+\begin{equation*}
+r \lt  x \lt  s
+\end{equation*}
+</div>
+</li>
+<li id="li-2320">The solutions of \(\abs{ax+b} \gt c\) are<div class="displaymath">
+\begin{equation*}
+x \lt  r ~~\text{ or }~~ x \gt  s
+\end{equation*}
+</div>
+</li>
+</ol></article></li>
+<li id="li-2321"><p id="p-3707">The <dfn class="terminology">error tolerance</dfn> \(e\) in a measurement \(M\) can be expressed as \(\abs{x - M}\lt e\text{,}\) or as \(x = M \pm e\text{.}\) Both indicate that \(M - e\lt x\lt M + e\text{.}\)</p></li>
+</ol></section><section class="subsubsection" id="subsubsection-39"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">STUDY QUESTIONS</span>
+</h4>
+<ol id="p-3708" class="decimal">
+<li id="li-2322"><p id="p-3709">Write a function that models the distance between \(x\) and a fixed point \(k\) on the number line.</p></li>
+<li id="li-2323"><p id="p-3710">For what values of \(c\) does the equation \(\abs{ax + b} = c\) have one solution? No solution?</p></li>
+<li id="li-2324"><p id="p-3711">If you know that the solutions of \(\abs{ax + b}\lt c\) are \(-3\lt x\lt 6\text{,}\) what are the solutions of \(\abs{ax + b}\gt c\text{?}\)</p></li>
+<li id="li-2325"><p id="p-3712">What is the center of the interval \([220, 238]\text{?}\)</p></li>
+<li id="li-2326"><p id="p-3713">What is the center of the interval \([a, b]\text{?}\)</p></li>
+</ol></section><section class="subsubsection" id="subsubsection-40"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber"></span> <span class="title">SKILLS</span>
+</h4>
+<p id="p-3714">Practice each skill in the <a href="AbsoluteValue.html#section-2-5-exercises" class="internal" title="Exercises: Homework 2.5">Homework </a> problems listed.</p>
+<ol class="decimal">
+<li id="li-2327"><p id="p-3715">Use absolute value notation to write statements about distance: #1–8</p></li>
+<li id="li-2328"><p id="p-3716">Use graphs to solve absolute value equations and inequalities: #9–12</p></li>
+<li id="li-2329"><p id="p-3717">Solve absolute value equations: #13–24</p></li>
+<li id="li-2330"><p id="p-3718">Solve absolute value inequalities: #25–40</p></li>
+<li id="li-2331"><p id="p-3719">Express error tolerances using absolute value notation: #41–48</p></li>
+<li id="li-2332"><p id="p-3720">Analyze absolute value functions: #49–56</p></li>
+<li id="li-2333"><p id="p-3721">Model problems about distance using the absolute value function: #57–60</p></li>
+</ol></section></section><section class="exercises" id="section-2-5-exercises"><h3 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">Homework 2.5</span>
+</h3>
+<a href="AbsoluteValue.html#section-2-5-exercises" class="permalink">¶</a><div class="exercisegroup" id="exercisegroup-104">
+<div class="introduction" id="introduction-110">
+<p id="p-3722">In Problems 1–8,</p>
+<ol class="lower-alpha">
+<li id="li-2334"><p id="p-3723">Use absolute value notation to write each expression as an equation or an inequality. (It may be helpful to restate each sentence using the word <em class="emphasis">distance</em>.)</p></li>
+<li id="li-2335"><p id="p-3724">Illustrate the solutions on a number line.</p></li>
+</ol>
+</div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-737"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
+<p id="p-3725">\(x\) is six units from the origin.</p></article><article class="exercise exercise-like" id="exercise-738"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
+<p id="p-3728">\(a\) is seven units from the origin.</p></article><article class="exercise exercise-like" id="exercise-739"><h6 class="heading"><span class="codenumber">3<span class="period">.</span></span></h6>
+<p id="p-3729">The distance from \(p\) to \(-3\) is five units.</p></article><article class="exercise exercise-like" id="exercise-740"><h6 class="heading"><span class="codenumber">4<span class="period">.</span></span></h6>
+<p id="p-3732">The distance from \(q\) to \(-7\) is two units.</p></article><article class="exercise exercise-like" id="exercise-741"><h6 class="heading"><span class="codenumber">5<span class="period">.</span></span></h6>
+<p id="p-3733">\(t\) is within three units of \(6\text{.}\)</p></article><article class="exercise exercise-like" id="exercise-742"><h6 class="heading"><span class="codenumber">6<span class="period">.</span></span></h6>
+<p id="p-3736">\(w\) is no more than one unit from \(-5\text{.}\)</p></article><article class="exercise exercise-like" id="exercise-743"><h6 class="heading"><span class="codenumber">7<span class="period">.</span></span></h6>
+<p id="p-3737">\(b\) is at least \(0.5\) unit from \(-1\text{.}\)</p></article><article class="exercise exercise-like" id="exercise-744"><h6 class="heading"><span class="codenumber">8<span class="period">.</span></span></h6>
+<p id="p-3740">\(m\) is more than \(0.1\) unit from \(8\text{.}\)</p></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-745"><h6 class="heading"><span class="codenumber">9<span class="period">.</span></span></h6>
+<p id="p-3741">Graph \(y = \abs{x + 3}\text{.}\) Use your graph to solve the following equations and inequalities.</p>
+<ol class="lower-alpha cols3">
+<li id="li-2344"><p id="p-3742">\(\abs{x + 3} = 2 \)</p></li>
+<li id="li-2345"><p id="p-3743">\(\abs{x+3}\le 4 \)</p></li>
+<li id="li-2346"><p id="p-3744">\(\abs{x+3}\gt 5 \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-746"><h6 class="heading"><span class="codenumber">10<span class="period">.</span></span></h6>
+<p id="p-3749">Graph \(y = \abs{x -2}\text{.}\) Use your graph to solve the following equations and inequalities.</p>
+<ol class="lower-alpha cols3">
+<li id="li-2350"><p id="p-3750">\(\abs{x-2} = 5 \)</p></li>
+<li id="li-2351"><p id="p-3751">\(\abs{x-2}\lt 8 \)</p></li>
+<li id="li-2352"><p id="p-3752">\(\abs{x-2}\ge 4 \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-747"><h6 class="heading"><span class="codenumber">11<span class="period">.</span></span></h6>
+<p id="p-3753">Graph \(y = \abs{2x-8}\text{.}\) Use your graph to solve the following equations and inequalities.</p>
+<ol class="lower-alpha cols3">
+<li id="li-2353"><p id="p-3754">\(\abs{2x-8} = 0 \)</p></li>
+<li id="li-2354"><p id="p-3755">\(\abs{2x-8}=-2 \)</p></li>
+<li id="li-2355"><p id="p-3756">\(\abs{2x-8}\lt -6 \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-748"><h6 class="heading"><span class="codenumber">12<span class="period">.</span></span></h6>
+<p id="p-3761">Graph \(y = \abs{4x+8}\text{.}\) Use your graph to solve the following equations and inequalities.</p>
+<ol class="lower-alpha cols3">
+<li id="li-2359"><p id="p-3762">\(\abs{4x+8} = 0 \)</p></li>
+<li id="li-2360"><p id="p-3763">\(\abs{4x+8}\lt 0 \)</p></li>
+<li id="li-2361"><p id="p-3764">\(\abs{4x+8}\gt -3 \)</p></li>
+</ol></article><div class="exercisegroup" id="exercisegroup-105">
+<div class="introduction" id="introduction-111"><p id="p-3765">For Problems 13-24, solve.</p></div>
+<div class="exercisegroup-exercises cols3">
+<article class="exercise exercise-like" id="exercise-749"><h6 class="heading"><span class="codenumber">13<span class="period">.</span></span></h6>
+<p id="p-3766">\(\abs{2x-1}=4 \)</p></article><article class="exercise exercise-like" id="exercise-750"><h6 class="heading"><span class="codenumber">14<span class="period">.</span></span></h6>
+<p id="p-3768">\(\abs{3x-1}=5 \)</p></article><article class="exercise exercise-like" id="exercise-751"><h6 class="heading"><span class="codenumber">15<span class="period">.</span></span></h6>
+<p id="p-3769">\(0=\abs{7+3q} \)</p></article><article class="exercise exercise-like" id="exercise-752"><h6 class="heading"><span class="codenumber">16<span class="period">.</span></span></h6>
+<p id="p-3771">\(\abs{-11-5t}=0 \)</p></article><article class="exercise exercise-like" id="exercise-753"><h6 class="heading"><span class="codenumber">17<span class="period">.</span></span></h6>
+<p id="p-3772">\(4=\dfrac{\abs{b+2}}{3} \)</p></article><article class="exercise exercise-like" id="exercise-754"><h6 class="heading"><span class="codenumber">18<span class="period">.</span></span></h6>
+<p id="p-3774">\(6\abs{n+2}=9 \)</p></article><article class="exercise exercise-like" id="exercise-755"><h6 class="heading"><span class="codenumber">19<span class="period">.</span></span></h6>
+<p id="p-3775">\(\abs{2(w-7)}=1 \)</p></article><article class="exercise exercise-like" id="exercise-756"><h6 class="heading"><span class="codenumber">20<span class="period">.</span></span></h6>
+<p id="p-3777">\(2=\abs{\dfrac{a-4}{5}} \)</p></article><article class="exercise exercise-like" id="exercise-757"><h6 class="heading"><span class="codenumber">21<span class="period">.</span></span></h6>
+<p id="p-3778">\(\abs{c-2}+3=1 \)</p></article><article class="exercise exercise-like" id="exercise-758"><h6 class="heading"><span class="codenumber">22<span class="period">.</span></span></h6>
+<p id="p-3780">\(5=4-\abs{h+3} \)</p></article><article class="exercise exercise-like" id="exercise-759"><h6 class="heading"><span class="codenumber">23<span class="period">.</span></span></h6>
+<p id="p-3781">\(-7=\abs{2m+3} \)</p></article><article class="exercise exercise-like" id="exercise-760"><h6 class="heading"><span class="codenumber">24<span class="period">.</span></span></h6>
+<p id="p-3783">\(\abs{5r-3}=-2 \)</p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-106">
+<div class="introduction" id="introduction-112"><p id="p-3784">For Problems 25-36, solve.</p></div>
+<div class="exercisegroup-exercises cols3">
+<article class="exercise exercise-like" id="exercise-761"><h6 class="heading"><span class="codenumber">25<span class="period">.</span></span></h6>
+<p id="p-3785">\(\abs{2x+6}\lt 3 \)</p></article><article class="exercise exercise-like" id="exercise-762"><h6 class="heading"><span class="codenumber">26<span class="period">.</span></span></h6>
+<p id="p-3787">\(\abs{5-3x}\le 1 \)</p></article><article class="exercise exercise-like" id="exercise-763"><h6 class="heading"><span class="codenumber">27<span class="period">.</span></span></h6>
+<p id="p-3788">\(7\le \abs{3-2d} \)</p></article><article class="exercise exercise-like" id="exercise-764"><h6 class="heading"><span class="codenumber">28<span class="period">.</span></span></h6>
+<p id="p-3790">\(10 \lt \abs{3r+2} \)</p></article><article class="exercise exercise-like" id="exercise-765"><h6 class="heading"><span class="codenumber">29<span class="period">.</span></span></h6>
+<p id="p-3791">\(\abs{6s+15}\gt -3 \)</p></article><article class="exercise exercise-like" id="exercise-766"><h6 class="heading"><span class="codenumber">30<span class="period">.</span></span></h6>
+<p id="p-3793">\(\abs{8b-12}\lt -4 \)</p></article><article class="exercise exercise-like" id="exercise-767"><h6 class="heading"><span class="codenumber">31<span class="period">.</span></span></h6>
+<p id="p-3794">\(\abs{t-1.5}\lt 0.1 \)</p></article><article class="exercise exercise-like" id="exercise-768"><h6 class="heading"><span class="codenumber">32<span class="period">.</span></span></h6>
+<p id="p-3796">\(\abs{z-2.6}\le 0.1 \)</p></article><article class="exercise exercise-like" id="exercise-769"><h6 class="heading"><span class="codenumber">33<span class="period">.</span></span></h6>
+<p id="p-3797">\(\abs{T-3.25}\ge 0.05 \)</p></article><article class="exercise exercise-like" id="exercise-770"><h6 class="heading"><span class="codenumber">34<span class="period">.</span></span></h6>
+<p id="p-3799">\(\abs{P-0.6}\gt 0.01 \)</p></article><article class="exercise exercise-like" id="exercise-771"><h6 class="heading"><span class="codenumber">35<span class="period">.</span></span></h6>
+<p id="p-3800">\(-1\ge \abs{\dfrac{n-3}{2}} \)</p></article><article class="exercise exercise-like" id="exercise-772"><h6 class="heading"><span class="codenumber">36<span class="period">.</span></span></h6>
+<p id="p-3802">\(-0.1\le \abs{9(p+2)} \)</p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-107">
+<div class="introduction" id="introduction-113"><p id="p-3803">In Problems 37–40, give an interval of possible values for the measurement.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-773"><h6 class="heading"><span class="codenumber">37<span class="period">.</span></span></h6>
+<p id="p-3804">The length, \(l\text{,}\) of a rod is given by \(\abs{l - 4.3}\lt 0.001\text{,}\) in centimeters.</p></article><article class="exercise exercise-like" id="exercise-774"><h6 class="heading"><span class="codenumber">38<span class="period">.</span></span></h6>
+<p id="p-3806">The mass, \(m\text{,}\) of the device shall be \(\abs{m - 450}\lt 4\text{,}\) in grams.</p></article><article class="exercise exercise-like" id="exercise-775"><h6 class="heading"><span class="codenumber">39<span class="period">.</span></span></h6>
+<p id="p-3807">The candle will burn for \(t\) minutes, where \(\abs{t - 300}\le 50\text{.}\)</p></article><article class="exercise exercise-like" id="exercise-776"><h6 class="heading"><span class="codenumber">40<span class="period">.</span></span></h6>
+<p id="p-3809">The ramp will have angle of inclination \(\alpha\text{,}\) and \(\abs{\alpha - 10\degree}\le 0.5\degree\text{.}\)</p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-108">
+<div class="introduction" id="introduction-114"><p id="p-3810">In Problems 41–44, write the error tolerance using absolute values.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-777"><h6 class="heading"><span class="codenumber">41<span class="period">.</span></span></h6>
+<p id="p-3811">The chemical compound must be maintained at a temperature, \(T\text{,}\) between \(4.7\degree\) and \(5.3\degree\)C.</p></article><article class="exercise exercise-like" id="exercise-778"><h6 class="heading"><span class="codenumber">42<span class="period">.</span></span></h6>
+<p id="p-3813">The diameter, \(d\text{,}\) of the hole shall be in the range of \(24.98\) to \(25.02\) centimeters.</p></article><article class="exercise exercise-like" id="exercise-779"><h6 class="heading"><span class="codenumber">43<span class="period">.</span></span></h6>
+<p id="p-3814">The subject will receive a dosage \(D\) from \(95\) to \(105\) milligrams of the drug.</p></article><article class="exercise exercise-like" id="exercise-780"><h6 class="heading"><span class="codenumber">44<span class="period">.</span></span></h6>
+<p id="p-3816">The pendulum swings out and back in a time period \(t\) between \(0.9995\) and \(1.0005\) seconds.</p></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-781"><h6 class="heading"><span class="codenumber">45<span class="period">.</span></span></h6>
+<p id="p-3817">An electrical component of a high-tech sensor requires \(0.25\) ounce of gold. Assume that the actual amount of gold used, \(g\text{,}\) is not in error by more than \(0.001\) ounce. Write an absolute value inequality for the possible error and show the possible values of \(g\) on a number line.</p></article><article class="exercise exercise-like" id="exercise-782"><h6 class="heading"><span class="codenumber">46<span class="period">.</span></span></h6>
+<p id="p-3819">In a pasteurization process, milk is to be irradiated for \(10\) seconds. The actual period \(t\) of irradiation cannot be off by more than \(0.8\) second. Write an absolute value inequality for the possible error and show the possiblev alues of \(t\) on a number line.</p></article><article class="exercise exercise-like" id="exercise-783"><h6 class="heading"><span class="codenumber">47<span class="period">.</span></span></h6>
+<p id="p-3820">In a lab assignment, a student reports that a chemical reaction required \(200\) minutes to complete. Let \(t\) represent the actual time of the reaction.</p>
+<ol class="lower-alpha">
+<li id="li-2362"><p id="p-3821">Write an absolute value inequality for \(t\text{,}\) assuming that the student rounded his answer to the nearest \(100\) minutes. Give the smallest and largest possible value for \(t\text{.}\)</p></li>
+<li id="li-2363"><p id="p-3822">Write an absolute value inequality for \(t\text{,}\) assuming that the student rounded his answer to the nearest minute. Give the smallest and largest possible value for \(t\text{.}\)</p></li>
+<li id="li-2364"><p id="p-3823">Write an absolute value inequality for \(t\text{,}\) assuming that the student rounded his answer to the nearest \(0.1\) minute. Give the smallest and largest possible value for \(t\text{.}\)</p></li>
+</ol>
+<div class="solutions">
+<a data-knowl="" class="id-ref original" data-refid="hk-hint-5" id="hint-5"><span class="type">Hint</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-5"><div class="hint solution-like"><p id="p-3824">What is the shortest time that would round to \(200\) minutes? The greatest time?</p></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-784"><h6 class="heading"><span class="codenumber">48<span class="period">.</span></span></h6>
+<p id="p-3829">An espresso machine has a square metal plate. The side of the plate is \(2\pm 0.01\) cm.</p>
+<ol class="lower-alpha">
+<li id="li-2368"><p id="p-3830">Write an absolute value inequality for the length of the side, \(x\text{.}\) Give the smallest and largest possible value for s.</p></li>
+<li id="li-2369"><p id="p-3831">Compute the smallest and largest possible area of the plate, including units.</p></li>
+<li id="li-2370"><p id="p-3832">Write an absolute value inequality for the area, \(A\text{.}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-785"><h6 class="heading"><span class="codenumber">49<span class="period">.</span></span></h6>
+<ol class="lower-alpha">
+<li id="li-2371"><p id="p-3833">Write the piecewise definition for \(\abs{3x - 6}\text{.}\)</p></li>
+<li id="li-2372"><p id="p-3834">Use your answer to part (a) to write two inequalities that together are equivalent to \(\abs{3x - 6}\lt 9\text{.}\)</p></li>
+<li id="li-2373"><p id="p-3835">Solve the inequalities in part (b) and check that the solutions agree with the solutions of \(\abs{3x - 6}\lt 9\text{.}\)</p></li>
+<li id="li-2374"><p id="p-3836">Show that \(\abs{3x - 6}\lt 9\) is equivalent to the compound inequality \(-9\lt 3x - 6\lt 9\text{.}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-786"><h6 class="heading"><span class="codenumber">50<span class="period">.</span></span></h6>
+<ol class="lower-alpha">
+<li id="li-2379"><p id="p-3842">Write the piecewise definition for \(\abs{3x - 6}\text{.}\)</p></li>
+<li id="li-2380"><p id="p-3843">Use your answer to part (a) to write two inequalities that together are equivalent to \(\abs{3x - 6}\gt 9\text{.}\)</p></li>
+<li id="li-2381"><p id="p-3844">Solve the inequalities in part (b) and check that the solutions agree with the solutions of \(\abs{3x - 6}\gt 9\text{.}\)</p></li>
+<li id="li-2382"><p id="p-3845">Show that \(\abs{3x - 6}\gt 9\) is equivalent to the compound inequality \(3x - 6\lt -9~\) or \(~3x-6\gt 9\text{.}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-787"><h6 class="heading"><span class="codenumber">51<span class="period">.</span></span></h6>
+<ol class="lower-alpha">
+<li id="li-2383"><p id="p-3846">Write the piecewise definition for \(\abs{2x+5}\text{.}\)</p></li>
+<li id="li-2384"><p id="p-3847">Use your answer to part (a) to write two inequalities that together are equivalent to \(\abs{2x+5}\gt 7\text{.}\)</p></li>
+<li id="li-2385"><p id="p-3848">Solve the inequalities in part (b) and check that the solutions agree with the solutions of \(\abs{2x+5}\gt 7\text{.}\)</p></li>
+<li id="li-2386"><p id="p-3849">Show that \(\abs{2x+5}\gt 7\) is equivalent to the compound inequality \(2x+5\lt -7~\) or \(~2x+5\gt 7\text{.}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-788"><h6 class="heading"><span class="codenumber">52<span class="period">.</span></span></h6>
+<ol class="lower-alpha">
+<li id="li-2391"><p id="p-3855">Write the piecewise definition for \(\abs{2x+5}\text{.}\)</p></li>
+<li id="li-2392"><p id="p-3856">Use your answer to part (a) to write two inequalities that together are equivalent to \(\abs{2x+5}\lt 7\text{.}\)</p></li>
+<li id="li-2393"><p id="p-3857">Solve the inequalities in part (b) and check that the solutions agree with the solutions of \(\abs{2x+5}\lt 7\text{.}\)</p></li>
+<li id="li-2394"><p id="p-3858">Show that \(\abs{2x+5}\lt 7\) is equivalent to the compound inequality \(-7\lt 2x+5\lt  7\text{.}\)</p></li>
+</ol></article><div class="exercisegroup" id="exercisegroup-109">
+<div class="introduction" id="introduction-115"><p id="p-3859">For Problems 53–56, graph the function and answer the questions.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-789"><h6 class="heading"><span class="codenumber">53<span class="period">.</span></span></h6>
+<p id="p-3860">\(f (x) = \abs{x + 4} + \abs{x - 4}\)</p>
+<ol class="lower-alpha">
+<li id="li-2395"><p id="p-3861">Using your graph, write a piecewise formula for \(f (x)\text{.}\)</p></li>
+<li id="li-2396"><p id="p-3862">Experiment by graphing \(g(x) = \abs{x + p} + \abs{x - q}\) for different positive values of \(p\) and \(q\text{.}\) Make a conjecture about how the graph depends on \(p\) and \(q\text{.}\)</p></li>
+<li id="li-2397"><p id="p-3863">Write a piecewise formula for \(g(x) = \abs{x + p} + \abs{x - q}\text{.}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-790"><h6 class="heading"><span class="codenumber">54<span class="period">.</span></span></h6>
+<p id="p-3868">\(f (x) = \abs{x + 4} - \abs{x - 4}\)</p>
+<ol class="lower-alpha">
+<li id="li-2401"><p id="p-3869">Using your graph, write a piecewise formula for \(f (x)\text{.}\)</p></li>
+<li id="li-2402"><p id="p-3870">Experiment by graphing \(g(x) = \abs{x + p} - \abs{x - q}\) for different positive values of \(p\) and \(q\text{.}\) Make a conjecture about how the graph depends on \(p\) and \(q\text{.}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-791"><h6 class="heading"><span class="codenumber">55<span class="period">.</span></span></h6>
+<p id="p-3871">\(f (x) = \abs{x + 4} +\abs{x} + \abs{x - 4}\)</p>
+<ol class="lower-alpha">
+<li id="li-2403"><p id="p-3872">Using your graph, write a piecewise formula for \(f (x)\text{.}\)</p></li>
+<li id="li-2404"><p id="p-3873">What is the minimum value of \(f (x)\text{?}\)</p></li>
+<li id="li-2405"><p id="p-3874">If \(p, q \ge 0\text{,}\) what is the minimum value of  \(g(x) = \abs{x + p}+\abs{x} + \abs{x - q}\text{?}\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-792"><h6 class="heading"><span class="codenumber">56<span class="period">.</span></span></h6>
+<p id="p-3879">\(f(x) = \abs{x + 4} -\abs{x}+ \abs{x - 4}\)</p>
+<ol class="lower-alpha">
+<li id="li-2409"><p id="p-3880">Using your graph, write a piecewise formula for \(f (x)\text{.}\)</p></li>
+<li id="li-2410"><p id="p-3881">What is the minimum value of \(f (x)\text{?}\)</p></li>
+<li id="li-2411"><p id="p-3882">If \(p, q \ge 0\text{,}\) what is the minimum value of  \(g(x) = \abs{x + p}-\abs{x} + \abs{x - q}\text{?}\)</p></li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-110">
+<div class="introduction" id="introduction-116"><p id="p-3883">Problems 57–60 use the absolute value function to model distance. Use the strategy outlined in Problems 57 and 58 to solve Problems 59 and 60.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-793"><h6 class="heading"><span class="codenumber">57<span class="period">.</span></span></h6>
+<p id="p-3884">A small pottery is setting up a workshop to produce mugs. Three machines are located on a long table, as shown in the figure. The potter must use each machine once in the course of producing a mug. Let \(x\) represent the coordinate of the potter's station.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:15%;margin-right:15%;"><div class="sbspanel" style="width:100%;justify-content:flex-start;"><img src="images/fig-2-5-57.jpg" style="width: 100%; height: auto;" alt="three machines on number line"></div></div></div>
+<ol id="p-3885" class="lower-alpha">
+<li id="li-2412"><p id="p-3886">Write expressions for the distance from the potter's station to each of the machines.</p></li>
+<li id="li-2413"><p id="p-3887">Write a function that gives the sum of the distances from the potter's station to the three machines.</p></li>
+<li id="li-2414"><p id="p-3888">Graph your function for \(-20\le x\le 30\text{.}\) Where should the potter stand in order to minimize the distance she must walk to the machines?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-794"><h6 class="heading"><span class="codenumber">58<span class="period">.</span></span></h6>
+<p id="p-3893">Suppose the pottery in Problem 57 adds a fourth machine to the procedure for producing a mug, located at \(x = 16\) in the figure.</p>
+<ol class="lower-alpha">
+<li id="li-2418"><p id="p-3894">Write and graph a new function for the sum of the potter's distances to the four machines.</p></li>
+<li id="li-2419"><p id="p-3895">Where should the potter stand now to minimize the distance she has to walk while producing a mug?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-795"><h6 class="heading"><span class="codenumber">59<span class="period">.</span></span></h6>
+<p id="p-3896">Richard and Marian are moving to Parkville to take jobs after they graduate. The main road through Parkville runs east and west, crossing a river in the center of town. Richard's job is located \(10\) miles east of the river on the main road, and Marian's job is \(6\) miles west of the river. There is a health club they both like located \(2\) miles east of the river. If they plan to visit the health club every workday, where should Richard and Marian look for an apartment to minimize their total daily driving distance?</p></article><article class="exercise exercise-like" id="exercise-796"><h6 class="heading"><span class="codenumber">60<span class="period">.</span></span></h6>
+<p id="p-3898">Romina's Bakery has just signed contracts to provide baked goods for three new restaurants located on Route 28 outside of town. The Coffee Stop is \(2\) miles north of town center, Sneaky Pete's is \(8\) miles north, and the Sea Shell is \(12\) miles south. Romina wants to open a branch bakery on Route 28 to handle the new business. Where should she locate the bakery in order to minimize the distance she must drive for deliveries?</p></article>
+</div>
+</div></section></section></div></main>
+</div>
+</body>
+</html>

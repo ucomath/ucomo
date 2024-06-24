@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2020-08-06T12:21:36-05:00    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MFG Properties of Logarithms (Homework 4.4)</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div class="hidden-content" style="display:none">\(\require{cancel}\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{blue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href="https://www.uco.edu/" target="_blank"><img src="../mfg/images/cover.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="Fall2020_hwk.html"><span class="title">Applied Algebra:</span> <span class="subtitle">Modeling and functions (homework only)</span></a></h1>
+<p class="byline">compiled by Sean Laverty on behalf of others, Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="section-4-3-exercises.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chap4.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="section-4-5-exercises.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="section-4-3-exercises.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chap4.html" title="Up">Up</a><a class="next-button button toolbar-item" href="section-4-5-exercises.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link">
+<a href="front.html" data-scroll="front"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1">Colophon</a></li>
+<li><a href="preface-1.html" data-scroll="preface-1">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap1.html" data-scroll="chap1"><span class="codenumber">1</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="section-1-1-exercises.html" data-scroll="section-1-1-exercises">Linear Models (Homework 1.1)</a></li>
+<li><a href="section-1-2-exercises.html" data-scroll="section-1-2-exercises">Functions (Homework 1.2)</a></li>
+<li><a href="section-1-3-exercises.html" data-scroll="section-1-3-exercises">Graphs of Functions (Homework 1.3)</a></li>
+<li><a href="section-1-4-exercises.html" data-scroll="section-1-4-exercises">Slope and Rate of Change (Homework 1.4)</a></li>
+<li><a href="section-1-5-exercises.html" data-scroll="section-1-5-exercises">Linear Functions (Homework 1.5)</a></li>
+<li><a href="chap1-summary.html" data-scroll="chap1-summary">Chapter Summary and Review</a></li>
+<li><a href="chap1-rev-projects.html" data-scroll="chap1-rev-projects">Projects for Chapter 1</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap2.html" data-scroll="chap2"><span class="codenumber">2</span> <span class="title">Modeling with Functions</span></a><ul>
+<li><a href="section-2-1-exercises.html" data-scroll="section-2-1-exercises">Nonlinear Models (Homework 2.1)</a></li>
+<li><a href="section-2-2-exercises.html" data-scroll="section-2-2-exercises">Some Basic Functions (Homework 2.2)</a></li>
+<li><a href="section-2-3-exercises.html" data-scroll="section-2-3-exercises">Transformations of Graphs (Homework 2.3)</a></li>
+<li><a href="section-2-4-exercises.html" data-scroll="section-2-4-exercises">Functions as Mathematical Models (Homework 2.4)</a></li>
+<li><a href="section-2-5-exercises.html" data-scroll="section-2-5-exercises">The Absolute Value Function (Homework 2.5)</a></li>
+<li><a href="section-2-6-exercises.html" data-scroll="section-2-6-exercises">Domain and Range (Homework 2.6)</a></li>
+<li><a href="chap2-summary.html" data-scroll="chap2-summary">Chapter Summary and Review</a></li>
+<li><a href="chap2-rev-projects.html" data-scroll="chap2-rev-projects">Projects for Chapter 2: Periodic Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap3.html" data-scroll="chap3"><span class="codenumber">3</span> <span class="title">Power Functions</span></a><ul>
+<li><a href="section-3-1-exercises.html" data-scroll="section-3-1-exercises">Variation (Homework 3.1)</a></li>
+<li><a href="section-3-2-exercises.html" data-scroll="section-3-2-exercises">Integer Exponents (Homework 3.2)</a></li>
+<li><a href="section-3-3-exercises.html" data-scroll="section-3-3-exercises">Roots and Radicals (Homework 3.3)</a></li>
+<li><a href="section-3-4-exercises.html" data-scroll="section-3-4-exercises">Rational Exponents (Homework 3.4)</a></li>
+<li><a href="chap3-summary.html" data-scroll="chap3-summary">Chapter Summary and Review</a></li>
+<li><a href="chap3-rev-projects.html" data-scroll="chap3-rev-projects">Projects for Chapter 3</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap4.html" data-scroll="chap4"><span class="codenumber">4</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="section-4-1-exercises.html" data-scroll="section-4-1-exercises">Exponential Growth and Decay (Homework 4.1)</a></li>
+<li><a href="section-4-2-exercises.html" data-scroll="section-4-2-exercises">Exponential Functions (Homework 4.2)</a></li>
+<li><a href="section-4-3-exercises.html" data-scroll="section-4-3-exercises">Logarithms (Homework 4.3)</a></li>
+<li><a href="section-4-4-exercises.html" data-scroll="section-4-4-exercises" class="active">Properties of Logarithms (Homework 4.4)</a></li>
+<li><a href="section-4-5-exercises.html" data-scroll="section-4-5-exercises">Exponential Models (Homework 4.5)</a></li>
+<li><a href="chap4-summary.html" data-scroll="chap4-summary">Chapter Summary and Review</a></li>
+<li><a href="chap4-rev-projects.html" data-scroll="chap4-rev-projects">Projects for Chapter 4</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap5.html" data-scroll="chap5"><span class="codenumber">5</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="section-5-1-exercises.html" data-scroll="section-5-1-exercises">Inverse Functions (Homework 5.1)</a></li>
+<li><a href="section-5-2-exercises.html" data-scroll="section-5-2-exercises">Logarithmic Functions (Homework 5.2)</a></li>
+<li><a href="section-5-3-exercises.html" data-scroll="section-5-3-exercises">The Natural Logarithm (Homework 5.3)</a></li>
+<li><a href="section-5-4-exercises.html" data-scroll="section-5-4-exercises">Logarithmic Scales (Homework 5.4)</a></li>
+<li><a href="chap5-summary.html" data-scroll="chap5-summary">Chapter Summary and Review</a></li>
+<li><a href="chap5-rev-projects.html" data-scroll="chap5-rev-projects">Projects for Chapter 5</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap6.html" data-scroll="chap6"><span class="codenumber">6</span> <span class="title">Quadratic Functions</span></a><ul>
+<li><a href="section-6-1-exercises.html" data-scroll="section-6-1-exercises">Factors and \(x\)-intercepts (Homework 6.1)</a></li>
+<li><a href="section-6-2-exercises.html" data-scroll="section-6-2-exercises">Solving Quadratic Equations (Homework 6.2)</a></li>
+<li><a href="section-6-3-exercises.html" data-scroll="section-6-3-exercises">Graphing Parabolas (Homework 6.3)</a></li>
+<li><a href="section-6-4-exercises.html" data-scroll="section-6-4-exercises">Problem Solving (Homework 6.4)</a></li>
+<li><a href="chap6-summary.html" data-scroll="chap6-summary">Chapter Summary and Review</a></li>
+<li><a href="chap6-rev-projects.html" data-scroll="chap6-rev-projects">Projects for Chapter 6</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap7.html" data-scroll="chap7"><span class="codenumber">7</span> <span class="title">Polynomial and Rational Functions</span></a><ul>
+<li><a href="section-7-1-exercises.html" data-scroll="section-7-1-exercises">Polynomial Functions (Homework 7.1)</a></li>
+<li><a href="section-7-2-exercises.html" data-scroll="section-7-2-exercises">Graphing Polynomial Functions (Homework 7.2)</a></li>
+<li><a href="section-7-3-exercises.html" data-scroll="section-7-3-exercises">Complex Numbers (Homework 7.3)</a></li>
+<li><a href="section-7-4-exercises.html" data-scroll="section-7-4-exercises">Graphing Rational Functions (Homework 7.4)</a></li>
+<li><a href="section-7-5-exercises.html" data-scroll="section-7-5-exercises">Equations that include Algebraic Fractions (Homework 7.5)</a></li>
+<li><a href="chap7-summary.html" data-scroll="chap7-summary">Chapter Summary and Review</a></li>
+<li><a href="chap7-rev-projects.html" data-scroll="chap7-rev-projects">Projects for Chapter 7</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chap8.html" data-scroll="chap8"><span class="codenumber">8</span> <span class="title">Models and data</span></a><ul>
+<li><a href="section-1-6-exercises.html" data-scroll="section-1-6-exercises">Linear Regression (Homework 8.1)</a></li>
+<li><a href="section-6-6-exercises.html" data-scroll="section-6-6-exercises">Curve-fitting (Homework 8.2)</a></li>
+</ul>
+</li>
+<li class="link"><a href="backmatter.html" data-scroll="backmatter"><span class="title">Appendices</span></a></li>
+<li class="link">
+<a href="appendix-a.html" data-scroll="appendix-a"><span class="codenumber">A</span> <span class="title">Algebra Skills Refresher</span></a><ul>
+<li><a href="Numbers-and-Operations.html" data-scroll="Numbers-and-Operations">Numbers and Operations</a></li>
+<li><a href="appendix-Linear-Equations-and-Inequalities.html" data-scroll="appendix-Linear-Equations-and-Inequalities">Linear Equations and Inequalities</a></li>
+<li><a href="appendix-Algebraic-Expressions-and-Problem-Solving.html" data-scroll="appendix-Algebraic-Expressions-and-Problem-Solving">Algebraic Expressions and Problem Solving</a></li>
+<li><a href="appendix-Graphs-and-Equations.html" data-scroll="appendix-Graphs-and-Equations">Graphs and Equations</a></li>
+<li><a href="appendix-Linear-Systems-in-Two-Variables.html" data-scroll="appendix-Linear-Systems-in-Two-Variables">Linear Systems in Two Variables</a></li>
+<li><a href="appendix-Laws-of-Exponents.html" data-scroll="appendix-Laws-of-Exponents">Laws of Exponents</a></li>
+<li><a href="appendix-Polynomials-and-Factoring.html" data-scroll="appendix-Polynomials-and-Factoring">Polynomials and Factoring</a></li>
+<li><a href="appendix-Factoring-Quadratic-Trinomials.html" data-scroll="appendix-Factoring-Quadratic-Trinomials">Factoring Quadratic Trinomials</a></li>
+<li><a href="appendix-Working-with-Algebraic-Fractions.html" data-scroll="appendix-Working-with-Algebraic-Fractions">Working with Algebraic Fractions</a></li>
+<li><a href="appendix-Working-with-Radicals.html" data-scroll="appendix-Working-with-Radicals">Working with Radicals</a></li>
+<li><a href="appendix-Facts-from-Geometry.html" data-scroll="appendix-Facts-from-Geometry">Facts from Geometry</a></li>
+<li><a href="Properties-of-Lines.html" data-scroll="Properties-of-Lines">Properties of Lines</a></li>
+<li><a href="appendix-The-Real-Number-System.html" data-scroll="appendix-The-Real-Number-System">The Real Number System</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="appendix-b.html" data-scroll="appendix-b"><span class="codenumber">B</span> <span class="title">Using a Graphing Calculator</span></a><ul>
+<li><a href="appendix-Getting-Started.html" data-scroll="appendix-Getting-Started">Getting Started</a></li>
+<li><a href="appendix-Entering-Expressions.html" data-scroll="appendix-Entering-Expressions">Entering Expressions</a></li>
+<li><a href="appendix-Editing-Expressions.html" data-scroll="appendix-Editing-Expressions">Editing Expressions</a></li>
+<li><a href="appendix-Graphing-an-Equation.html" data-scroll="appendix-Graphing-an-Equation">Graphing an Equation</a></li>
+<li><a href="appendix-Making-a-Table.html" data-scroll="appendix-Making-a-Table">Making a Table</a></li>
+<li><a href="appendix-Regression.html" data-scroll="appendix-Regression">Regression</a></li>
+<li><a href="appendix-Function-Notation-and-Transformation-of-Graphs.html" data-scroll="appendix-Function-Notation-and-Transformation-of-Graphs">Function Notation and Transformation of Graphs</a></li>
+</ul>
+</li>
+<li class="link"><a href="glossary.html" data-scroll="glossary"><span class="codenumber">C</span> <span class="title">Glossary</span></a></li>
+<li class="link"><a href="technology.html" data-scroll="technology"><span class="codenumber">D</span> <span class="title">Technology (Graphing calculators)</span></a></li>
+<li class="link"><a href="geometry.html" data-scroll="geometry"><span class="codenumber">E</span> <span class="title">Geometry formulas</span></a></li>
+<li class="link"><a href="appendix-gfdl.html" data-scroll="appendix-gfdl"><span class="codenumber">F</span> <span class="title">GNU Free Documentation License</span></a></li>
+<li class="link"><a href="bibliography.html" data-scroll="bibliography"><span class="title">Bibliography</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="exercises" id="section-4-4-exercises"><h2 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber">4.4</span> <span class="title">Properties of Logarithms (Homework 4.4)</span>
+</h2>
+<a href="section-4-4-exercises.html" class="permalink">¶</a><article class="exercise exercise-like" id="exercise-1408"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
+<ol id="p-5443" class="lower-alpha">
+<li id="li-3366"><p id="p-5444">Simplify \(10^2 \cdot 10^6\text{.}\)</p></li>
+<li id="li-3367"><p id="p-5445">Compute \(\log_{} (10^2)\text{,}\) \(\log_{} (10^6)\text{,}\) and \(\log_{} (10^2\cdot 10^6)\text{.}\) How are they related?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1409"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
+<ol id="p-5449" class="lower-alpha">
+<li id="li-3370"><p id="p-5450">Simplify \(\dfrac{10^9}{10^6} \text{.}\)</p></li>
+<li id="li-3371"><p id="p-5451">Compute \(\log_{} (10^9)\text{,}\) \(\log_{} (10^6)\text{,}\) and \(\log\left(\dfrac{10^9}{10^6} \right) \text{.}\) How are they related?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1410"><h6 class="heading"><span class="codenumber">3<span class="period">.</span></span></h6>
+<ol id="p-5452" class="lower-alpha">
+<li id="li-3372"><p id="p-5453">Simplify \(\dfrac{b^8}{b^5} \text{.}\)</p></li>
+<li id="li-3373"><p id="p-5454">Compute \(\log_{b}  (b^8)\text{,}\) \(\log_{b}  (b^5)\text{,}\) and \(\log_{b} \left(\dfrac{b^8}{b^5} \right) \text{.}\) How are they related?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1411"><h6 class="heading"><span class="codenumber">4<span class="period">.</span></span></h6>
+<ol id="p-5458" class="lower-alpha">
+<li id="li-3376"><p id="p-5459">Simplify \(b^4 \cdot b^3\text{.}\)</p></li>
+<li id="li-3377"><p id="p-5460">Compute \(\log_{b}  (b^4)\text{,}\) \(\log_{b}  (b^3)\text{,}\) and \(\log_{b} (b^4\cdot b^3)\text{.}\) How are they related?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1412"><h6 class="heading"><span class="codenumber">5<span class="period">.</span></span></h6>
+<ol id="p-5461" class="lower-alpha">
+<li id="li-3378"><p id="p-5462">Simplify \(\left(10^3 \right)^5 \text{.}\)</p></li>
+<li id="li-3379"><p id="p-5463">Compute \(\log\left(10^3 \right)^5\)  and \(\log\left(10^3 \right) \text{.}\) How are they related?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1413"><h6 class="heading"><span class="codenumber">6<span class="period">.</span></span></h6>
+<ol id="p-5467" class="lower-alpha">
+<li id="li-3382"><p id="p-5468">Simplify \(\left(b^2 \right)^6 \text{.}\)</p></li>
+<li id="li-3383"><p id="p-5469">Compute \(\log_{b} \left(b^2 \right)^6\)  and \(\log_{b} \left(b^2 \right) \text{.}\) How are they related?</p></li>
+</ol></article><div class="exercisegroup" id="exercisegroup-218">
+<div class="introduction" id="introduction-223"><p id="p-5470">For Problems 7-14, use the properties of logarithms to expand each expression in terms of simpler logarithms. Assume that all variable expressions denote positive numbers.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-1414"><h6 class="heading"><span class="codenumber">7<span class="period">.</span></span></h6>
+<ol id="p-5471" class="lower-alpha cols2">
+<li id="li-3384"><p id="p-5472">\(\log_{b} (2x) \)</p></li>
+<li id="li-3385"><p id="p-5473">\(\log_{b} \left(\dfrac{x}{2}\right) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1415"><h6 class="heading"><span class="codenumber">8<span class="period">.</span></span></h6>
+<ol id="p-5477" class="lower-alpha cols2">
+<li id="li-3388"><p id="p-5478">\(\log_{b} \left(\dfrac{2x}{x-2}\right) \)</p></li>
+<li id="li-3389"><p id="p-5479">\(\log_{b} (x(2x+3)) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1416"><h6 class="heading"><span class="codenumber">9<span class="period">.</span></span></h6>
+<ol id="p-5480" class="lower-alpha cols2">
+<li id="li-3390"><p id="p-5481">\(\log_{3} (3x^4) \)</p></li>
+<li id="li-3391"><p id="p-5482">\(\log_{5} (1.1^{1/t}) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1417"><h6 class="heading"><span class="codenumber">10<span class="period">.</span></span></h6>
+<ol id="p-5486" class="lower-alpha cols2">
+<li id="li-3394"><p id="p-5487">\(\log_{b} \left((4b)^t\right) \)</p></li>
+<li id="li-3395"><p id="p-5488">\(\log_{2} \left(5(2^x)\right) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1418"><h6 class="heading"><span class="codenumber">11<span class="period">.</span></span></h6>
+<ol id="p-5489" class="lower-alpha cols2">
+<li id="li-3396"><p id="p-5490">\(\log_{b} (\sqrt{bx}) \)</p></li>
+<li id="li-3397"><p id="p-5491">\(\log_{3} (\sqrt[3]{x^2+1}) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1419"><h6 class="heading"><span class="codenumber">12<span class="period">.</span></span></h6>
+<ol id="p-5495" class="lower-alpha cols2">
+<li id="li-3400"><p id="p-5496">\(\log\left(\sqrt{\dfrac{2L}{R^2}}\right) \)</p></li>
+<li id="li-3401"><p id="p-5497">\(\log\left(2\pi\sqrt{\dfrac{l}{g}}\right) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1420"><h6 class="heading"><span class="codenumber">13<span class="period">.</span></span></h6>
+<ol id="p-5498" class="lower-alpha">
+<li id="li-3402"><p id="p-5499">\(\log\left(P_0 (1-m)^t\right) \)</p></li>
+<li id="li-3403"><p id="p-5500">\(\log_{4} \left(\left(1+\dfrac{r}{4}\right)^{4t}\right) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1421"><h6 class="heading"><span class="codenumber">14<span class="period">.</span></span></h6>
+<ol id="p-5504" class="lower-alpha">
+<li id="li-3406"><p id="p-5505">\(\log_{3} \left(\dfrac{a^2-2}{a^5}\right) \)</p></li>
+<li id="li-3407"><p id="p-5506">\(\log_{} \left(\dfrac{a^3b^2}{(a+b)^{3/2}}\right) \)</p></li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-219">
+<div class="introduction" id="introduction-224"><p id="p-5507">For Problems 15-20, combine into one logarithm and simplify. Assume all expressions are defined.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-1422"><h6 class="heading"><span class="codenumber">15<span class="period">.</span></span></h6>
+<ol id="p-5508" class="lower-alpha">
+<li id="li-3408"><p id="p-5509">\(\log_{b}  (8) - \log_{b}  (2)\)</p></li>
+<li id="li-3409"><p id="p-5510">\(2 \log_{4} (x) + 3 \log_{4} (y)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1423"><h6 class="heading"><span class="codenumber">16<span class="period">.</span></span></h6>
+<ol id="p-5514" class="lower-alpha">
+<li id="li-3412"><p id="p-5515">\(\log_{b}  (5) + \log_{b}  (2)\)</p></li>
+<li id="li-3413"><p id="p-5516">\(\dfrac{1}{4} \log_{5} (x) - \dfrac{3}{4} \log_{5} (y)\)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1424"><h6 class="heading"><span class="codenumber">17<span class="period">.</span></span></h6>
+<ol id="p-5517" class="lower-alpha">
+<li id="li-3414"><p id="p-5518">\(\log_{} (2x)+ 2\log_{} (x) -\log\left(\sqrt{x}\right) \)</p></li>
+<li id="li-3415"><p id="p-5519">\(\log_{} (t^2-16)-\log_{} (t+4) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1425"><h6 class="heading"><span class="codenumber">18<span class="period">.</span></span></h6>
+<ol id="p-5523" class="lower-alpha">
+<li id="li-3418"><p id="p-5524">\(\log_{} (x^2) + \log_{} (x^3) -5\log_{} (x)\)</p></li>
+<li id="li-3419"><p id="p-5525">\(\log_{} (x^2-x)-\log\left(\sqrt{x^3}\right) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1426"><h6 class="heading"><span class="codenumber">19<span class="period">.</span></span></h6>
+<ol id="p-5526" class="lower-alpha">
+<li id="li-3420"><p id="p-5527">\(3-3\log_{} (30) \)</p></li>
+<li id="li-3421"><p id="p-5528">\(\dfrac{1}{3}\log_{6} (8w^6) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1427"><h6 class="heading"><span class="codenumber">20<span class="period">.</span></span></h6>
+<ol id="p-5532" class="lower-alpha">
+<li id="li-3424"><p id="p-5533">\(2-\log_{4} (16z^2) \)</p></li>
+<li id="li-3425"><p id="p-5534">\(1-2\log_{3} (x) \)</p></li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-220">
+<div class="introduction" id="introduction-225">
+<p id="p-5535">For Problems 21-24, use the three logs below to find the value of each expression.</p>
+<div class="displaymath">
+\begin{equation*}
+\log_{b} (2) = 1.6931, ~~\log_{b} (3) = 2.0986, ~~\log_{b} (5) = 3.6094
+\end{equation*}
+</div>
+<p data-braille="continuation">(<em class="emphasis">Hint</em>: For example, \(\log_{b} (15) = \log_{b} (3) + \log_{b} (5)\text{.}\))</p>
+</div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-1428"><h6 class="heading"><span class="codenumber">21<span class="period">.</span></span></h6>
+<ol id="p-5536" class="lower-alpha cols2">
+<li id="li-3426"><p id="p-5537">\(\log_{b}  (6)\)</p></li>
+<li id="li-3427"><p id="p-5538">\(\log_{b} \left(\dfrac{2}{5}\right) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1429"><h6 class="heading"><span class="codenumber">22<span class="period">.</span></span></h6>
+<ol id="p-5542" class="lower-alpha cols2">
+<li id="li-3430"><p id="p-5543">\(\log_{b}  (10)\)</p></li>
+<li id="li-3431"><p id="p-5544">\(\log_{b} (\dfrac{3}{2}) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1430"><h6 class="heading"><span class="codenumber">23<span class="period">.</span></span></h6>
+<ol id="p-5545" class="lower-alpha cols2">
+<li id="li-3432"><p id="p-5546">\(\log_{b}  (9)\)</p></li>
+<li id="li-3433"><p id="p-5547">\(\log_{b} (\sqrt{50}) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1431"><h6 class="heading"><span class="codenumber">24<span class="period">.</span></span></h6>
+<ol id="p-5551" class="lower-alpha cols2">
+<li id="li-3436"><p id="p-5552">\(\log_{b}  (25)\)</p></li>
+<li id="li-3437"><p id="p-5553">\(\log_{b}  (75) \)</p></li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-221">
+<div class="introduction" id="introduction-226"><p id="p-5554">For Problems 25-36, solve the equation by using logarithms base \(10\text{.}\) “Give both the exact answer and the solution rounded to the nearest four decimal places.</p></div>
+<div class="exercisegroup-exercises cols3">
+<article class="exercise exercise-like" id="exercise-1432"><h6 class="heading"><span class="codenumber">25<span class="period">.</span></span></h6>
+<p id="p-5555">\(2^x=7 \)</p></article><article class="exercise exercise-like" id="exercise-1433"><h6 class="heading"><span class="codenumber">26<span class="period">.</span></span></h6>
+<p id="p-5557">\(3^x=4 \)</p></article><article class="exercise exercise-like" id="exercise-1434"><h6 class="heading"><span class="codenumber">27<span class="period">.</span></span></h6>
+<p id="p-5558">\(3^{x+1}=8 \)</p></article><article class="exercise exercise-like" id="exercise-1435"><h6 class="heading"><span class="codenumber">28<span class="period">.</span></span></h6>
+<p id="p-5560">\(2^{x-1}=9 \)</p></article><article class="exercise exercise-like" id="exercise-1436"><h6 class="heading"><span class="codenumber">29<span class="period">.</span></span></h6>
+<p id="p-5561">\(4^{x^2}=15 \)</p></article><article class="exercise exercise-like" id="exercise-1437"><h6 class="heading"><span class="codenumber">30<span class="period">.</span></span></h6>
+<p id="p-5563">\(3^{x^2}=21 \)</p></article><article class="exercise exercise-like" id="exercise-1438"><h6 class="heading"><span class="codenumber">31<span class="period">.</span></span></h6>
+<p id="p-5564">\(4.26^{-x}=10.3 \)</p></article><article class="exercise exercise-like" id="exercise-1439"><h6 class="heading"><span class="codenumber">32<span class="period">.</span></span></h6>
+<p id="p-5566">\(2.13^{-x}=8.1 \)</p></article><article class="exercise exercise-like" id="exercise-1440"><h6 class="heading"><span class="codenumber">33<span class="period">.</span></span></h6>
+<p id="p-5567">\(25\cdot 3^{2.1x}=47 \)</p></article><article class="exercise exercise-like" id="exercise-1441"><h6 class="heading"><span class="codenumber">34<span class="period">.</span></span></h6>
+<p id="p-5569">\(12\cdot 5^{1.5x}=85 \)</p></article><article class="exercise exercise-like" id="exercise-1442"><h6 class="heading"><span class="codenumber">35<span class="period">.</span></span></h6>
+<p id="p-5570">\(3600=20\cdot 8^{-0.2x} \)</p></article><article class="exercise exercise-like" id="exercise-1443"><h6 class="heading"><span class="codenumber">36<span class="period">.</span></span></h6>
+<p id="p-5572">\(0.06=50\cdot 4^{-0.6x} \)</p></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-1444"><h6 class="heading"><span class="codenumber">37<span class="period">.</span></span></h6>
+<p id="p-5573">If raw meat is allowed to thaw at \(50\degree\)F, Salmonella grows at a rate of \(9\%\) per hour.</p>
+<ol class="lower-alpha">
+<li id="li-3438"><p id="p-5574">Write a formula for the amount of Salmonella present after \(t\) hours, if the initial amount is \(S_0\text{.}\)</p></li>
+<li id="li-3439"><p id="p-5575">Health officials advise that the amount of Salmonella initially present in meat should not be allowed to increase by more than \(50\%\text{.}\) How long can meat be left to thaw at \(50\degree\)F?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1445"><h6 class="heading"><span class="codenumber">38<span class="period">.</span></span></h6>
+<p id="p-5579">Starting in 1998, the demand for electricity in Ireland grew at a rate of \(5.8\%\) per year. In 1998, \(20,500\) gigawatts were used. (Source: Electricity Supply Board of Ireland)</p>
+<ol class="lower-alpha">
+<li id="li-3442"><p id="p-5580">Write a formula for electricity demand in Ireland as a function of time.</p></li>
+<li id="li-3443"><p id="p-5581">If demand continues to grow at the same rate, when would it reach \(30,000\) gigawatts?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1446"><h6 class="heading"><span class="codenumber">39<span class="period">.</span></span></h6>
+<p id="p-5582">The concentration of a certain drug injected into the bloodstream decreases by \(20\%\) each hour as the drug is eliminated from the body. The initial dose creates a concentration of \(0.7\) milligrams per milliliter.</p>
+<ol class="lower-alpha">
+<li id="li-3444"><p id="p-5583">Write a function for the concentration of the drug as a function of time.</p></li>
+<li id="li-3445"><p id="p-5584">The minimum effective concentration of the drug is \(0.4\) milligrams per milliliter. When should the second dose be administered?</p></li>
+<li id="li-3446"><p id="p-5585">Verify your answer with a graph.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1447"><h6 class="heading"><span class="codenumber">40<span class="period">.</span></span></h6>
+<p id="p-5589">A small pond is tested for pollution and the concentration of toxic chemicals is found to be \(80\) parts per million. Clean water enters the pond from a stream, mixes with the polluted water, then leaves the pond so that the pollution level is reduced by \(10\%\) each month.</p>
+<ol class="lower-alpha">
+<li id="li-3450"><p id="p-5590">Write a function for the concentration of toxic chemicals as a function of time.</p></li>
+<li id="li-3451"><p id="p-5591">How long will it be before the concentration of toxic chemicals reaches a safe level of \(25\) parts per million?</p></li>
+<li id="li-3452"><p id="p-5592">Verify your answer with a graph.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1448"><h6 class="heading"><span class="codenumber">41<span class="period">.</span></span></h6>
+<p id="p-5593">According to the National Council of Churches, the fastest growing denomination in the United States in \(2004\) was the Jehovah's Witnesses, with an annual growth rate of \(1.82\%\text{.}\)</p>
+<ol class="lower-alpha">
+<li id="li-3453"><p id="p-5594">The Jehovah's Witnesses had \(1,041,000\) members in \(2004\text{.}\) Write a formula for the membership in the Jehovah's Witnesses in millions as a function of time, assuming that the church continues to grow at the same rate.</p></li>
+<li id="li-3454"><p id="p-5595">According to this model, when will the Jehovah's Witnesses have \(2,000,000\) members?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1449"><h6 class="heading"><span class="codenumber">42<span class="period">.</span></span></h6>
+<p id="p-5599">In \(2004\text{,}\) the Presbyterian Church had \(3,241,000\) members, but membership was declining by \(4.87\%\) annually.</p>
+<ol class="lower-alpha">
+<li id="li-3457"><p id="p-5600">Write a formula for the membership in the Presbyterian Church as a function of time, assuming that the membership continues to decline at the same rate.</p></li>
+<li id="li-3458"><p id="p-5601">When will the Presbyterian Church have \(2,000,000\) members?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1450"><h6 class="heading"><span class="codenumber">43<span class="period">.</span></span></h6>
+<p id="p-5602">Sodium-24 is a radioactive isotope that is used in diagnosing circulatory disease. It decays into stable isotopes of sodium at a rate of \(4.73\%\) per hour.</p>
+<ol class="lower-alpha">
+<li id="li-3459"><p id="p-5603">Technicians inject a quantity of sodium-24 into a patient's bloodstream. Write a formula for the amount of sodium-24 present in the bloodstream as a function of time.</p></li>
+<li id="li-3460"><p id="p-5604">How long will it take for \(75\%\) of the isotope to decay?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1451"><h6 class="heading"><span class="codenumber">44<span class="period">.</span></span></h6>
+<p id="p-5608">The population of Afghanistan is growing at \(2.6\%\) per year.</p>
+<ol class="lower-alpha">
+<li id="li-3463"><p id="p-5609">Write a formula for the population of Afghanistan as a function of time.</p></li>
+<li id="li-3464"><p id="p-5610">In 2005, the population of Afghanistan was \(29.9\) million. At the given rate of growth, how long would it take the population to reach \(40\) million?</p></li>
+</ol></article><div class="exercisegroup" id="exercisegroup-222">
+<div class="introduction" id="introduction-227"><p id="p-5611">For Problems 46-52, evaluate each expression. Which (if any) are equal?</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-1452"><h6 class="heading"><span class="codenumber">45<span class="period">.</span></span></h6>
+<ol id="p-5612" class="lower-alpha cols3">
+<li id="li-3465"><p id="p-5613">\(\log_{2} (4\cdot 8) \)</p></li>
+<li id="li-3466"><p id="p-5614">\((\log_{2} (4))(\log_{2} (8)) \)</p></li>
+<li id="li-3467"><p id="p-5615">\(\log_{2} (4) + \log_{2} (8) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1453"><h6 class="heading"><span class="codenumber">46<span class="period">.</span></span></h6>
+<ol id="p-5620" class="lower-alpha cols3">
+<li id="li-3471"><p id="p-5621">\(\log_{2} (16+16) \)</p></li>
+<li id="li-3472"><p id="p-5622">\(\log_{2} (16)+\log_{2} (16) \)</p></li>
+<li id="li-3473"><p id="p-5623">\(\log_{2} (2) + \log_{2} (16) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1454"><h6 class="heading"><span class="codenumber">47<span class="period">.</span></span></h6>
+<ol id="p-5624" class="lower-alpha cols3">
+<li id="li-3474"><p id="p-5625">\(\log_{3} (27^2) \)</p></li>
+<li id="li-3475"><p id="p-5626">\((\log_{3} (27)^2) \)</p></li>
+<li id="li-3476"><p id="p-5627">\(\log_{3} (27) + \log_{3} (27) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1455"><h6 class="heading"><span class="codenumber">48<span class="period">.</span></span></h6>
+<ol id="p-5632" class="lower-alpha cols3">
+<li id="li-3480"><p id="p-5633">\(\log_{3} (3 \cdot 27) \)</p></li>
+<li id="li-3481"><p id="p-5634">\(\log_{3} (3) +\log_{3} (27) \)</p></li>
+<li id="li-3482"><p id="p-5635">\(\log_{3} (3) \cdot \log_{3} (27) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1456"><h6 class="heading"><span class="codenumber">49<span class="period">.</span></span></h6>
+<ol id="p-5636" class="lower-alpha cols3">
+<li id="li-3483"><p id="p-5637">\(\log\left(\dfrac{240}{10} \right) \)</p></li>
+<li id="li-3484"><p id="p-5638">\(\dfrac{\log_{} (240)}{\log_{} (10)} \)</p></li>
+<li id="li-3485"><p id="p-5639">\(\log_{} (240)-\log_{} (10) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1457"><h6 class="heading"><span class="codenumber">50<span class="period">.</span></span></h6>
+<ol id="p-5644" class="lower-alpha cols3">
+<li id="li-3489"><p id="p-5645">\(\log\left(\dfrac{1}{2}\cdot 80 \right) \)</p></li>
+<li id="li-3490"><p id="p-5646">\(\dfrac{1}{2} \log_{} (80) \)</p></li>
+<li id="li-3491"><p id="p-5647">\(\log\left(\sqrt{80}\right) \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1458"><h6 class="heading"><span class="codenumber">51<span class="period">.</span></span></h6>
+<ol id="p-5648" class="lower-alpha cols3">
+<li id="li-3492"><p id="p-5649">\(\log_{} (75-15) \)</p></li>
+<li id="li-3493"><p id="p-5650">\(\log_{} (75)-\log_{} (15) \)</p></li>
+<li id="li-3494"><p id="p-5651">\(\dfrac{\log_{} (75)}{\log_{} (15)}  \)</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1459"><h6 class="heading"><span class="codenumber">52<span class="period">.</span></span></h6>
+<ol id="p-5656" class="lower-alpha cols3">
+<li id="li-3498"><p id="p-5657">\(\log\left(8\cdot 25 \right) \)</p></li>
+<li id="li-3499"><p id="p-5658">\(\log_{} (25^8) \)</p></li>
+<li id="li-3500"><p id="p-5659">\(\log_{} (8+25) \)</p></li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-223">
+<div class="introduction" id="introduction-228">
+<p id="p-5660">For Problems 53–58, use the formula for compound interest,</p>
+<div class="displaymath">
+\begin{equation*}
+A=P\left(1+\dfrac{r}{n} \right)^{nt} 
+\end{equation*}
+</div>
+</div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-1460"><h6 class="heading"><span class="codenumber">53<span class="period">.</span></span></h6>
+<p id="p-5661">What rate of interest is required so that \(\$1000\) will yield \(\$1900\) after \(5\) years if the interest rate is compounded monthly?</p></article><article class="exercise exercise-like" id="exercise-1461"><h6 class="heading"><span class="codenumber">54<span class="period">.</span></span></h6>
+<p id="p-5663">What rate of interest is required so that \(\$400\) will yield \(\$600\) after \(3\) years if the interest rate is compounded quarterly?</p></article><article class="exercise exercise-like" id="exercise-1462"><h6 class="heading"><span class="codenumber">55<span class="period">.</span></span></h6>
+<p id="p-5664">How long will it take a sum of money to triple if it is invested at \(10\%\) compounded daily?</p></article><article class="exercise exercise-like" id="exercise-1463"><h6 class="heading"><span class="codenumber">56<span class="period">.</span></span></h6>
+<p id="p-5666">How long will it take a sum of money to increase by a factor of \(5\) if it is invested at \(10\%\) compounded quarterly?</p></article><article class="exercise exercise-like" id="exercise-1464"><h6 class="heading"><span class="codenumber">57<span class="period">.</span></span></h6>
+<ol id="p-5667" class="lower-alpha">
+<li id="li-3501"><p id="p-5668">Suppose you invest \(\$1000\) at \(12\%\) annual interest for \(5\) years. In this problem, we will investigate how the number of compounding periods,\(n\text{,}\) affects the amount, \(A\text{.}\) Write \(A\) as a function of \(n\text{,}\) with \(P = 1000\text{,}\) \(r = 0.12\text{,}\) and \(t = 5\text{.}\)</p></li>
+<li id="li-3502"><p id="p-5669">Use your calculator to make a table of values for \(A\) as a function of \(n\text{.}\) What happens to \(A\) as \(n\) increases?</p></li>
+<li id="li-3503"><p id="p-5670">What value of \(n\) is necessary to produce an amount \(A\gt 1818\text{?}\) To produce \(A\gt 1820\text{?}\) To produce \(A\gt 1822\text{?}\)</p></li>
+<li id="li-3504">
+<p id="p-5671">Graph the function \(A(n)\) in the window</p>
+<div class="displaymath">
+\begin{align*}
+{\text{Xmin}} \amp = 0 \amp\amp {\text{Xmax}} = 52\\
+{\text{Ymin}} \amp = 1750 \amp\amp {\text{Ymax}} = 1850
+\end{align*}
+</div>
+<p data-braille="continuation">Describe the graph: Is it increasing or decreasing? Concave up or down? Does it appear to have an asymptote? Give your best estimate for the asymptote.</p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-1465"><h6 class="heading"><span class="codenumber">58<span class="period">.</span></span></h6>
+<ol id="p-5677" class="lower-alpha">
+<li id="li-3509"><p id="p-5678">In this problem we will repeat Problem 49 for \(4\%\) interest. Write \(A\) as a function of \(n\text{,}\) with \(P = 1000\text{,}\) \(r = 0.04\text{,}\) and \(t = 5\text{.}\)</p></li>
+<li id="li-3510"><p id="p-5679">Use your calculator to make a table of values for \(A\) as a function of \(n\text{.}\) What happens to \(A\) as \(n\) increases?</p></li>
+<li id="li-3511"><p id="p-5680">What value of \(n\) is necessary to produce an amount \(A\gt 1218\text{?}\) To produce \(A\gt 1220\text{?}\) To produce \(A\gt 1221.40\text{?}\)</p></li>
+<li id="li-3512">
+<p id="p-5681">Graph the function \(A(n)\) in the window</p>
+<div class="displaymath">
+\begin{align*}
+{\text{Xmin}} \amp = 0 \amp\amp {\text{Xmax}} = 52\\
+{\text{Ymin}} \amp = 1210 \amp\amp {\text{Ymax}} = 1225
+\end{align*}
+</div>
+<p data-braille="continuation">Describe the graph: Is it increasing or decreasing? Concave up or down? Does it appear to have an asymptote? Give your best estimate for the asymptote.</p>
+</li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-224">
+<div class="introduction" id="introduction-229"><p id="p-5682">For Problems 59-64, solve the formula for the specified variable.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-1466"><h6 class="heading"><span class="codenumber">59<span class="period">.</span></span></h6>
+<p id="p-5683">\(N = N_0a^{kt}\text{,}\) for \(k\)</p></article><article class="exercise exercise-like" id="exercise-1467"><h6 class="heading"><span class="codenumber">60<span class="period">.</span></span></h6>
+<p id="p-5685">\(Q=Q_0 b^{t/2} \text{,}\) for \(t\)</p></article><article class="exercise exercise-like" id="exercise-1468"><h6 class="heading"><span class="codenumber">61<span class="period">.</span></span></h6>
+<p id="p-5686">\(A = A_0(10^{kt}-1)\text{,}\) for \(t\)</p></article><article class="exercise exercise-like" id="exercise-1469"><h6 class="heading"><span class="codenumber">62<span class="period">.</span></span></h6>
+<p id="p-5688">\(B=B_0 (1-10^{-kt}) \text{,}\) for \(t\)</p></article><article class="exercise exercise-like" id="exercise-1470"><h6 class="heading"><span class="codenumber">63<span class="period">.</span></span></h6>
+<p id="p-5689">\(w = pv^q\text{,}\) for \(q\)</p></article><article class="exercise exercise-like" id="exercise-1471"><h6 class="heading"><span class="codenumber">64<span class="period">.</span></span></h6>
+<p id="p-5691">\(l=p^a q^b \text{,}\) for \(b\)</p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-225">
+<div class="introduction" id="introduction-230"><p id="p-5692">In Problems 65–68 we use the laws of exponents to prove the properties of logarithms.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-1472"><h6 class="heading"><span class="codenumber">65<span class="period">.</span></span></h6>
+<p id="p-5693">We will use the first law of exponents, \(a^p\cdot a^q = a^{p+q}\text{,}\) to prove the first property of logarithms.</p>
+<ol class="lower-alpha">
+<li id="li-3513">
+<p id="p-5694">Let \(m = \log_{b}  (x)\) and \(n = \log_{b}  (y)\text{.}\) Rewrite these equations in exponential form:</p>
+<div class="displaymath">
+\begin{equation*}
+x=\underline{\hspace{6.818181818181818em}}~~~ \text{ and } ~~~y=\underline{\hspace{6.818181818181818em}} 
+\end{equation*}
+</div>
+</li>
+<li id="li-3514"><p id="p-5695">Now consider the expression \(\log_{b}  (xy)\text{.}\) Replace \(x\) and \(y\) by your answers to part (a).</p></li>
+<li id="li-3515"><p id="p-5696">Apply the first law of exponents to your expression in part (b).</p></li>
+<li id="li-3516"><p id="p-5697">Use the definition of logarithm to simplify your answer to part (c).</p></li>
+<li id="li-3517"><p id="p-5698">Refer to the definitions of \(m\) and \(n\) in part (a) to finish the proof.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1473"><h6 class="heading"><span class="codenumber">66<span class="period">.</span></span></h6>
+<p id="p-5705">We will use the second law of exponents, \(\dfrac{a^p}{a^q}=a^{p-q} \text{,}\) to prove the second property of logarithms.</p>
+<ol class="lower-alpha">
+<li id="li-3523">
+<p id="p-5706">Let \(m = \log_{b}  (x)\) and \(n = \log_{b}  (y)\text{.}\) Rewrite these equations in exponential form:</p>
+<div class="displaymath">
+\begin{equation*}
+x=\underline{\hspace{6.818181818181818em}}~~~ \text{ and } ~~~y=\underline{\hspace{6.818181818181818em}} 
+\end{equation*}
+</div>
+</li>
+<li id="li-3524"><p id="p-5707">Now consider the expression \(\log_{b}  \left(\frac{x}{y}\right)\text{.}\) Replace \(x\) and \(y\) by your answers to part (a).</p></li>
+<li id="li-3525"><p id="p-5708">Apply the second law of exponents to your expression in part (b).</p></li>
+<li id="li-3526"><p id="p-5709">Use the definition of logarithm to simplify your answer to part (c).</p></li>
+<li id="li-3527"><p id="p-5710">Refer to the definitions of \(m\) and \(n\) in part (a) to finish the proof.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1474"><h6 class="heading"><span class="codenumber">67<span class="period">.</span></span></h6>
+<p id="p-5711">We will use the third law of exponents, \((a^p)^q = a^{pq}\text{,}\) to prove the third property of logarithms.</p>
+<ol class="lower-alpha">
+<li id="li-3528">
+<p id="p-5712">Let \(m = \log_{b}  (x)\text{.}\) Rewrite this equation in exponential form:</p>
+<div class="displaymath">
+\begin{equation*}
+x=\underline{\hspace{6.818181818181818em}}
+\end{equation*}
+</div>
+</li>
+<li id="li-3529"><p id="p-5713">Now consider the expression \(\log_{b}  (x^k)\text{.}\) Replace \(x\) by your answers to part (a).</p></li>
+<li id="li-3530"><p id="p-5714">Apply the third law of exponents to your expression in part (b).</p></li>
+<li id="li-3531"><p id="p-5715">Use the definition of logarithm to simplify your answer to part (c).</p></li>
+<li id="li-3532"><p id="p-5716">Refer to the definitions of \(m\) in part (a) to finish the proof.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-1475"><h6 class="heading"><span class="codenumber">68<span class="period">.</span></span></h6>
+<ol id="p-5723" class="lower-alpha">
+<li id="li-3538"><p id="p-5724">Use the laws of exponents to explain why \(\log_{b}  (1) = 0\text{.}\)</p></li>
+<li id="li-3539"><p id="p-5725">Use the laws of exponents to explain why \(\log_{b}  (b^x) = x\text{.}\)</p></li>
+<li id="li-3540"><p id="p-5726">Use the laws of exponents to explain why \(b^{\log_{b}  (x)} = x\text{.}\)</p></li>
+</ol></article>
+</div>
+</div></section></div></main>
+</div>
+</body>
+</html>

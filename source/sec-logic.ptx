@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+    <!--Start of code for Logic and Proofs module page-->
+    <section xml:id="logic-proofs-module">
+     <title>Logic and Proofs</title>
+       <subsection>
+        <title>Introduction to Logic and Propositions</title>
+         <p>
+         In this module, you will learn about truth values, propositions, logic 
+         tables, and lastly proofs. In higher math courses, logic and proofs are 
+         used all the time to explain mathematical realtionships; for example, 
+         proofs are used to show whether a number is even, odd, prime, or divisible.
+         </p>
+
+         <p>
+         In this activity, you will start off by learning the basics 
+         surrounding propositions, truth values, and logic tables. Attached below
+         are guided notes and a video to get you started on your journey to 
+         start solving mathematical proofs. 
+         </p>
+
+         <paragraphs xml:id="Guided_Notes">
+          <title>Guided Notes and Video</title>
+           <p> <p>
+           <url href="https://www.youtube.com/watch?v=tsUbJnWqDGM"> Truth Tables and Propositions Video</url>
+           </p> </p>
+           <p>
+           <p>Digital Versions:</p>
+           <!--The double paragraphs put digital versions on a new line-->
+                <aside>
+                If you are using the digital version, 
+                you will have to download or copy the file to edit it.
+                </aside>     
+            <ul>
+                <li><url href="https://drive.google.com/file/d/1IdgpF28b122Iu26k_SY9uYn6RXxfsF2d/view?usp=sharing">Word Docx (Color)</url></li>
+                <li><url href="https://drive.google.com/file/d/1PnUIakcdsIi51GUqfoyD0a-9WSJRTAIP/view?usp=sharing">Word Docx (Black and White)</url></li>
+            </ul>
+           <p>Printable Versions:</p>
+            <ul>
+               <li><url href="https://drive.google.com/file/d/1DXZkGNfFeuLf9BkHpQp1GZnF4GceCqAy/view?usp=sharing">PDF (Color)</url></li>
+               <li><url href="https://drive.google.com/file/d/1kjKOoc2SreIVqY8PKPnoKb6nJIBZUZye/view?usp=sharing">PDF (Black and White)</url></li>
+            </ul>
+          </p>
+         </paragraphs>
+
+
+       </subsection>
+       
+       <subsection xml:id="sub-logic-examples">
+        <title>Applications of logic</title>
+         <introduction>
+          <p>
+          Now we provide you with a few mysteries to solve using the logic tools from above.
+          "Who ate the donut?" has an interactive app that will walk you
+          through how to solve the mystery. In "Alligator's Missing Pen", you will solve the mystery by
+          a more hands on approach by writing a proof to solve the mystery. Solution videos are 
+          available for the first two activities if you happen to get stuck. 
+          </p>
+         </introduction>
+         <example xml:id="ex-donut">
+          <title>Who ate the last donut?</title>
+           <statement>
+           <p>
+           Someone ate the last donut in the box that was supposed to be split among Bird, Fox, and Panda. All
+           three are suspects.
+           </p>
+
+            <figure>
+             <caption>Suspects for "Who ate the donut?"</caption>
+             <image source="proof/DonutExampleGrouped.png" width="75%"/>
+             <description></description>
+            </figure>
+
+            <p>
+            The three reach out to Detective Badger for help revealing the donut thief.
+            She collects evidence surrounding the case and shares her findings below.
+            </p>
+
+             <figure>
+              <caption>Detective Badger with the donut</caption>
+              <image source="proof/BadgerDonut.png" width ="65%"/>
+              <description></description>
+             </figure>
+            <p>
+             <ul>
+              <li><p>Fact (True statement): “The donut was chocolate frosted.”</p></li>
+
+              <li><p>Evidence
+               <ol>
+               <!-- hint could also contain picture -->
+                <li><hint><p>Either Bird ate the donut or the donut was in the kitchen.</p></hint></li>
+                <li><hint><p>If the donut was chocolate frosted, the donut was in the kitchen this morning.</p></hint></li>
+                <li><hint><p>Fox ate the donut if and only if the donut had sprinkles.</p></hint></li>
+                <li><hint><p>The donut did not have sprinkles if it was in the kitchen this morning.</p></hint></li>
+               </ol> </p>
+              </li>
+              <li><p><url href="https://studio.code.org/projects/applab/WnUtOYvHloiKe5N6V4RD_IUZVGsFxFaD2eJf2RRtSYQ">"Who ate the donut?" Interactive App</url></p></li>
+             </ul>
+            </p>
+           </statement>
+           <solution><url href="https://youtu.be/PdGhE0iQT9s">Donut Proof Example</url></solution>
+         </example>
+
+         <example xml:id="ex-pen">
+          <title>Alligator's Missing Pen</title>
+           <statement>
+           <p>
+           Alligator seems to have lost their pen while running errands. In the process of picking up
+           groceries, chatting with friends, and dropping off letters, the pen was dropped.
+           </p>
+
+            <figure>
+             <caption>Alligator, Cat, and Detective Badger</caption>
+             <image source="proof/AlligatorCatBadger.png" width="75%"/>
+             <description></description>
+            </figure>
+
+            <p>
+            Alligator enlisted the help of Detective Badger to find the missing pen. 
+            Can you help?
+            </p>
+
+            <p>
+             <ul>
+              <li><p>Fact (True statement): “Today is Monday, January 2nd"</p></li>
+
+              <li><p>Evidence
+               <ol>
+                <li><hint><p>Today is an even number day and Alligator visited Fox the Grocer second.</p></hint></li>
+                <li><hint><p>Alligator did not visit Raccoon, Alligator’s friend first if today is Monday.</p></hint></li>
+                <li><hint><p>If Alligator visited Fox the Grocer after Cat the Mail Deliverer or today is Tuesday, then
+                Alligator dropped their pen at their first stop.</p></hint></li>
+               </ol> </p>
+              </li>
+             </ul>
+            </p>
+           </statement>
+           <solution><url href="https://youtu.be/ppcfdPPAWcU">Alligator's Missing Pen Example</url></solution>
+         </example>
+
+
+         <paragraphs xml:id="who_won_raffle_instructions">
+         <title>Start Solving</title>
+         <p> <p>
+         Now you are ready for "Who won the raffle?" proof activity.
+         This activity will use everything you've learned so far in this module.
+         Feel free to rewatch the videos, review the example problem, or 
+         reference your notes while trying to solve the problem. Also, working 
+         with others students on this activity is encouraged but not required. You can solve the mystery 
+         by using the "Who won the raffle?"" interactive app or by writing a proof for the mystery, similar to 
+         "Alligator's Missing Pen".
+         Goodluck on solving the mystery!
+         </p> </p>
+         </paragraphs>
+
+         <exercise xml:id="ex-raffle">
+          <title>Who won the raffle?</title>
+           <statement>
+            <p> 
+            An owl, toad, and raccoon bought raffle tickets. Later they gathered to watch the raffle number 
+            drawings. However, the lights went out during the party, and one of the animals tripped into the other 
+            animals causing them to all fall to the ground with their raffle tickets. When the power came back on, 
+            they found out one of the raffle tickets was the grand-prize winner, but they did not know who bought 
+            it.
+            </p>
+
+             <figure>
+              <caption>Animals for "Who won the raffle?"</caption>
+              <image source="proof/RaffleExerciseGrouped.png" width="75%"/>
+              <description></description>
+             </figure>
+
+            <p>
+            They decided to call Detective Badger to uncover the mystery. She collects evidence surrounding the 
+            case and shares her findings below.
+            </p>
+
+             <figure>
+              <caption>Detective Bader with the raffle ticket</caption>
+              <image source="proof/BadgerTicket.png" width="65%"/>
+              <description></description>
+             </figure>
+
+            <p>
+             <ul>
+              <li><p>Fact (True statement): “Raffle ticket was covered in soda stains.”</p></li>
+
+              <li><p>Evidence
+               <ol>
+                <li><hint><p>The raccoon is the winner if and only if the raffle ticket was not bought at the blue booth.</p></hint></li>
+                <li><hint><p>Either the soda was diet or the toad is the winner.</p></hint></li>
+                <li><hint><p>The soda was orange flavored implies that the raffle ticket was bought at the blue booth.</p></hint></li>
+                <li><hint><p>If the winner did not like soda, then the raffle ticket was not covered in soda stains.</p></hint></li>
+                <li><hint><p>The owl is the winner is necessary and sufficient for the raccoon is not the winner.</p></hint></li>
+                <li><hint><p>The winner likes soda if and only if the soda was diet and orange flavored.</p></hint></li>
+               </ol> </p>
+              </li>
+              <li><p><url href="https://studio.code.org/projects/applab/yL43qgGsh4oLmXlS9CS059G7GJKqNxGfFFVdHwa3lkk"> "Who won the raffle?" Interactive App</url></p></li>
+             </ul>
+            </p>
+           </statement>
+           <solution>A solution will be revealed near the conclusion of the program.</solution>
+          </exercise>
+       </subsection>
+    </section>
