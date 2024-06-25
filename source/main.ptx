@@ -110,6 +110,7 @@ source="/KidsGetMathLogo1.png" />
        <xi:include href="./sec-plane.ptx" />
        <xi:include href="./sec-logic.ptx" />
        <xi:include href="./sec-criss-cross.ptx" />
+       <xi:include href="./sec-dirt.ptx" />
 </chapter>
 
 

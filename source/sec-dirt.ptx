@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <section xml:id= "sec-dirt">
+      <title>The Dirt Problem</title>
+<introduction>
+<p>Life is a word problem. Usually, in class, word problems are written with a particular topic in mind, and usually give you everything you need to know in order to solve the problem.  Sometimes in life, however, we just need to figure it out. The original inspiration for this problem was found online, but that reference no longer exists.
+<ul>
+<title>Objectives</title>
+<li><p>Determine how much topsoil is necessary to cover a yard.
+</p></li>
+<li><p>Determine how many truck loads full of topsoil are needed to cover the yard in topsoil.</p></li>
+<li><p>Determine what information is necessary to address the first two objectives.</p></li>
+</ul>
+</p>
+</introduction>
+      <subsection xml:id="subsec-soil-intro">
+         <title>Context</title>
+<p>
+
+         Sam has decided to remove all the old grass from the yard, bring in a new 4 inch layer of topsoil, install an irrigation system, and reseed the lawn. Sam has decided to haul the topsoil from the store, as opposed to paying for delivery. An image of Sam’s yard is given below. Sam needs to know how much dirt is needed and how many truck loads full of topsoil will be necessary.
+</p>
+
+
+<figure xml:id="fig-dirt">
+
+<image source="dirt/house-lot.png" width="100%">
+</image>
+    <caption>An overhead view of a house lot with scale bar indicating 50 feet. Lawn areas are marked in blue (including a little patch that's in the shadow of the front porch roof).</caption>
+
+</figure>
+
+
+</subsection>
+<subsection xml:id="subsec-soil-questions">
+<title>Guiding Questions</title>
+<p>
+<ul>
+<li><p>What information are you given?</p></li>
+<li><p>What information do you need?</p></li>
+<li><p>Is this a surface area or volume problem? (Why?)</p></li>
+<li><p>What formulas would you use?</p></li>
+<li><p>If you had all the information you needed, how would you answer the two problems, that is "how much topsoil?" and "how many trucks?"?</p></li>
+</ul>
+</p>
+
+</subsection>
+    </section>
+    <!--End of code for airplane modules page-->
