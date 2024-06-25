@@ -154,6 +154,24 @@ var ptx_lunr_docs = [
   "body": " Score sheet for criss-cross game.       Winner       First Player                                  "
 },
 {
+  "id": "sec-dirt",
+  "level": "1",
+  "url": "sec-dirt.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "The Dirt Problem",
+  "body": " The Dirt Problem   Life is a word problem. Usually, in class, word problems are written with a particular topic in mind, and usually give you everything you need to know in order to solve the problem. Sometimes in life, however, we just need to figure it out. The original inspiration for this problem was found online, but that reference no longer exists.  Objectives  Determine how much topsoil is necessary to cover a yard.  Determine how many truck loads full of topsoil are needed to cover the yard in topsoil.  Determine what information is necessary to address the first two objectives.      Context  Sam has decided to remove all the old grass from the yard, bring in a new 4 inch layer of topsoil, install an irrigation system, and reseed the lawn. Sam has decided to haul the topsoil from the store, as opposed to paying for delivery. An image of Sam’s yard is given below. Sam needs to know how much dirt is needed and how many truck loads full of topsoil will be necessary.     An overhead view of a house lot with scale bar indicating 50 feet. Lawn areas are marked in blue (including a little patch that's in the shadow of the front porch roof).     Guiding Questions    What information are you given?  What information do you need?  Is this a surface area or volume problem? (Why?)  What formulas would you use?  If you had all the information you needed, how would you answer the two problems, that is \"how much topsoil?\" and \"how many trucks?\"?     "
+},
+{
+  "id": "fig-dirt",
+  "level": "2",
+  "url": "sec-dirt.html#fig-dirt",
+  "type": "Figure",
+  "number": "2.4.1",
+  "title": "",
+  "body": "   An overhead view of a house lot with scale bar indicating 50 feet. Lawn areas are marked in blue (including a little patch that's in the shadow of the front porch roof).  "
+},
+{
   "id": "resources-2",
   "level": "1",
   "url": "resources-2.html",
